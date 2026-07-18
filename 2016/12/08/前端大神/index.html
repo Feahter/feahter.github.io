@@ -1,1147 +1,789 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next mist use-motion">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
+<link rel="stylesheet" href="/css/main.css">
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family="PingFang+SC":ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family="Microsoft+YaHei":ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
 
+<script class="next-config" data-name="main" type="application/json">{"hostname":"feahter.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.28.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="前端大神," />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="经年" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
-
-
-
-
-
-
-<meta name="description" content="前端大神达者为师，站在巨人的肩膀上眺望，才能看得更远。
-1.1 国际
-Chris CoyierCodepen创始人，css-tricks站长。
-联系方式：CodePen、 Dribbble、 Twitter、 GitHub、 Instagram
-
-Sara Soueidan2015 net awards(net杂志的年度颁奖盛典)的年度开发者，2015 O’Reilly Web Platform">
+    <meta name="description" content="前端大神">
 <meta property="og:type" content="article">
 <meta property="og:title" content="前端大神">
-<meta property="og:url" content="https://feahter.github.io/2016/12/08/前端大神/index.html">
+<meta property="og:url" content="https://feahter.github.io/2016/12/08/%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E/index.html">
 <meta property="og:site_name" content="经年">
-<meta property="og:description" content="前端大神达者为师，站在巨人的肩膀上眺望，才能看得更远。
-1.1 国际
-Chris CoyierCodepen创始人，css-tricks站长。
-联系方式：CodePen、 Dribbble、 Twitter、 GitHub、 Instagram
-
-Sara Soueidan2015 net awards(net杂志的年度颁奖盛典)的年度开发者，2015 O’Reilly Web Platform">
-<meta property="og:updated_time" content="2016-12-08T02:31:00.000Z">
+<meta property="og:description" content="前端大神">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2016-12-07T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-07-18T13:35:16.263Z">
+<meta property="article:author" content="Feahter">
+<meta property="article:tag" content="frontend, vue, javascript, web">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="前端大神">
-<meta name="twitter:description" content="前端大神达者为师，站在巨人的肩膀上眺望，才能看得更远。
-1.1 国际
-Chris CoyierCodepen创始人，css-tricks站长。
-联系方式：CodePen、 Dribbble、 Twitter、 GitHub、 Instagram
-
-Sara Soueidan2015 net awards(net杂志的年度颁奖盛典)的年度开发者，2015 O’Reilly Web Platform">
 
 
+<link rel="canonical" href="https://feahter.github.io/2016/12/08/%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E/">
 
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 6321533477313316000,
-      author: '博主'
-    }
-  };
-</script>
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://feahter.github.io/2016/12/08/%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E/","path":"2016/12/08/前端大神/","title":"前端大神"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>前端大神 | 经年</title>
+  
 
 
 
 
-  <link rel="canonical" href="https://feahter.github.io/2016/12/08/前端大神/"/>
 
-  <title> 前端大神 | 经年 </title>
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
 
-  
-
-
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?0ec8ac299ab87e0c0b7ec678fca9c78d;";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left page-post-detail ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">经年</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
   </div>
-  <p class="site-subtitle"></p>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">经年</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">此去经年，经年累月</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
 </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
+
 
 <nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">X</span>
-</div>
-
-
-    </div>
-  
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
 </nav>
 
- </div>
-    </header>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
 
-  <div id="posts" class="posts-expand">
-    
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                前端大神
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-12-08T09:20:03+08:00" content="2016-12-08">
-              2016-12-08
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/师/" itemprop="url" rel="index">
-                    <span itemprop="name">师</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/12/08/前端大神/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/08/前端大神/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-              &nbsp; | &nbsp;
-              <span class="page-pv"><i class="fa fa-file-o"></i>
-              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
-              </span>
-          
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <h1 id="前端大神"><a href="#前端大神" class="headerlink" title="前端大神"></a>前端大神</h1><p>达者为师，站在巨人的肩膀上眺望，才能看得更远。</p>
-<h2 id="1-1-国际"><a href="#1-1-国际" class="headerlink" title="1.1 国际"></a>1.1 国际</h2><ol>
-<li><h3 id="Chris-Coyier"><a href="#Chris-Coyier" class="headerlink" title="Chris Coyier"></a><a href="http://chriscoyier.net/" target="_blank" rel="external">Chris Coyier</a></h3><p><a href="http://codepen.io/" target="_blank" rel="external">Codepen</a>创始人，<a href="http://css-tricks.com/" target="_blank" rel="external">css-tricks</a>站长。</p>
-<p>联系方式：<br><a href="http://codepen.io/chriscoyier" target="_blank" rel="external">CodePen</a>、 <a href="http://dribbble.com/chriscoyier" target="_blank" rel="external">Dribbble</a>、 <a href="http://twitter.com/chriscoyier" target="_blank" rel="external">Twitter</a>、 <a href="http://github.com/chriscoyier" target="_blank" rel="external">GitHub</a>、 <a href="http://instagram.com/chriscoyier" target="_blank" rel="external">Instagram</a></p>
-</li>
-<li><h3 id="Sara-Soueidan"><a href="#Sara-Soueidan" class="headerlink" title="Sara Soueidan"></a><a href="https://sarasoueidan.com/" target="_blank" rel="external">Sara Soueidan</a></h3><p>2015 net awards(net杂志的年度颁奖盛典)的<a href="https://thenetawards.com/longlist/developer/" target="_blank" rel="external">年度开发者</a>，2015 O’Reilly Web Platform Awards（O’Reilly，著名的IT图书出版机构）,著名的前端开发者、作者、演讲者，主要关注HTML5, SVG, CSS and JavaScript等。</p>
-<p>联系方式：<br><a href="https://github.com/SaraSoueidan" target="_blank" rel="external">Github</a>、 <a href="http://tympanus.net/codrops/author/sarasoueidan/" target="_blank" rel="external">Codrops</a>、 <a href="http://alistapart.com/author/SaraSoueidan" target="_blank" rel="external">A List Apart</a>、 <a href="https://dev.opera.com/authors/sara-soueidan/" target="_blank" rel="external">Dev.Opera</a>、 <a href="http://twitter.com/SaraSoueidan" target="_blank" rel="external">Twitter</a>、 <a href="https://plus.google.com/115621441131126533845/posts" target="_blank" rel="external">Google+</a></p>
-</li>
-<li><h3 id="Hugo-Giraudel"><a href="#Hugo-Giraudel" class="headerlink" title="Hugo Giraudel"></a><a href="http://hugogiraudel.com/" target="_blank" rel="external">Hugo Giraudel</a></h3><p>知名的SASS专家，2015 net awards(net杂志的年度颁奖盛典)的<a href="https://thenetawards.com/longlist/developer/" target="_blank" rel="external">年度开发者</a>。法国人，现居德国柏林。</p>
-<p>联系方式： <a href="https://github.com/HugoGiraudel" target="_blank" rel="external">Github</a>、 <a href="http://twitter.com/HugoGiraudel" target="_blank" rel="external">Twitter</a>、 <a href="https://www.sitepoint.com/author/hgiraudel/" target="_blank" rel="external">Sitepoint</a>、 <a href="https://plus.google.com/101697878480386449961" target="_blank" rel="external">Google+</a></p>
-</li>
-<li><h3 id="Lea-Verou"><a href="#Lea-Verou" class="headerlink" title="Lea Verou"></a><a href="http://lea.verou.me/" target="_blank" rel="external">Lea Verou</a></h3><p>网页设计师、前端开发者、技术极客、演讲家、作家，麻省理工学院计算机与人工智能实验室助理研究员，《CSS Secrets》作者，prefixfree.js作者，在世界各地进行过60多次演讲，<a href="http://lea.verou.me/cv.html" target="_blank" rel="external">简历</a>。希腊人，现居美国马萨诸塞州剑桥市（大波士顿地区）。</p>
-<p>联系方式：<br><a href="http://twitter.com/leaverou" target="_blank" rel="external">Twitter</a>、 <a href="http://www.facebook.com/leaverou" target="_blank" rel="external">Facebook</a>、 <a href="https://github.com/LeaVerou" target="_blank" rel="external">Github</a>、 <a href="http://dribbble.com/LeaVerou" target="_blank" rel="external">Dribbble</a></p>
-</li>
-<li><h3 id="Paul-Irish"><a href="#Paul-Irish" class="headerlink" title="Paul Irish"></a><a href="http://paulirish.com/" target="_blank" rel="external">Paul Irish</a></h3><p>谷歌Chrome团队前端工程师，主要关注开发者工具，是<a href="http://modernizr.com/" target="_blank" rel="external">Modernizr</a>、<a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>、<a href="http://css3please.com/" target="_blank" rel="external">CSS3 Please</a>、<a href="http://html5boilerplate.com/" target="_blank" rel="external">HTML5 Boilerplate</a>等工具的开发者，合作开发了诸多项目，详情了解他的<a href="http://www.paulirish.com/about/" target="_blank" rel="external">About</a>。</p>
-<p>联系方式：<br><a href="http://twitter.com/paul_irish" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/paulirish/" target="_blank" rel="external">Github</a>、 <a href="http://paulirish.com/+" target="_blank" rel="external">Google+</a>，<br>请在个人主页<a href="http://www.paulirish.com/contact-me/" target="_blank" rel="external">contact</a>联系他。</p>
-</li>
-<li><h3 id="John-Resig"><a href="#John-Resig" class="headerlink" title="John Resig"></a><a href="http://ejohn.org/" target="_blank" rel="external">John Resig</a></h3><p><a href="http://jquery.com/" target="_blank" rel="external">jQuery</a>、<a href="http://processingjs.org/" target="_blank" rel="external">Processing.js</a>、<a href="http://sizzlejs.com/" target="_blank" rel="external">Sizzle.js</a>等项目作者，现为<a href="http://khanacademy.org/" target="_blank" rel="external">可汗学院</a>计算机学院负责人。<a href="https://book.douban.com/subject/26638316/" target="_blank" rel="external"><strong>JS忍者秘籍</strong></a>(Secrets of the JavaScript Ninja)、<a href="https://book.douban.com/subject/3007076/" target="_blank" rel="external"><strong>精通JavaScript</strong></a>(Pro JavaScript Techniques)作者。</p>
-<p>联系方式：<br><a href="http://twitter.com/jeresig" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/jeresig" target="_blank" rel="external">Github</a>、<br>邮箱:jeresig@gmail.com<br>请在邮箱联系他之前，先读<a href="http://ejohn.org/about/" target="_blank" rel="external">联系说明</a></p>
-</li>
-<li><h3 id="Cody-Lindley"><a href="#Cody-Lindley" class="headerlink" title="Cody Lindley"></a><a href="http://www.codylindley.com/" target="_blank" rel="external">Cody Lindley</a></h3><p><a href="https://book.douban.com/subject/25837367/" target="_blank" rel="external"><strong>JavaScript启示录</strong></a>(Javascript Enlightment)、<a href="https://book.douban.com/subject/25882606/" target="_blank" rel="external">DOM启蒙</a>(Dom Enlightment)、<a href="http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf" target="_blank" rel="external"><strong>jQuery Englightment</strong></a>、<a href="https://book.douban.com/subject/4149124/" target="_blank" rel="external"><strong>jQuery cookbook</strong></a>等书的作者。<br><a href="http://www.telerik.com/kendo-ui" target="_blank" rel="external">Kendo UI</a>、<a href="http://codylindley.com/thickbox/" target="_blank" rel="external">ThickBox</a>、<a href="http://codylindley.com/jqueryselectors/" target="_blank" rel="external">jqueryselectors</a>等项目开发者。</p>
-<p>联系方式：<br><a href="http://twitter.com/jeresig" target="_blank" rel="external">Twitter</a>、 <a href="http://www.facebook.com/cody.lindley" target="_blank" rel="external">Facebook</a>、 <a href="http://www.linkedin.com/in/codylindley" target="_blank" rel="external">Linkedin</a>、 <a href="https://github.com/codylindley" target="_blank" rel="external">Github</a>、 <a href="http://www.google.com/profiles/codylindley" target="_blank" rel="external">Google+</a><br>邮箱:contact@codylindley.com</p>
-</li>
-<li><h3 id="David-Walsh"><a href="#David-Walsh" class="headerlink" title="David Walsh"></a><a href="https://davidwalsh.name/" target="_blank" rel="external">David Walsh</a></h3><p><a href="https://www.mozilla.org/zh-CN/firefox/new/" target="_blank" rel="external">Mozilla</a>资深web开发者、前端工程师，<a href="https://mootools.net/" target="_blank" rel="external"> MooTools</a>JS框架的核心开发者。</p>
-<p>联系方式：<br><a href="https://twitter.com/davidwalshblog" target="_blank" rel="external">Twitter</a>、 <a href="https://facebook.com/davidwalshblog" target="_blank" rel="external">Facebook</a>、 <a href="https://linkedin.com/in/davidjameswalsh" target="_blank" rel="external">Linkedin</a>、 <a href="https://github.com/darkwing" target="_blank" rel="external">Github</a>、 <a href="https://plus.google.com/114538814489633467974?rel=author" target="_blank" rel="external">Google+</a>、<br>邮箱:david@davidwalsh.name<br><a href="https://davidwalsh.name/contact" target="_blank" rel="external">联系页面</a>联系他</p>
-</li>
-<li><h3 id="Zeno-Rocha"><a href="#Zeno-Rocha" class="headerlink" title="Zeno Rocha"></a><a href="https://zenorocha.com/" target="_blank" rel="external">Zeno Rocha</a></h3><p><a href="https://www.liferay.com/" target="_blank" rel="external">Liferay</a>开发主管，Google技术专家，<a href="https://github.com/zenorocha/clipboard.js" target="_blank" rel="external">clipboard.js</a>、<a href="https://github.com/zenorocha/browser-diet" target="_blank" rel="external">browser-diet</a>等项目开发者。巴西人，现居加拿大。</p>
-<p>联系方式：<br><a href="https://twitter.com/zenorocha" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/zenorocha" target="_blank" rel="external">Github</a>、 <a href="http://blog.csdn.net/whqet/article/details/hi@zenorocha.com" target="_blank" rel="external">邮箱</a></p>
-</li>
-<li><h3 id="Thomas-Fuchs"><a href="#Thomas-Fuchs" class="headerlink" title="Thomas Fuchs"></a><a href="http://mir.aculo.us/" target="_blank" rel="external">Thomas Fuchs</a></h3><p><a href="http://zeptojs.com/" target="_blank" rel="external">Zepto.js</a>、<a href="https://github.com/madrobby/keymaster" target="_blank" rel="external">keymaster</a>等项目作者。</p>
-<p>联系方式：<br><a href="http://twitter.com/thomasfuchs" target="_blank" rel="external">Twitter</a> <a href="https://github.com/madrobby" target="_blank" rel="external">Github</a><br>邮箱：thomas@fesch.at或thomas@slash7.com</p>
-</li>
-<li><h3 id="Hampton-Catlin"><a href="#Hampton-Catlin" class="headerlink" title="Hampton Catlin"></a><a href="http://www.hamptoncatlin.com/" target="_blank" rel="external">Hampton Catlin</a></h3><p><a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a>、<a href="http://haml-lang.com/" target="_blank" rel="external">Haml</a>、libsass、SassC等项目作者。<a href="http://www.responsivewebdesignforteams.com/" target="_blank" rel="external">Responsive Web Design For Teams </a>图书作者。</p>
-<p>联系方式：<br><a href="http://www.twitter.com/hcatlin" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/hcatlin" target="_blank" rel="external">Github</a>、<br>邮箱：hcatlin@gmail.com或contact@hamptoncatlin.com</p>
-</li>
-<li><h3 id="Mark-Otto"><a href="#Mark-Otto" class="headerlink" title="Mark Otto"></a><a href="http://mdo.fm/" target="_blank" rel="external">Mark Otto</a></h3><p>Github设计主管，<a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a>作者。</p>
-<p>联系方式：<br><a href="https://twitter.com/mdo" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/mdo" target="_blank" rel="external">Github</a>、 <a href="https://dribbble.com/mdo" target="_blank" rel="external">Dribble</a>、 <a href="http://markdotto.com/" target="_blank" rel="external">blog</a>、<br>邮箱：markdotto@gmail.com、或是github上<a href="https://github.com/mdo/ama" target="_blank" rel="external">提问</a>。</p>
-</li>
-<li><h3 id="Sindre-Sorhus"><a href="#Sindre-Sorhus" class="headerlink" title="Sindre Sorhus"></a><a href="https://github.com/sindresorhus" target="_blank" rel="external">Sindre Sorhus</a></h3><p><a href="https://github.com/avajs/ava" target="_blank" rel="external">AVA</a>、<a href="https://github.com/chalk/chalk" target="_blank" rel="external">chalk</a>、<a href="http://yeoman.io/" target="_blank" rel="external">yeoman</a>等项目开创者，创建多个流行github项目<a href="https://github.com/sindresorhus/awesome" target="_blank" rel="external">awesome</a>、<a href="[https://github.com/sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs">awesome-nodejs</a>)等。</p>
-<p>联系方式：<br><a href="https://twitter.com/sindresorhus" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/sindresorhus" target="_blank" rel="external">Github</a>、<br>邮箱：sindresorhus@gmail.com</p>
-</li>
-<li><h3 id="Una-Kravets"><a href="#Una-Kravets" class="headerlink" title="Una Kravets"></a><a href="https://una.im/about/" target="_blank" rel="external">Una Kravets</a></h3><p>前端开发者、设计师，擅长使用CSS去做美妙的事情，CSS图片美化库<a href="https://github.com/una/CSSgram" target="_blank" rel="external">CSSgram</a>项目开发者,IBM Design团队成员。</p>
-<p>联系方式：<br><a href="http://twitter.com/una" target="_blank" rel="external">Twitter</a>、 <a href="http://github.com/una" target="_blank" rel="external">Github</a>、 <a href="http://dribbble.com/una" target="_blank" rel="external">Dribble</a>、 <a href="http://codepen.io/una" target="_blank" rel="external">Codepen</a>、 <a href="http://www.linkedin.com/pub/una-kravets/30/827/a35/" target="_blank" rel="external">Linkedin</a>、 <a href="https://una.im/" target="_blank" rel="external">blog</a>、<br>邮箱：una.kravets@gmail.com</p>
-</li>
-<li><h3 id="ESTELLE-WEYL"><a href="#ESTELLE-WEYL" class="headerlink" title="ESTELLE WEYL"></a><a href="http://www.standardista.com/" target="_blank" rel="external">ESTELLE WEYL</a></h3><p>资深web开发人员，技术书女作家，写就<a href="https://book.douban.com/subject/6969713/" target="_blank" rel="external"><strong>HTML5与CSS3实战指南</strong></a>、<a href="https://book.douban.com/subject/26731854/" target="_blank" rel="external">Flexible Boxes in CSS : Free Yourself with Flexbox</a>、<a href="https://book.douban.com/subject/26782226/" target="_blank" rel="external">Transitions and Animations in CSS: Adding Motion with CSS</a>、<a href="https://book.douban.com/subject/6865682/" target="_blank" rel="external">Mobile HTML5 : Using the latest today</a>等。</p>
-<p>联系方式：</p>
-<p><a href="http://twitter.com/estellevw" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/estelle" target="_blank" rel="external">Github</a>、 <a href="http://lanyrd.com/profile/estellevw/" target="_blank" rel="external">演讲</a>、 <a href="https://book.douban.com/search/Estelle%20Weyl" target="_blank" rel="external">图书</a>、<br>邮箱：estelle@weyl.org、或者个人网站留言提问。</p>
-</li>
-<li><h3 id="Alex-Sexton"><a href="#Alex-Sexton" class="headerlink" title="Alex Sexton"></a><a href="https://alexsexton.com/" target="_blank" rel="external">Alex Sexton</a></h3><p><a href="http://modernizr.com/" target="_blank" rel="external">Modernizr</a>、<a href="https://jquery.org/team/" target="_blank" rel="external">jQuery</a>、<a href="http://dojofoundation.org/about/board-members" target="_blank" rel="external">Dojo Foundation</a>等项目核心成员。</p>
-<p>联系方式：<br><a href="https://twitter.com/SlexAxton" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/SlexAxton" target="_blank" rel="external">Github</a>、 <a href="https://www.google.com/+AlexSexton" target="_blank" rel="external">Google+</a>、<br>邮箱：alexsexton@gmail.com</p>
-</li>
-<li><h3 id="Christian-Heilmann"><a href="#Christian-Heilmann" class="headerlink" title="Christian Heilmann"></a><a href="https://www.christianheilmann.com/" target="_blank" rel="external">Christian Heilmann</a></h3><p>Mozilla首席html5布道者，知名web开发者、技术作家，<a href="https://book.douban.com/subject/3137323/" target="_blank" rel="external">Web开发解决方案</a>、<a href="https://book.douban.com/subject/3014491/" target="_blank" rel="external">The Art &amp; Science of JavaScript</a>作者之一。</p>
-<p>联系方式：<br><a href="http://twitter.com/codepo8" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/codepo8" target="_blank" rel="external">Github</a>、 <a href="https://plus.google.com/111552931212713155841/posts" target="_blank" rel="external">Google+</a>、 <a href="https://www.sitepoint.com/author/christian-heilmann/" target="_blank" rel="external">Sitepoint</a>、 <a href="https://www.smashingmagazine.com/author/christian-heilmann/" target="_blank" rel="external">Smashing magazine</a>、<br>邮箱：chris.heilmann@gmail.com、或chris@christianheilmann.com</p>
-</li>
-<li><h3 id="Kyle-Simpson"><a href="#Kyle-Simpson" class="headerlink" title="Kyle Simpson"></a><a href="http://getify.me/" target="_blank" rel="external">Kyle Simpson</a></h3><p>从事跟JS有关的一切事儿，写书、教学、演讲、开发等等，《<strong>You Don’t Know JS </strong>》系列丛书作者，<a href="https://book.douban.com/subject/26351021/" target="_blank" rel="external">你不知道的JavaScript（上卷）</a>、<a href="https://book.douban.com/subject/10773333/" target="_blank" rel="external">HTML5 Cookbook</a>作者。</p>
-<p>联系方式：<br><a href="https://facebook.com/kyle-simpson" target="_blank" rel="external">Facebook</a>、 <a href="https://github.com/getify" target="_blank" rel="external">Github</a>、 <a href="http://getify.me/@google+" target="_blank" rel="external">Google+</a>、 <a href="http://getify.me/@linkedin" target="_blank" rel="external">Linkedin</a>、 <a href="http://stackoverflow.com/users/228852/kyle-simpson" target="_blank" rel="external">Stackoverflow.com</a>、<br>邮箱：getify@gmail.com</p>
-</li>
-<li><h3 id="Ana-Tudor"><a href="#Ana-Tudor" class="headerlink" title="Ana Tudor"></a><a href="https://thebabydino.github.io/" target="_blank" rel="external">Ana Tudor</a></h3><p>Codenpen上玩CSS的女孩子，很多效果非常厉害。</p>
-<p>联系方式：<br><a href="https://twitter.com/thebabydino" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/thebabydino" target="_blank" rel="external">Github</a>、 <a href="http://codepen.io/thebabydino/" target="_blank" rel="external">Codepen</a>、 <a href="http://stackoverflow.com/users/1397351/ana" target="_blank" rel="external">Stackoverflow.com</a></p>
-</li>
-<li><h3 id="Dudley-Storey"><a href="#Dudley-Storey" class="headerlink" title="Dudley Storey"></a><a href="http://thenewcode.com/" target="_blank" rel="external">Dudley Storey</a></h3><p>《<a href="https://book.douban.com/subject/20780533/" target="_blank" rel="external">Pro Css3 Animation</a>》图书作者，CSSSlidy等项目作者。</p>
-<p>联系方式：<br><a href="https://twitter.com/dudleystorey" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/dudleystorey" target="_blank" rel="external">Github</a>、 <a href="https://plus.google.com/+DudleyStorey/" target="_blank" rel="external">Google+</a>、 <a href="http://codepen.io/dudleystorey/" target="_blank" rel="external">Codepen</a>、<br>邮箱：dudley.storey@gmail.com</p>
-</li>
-<li><h3 id="Hakim-El-Hattab"><a href="#Hakim-El-Hattab" class="headerlink" title="Hakim El Hattab"></a><a href="http://hakim.se/" target="_blank" rel="external">Hakim El Hattab</a></h3><p>来自瑞典的前端开发工程师、界面设计师，<a href="https://slides.com/" target="_blank" rel="external">slides</a>创始人，<a href="https://github.com/hakimel/reveal.js" target="_blank" rel="external">reveal.js</a>、Ladda、stroll.js等项目开发者，详情参加个人主页。</p>
-<p>联系方式：<br><a href="http://twitter.com/hakimel" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/hakimel" target="_blank" rel="external">Github</a>、 <a href="http://codepen.io/hakimel" target="_blank" rel="external">Codepen</a>、<br>邮箱：hakim.elhattab@gmail.com</p>
-</li>
-<li><h3 id="Angus-Croll"><a href="#Angus-Croll" class="headerlink" title="Angus Croll"></a><a href="http://anguscroll.com/" target="_blank" rel="external">Angus Croll</a></h3><p>Twitter公司前端工程师，<a href="http://flightjs.github.io/" target="_blank" rel="external">Twitter Flight</a>项目合作开发者,<a href="http://anguscroll.com/hemingway/index.html" target="_blank" rel="external">If Hemingway Wrote JavaScript</a>作者。</p>
-<p>联系方式：<br><a href="https://twitter.com/angustweets" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/angus-c" target="_blank" rel="external">Github</a>、 <a href="http://codepen.io/hakimel" target="_blank" rel="external">Codepen</a>、<br>邮箱：anguscroll@gmail.com</p>
-</li>
-<li><h3 id="Nicolas-Gallagher"><a href="#Nicolas-Gallagher" class="headerlink" title="Nicolas Gallagher"></a><a href="http://nicolasgallagher.com/" target="_blank" rel="external">Nicolas Gallagher</a></h3><p>Twitter公司前端工程师，<a href="https://github.com/necolas/normalize.css" target="_blank" rel="external">normalize.css</a>项目创始人，bower、rework、postcss、npm dom等项目核心参与者。</p>
-<p>联系方式：<br><a href="http://twitter.com/necolas" target="_blank" rel="external">Twitter</a>、 <a href="http://github.com/necolas" target="_blank" rel="external">Github</a>、 <a href="http://www.linkedin.com/in/nicolasgallagher" target="_blank" rel="external">Linkedin</a>、<br>邮箱：nicolas@nicolasgallagher.com</p>
-</li>
-<li><h3 id="TJ-Holowaychuk"><a href="#TJ-Holowaychuk" class="headerlink" title="TJ Holowaychuk"></a><a href="http://tjholowaychuk.com/" target="_blank" rel="external">TJ Holowaychuk</a></h3><p>TJ Holowaychuk ，程序员兼艺术家，Koa、Co、Express、jade、mocha、node-canvas、commander.js 等知名开源项目的创建和贡献者。</p>
-<p>联系方式：<br><a href="http://twitter.com/tjholowaychuk" target="_blank" rel="external">Twitter</a>、 <a href="http://github.com/tj" target="_blank" rel="external">Github</a>、 <a href="http://tjholowaychuk.com/blog/" target="_blank" rel="external">Blog</a>、 <a href="http://www.instagram.com/tjholowaychuk2" target="_blank" rel="external">Instagram</a>、<br>邮箱：tj@tjholowaychuk.com</p>
-</li>
-<li><h3 id="Addy-Osmani"><a href="#Addy-Osmani" class="headerlink" title="Addy Osmani"></a><a href="http://addyosmani.com/" target="_blank" rel="external">Addy Osmani</a></h3><p>Addy Osmani ，谷歌前端开发工程师，创建了 TodoMVC、jQuery UI Bootstrap、jQuery Plugin Patterns 和 Backbone Paginator，出版了《Learning JavaScript Design Patterns》和《Developing Backbone.js Applications》两本技术书籍，而且还是著名的 jQuery、Modernizr 以及Backbone.js 框架的贡献者。</p>
-<p>联系方式：<br><a href="https://twitter.com/addyosmani" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/addyosmani" target="_blank" rel="external">Github</a>、 <a href="https://developers.google.com/web/shows/ttt/" target="_blank" rel="external">Youtube</a>、<br>邮箱：addyosmani@gmail.com</p>
-</li>
-<li><h3 id="Douglas-Crockford"><a href="#Douglas-Crockford" class="headerlink" title="Douglas Crockford"></a><a href="http://www.crockford.com/" target="_blank" rel="external">Douglas Crockford</a></h3><p>Douglas Crockford是JavaScript开发社区最知名的权威，是JSON、JSLint、JSMin和ADSafe之父，是《JavaScript: The Good Parts》的作者。他同时也服务于ECMA的JavaScript2.0技术委员会（TC39）。</p>
-<p>联系方式：<br><a href="https://github.com/douglascrockford" target="_blank" rel="external">Github</a>、 <a href="https://plus.google.com/u/0/+DouglasCrockfordEsq" target="_blank" rel="external">Google+</a>、<br>邮箱：douglas@crockford.com</p>
-</li>
-<li><h3 id="Mike-Bostock"><a href="#Mike-Bostock" class="headerlink" title="Mike Bostock"></a><a href="http://bost.ocks.org/" target="_blank" rel="external">Mike Bostock</a></h3><p>Mike Bostock，纽约时报图形编辑，知名可视化库 <a href="http://d3.org/" target="_blank" rel="external">D3.js</a>的主要作者。</p>
-<p>联系方式：<br><a href="https://twitter.com/mbostock" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/mbostock" target="_blank" rel="external">Github</a>、<br>邮箱：mike@ocks.org</p>
-</li>
-<li><h3 id="Mr-doob"><a href="#Mr-doob" class="headerlink" title="Mr.doob"></a><a href="http://mrdoob.com/" target="_blank" rel="external">Mr.doob</a></h3><p>Mr.doob (Ricardo Cabello Migue) 是JS三维模型库<a href="http://threejs.org/" target="_blank" rel="external">three.js</a>， <a href="http://www.chromeexperiments.com/detail/code-editor/" target="_blank" rel="external">Code Editor</a> 的作者。</p>
-<p>联系方式：<br><a href="http://twitter.com/mrdoob" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/mrdoob" target="_blank" rel="external">Github</a>、</p>
-</li>
-<li><h3 id="Jessica-Lord"><a href="#Jessica-Lord" class="headerlink" title="Jessica Lord"></a><a href="https://jlord.github.io/" target="_blank" rel="external">Jessica Lord</a></h3><p>Jessica Lord， 2013年5月份加入Github设计团队。是开源项目sheetsee.js的作者。</p>
-<p>联系方式：<br><a href="http://www.twitter.com/jllord" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/jlord" target="_blank" rel="external">Github</a>、<br>邮箱： to.jlord@gmail.com</p>
-</li>
-<li><h3 id="Jeremy-Ashkenas"><a href="#Jeremy-Ashkenas" class="headerlink" title="Jeremy Ashkenas"></a><a href="http://ashkenas.com/" target="_blank" rel="external">Jeremy Ashkenas</a></h3><p>Jeremy Ashkenas,纽约时报图形编辑，<a href="http://underscorejs.org/" target="_blank" rel="external">Underscore.js</a>、<a href="http://backbonejs.org/" target="_blank" rel="external">backbone.js</a>、<a href="http://coffeescript.org/" target="_blank" rel="external">CoffeeScript</a>的主要作者。</p>
-<p>联系方式：<br><a href="http://www.twitter.com/jashkenas" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/jashkenas" target="_blank" rel="external">Github</a>、<br>邮箱： jashkenas@gmail.com</p>
-</li>
-</ol>
-<h2 id="1-2-国内"><a href="#1-2-国内" class="headerlink" title="1.2 国内"></a>1.2 国内</h2><ol>
-<li><ol>
-<li><h3 id="玉伯"><a href="#玉伯" class="headerlink" title="玉伯"></a><a href="https://github.com/lifesinger/blog/issues" target="_blank" rel="external">玉伯</a></h3><p>玉伯（王保平），淘宝前端类库 KISSY、前端模块化开发框架SeaJS、前端基础类库Arale的创始人。2003-2006 年，中科院物理所研究生，Fortran 与 C 程序员，喜爱实验模拟和数值计算。 2006-2008 年，在中科院软件所互联网实验室从事项目管理软件的研发，C# 与 Java 爱好者。 2008 年 4 月份加入淘宝，就职于 UED 部门。2009 年起，组建前端架构团队，在首页维护、全网性能优化、类库研发、知识沉淀、工具应用等方面取得了丰硕成果。</p>
-<p>联系方式：<br><a href="http://weibo.com/lifesinger" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/lifesinger" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/lifesinger" target="_blank" rel="external">Github</a>、<br>邮箱：lifesinger@gmail.com</p>
-</li>
-<li><h3 id="阮一峰"><a href="#阮一峰" class="headerlink" title="阮一峰"></a><a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="external">阮一峰</a></h3><p>70后，在上海出生和长大，大学读经济学。工作了几年，又去读了世界经济的研究生，毕业后，在上海一所本地高校当了老师，教财经类的课程。最近，去了支付宝的前端团队，在玉伯负责的”体验技术部”工作，目前主要从事JavaScript和Node.js的开发。</p>
-<p>联系方式：<br><a href="http://weibo.com/ruanyf" target="_blank" rel="external">微博</a>、 <a href="https://github.com/ruanyf" target="_blank" rel="external">Github</a>、 <a href="https://twitter.com/ruanyf" target="_blank" rel="external">Twitter</a>、<br>邮箱：yifeng.ruan@gmail.com</p>
-</li>
-<li><h3 id="司徒正美"><a href="#司徒正美" class="headerlink" title="司徒正美"></a><a href="http://www.cnblogs.com/rubylouvre/" target="_blank" rel="external">司徒正美</a></h3><p>钟钦成，网名司徒正美，著名的Java专家，去哪儿网前端架构师，立志做考古学家的日语系工程师，穿梭于二次元与二进制间的“魔法师”，做过陶艺，写过小说，涉猎Java、Ruby、 Java。曾出版《Java框架设计》一书。</p>
-<p>联系方式:<br><a href="http://weibo.com/jslouvre" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/si-tu-zheng-mei" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/RubyLouvre" target="_blank" rel="external">Github</a>、<br>邮箱:cheng19840218@gmail.com</p>
-</li>
-<li><h3 id="朴灵"><a href="#朴灵" class="headerlink" title="朴灵"></a><a href="http://diveintonode.org/" target="_blank" rel="external">朴灵</a></h3><p>朴灵，真名田永强，文艺型码农，Node.js布道者。现就职于阿里巴巴数据平台，任资深工程师，著有《深入浅出Node.js》。他活跃于CNode社区，是线下会议NodeParty的组织者，同时也是JSConf China（沪JS、京JS，以及杭JS）的组织者之一。朴灵热爱开源，是多个Node.js模块的作者。<a href="https://github.com/JacksonTian/fks" target="_blank" rel="external">前端技能汇总</a>项目star7000+。</p>
-<p>联系方式：<br><a href="http://weibo.com/shyvo" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/po-ling" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/JacksonTian" target="_blank" rel="external">Github</a>、<br>邮箱:shyvo1987@gmail.com</p>
-</li>
-<li><h3 id="尤小右"><a href="#尤小右" class="headerlink" title="尤小右"></a><a href="http://evanyou.me/" target="_blank" rel="external">尤小右</a></h3><p>本名尤雨溪，目前在 Google Creative Lab 就职。vue.js 项目作者。</p>
-<p>联系方式：<br><a href="http://weibo.com/arttechdesign" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/evanyou" target="_blank" rel="external">知乎</a>、 <a href="https://twitter.com/youyuxi" target="_blank" rel="external">Twitter</a>、 <a href="https://github.com/yyx990803" target="_blank" rel="external">Github</a></p>
-</li>
-<li><h3 id="贺师俊"><a href="#贺师俊" class="headerlink" title="贺师俊"></a><a href="http://johnhax.net/" target="_blank" rel="external">贺师俊</a></h3><p>贺师俊，网名 Hax，百姓网前端技术专家。有年头的 Web 开发者，信仰 Web 标准，HTML 纯化论者 +CSS 理想主义者 +JavaScript 改革派 +REST 信徒。 他致力于构建真正实践互联网开放理念的 Web 产品，并平衡需求、技术和人性因素。所以在写代码以外，他还热切的关注可用性、无障碍性乃至更广泛意义上的用户体验（譬如售后服务）。 作为一个坚持己见的人，Hax 因犀利的技术批评为人所知，其拍砖对象下到写书神棍上至业界权威，中间亦包括他的同事和朋友——因为他深信正直坦诚是技术人员必须坚守的美德，并希望通过自由而热烈的讨论推动技术社群不断成长、永葆活力。 Hax 毕业于复旦大学，感兴趣的领域除了 Web 标准、协议、架构以及与 Web 相关的各种具体技术之外，还包括交互设计、编程语言和方法论，最近则迷上了字体和排版。</p>
-<p>联系方式：<br><a href="http://weibo.com/haxy" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/haxy" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/he-shi-jun" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/hax" target="_blank" rel="external">Github</a>、<br>邮箱：johnhax@gmail.com</p>
-</li>
-<li><h3 id="周爱民"><a href="#周爱民" class="headerlink" title="周爱民"></a><a href="http://weibo.com/aimingoo" target="_blank" rel="external">周爱民</a></h3><p>曾阿里、豌豆荚做架构师，现为<a href="https://ruff.io/" target="_blank" rel="external">Ruff</a>架构师。著有《JAVASCRIPT语言精髓与编程实践》、《大道至简——软件工程实践者的思想》等业内名作。</p>
-<p>联系方式：<br><a href="http://weibo.com/aimingoo" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/aimingoo" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/aimingoo" target="_blank" rel="external">Github</a>、 <a href="http://blog.csdn.net/aimingoo" target="_blank" rel="external">CSDN</a></p>
-</li>
-<li><h3 id="徐涛"><a href="#徐涛" class="headerlink" title="徐涛"></a><a href="http://www.cnblogs.com/TomXu/" target="_blank" rel="external">徐涛</a></h3><p>汤姆大叔，原名徐涛，资深Web开发工程师，精通JavaScript、CSS、HTML5等Web开发技术，以及Bootstrap等各种主流Web开发框架。擅长Web系统的架构、设计与开发，参与过全球最大婚恋网站Match、全球最大在线旅游网站Expedia、波音公司、GE医疗和万达集团等多个国际知名企业的Web项目的架构与设计。他还是一位资深的微软技术专家，曾获得MCP、MCTS、MCDBA等近十项认证。翻译了《Java Script编程精解》、《Javascript启示录》、《编写可测试的JavaScript代码》、《Backbone.js应用程序开发》、《JavaScript忍者秘籍》、《JavaScript设计模式》等多本JavaScript方面的著作。</p>
-<p>联系方式：<br><a href="http://weibo.com/TomXuTao" target="_blank" rel="external">微博</a>、 <a href="http://www.cnblogs.com/TomXu/" target="_blank" rel="external">博客</a></p>
-</li>
-<li><h3 id="廖雪峰"><a href="#廖雪峰" class="headerlink" title="廖雪峰"></a><a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">廖雪峰</a></h3><p>技术作家，十年软件开发经验，业余产品经理，精通Java/Python/Ruby/Visual Basic/Objective C等，对开源框架有深入研究，著有号称史上最浅显易懂的<a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git教程</a>，口碑不错的《<a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000" target="_blank" rel="external">JS教程</a>》，多个业余开源项目托管在GitHub。</p>
-<p>联系方式:<br><a href="http://weibo.com/liaoxuefeng" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/liaoxuefeng" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/liaoxuefeng" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/michaelliao" target="_blank" rel="external">Github</a>、<br>邮箱：askxuefeng@gmail.com</p>
-</li>
-<li><h3 id="勾三股四"><a href="#勾三股四" class="headerlink" title="勾三股四"></a><a href="http://jiongks.name/" target="_blank" rel="external">勾三股四</a></h3><p>勾三股四，本名赵锦江，阿里巴巴高级前端工程师，前北京傲游前端开发部经理。</p>
-<p>联系方式:<br><a href="http://weibo.com/mx006" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/jinjiang" target="_blank" rel="external">知乎</a>、 <a href="http://github.com/jinjiang/" target="_blank" rel="external">Github</a>、<br>邮箱：zhaojinjiang@me</p>
-</li>
-<li><h3 id="寒冬winter"><a href="#寒冬winter" class="headerlink" title="寒冬winter"></a><a href="http://winter-cn.cnblogs.com/" target="_blank" rel="external">寒冬winter</a></h3><p>本名程劭非，花名寒泉，前端工程师，JavaScript 专家。江湖人称“计算机之子”。先后在微软，盛大，阿里巴巴工作，目前是手机淘宝前端 leader。</p>
-<p>联系方式：<br><a href="http://weibo.com/wintercn" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/evanyou" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/wintercn" target="_blank" rel="external">Github</a>、 <a href="http://winter-cn.cnblogs.com/" target="_blank" rel="external">博客</a>、<br>邮箱：csf178@gmail.com</p>
-</li>
-<li><h3 id="徐飞-民工精髓"><a href="#徐飞-民工精髓" class="headerlink" title="徐飞(民工精髓)"></a><a href="https://github.com/xufei/blog" target="_blank" rel="external">徐飞(民工精髓)</a></h3><p>苏宁云商前端架构师，国内知名前端，博客里的Angular教程颇多拥趸。<br>徐飞同志讲话要点：技术人员应当乐于助人，有好东西要主动拿出来分享，资产阶级知识分子垄断技术书籍的现象再也不能出现了！</p>
-<p>联系方式:<br><a href="http://weibo.com/sharpmaster" target="_blank" rel="external">微博</a>、 <a href="https://github.com/xufei" target="_blank" rel="external">Github</a>、 <a href="https://github.com/xufei/blog" target="_blank" rel="external">博客</a>、<br>邮箱：xu.fei@outlook.com</p>
-</li>
-<li><h3 id="吴亮-月影"><a href="#吴亮-月影" class="headerlink" title="吴亮(月影)"></a><a href="https://www.h5jun.com/" target="_blank" rel="external">吴亮(月影)</a></h3><p>吴亮（网名月影）,先后在微软亚洲研究院做过访问学生，在金蝶软件有限公司担任过核心开发工程师、设计师和项目经理，在百度电子商务事业部担任过web开发项目经理。现任奇虎360高级技术经理，360前端团队奇舞团负责人。多年来致力于Javasript技术和web标准的推广，活跃于国内各技术社区，现为w3ctech顾问。</p>
-<p>联系方式:<br><a href="http://weibo.com/silverna" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/yue-ying-2-61" target="_blank" rel="external">知乎</a>、 <a href="https://www.h5jun.com/" target="_blank" rel="external">博客</a>、<br>可通过博客、微博留言联系大神。</p>
-</li>
-<li><h3 id="雷志兴"><a href="#雷志兴" class="headerlink" title="雷志兴"></a><a href="http://www.cnberg.com/" target="_blank" rel="external">雷志兴</a></h3><p>雷志兴(网名berg)，百度高级工程师，负责前端基础架构、前端无线、前端基础性技术研究和整合，现为百度前端集成开发解决方案的负责人。07 年加入百度，曾先后负责百度富文本编辑器，百度 JavaScript 基础库 Tangram 等前端基础技术的研发工作。<br>微信公众号<strong>行云出岫(DevLife)</strong>的维护者。</p>
-<p>联系方式:<br><a href="http://weibo.com/berg" target="_blank" rel="external">微博</a>、 <a href="http://twitter.com/cnberg" target="_blank" rel="external">Twitter</a>、 <a href="http://instagram.com/cnberg" target="_blank" rel="external">Instagram</a>、 <a href="http://zhihu.com/berg" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/cnberg" target="_blank" rel="external">Github</a>、 <a href="http://www.cnberg.com/" target="_blank" rel="external">博客</a>、<br>邮箱：cnberg@gmail.com</p>
-</li>
-<li><h3 id="张云龙"><a href="#张云龙" class="headerlink" title="张云龙"></a><a href="https://github.com/fouber/blog" target="_blank" rel="external">张云龙</a></h3><p>张云龙(前端农民工),现为全民TV技术总监，前UC浏览器导航团队前端技术负责人，前FIS团队技术负责人。</p>
-<p>联系方式：<br><a href="http://weibo.com/fouber" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/fouber" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/fouber" target="_blank" rel="external">Github</a></p>
-</li>
-<li><h3 id="张鑫旭"><a href="#张鑫旭" class="headerlink" title="张鑫旭"></a><a href="http://www.zhangxinxu.com/" target="_blank" rel="external">张鑫旭</a></h3><p>09年华中科技大学毕业，目前上海，原腾讯社交用户体验部上海设计中心UI开发，现就职阅文集团，资深钓鱼爱好者，专注web前端偏前领域，博客笔风幽默、深刻易懂。</p>
-<p>联系方式:<br><a href="http://weibo.com/zhangxinxu" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/zhang-xin-xu-47" target="_blank" rel="external">知乎</a>、 <a href="http://www.imooc.com/u/197450/courses?sort=publish" target="_blank" rel="external">慕课网</a>、<br>邮箱：zhangxinxu@zhangxinxu.com</p>
-</li>
-<li><h3 id="大漠"><a href="#大漠" class="headerlink" title="大漠"></a><a href="http://www.w3cplus.com/" target="_blank" rel="external">大漠</a></h3><p>常用昵称“大漠”，W3CPlus创始人，目前就职于淘宝。中国Drupal社区核心成员之一。对HTML5、CSS3和Sass等前端脚本语言有非常深入的认识和丰富的实践经验，尤其专注对CSS3、Sass和Mobile的研究，是国内最早研究和使用CSS3和Sass技术的一批人。CSS3、Sass和Drupal中国布道者。2014年出版《图解CSS3：核心技术与案例实战》。</p>
-<p>联系方式:<br><a href="http://weibo.com/w3cplus" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/w3cplus" target="_blank" rel="external">Twitter</a>、 <a href="https://plus.google.com/+AirenLiao" target="_blank" rel="external">Google+</a>、 <a href="http://cn.linkedin.com/in/w3cplus" target="_blank" rel="external">Linkedin</a>、 <a href="https://github.com/airen" target="_blank" rel="external">Github</a>、 <a href="http://www.w3cplus.com/blogs/airen" target="_blank" rel="external">博客</a>、<br>邮箱：airenliao@gmail.com</p>
-</li>
-<li><h3 id="颜海镜"><a href="#颜海镜" class="headerlink" title="颜海镜"></a><a href="http://yanhaijing.com/" target="_blank" rel="external">颜海镜</a></h3><p>颜海镜90后一枚，活跃在各个技术社区，常以歪脖无脸男作为头像，专注Web前端。<br>热爱思考，热爱开源分享，爱好读书，羽毛球，乒乓球，相声，铁杆纲丝，当然非常热爱写代码了。<br>目前就职于百度，从事Web前端开发工作。</p>
-<p>联系方式:<br><a href="http://weibo.com/yanhaijing1234" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/yanhaijing" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/yanhaijing" target="_blank" rel="external">知乎</a>、 <a href="http://stackoverflow.com/users/2681005/yanhaijing" target="_blank" rel="external">Stackoverflow</a>、 <a href="https://github.com/yanhaijing/" target="_blank" rel="external">Github</a>、<br>邮箱：yanhaijing@yeah.net</p>
-</li>
-<li><h3 id="杜瑶"><a href="#杜瑶" class="headerlink" title="杜瑶"></a><a href="http://blog.doyoe.com/" target="_blank" rel="external">杜瑶</a></h3><p>去哪儿网(Qunar)，资深前端工程师，前端开发总监，<a href="http://css.doyoe.com/" target="_blank" rel="external">CSS参考手册</a>作者。</p>
-<p>联系方式:<br><a href="http://weibo.com/doyoe" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/doyoe" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/doyoe/" target="_blank" rel="external">Github</a>、<br>邮箱：dooyoe@gmail.com</p>
-</li>
-<li><h3 id="一丝"><a href="#一丝" class="headerlink" title="一丝"></a><a href="https://github.com/yisibl/blog" target="_blank" rel="external">一丝</a></h3><p>阿里巴巴集团 · 前端工程师。前端段子手，偶尔重口味，偶尔小清新。</p>
-<p>联系方式:<br><a href="http://weibo.com/jieorlin" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/ysbl" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/yisibl" target="_blank" rel="external">Github</a>、<br>邮箱：yiorsi@gmail.com</p>
-</li>
-<li><h3 id="迷渡"><a href="#迷渡" class="headerlink" title="迷渡"></a><a href="http://justjavac.com/" target="_blank" rel="external">迷渡</a></h3><p>联系方式:<br><a href="http://weibo.com/justjavac" target="_blank" rel="external">微博</a>、 <a href="http://www.zhihu.com/people/justjavac.com" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/justjavac" target="_blank" rel="external">Github</a>、 <a href="http://segmentfault.com/u/justjavac" target="_blank" rel="external">Segmentfault</a>、 <a href="http://stackoverflow.com/users/343194/justjavac" target="_blank" rel="external">Stackoverflow</a>、<br>邮箱：justjavac@gmail.com</p>
-</li>
-<li><h3 id="神飞"><a href="#神飞" class="headerlink" title="神飞"></a><a href="http://www.qianduan.net/" target="_blank" rel="external">神飞</a></h3><p>神飞,爱好前端设计与开发，崇尚一目了然的设计。现居深圳/广州，就职于腾讯微信设计团队。</p>
-<p>联系方式：<br><a href="http://twitter.com/qianduan" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/shenfei" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/qianduan" target="_blank" rel="external">Github</a>、<br>邮箱: admin@qianduan.net、mienflying@gmail.com</p>
-</li>
-<li><h3 id="CSS魔法"><a href="#CSS魔法" class="headerlink" title="CSS魔法"></a><a href="http://www.cssmagic.net/" target="_blank" rel="external">CSS魔法</a></h3><p>百姓网前端架构师，《CSS 揭秘》译者，微信公众号和微博都叫CSS魔法。</p>
-<p>联系方式：<br><a href="http://weibo.com/cssmagic" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/cssmagic" target="_blank" rel="external">Twitter</a>、 <a href="http://www.zhihu.com/people/cssmagic" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/cssmagic" target="_blank" rel="external">Github</a></p>
-</li>
-<li><h3 id="赵雷"><a href="#赵雷" class="headerlink" title="赵雷"></a><a href="http://zhaolei.info/" target="_blank" rel="external">赵雷</a></h3><p>Firede，85后 程序员，前点点网首席前端工程师，百度资深研发工程师。现供职于<a href="http://efe.baidu.com/" target="_blank" rel="external">百度商业体系前端团队</a>，在与 <a href="https://github.com/ecomfe" target="_blank" rel="external">NB的小伙伴们</a>一起做 有意思的事情。<br>技能树很杂，除编程外，产品、设计、创业的话题也能聊得来。爱好广泛但小众，较正常的是看书和摄影；是果粉和GitHub粉。</p>
-<p>联系方式：<br><a href="http://weibo.com/firede" target="_blank" rel="external">微博</a>、 <a href="https://github.com/firede" target="_blank" rel="external">Github</a>、<br>邮箱：firede@firede.us，也可微博私信他访谈。</p>
-</li>
-<li><h3 id="吴多益"><a href="#吴多益" class="headerlink" title="吴多益"></a><a href="http://wuduoyi.com/" target="_blank" rel="external">吴多益</a></h3><p>百度前端团队成员，FEX 团队负责人。</p>
-<p>联系方式：<br><a href="https://github.com/nwind/" target="_blank" rel="external">Github</a>、 <a href="http://twitter.com/nwind/" target="_blank" rel="external">Twitter</a>、<a href="http://weibo.com/nwind/" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/wuduoyi" target="_blank" rel="external">知乎</a></p>
-</li>
-<li><h3 id="小胡子哥"><a href="#小胡子哥" class="headerlink" title="小胡子哥"></a><a href="http://www.barretlee.com/entry/" target="_blank" rel="external">小胡子哥</a></h3><p>本名李靖，淘宝web研发工程师。</p>
-<p>联系方式：<br><a href="http://weibo.com/173248656" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/barret_china" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/barretlee" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/barretlee" target="_blank" rel="external">Github</a>、 <a href="http://hustskyking.cnblogs.com/" target="_blank" rel="external">老博客</a>、<br>邮箱：barret.china@gmail.com</p>
-</li>
-<li><h3 id="小芋头君"><a href="#小芋头君" class="headerlink" title="小芋头君"></a><a href="http://www.html-js.com/" target="_blank" rel="external">小芋头君</a></h3><p><a href="http://f2e.souche.com/blog/" target="_blank" rel="external">大搜车前端</a>负责人，颜文字app作者，<a href="http://www.html-js.com/" target="_blank" rel="external">前端乱炖</a>创始人。</p>
-<p>联系方式：<br><a href="http://weibo.com/676588498" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/li-shou-xin" target="_blank" rel="external">知乎</a>、 <a href="https://zhuanlan.zhihu.com/yutou" target="_blank" rel="external">知乎专栏</a>、 <a href="https://github.com/xinyu198736" target="_blank" rel="external">Github</a>、 </p>
-<p>邮箱：xinyu198736@gmail.com</p>
-</li>
-<li><h3 id="林建锋（sofish）"><a href="#林建锋（sofish）" class="headerlink" title="林建锋（sofish）"></a><a href="https://sofi.sh/" target="_blank" rel="external">林建锋（sofish）</a></h3><p>国内资深前端开发工程师，Web 标准布道者，前支付宝前端开发部 CSS 样式库负责人。Trimidea 创始人，目前就职饿了么。</p>
-<p>联系方式：<br><a href="http://weibo.com/sofish" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/sofish" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/sofish" target="_blank" rel="external">Github</a>、<br>邮箱：sofish@icloud.com</p>
-</li>
-<li><h3 id="屈光宇"><a href="#屈光宇" class="headerlink" title="屈光宇"></a><a href="https://imququ.com/" target="_blank" rel="external">屈光宇</a></h3><p>屈光宇(JerryQu、qgy18、屈屈、 QuQu)，360搜索前端负责人。</p>
-<p>联系方式：<br><a href="http://weibo.com/jerryqu" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/qgy18" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/ququ/about" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/qgy18" target="_blank" rel="external">Github</a>、<br>邮箱：quguangyu@gmail.com，练习前先看<a href="https://imququ.com/post/about.html" target="_blank" rel="external">联系说明</a></p>
-</li>
-<li><h3 id="张克军"><a href="#张克军" class="headerlink" title="张克军"></a><a href="http://hikejun.com/" target="_blank" rel="external">张克军</a></h3><p>张克军，豆瓣前端负责人，知名web技术布道者。</p>
-<p>联系方式：<br><a href="http://weibo.com/kejunz" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/kejun/" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/kejun" target="_blank" rel="external">Github</a>、<br>邮箱：listenpro@gmail.com、</p>
-</li>
-<li><h3 id="林小志"><a href="#林小志" class="headerlink" title="林小志"></a><a href="http://linxz.github.io/blog/" target="_blank" rel="external">林小志</a></h3><p>原名林友赛，曾就职于迅雷、腾讯，负责网站重构。2011年加入携程，先后负责国际网站、高端旅游、商旅等多个项目，目前负责携程公共团队UED前端。 《<a href="https://book.douban.com/subject/4117497/" target="_blank" rel="external">CSS那些事儿</a>》一书作者。</p>
-<p>联系方式：<br><a href="http://www.weibo.com/linxz428" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/linxz/" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/linxz" target="_blank" rel="external">Github</a>、</p>
-</li>
-<li><h3 id="聂微东"><a href="#聂微东" class="headerlink" title="聂微东"></a><a href="http://www.fefork.com/" target="_blank" rel="external">聂微东</a></h3><p>百度研发工程师，目前从事JavaScript研发工作，关注并喜欢研究 HTML5，Python，PHP，MySQL，NoSQL等技术。知名前端资源分享项目<a href="http://www.fefork.com/fetool/" target="_blank" rel="external">Fetool</a>维护者。</p>
-<p>联系方式：<br><a href="http://weibo.com/darrencode" target="_blank" rel="external">微博</a>、 <a href="http://twitter.com/nieweidong" target="_blank" rel="external">Twitter</a>、 <a href="http://facebook.com/weidong.nie" target="_blank" rel="external">Facebook</a>、 <a href="http://www.cnblogs.com/Darren_code/" target="_blank" rel="external">博客</a>、 <a href="https://github.com/nieweidong" target="_blank" rel="external">Github</a>、<br>邮箱：darrencode@qq.com</p>
-</li>
-<li><h3 id="刘杰"><a href="#刘杰" class="headerlink" title="刘杰"></a><a href="http://www.aoao.org.cn/" target="_blank" rel="external">刘杰</a></h3><p>嗷嗷，本名刘杰，从事前端开发多年，期间做过设计转过产品，混过后端，写过《<a href="https://book.douban.com/subject/3327829/" target="_blank" rel="external">Web标准设计</a>》一书。<br>目前就职于淘宝网，主要负责前端性能监控、优化等前端开发相关的工作。</p>
-<p>联系方式：<br><a href="https://twitter.com/aoao" target="_blank" rel="external">Twitter</a>、<br>邮箱：loaoao@gmail.com</p>
-</li>
-<li><h3 id="刘平川"><a href="#刘平川" class="headerlink" title="刘平川"></a><a href="http://rank.im/" target="_blank" rel="external">刘平川</a></h3><p>刘平川，网络昵称 rank，微信公众号：<strong>跨界码农</strong>。<br>现任美团架构师，技术上主要负责前端、客户端上基础技术相关工作。<br>曾任百度资深工程师、架构师，改革 Web 前端研发部，创立百度 FEX 基础前端团队。<br>独立从事过前端组件、库与框架研发。经历并负责过支付、电商、彩票、票务、社区、O2O等大型项目的前端研发。</p>
-<p>联系方式：<br><a href="http://weibo.com/rank" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/rank/" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/ranklau" target="_blank" rel="external">Github</a>、<br>邮箱：ranklau@gmail.com</p>
-</li>
-<li><h3 id="黄峰达"><a href="#黄峰达" class="headerlink" title="黄峰达"></a><a href="https://www.phodal.com/" target="_blank" rel="external">黄峰达</a></h3><p>黄峰达(phodal)，毕业于西安文理学院(电子信息工程专业)，目前就职于ThoughtWorks(深圳)。<br>一个文艺控，喜欢读书，喜欢纸的质感，喜欢用笔铭刻记忆和思想。 一个设计控，一个DIY爱好者。<br><a href="http://growth.ren/#firstPage" target="_blank" rel="external">Growth</a>项目开发者。</p>
-<p>联系方式：<br><a href="http://weibo.com/phodal" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/phodal" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/phodal" target="_blank" rel="external">Github</a>、 <a href="http://www.jianshu.com/users/e64ad9fba4da" target="_blank" rel="external">简书</a>、 <a href="http://blog.csdn.net/phodal" target="_blank" rel="external">CSDN</a>、<br>邮箱：gmszone@qq.com</p>
-</li>
-<li><h3 id="情封"><a href="#情封" class="headerlink" title="情封"></a><a href="http://blog.f2er.net/" target="_blank" rel="external">情封</a></h3><p><a href="http://www.zaoduke.net/" target="_blank" rel="external">前端De早读课</a>站长，@福建前端联盟发起人之一，4399UED/高级主管。</p>
-<p>联系方式：<br><a href="http://weibo.com/f2er" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/f2er" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/f2er" target="_blank" rel="external">Github</a>、<br>QQ:181422448、<br>邮箱：uezheng@gmail.com</p>
-</li>
-<li><h3 id="裕波"><a href="#裕波" class="headerlink" title="裕波"></a>裕波</h3><p>原名周裕波，<a href="http://www.w3ctech.com/" target="_blank" rel="external">w3ctech.com</a>发起人。</p>
-<p>联系方式:<br><a href="http://weibo.com/itchina100" target="_blank" rel="external">微博</a>、 <a href="http://t.qq.com/itchina110" target="_blank" rel="external">腾讯微博</a></p>
-</li>
-<li><h3 id="张铮铮"><a href="#张铮铮" class="headerlink" title="张铮铮"></a><a href="http://www.tych.io/" target="_blank" rel="external">张铮铮</a></h3><p>张铮铮(Tychio)，一名Web前端工程师，毕业于西安石油大学软件工程专业，目前就职于ThoughtWorks，Base在西安。</p>
-<p>联系方式：<br><a href="https://twitter.com/tychio" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/tychio" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/tychio" target="_blank" rel="external">Github</a>、 <a href="http://codepen.io/tychio" target="_blank" rel="external">Codepen</a>、<a href="http://www.linkedin.com/in/zhangzz" target="_blank" rel="external">Linkedin</a>、 <a href="http://stackoverflow.com/users/1954201/tychio" target="_blank" rel="external">Stackoverflow</a>、 <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=18476046&amp;site=qq&amp;menu=yes" target="_blank" rel="external">QQ</a></p>
-<p>邮箱：z@tychio.net，zzzhang@thoughtworks.com，zzztychio@gmail.com</p>
-</li>
-<li><h3 id="涂鸦码龙"><a href="#涂鸦码龙" class="headerlink" title="涂鸦码龙"></a><a href="http://jinlong.github.io/" target="_blank" rel="external">涂鸦码龙</a></h3><p>360前端工程师，忙时码代码，无事乱涂鸦。最近刚刚晋升奶爸，恭喜。</p>
-<p>联系方式：<br><a href="http://weibo.com/newwave" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/zhangjinlong" target="_blank" rel="external">知乎</a>、 <a href="http://jinlongz.lofter.com/" target="_blank" rel="external">Lofter</a>、 <a href="https://github.com/jinlong" target="_blank" rel="external">Github</a>、<br>邮箱：zhangjinlong3546@sina.com</p>
-</li>
-<li><h3 id="CSS森林"><a href="#CSS森林" class="headerlink" title="CSS森林"></a><a href="http://blog.cssforest.org/" target="_blank" rel="external">CSS森林</a></h3><p>CSS森林，微信支付设计中心，负责重构前端团队的管理工作。</p>
-<p>联系方式：<br><a href="https://www.zhihu.com/people/ghostzhang" target="_blank" rel="external">知乎</a>、 <a href="https://www.linkedin.com/in/ghostzhang" target="_blank" rel="external">Linkedin</a>、 <a href="http://github.com/ghostzhang" target="_blank" rel="external">Github</a>、<br>QQ:22168741<br>邮箱：ghostzhang@cssforest.org，lovej1bz@gmail.com</p>
-</li>
-<li><h3 id="屈超"><a href="#屈超" class="headerlink" title="屈超"></a><a href="https://quchao.com/" target="_blank" rel="external">屈超</a></h3><p>先后就职淘宝、腾讯，前腾讯前端开发主管，现为<a href="http://www.wepiao.com/" target="_blank" rel="external">微票</a>技术主管。</p>
-<p>联系方式：<br><a href="https://www.zhihu.com/people/quchao" target="_blank" rel="external">知乎</a>、 <a href="https://www.linkedin.com/in/quchao" target="_blank" rel="external">Linkedin</a>、 <a href="https://github.com/QuChao" target="_blank" rel="external">Github</a>、<br>邮箱：mail@quchao.com</p>
-</li>
-<li><h3 id="元彦"><a href="#元彦" class="headerlink" title="元彦"></a><a href="http://madscript.com/" target="_blank" rel="external">元彦</a></h3><p>本名曹元彦，淘宝资深前端工程师，淘宝 UED FEM团队成员，建立了开源的链式任务工具 <a href="http://chajs.org/" target="_blank" rel="external">Cha</a>与前端自动化工具 Mod，专注于移动 Web 前端业务的基础架构建设与性能优化，同时在 Github 上维护着移动Web前端开发知识库 Mars.<br>曾在腾讯 AlloyTeam任职,先后负责 WebQQ、QQ、手机 QQ 等产品的 Web 前端工作。</p>
-<p>联系方式：<br><a href="http://weibo.com/caoyuanyan" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/caoyuanyan" target="_blank" rel="external">Twitter</a>、 <a href="https://www.zhihu.com/people/yuanyan" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/yuanyan" target="_blank" rel="external">Github</a>、<br>邮箱：yuanyan.cao@alibaba-inc.com，yuanyan.cao@gmail.com</p>
-</li>
-<li><h3 id="于涛"><a href="#于涛" class="headerlink" title="于涛"></a><a href="https://github.com/kinvix" target="_blank" rel="external">于涛</a></h3><p>HTML5梦工场深圳负责人；腾讯Web前端<a href="http://www.alloyteam.com/" target="_blank" rel="external">AlloyTeam</a>负责人；腾讯高级工程师，WebQQ架构师；</p>
-<p>联系方式：<br><a href="http://weibo.com/kinvix" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/kinvix" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/kinvix" target="_blank" rel="external">Github</a>、<br>邮箱：Kinvix@Gmail.com</p>
-</li>
-<li><h3 id="愚人码头"><a href="#愚人码头" class="headerlink" title="愚人码头"></a><a href="http://www.css88.com/" target="_blank" rel="external">愚人码头</a></h3><p><a href="http://www.css88.com/" target="_blank" rel="external">WEB前端开发</a>站长。</p>
-<p>联系方式：<br><a href="http://weibo.com/feiwen8772" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/feiwen8772" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/feiwen8772" target="_blank" rel="external">Github</a>、<br>QQ：148246293、<br>邮箱：admin@css88.com</p>
-</li>
-<li><h3 id="明城"><a href="#明城" class="headerlink" title="明城"></a><a href="https://www.gracecode.com/" target="_blank" rel="external">明城</a></h3><p>前淘宝网前端工程师，现丁香园首席打杂官。八零后、技术男、苹果粉、微软黑、宁波人，现居杭州。</p>
-<p>联系方式：<br><a href="http://weibo.com/feelinglucky" target="_blank" rel="external">微博</a>、 <a href="https://twitter.com/feelinglucky" target="_blank" rel="external">Twitter</a>、 <a href="http://instagram.com/feelinglucky" target="_blank" rel="external">Instagram</a>、 <a href="https://www.zhihu.com/people/mingcheng" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/feelinglucky" target="_blank" rel="external">Github</a>、<br>邮箱：lucky@gracecode.com</p>
-</li>
-<li><h3 id="大猫"><a href="#大猫" class="headerlink" title="大猫"></a><a href="http://ooxx.me/" target="_blank" rel="external">大猫</a></h3><p>微信前端工程师。</p>
-<p>联系方式：<br><a href="https://www.zhihu.com/people/bigc.at/" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/Damao" target="_blank" rel="external">Github</a>、<br>QQ：18958069、<br>邮箱：i@ooxx.me</p>
-</li>
-<li><h3 id="彬Go"><a href="#彬Go" class="headerlink" title="彬Go"></a><a href="http://www.bingo929.com/" target="_blank" rel="external">彬Go</a></h3><p>原名李彬，前人人网前端开发工程师，人人小站前端团队技术主管，加入<a href="http://www.uhouzz.com/" target="_blank" rel="external">异乡好居</a>后闹了<a href="https://www.zhihu.com/question/46294596/answer/100791868" target="_blank" rel="external">矛盾</a>，请大家支持彬哥。</p>
-<p>联系方式：<br><a href="http://weibo.com/feiwen8772" target="_blank" rel="external">微博</a>、 <a href="https://www.zhihu.com/people/feiwen8772" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/feiwen8772" target="_blank" rel="external">Github</a>、<br>QQ：215392、<br>邮箱：skar9363@gmail.com</p>
-</li>
-<li><h3 id="薛端阳"><a href="#薛端阳" class="headerlink" title="薛端阳"></a><a href="https://github.com/xueduany" target="_blank" rel="external">薛端阳</a></h3><p>先后在腾讯、盛大、淘宝做前端开发，现为携程机票事业部无线研发团队高级技术经理。<br>开源前端UI组件库<a href="http://xueduany.github.io/KitJs/KitJs/index.html" target="_blank" rel="external">KitJs</a>开发者。</p>
-<p>联系方式：<br><a href="http://www.cnblogs.com/xueduanyang/" target="_blank" rel="external">博客</a>、 <a href="https://www.zhihu.com/people/xueduanyang" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/xueduany" target="_blank" rel="external">Github</a>、<br>邮箱：xueduanyang1985@163.com</p>
-</li>
-<li><h3 id="羡辙"><a href="#羡辙" class="headerlink" title="羡辙"></a><a href="http://zhangwenli.com/" target="_blank" rel="external">羡辙</a></h3><p>百度前端工程师，微信公众号羡辙部落格（xianzheblog）。</p>
-<p>联系方式：<br><a href="http://weibo.com/plainjane" target="_blank" rel="external">微博</a>、 <a href="http://zhangwenli.com/blog/" target="_blank" rel="external">博客</a>、 <a href="https://www.zhihu.com/people/ovilia" target="_blank" rel="external">知乎</a>、 <a href="https://github.com/Ovilia" target="_blank" rel="external">Github</a>、<br>邮箱：me@zhangwenli.com</p>
-</li>
-<li><h3 id="周晓楷-Helkyle"><a href="#周晓楷-Helkyle" class="headerlink" title="周晓楷 Helkyle"></a><a href="http://helkyle.com/" target="_blank" rel="external">周晓楷 Helkyle</a></h3><p>w3cTrain成员。</p>
-<p>联系方式：<br><a href="http://weibo.com/joueu" target="_blank" rel="external">微博</a>、 <a href="http://codepen.io/HelKyle/" target="_blank" rel="external">Codepen</a>、 <a href="https://github.com/HelKyle" target="_blank" rel="external">Github</a>、<br>邮件：helkylefighting@gmail.com</p>
-</li>
-</ol>
-</li>
-</ol>
-<p>本文出处：<a href="http://www.cnblogs.com/-ding/p/5976659.html" target="_blank" rel="external">http://www.cnblogs.com/-ding/p/5976659.html</a></p>
-
-      
-    </div>
-
-    <div>
-      
-        
-
-      
-    </div>
-
-    <div>
-      
-        
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-    <div>打赏鼓励一下。</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
-    </button>
-    <div id="QR" style="display: none;">
-      
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="/uploads/wx.png" alt="Feahter WeChat Pay"/>
-          <p>微信打赏</p>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
         </div>
-      
-      
-        <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="/uploads/zfb.jpg" alt="Feahter Alipay"/>
-          <p>支付宝打赏</p>
-        </div>
-      
+      </div>
     </div>
   </div>
 
+</header>
+        
+  
+  <aside class="sidebar">
 
-      
-    </div>
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
 
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/前端大神/" rel="tag">#前端大神</a>
-          
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E"><span class="nav-number">1.</span> <span class="nav-text">前端大神</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-%E5%9B%BD%E9%99%85"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 国际</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Chris-Coyier"><span class="nav-number">1.1.1.</span> <span class="nav-text">Chris Coyier</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sara-Soueidan"><span class="nav-number">1.1.2.</span> <span class="nav-text">Sara Soueidan</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hugo-Giraudel"><span class="nav-number">1.1.3.</span> <span class="nav-text">Hugo Giraudel</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Lea-Verou"><span class="nav-number">1.1.4.</span> <span class="nav-text">Lea Verou</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Paul-Irish"><span class="nav-number">1.1.5.</span> <span class="nav-text">Paul Irish</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#John-Resig"><span class="nav-number">1.1.6.</span> <span class="nav-text">John Resig</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cody-Lindley"><span class="nav-number">1.1.7.</span> <span class="nav-text">Cody Lindley</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#David-Walsh"><span class="nav-number">1.1.8.</span> <span class="nav-text">David Walsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Zeno-Rocha"><span class="nav-number">1.1.9.</span> <span class="nav-text">Zeno Rocha</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Thomas-Fuchs"><span class="nav-number">1.1.10.</span> <span class="nav-text">Thomas Fuchs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hampton-Catlin"><span class="nav-number">1.1.11.</span> <span class="nav-text">Hampton Catlin</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mark-Otto"><span class="nav-number">1.1.12.</span> <span class="nav-text">Mark Otto</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sindre-Sorhus"><span class="nav-number">1.1.13.</span> <span class="nav-text">Sindre Sorhus</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Una-Kravets"><span class="nav-number">1.1.14.</span> <span class="nav-text">Una Kravets</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ESTELLE-WEYL"><span class="nav-number">1.1.15.</span> <span class="nav-text">ESTELLE WEYL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Alex-Sexton"><span class="nav-number">1.1.16.</span> <span class="nav-text">Alex Sexton</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Christian-Heilmann"><span class="nav-number">1.1.17.</span> <span class="nav-text">Christian Heilmann</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Kyle-Simpson"><span class="nav-number">1.1.18.</span> <span class="nav-text">Kyle Simpson</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Ana-Tudor"><span class="nav-number">1.1.19.</span> <span class="nav-text">Ana Tudor</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dudley-Storey"><span class="nav-number">1.1.20.</span> <span class="nav-text">Dudley Storey</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hakim-El-Hattab"><span class="nav-number">1.1.21.</span> <span class="nav-text">Hakim El Hattab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Angus-Croll"><span class="nav-number">1.1.22.</span> <span class="nav-text">Angus Croll</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nicolas-Gallagher"><span class="nav-number">1.1.23.</span> <span class="nav-text">Nicolas Gallagher</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TJ-Holowaychuk"><span class="nav-number">1.1.24.</span> <span class="nav-text">TJ Holowaychuk</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Addy-Osmani"><span class="nav-number">1.1.25.</span> <span class="nav-text">Addy Osmani</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Douglas-Crockford"><span class="nav-number">1.1.26.</span> <span class="nav-text">Douglas Crockford</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mike-Bostock"><span class="nav-number">1.1.27.</span> <span class="nav-text">Mike Bostock</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mr-doob"><span class="nav-number">1.1.28.</span> <span class="nav-text">Mr.doob</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Jessica-Lord"><span class="nav-number">1.1.29.</span> <span class="nav-text">Jessica Lord</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Jeremy-Ashkenas"><span class="nav-number">1.1.30.</span> <span class="nav-text">Jeremy Ashkenas</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-%E5%9B%BD%E5%86%85"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 国内</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8E%89%E4%BC%AF"><span class="nav-number">1.2.1.</span> <span class="nav-text">玉伯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%AE%E4%B8%80%E5%B3%B0"><span class="nav-number">1.2.2.</span> <span class="nav-text">阮一峰</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%B8%E5%BE%92%E6%AD%A3%E7%BE%8E"><span class="nav-number">1.2.3.</span> <span class="nav-text">司徒正美</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%B4%E7%81%B5"><span class="nav-number">1.2.4.</span> <span class="nav-text">朴灵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%A4%E5%B0%8F%E5%8F%B3"><span class="nav-number">1.2.5.</span> <span class="nav-text">尤小右</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%BA%E5%B8%88%E4%BF%8A"><span class="nav-number">1.2.6.</span> <span class="nav-text">贺师俊</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%91%A8%E7%88%B1%E6%B0%91"><span class="nav-number">1.2.7.</span> <span class="nav-text">周爱民</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%90%E6%B6%9B"><span class="nav-number">1.2.8.</span> <span class="nav-text">徐涛</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%96%E9%9B%AA%E5%B3%B0"><span class="nav-number">1.2.9.</span> <span class="nav-text">廖雪峰</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8B%BE%E4%B8%89%E8%82%A1%E5%9B%9B"><span class="nav-number">1.2.10.</span> <span class="nav-text">勾三股四</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%92%E5%86%ACwinter"><span class="nav-number">1.2.11.</span> <span class="nav-text">寒冬winter</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%90%E9%A3%9E-%E6%B0%91%E5%B7%A5%E7%B2%BE%E9%AB%93"><span class="nav-number">1.2.12.</span> <span class="nav-text">徐飞(民工精髓)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%B4%E4%BA%AE-%E6%9C%88%E5%BD%B1"><span class="nav-number">1.2.13.</span> <span class="nav-text">吴亮(月影)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9B%B7%E5%BF%97%E5%85%B4"><span class="nav-number">1.2.14.</span> <span class="nav-text">雷志兴</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%A0%E4%BA%91%E9%BE%99"><span class="nav-number">1.2.15.</span> <span class="nav-text">张云龙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%A0%E9%91%AB%E6%97%AD"><span class="nav-number">1.2.16.</span> <span class="nav-text">张鑫旭</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E6%BC%A0"><span class="nav-number">1.2.17.</span> <span class="nav-text">大漠</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%9C%E6%B5%B7%E9%95%9C"><span class="nav-number">1.2.18.</span> <span class="nav-text">颜海镜</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9D%9C%E7%91%B6"><span class="nav-number">1.2.19.</span> <span class="nav-text">杜瑶</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E4%B8%9D"><span class="nav-number">1.2.20.</span> <span class="nav-text">一丝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%B7%E6%B8%A1"><span class="nav-number">1.2.21.</span> <span class="nav-text">迷渡</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A5%9E%E9%A3%9E"><span class="nav-number">1.2.22.</span> <span class="nav-text">神飞</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS%E9%AD%94%E6%B3%95"><span class="nav-number">1.2.23.</span> <span class="nav-text">CSS魔法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B5%B5%E9%9B%B7"><span class="nav-number">1.2.24.</span> <span class="nav-text">赵雷</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%B4%E5%A4%9A%E7%9B%8A"><span class="nav-number">1.2.25.</span> <span class="nav-text">吴多益</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8F%E8%83%A1%E5%AD%90%E5%93%A5"><span class="nav-number">1.2.26.</span> <span class="nav-text">小胡子哥</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%8F%E8%8A%8B%E5%A4%B4%E5%90%9B"><span class="nav-number">1.2.27.</span> <span class="nav-text">小芋头君</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%97%E5%BB%BA%E9%94%8B%EF%BC%88sofish%EF%BC%89"><span class="nav-number">1.2.28.</span> <span class="nav-text">林建锋（sofish）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%88%E5%85%89%E5%AE%87"><span class="nav-number">1.2.29.</span> <span class="nav-text">屈光宇</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%A0%E5%85%8B%E5%86%9B"><span class="nav-number">1.2.30.</span> <span class="nav-text">张克军</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9E%97%E5%B0%8F%E5%BF%97"><span class="nav-number">1.2.31.</span> <span class="nav-text">林小志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%81%82%E5%BE%AE%E4%B8%9C"><span class="nav-number">1.2.32.</span> <span class="nav-text">聂微东</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%98%E6%9D%B0"><span class="nav-number">1.2.33.</span> <span class="nav-text">刘杰</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%98%E5%B9%B3%E5%B7%9D"><span class="nav-number">1.2.34.</span> <span class="nav-text">刘平川</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%84%E5%B3%B0%E8%BE%BE"><span class="nav-number">1.2.35.</span> <span class="nav-text">黄峰达</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%83%85%E5%B0%81"><span class="nav-number">1.2.36.</span> <span class="nav-text">情封</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A3%95%E6%B3%A2"><span class="nav-number">1.2.37.</span> <span class="nav-text">裕波</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%A0%E9%93%AE%E9%93%AE"><span class="nav-number">1.2.38.</span> <span class="nav-text">张铮铮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B6%82%E9%B8%A6%E7%A0%81%E9%BE%99"><span class="nav-number">1.2.39.</span> <span class="nav-text">涂鸦码龙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS%E6%A3%AE%E6%9E%97"><span class="nav-number">1.2.40.</span> <span class="nav-text">CSS森林</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B1%88%E8%B6%85"><span class="nav-number">1.2.41.</span> <span class="nav-text">屈超</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%83%E5%BD%A6"><span class="nav-number">1.2.42.</span> <span class="nav-text">元彦</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8E%E6%B6%9B"><span class="nav-number">1.2.43.</span> <span class="nav-text">于涛</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%84%9A%E4%BA%BA%E7%A0%81%E5%A4%B4"><span class="nav-number">1.2.44.</span> <span class="nav-text">愚人码头</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%98%8E%E5%9F%8E"><span class="nav-number">1.2.45.</span> <span class="nav-text">明城</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%A7%E7%8C%AB"><span class="nav-number">1.2.46.</span> <span class="nav-text">大猫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%ACGo"><span class="nav-number">1.2.47.</span> <span class="nav-text">彬Go</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%96%9B%E7%AB%AF%E9%98%B3"><span class="nav-number">1.2.48.</span> <span class="nav-text">薛端阳</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BE%A1%E8%BE%99"><span class="nav-number">1.2.49.</span> <span class="nav-text">羡辙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%91%A8%E6%99%93%E6%A5%B7-Helkyle"><span class="nav-number">1.2.50.</span> <span class="nav-text">周晓楷 Helkyle</span></a></li></ol></li></ol></li></ol></div>
         </div>
-      
+        <!--/noindex-->
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/11/30/thinkphp实践/" rel="next" title="thinkphp实践">
-                <i class="fa fa-chevron-left"></i> thinkphp实践
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/12/08/关于gulp/" rel="prev" title="关于gulp">
-                关于gulp <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </article>
-
-
-
-    <div class="post-spread">
-      
-        <div class="ds-share flat" data-thread-key="2016/12/08/前端大神/"
-     data-title="前端大神"
-     data-content=""
-     data-url="https://feahter.github.io/2016/12/08/前端大神/">
-  <div class="ds-share-inline">
-    <ul  class="ds-share-icons-16">
-
-      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
-      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
-      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
-      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
-      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-
-    </ul>
-    <div class="ds-share-icons-more">
-    </div>
-  </div>
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Feahter"
+      src="/uploads/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Feahter</p>
+  <div class="site-description" itemprop="description">Feahter's personal blog</div>
 </div>
-      
-    </div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Feahter" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Feahter" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
   </div>
 
-
-          </div>
-          
-
-
-          
-<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-<script>
-  var cloudTieConfig = {
-    url: document.location.href, 
-    sourceId: "2016/12/08/前端大神/",
-    productKey: "8e0631f10cb84ad18de7e71f4dc690e1",
-    target: "cloud-tie-wrapper"
-  };
-</script>
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
-
         </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+      </div>
     </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <section class="site-overview sidebar-panel ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/uploads/avatar.jpg"
-               alt="Feahter" />
-          <p class="site-author-name" itemprop="name">Feahter</p>
-          <p class="site-description motion-element" itemprop="description">此去经年，经年累月。</p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">21</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">6</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">26</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/Feahter" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                  GitHub
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-
-      </section>
-
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-            
-              
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前端大神"><span class="nav-number">1.</span> <span class="nav-text">前端大神</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-国际"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 国际</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Chris-Coyier"><span class="nav-number">1.1.1.</span> <span class="nav-text">Chris Coyier</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sara-Soueidan"><span class="nav-number">1.1.2.</span> <span class="nav-text">Sara Soueidan</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hugo-Giraudel"><span class="nav-number">1.1.3.</span> <span class="nav-text">Hugo Giraudel</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Lea-Verou"><span class="nav-number">1.1.4.</span> <span class="nav-text">Lea Verou</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Paul-Irish"><span class="nav-number">1.1.5.</span> <span class="nav-text">Paul Irish</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#John-Resig"><span class="nav-number">1.1.6.</span> <span class="nav-text">John Resig</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cody-Lindley"><span class="nav-number">1.1.7.</span> <span class="nav-text">Cody Lindley</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#David-Walsh"><span class="nav-number">1.1.8.</span> <span class="nav-text">David Walsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Zeno-Rocha"><span class="nav-number">1.1.9.</span> <span class="nav-text">Zeno Rocha</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Thomas-Fuchs"><span class="nav-number">1.1.10.</span> <span class="nav-text">Thomas Fuchs</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hampton-Catlin"><span class="nav-number">1.1.11.</span> <span class="nav-text">Hampton Catlin</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mark-Otto"><span class="nav-number">1.1.12.</span> <span class="nav-text">Mark Otto</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sindre-Sorhus"><span class="nav-number">1.1.13.</span> <span class="nav-text">Sindre Sorhus</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Una-Kravets"><span class="nav-number">1.1.14.</span> <span class="nav-text">Una Kravets</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ESTELLE-WEYL"><span class="nav-number">1.1.15.</span> <span class="nav-text">ESTELLE WEYL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Alex-Sexton"><span class="nav-number">1.1.16.</span> <span class="nav-text">Alex Sexton</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Christian-Heilmann"><span class="nav-number">1.1.17.</span> <span class="nav-text">Christian Heilmann</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Kyle-Simpson"><span class="nav-number">1.1.18.</span> <span class="nav-text">Kyle Simpson</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Ana-Tudor"><span class="nav-number">1.1.19.</span> <span class="nav-text">Ana Tudor</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Dudley-Storey"><span class="nav-number">1.1.20.</span> <span class="nav-text">Dudley Storey</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hakim-El-Hattab"><span class="nav-number">1.1.21.</span> <span class="nav-text">Hakim El Hattab</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Angus-Croll"><span class="nav-number">1.1.22.</span> <span class="nav-text">Angus Croll</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nicolas-Gallagher"><span class="nav-number">1.1.23.</span> <span class="nav-text">Nicolas Gallagher</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#TJ-Holowaychuk"><span class="nav-number">1.1.24.</span> <span class="nav-text">TJ Holowaychuk</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Addy-Osmani"><span class="nav-number">1.1.25.</span> <span class="nav-text">Addy Osmani</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Douglas-Crockford"><span class="nav-number">1.1.26.</span> <span class="nav-text">Douglas Crockford</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mike-Bostock"><span class="nav-number">1.1.27.</span> <span class="nav-text">Mike Bostock</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mr-doob"><span class="nav-number">1.1.28.</span> <span class="nav-text">Mr.doob</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Jessica-Lord"><span class="nav-number">1.1.29.</span> <span class="nav-text">Jessica Lord</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Jeremy-Ashkenas"><span class="nav-number">1.1.30.</span> <span class="nav-text">Jeremy Ashkenas</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-国内"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 国内</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#玉伯"><span class="nav-number">1.2.1.</span> <span class="nav-text">玉伯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#阮一峰"><span class="nav-number">1.2.2.</span> <span class="nav-text">阮一峰</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#司徒正美"><span class="nav-number">1.2.3.</span> <span class="nav-text">司徒正美</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#朴灵"><span class="nav-number">1.2.4.</span> <span class="nav-text">朴灵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#尤小右"><span class="nav-number">1.2.5.</span> <span class="nav-text">尤小右</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#贺师俊"><span class="nav-number">1.2.6.</span> <span class="nav-text">贺师俊</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#周爱民"><span class="nav-number">1.2.7.</span> <span class="nav-text">周爱民</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#徐涛"><span class="nav-number">1.2.8.</span> <span class="nav-text">徐涛</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#廖雪峰"><span class="nav-number">1.2.9.</span> <span class="nav-text">廖雪峰</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#勾三股四"><span class="nav-number">1.2.10.</span> <span class="nav-text">勾三股四</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#寒冬winter"><span class="nav-number">1.2.11.</span> <span class="nav-text">寒冬winter</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#徐飞-民工精髓"><span class="nav-number">1.2.12.</span> <span class="nav-text">徐飞(民工精髓)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#吴亮-月影"><span class="nav-number">1.2.13.</span> <span class="nav-text">吴亮(月影)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#雷志兴"><span class="nav-number">1.2.14.</span> <span class="nav-text">雷志兴</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#张云龙"><span class="nav-number">1.2.15.</span> <span class="nav-text">张云龙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#张鑫旭"><span class="nav-number">1.2.16.</span> <span class="nav-text">张鑫旭</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#大漠"><span class="nav-number">1.2.17.</span> <span class="nav-text">大漠</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#颜海镜"><span class="nav-number">1.2.18.</span> <span class="nav-text">颜海镜</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#杜瑶"><span class="nav-number">1.2.19.</span> <span class="nav-text">杜瑶</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一丝"><span class="nav-number">1.2.20.</span> <span class="nav-text">一丝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#迷渡"><span class="nav-number">1.2.21.</span> <span class="nav-text">迷渡</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#神飞"><span class="nav-number">1.2.22.</span> <span class="nav-text">神飞</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS魔法"><span class="nav-number">1.2.23.</span> <span class="nav-text">CSS魔法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#赵雷"><span class="nav-number">1.2.24.</span> <span class="nav-text">赵雷</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#吴多益"><span class="nav-number">1.2.25.</span> <span class="nav-text">吴多益</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小胡子哥"><span class="nav-number">1.2.26.</span> <span class="nav-text">小胡子哥</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小芋头君"><span class="nav-number">1.2.27.</span> <span class="nav-text">小芋头君</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#林建锋（sofish）"><span class="nav-number">1.2.28.</span> <span class="nav-text">林建锋（sofish）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#屈光宇"><span class="nav-number">1.2.29.</span> <span class="nav-text">屈光宇</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#张克军"><span class="nav-number">1.2.30.</span> <span class="nav-text">张克军</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#林小志"><span class="nav-number">1.2.31.</span> <span class="nav-text">林小志</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#聂微东"><span class="nav-number">1.2.32.</span> <span class="nav-text">聂微东</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#刘杰"><span class="nav-number">1.2.33.</span> <span class="nav-text">刘杰</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#刘平川"><span class="nav-number">1.2.34.</span> <span class="nav-text">刘平川</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#黄峰达"><span class="nav-number">1.2.35.</span> <span class="nav-text">黄峰达</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#情封"><span class="nav-number">1.2.36.</span> <span class="nav-text">情封</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#裕波"><span class="nav-number">1.2.37.</span> <span class="nav-text">裕波</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#张铮铮"><span class="nav-number">1.2.38.</span> <span class="nav-text">张铮铮</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#涂鸦码龙"><span class="nav-number">1.2.39.</span> <span class="nav-text">涂鸦码龙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CSS森林"><span class="nav-number">1.2.40.</span> <span class="nav-text">CSS森林</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#屈超"><span class="nav-number">1.2.41.</span> <span class="nav-text">屈超</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#元彦"><span class="nav-number">1.2.42.</span> <span class="nav-text">元彦</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#于涛"><span class="nav-number">1.2.43.</span> <span class="nav-text">于涛</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#愚人码头"><span class="nav-number">1.2.44.</span> <span class="nav-text">愚人码头</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#明城"><span class="nav-number">1.2.45.</span> <span class="nav-text">明城</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#大猫"><span class="nav-number">1.2.46.</span> <span class="nav-text">大猫</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#彬Go"><span class="nav-number">1.2.47.</span> <span class="nav-text">彬Go</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#薛端阳"><span class="nav-number">1.2.48.</span> <span class="nav-text">薛端阳</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#羡辙"><span class="nav-number">1.2.49.</span> <span class="nav-text">羡辙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#周晓楷-Helkyle"><span class="nav-number">1.2.50.</span> <span class="nav-text">周晓楷 Helkyle</span></a></li></ol></li></ol></li></ol></div>
-            
-          </div>
-        </section>
-      
-
-    </div>
+    
   </aside>
 
 
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy;  2016 - 
-  <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Feahter</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-        
-
-<div class="busuanzi-count">
-
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
-  
-
-  
-    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
-  
-  
-</div>
-
-
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
     </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://feahter.github.io/2016/12/08/%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="Feahter">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="经年">
+      <meta itemprop="description" content="Feahter's personal blog">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="前端大神 | 经年">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          前端大神
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-12-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-12-08T00:00:00+08:00">2016-12-08</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h1 id="前端大神"><a href="#前端大神" class="headerlink" title="前端大神"></a><a href="#%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E"></a>前端大神</h1><span id="more"></span>
+<p>达者为师，站在巨人的肩膀上眺望，才能看得更远。</p>
+<h2 id="1-1-国际"><a href="#1-1-国际" class="headerlink" title="1.1 国际"></a><a href="#1-1-%E5%9B%BD%E9%99%85"></a>1.1 国际</h2><ul>
+<li><h3 id="Chris-Coyier"><a href="#Chris-Coyier" class="headerlink" title="Chris Coyier"></a><a href="#Chris-Coyier"></a><a target="_blank" rel="noopener" href="http://chriscoyier.net/">Chris Coyier</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://codepen.io/">Codepen</a>创始人，<a target="_blank" rel="noopener" href="http://css-tricks.com/">css-tricks</a>站长。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://codepen.io/chriscoyier">CodePen</a>、 <a target="_blank" rel="noopener" href="http://dribbble.com/chriscoyier">Dribbble</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/chriscoyier">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/chriscoyier">GitHub</a>、 <a target="_blank" rel="noopener" href="http://instagram.com/chriscoyier">Instagram</a></p>
+<ul>
+<li><h3 id="Sara-Soueidan"><a href="#Sara-Soueidan" class="headerlink" title="Sara Soueidan"></a><a href="#Sara-Soueidan"></a><a target="_blank" rel="noopener" href="https://sarasoueidan.com/">Sara Soueidan</a></h3></li>
+</ul>
+<p>2015 net awards(net杂志的年度颁奖盛典)的<a target="_blank" rel="noopener" href="https://thenetawards.com/longlist/developer/">年度开发者</a>，2015 O’Reilly Web Platform Awards（O’Reilly，著名的IT图书出版机构）,著名的前端开发者、作者、演讲者，主要关注HTML5, SVG, CSS and JavaScript等。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://github.com/SaraSoueidan">Github</a>、 <a target="_blank" rel="noopener" href="http://tympanus.net/codrops/author/sarasoueidan/">Codrops</a>、 <a target="_blank" rel="noopener" href="http://alistapart.com/author/SaraSoueidan">A List Apart</a>、 <a target="_blank" rel="noopener" href="https://dev.opera.com/authors/sara-soueidan/">Dev.Opera</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/SaraSoueidan">Twitter</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/115621441131126533845/posts">Google+</a></p>
+<ul>
+<li><h3 id="Hugo-Giraudel"><a href="#Hugo-Giraudel" class="headerlink" title="Hugo Giraudel"></a><a href="#Hugo-Giraudel"></a><a target="_blank" rel="noopener" href="http://hugogiraudel.com/">Hugo Giraudel</a></h3></li>
+</ul>
+<p>知名的SASS专家，2015 net awards(net杂志的年度颁奖盛典)的<a target="_blank" rel="noopener" href="https://thenetawards.com/longlist/developer/">年度开发者</a>。法国人，现居德国柏林。</p>
+<p>联系方式： <a target="_blank" rel="noopener" href="https://github.com/HugoGiraudel">Github</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/HugoGiraudel">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.sitepoint.com/author/hgiraudel/">Sitepoint</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/101697878480386449961">Google+</a></p>
+<ul>
+<li><h3 id="Lea-Verou"><a href="#Lea-Verou" class="headerlink" title="Lea Verou"></a><a href="#Lea-Verou"></a><a target="_blank" rel="noopener" href="http://lea.verou.me/">Lea Verou</a></h3></li>
+</ul>
+<p>网页设计师、前端开发者、技术极客、演讲家、作家，麻省理工学院计算机与人工智能实验室助理研究员，《CSS Secrets》作者，prefixfree.js作者，在世界各地进行过60多次演讲，<a target="_blank" rel="noopener" href="http://lea.verou.me/cv.html">简历</a>。希腊人，现居美国马萨诸塞州剑桥市（大波士顿地区）。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/leaverou">Twitter</a>、 <a target="_blank" rel="noopener" href="http://www.facebook.com/leaverou">Facebook</a>、 <a target="_blank" rel="noopener" href="https://github.com/LeaVerou">Github</a>、 <a target="_blank" rel="noopener" href="http://dribbble.com/LeaVerou">Dribbble</a></p>
+<ul>
+<li><h3 id="Paul-Irish"><a href="#Paul-Irish" class="headerlink" title="Paul Irish"></a><a href="#Paul-Irish"></a><a target="_blank" rel="noopener" href="http://paulirish.com/">Paul Irish</a></h3></li>
+</ul>
+<p>谷歌Chrome团队前端工程师，主要关注开发者工具，是<a target="_blank" rel="noopener" href="http://modernizr.com/">Modernizr</a>、<a target="_blank" rel="noopener" href="http://yeoman.io/">Yeoman</a>、<a target="_blank" rel="noopener" href="http://css3please.com/">CSS3 Please</a>、<a target="_blank" rel="noopener" href="http://html5boilerplate.com/">HTML5 Boilerplate</a>等工具的开发者，合作开发了诸多项目，详情了解他的<a target="_blank" rel="noopener" href="http://www.paulirish.com/about/">About</a>。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/paul_irish">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/paulirish/">Github</a>、 <a target="_blank" rel="noopener" href="http://paulirish.com/+">Google+</a>，<br>请在个人主页<a target="_blank" rel="noopener" href="http://www.paulirish.com/contact-me/">contact</a>联系他。</p>
+<ul>
+<li><h3 id="John-Resig"><a href="#John-Resig" class="headerlink" title="John Resig"></a><a href="#John-Resig"></a><a target="_blank" rel="noopener" href="http://ejohn.org/">John Resig</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://jquery.com/">jQuery</a>、<a target="_blank" rel="noopener" href="http://processingjs.org/">Processing.js</a>、<a target="_blank" rel="noopener" href="http://sizzlejs.com/">Sizzle.js</a>等项目作者，现为<a target="_blank" rel="noopener" href="http://khanacademy.org/">可汗学院</a>计算机学院负责人。<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26638316/"><strong>JS忍者秘籍</strong></a>(Secrets of the JavaScript Ninja)、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3007076/"><strong>精通JavaScript</strong></a>(Pro JavaScript Techniques)作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/jeresig">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jeresig">Github</a>、<br>邮箱:<a href="mailto:&#x6a;&#101;&#x72;&#x65;&#x73;&#x69;&#103;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">jeresig@gmail.com</a><br>请在邮箱联系他之前，先读<a target="_blank" rel="noopener" href="http://ejohn.org/about/">联系说明</a></p>
+<ul>
+<li><h3 id="Cody-Lindley"><a href="#Cody-Lindley" class="headerlink" title="Cody Lindley"></a><a href="#Cody-Lindley"></a><a target="_blank" rel="noopener" href="http://www.codylindley.com/">Cody Lindley</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/25837367/"><strong>JavaScript启示录</strong></a>(Javascript Enlightment)、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/25882606/">DOM启蒙</a>(Dom Enlightment)、<a target="_blank" rel="noopener" href="http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf"><strong>jQuery Englightment</strong></a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/4149124/"><strong>jQuery cookbook</strong></a>等书的作者。<br><a target="_blank" rel="noopener" href="http://www.telerik.com/kendo-ui">Kendo UI</a>、<a target="_blank" rel="noopener" href="http://codylindley.com/thickbox/">ThickBox</a>、<a target="_blank" rel="noopener" href="http://codylindley.com/jqueryselectors/">jqueryselectors</a>等项目开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/jeresig">Twitter</a>、 <a target="_blank" rel="noopener" href="http://www.facebook.com/cody.lindley">Facebook</a>、 <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/codylindley">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/codylindley">Github</a>、 <a target="_blank" rel="noopener" href="http://www.google.com/profiles/codylindley">Google+</a><br>邮箱:<a href="mailto:&#x63;&#x6f;&#x6e;&#x74;&#97;&#99;&#116;&#64;&#99;&#111;&#100;&#121;&#108;&#105;&#x6e;&#100;&#x6c;&#x65;&#x79;&#x2e;&#x63;&#x6f;&#x6d;">contact@codylindley.com</a></p>
+<ul>
+<li><h3 id="David-Walsh"><a href="#David-Walsh" class="headerlink" title="David Walsh"></a><a href="#David-Walsh"></a><a target="_blank" rel="noopener" href="https://davidwalsh.name/">David Walsh</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.mozilla.org/zh-CN/firefox/new/">Mozilla</a>资深web开发者、前端工程师，<a target="_blank" rel="noopener" href="https://mootools.net/"> MooTools</a>JS框架的核心开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/davidwalshblog">Twitter</a>、 <a target="_blank" rel="noopener" href="https://facebook.com/davidwalshblog">Facebook</a>、 <a target="_blank" rel="noopener" href="https://linkedin.com/in/davidjameswalsh">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/darkwing">Github</a>、 <a target="_blank" href="https://plus.google.com/114538814489633467974?rel=author">Google+</a>、<br>邮箱:<a href="mailto:&#x64;&#97;&#118;&#105;&#x64;&#x40;&#x64;&#x61;&#x76;&#x69;&#x64;&#119;&#x61;&#x6c;&#x73;&#x68;&#x2e;&#110;&#97;&#109;&#x65;">david@davidwalsh.name</a><br><a target="_blank" rel="noopener" href="https://davidwalsh.name/contact">联系页面</a>联系他</p>
+<ul>
+<li><h3 id="Zeno-Rocha"><a href="#Zeno-Rocha" class="headerlink" title="Zeno Rocha"></a><a href="#Zeno-Rocha"></a><a target="_blank" rel="noopener" href="https://zenorocha.com/">Zeno Rocha</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.liferay.com/">Liferay</a>开发主管，Google技术专家，<a target="_blank" rel="noopener" href="https://github.com/zenorocha/clipboard.js">clipboard.js</a>、<a target="_blank" rel="noopener" href="https://github.com/zenorocha/browser-diet">browser-diet</a>等项目开发者。巴西人，现居加拿大。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/zenorocha">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/zenorocha">Github</a>、 <a target="_blank" rel="noopener" href="http://blog.csdn.net/whqet/article/details/hi@zenorocha.com">邮箱</a></p>
+<ul>
+<li><h3 id="Thomas-Fuchs"><a href="#Thomas-Fuchs" class="headerlink" title="Thomas Fuchs"></a><a href="#Thomas-Fuchs"></a><a target="_blank" rel="noopener" href="http://mir.aculo.us/">Thomas Fuchs</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://zeptojs.com/">Zepto.js</a>、<a target="_blank" rel="noopener" href="https://github.com/madrobby/keymaster">keymaster</a>等项目作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/thomasfuchs">Twitter</a> <a target="_blank" rel="noopener" href="https://github.com/madrobby">Github</a><br>邮箱：<a href="mailto:&#x74;&#x68;&#111;&#109;&#x61;&#x73;&#64;&#102;&#x65;&#115;&#99;&#104;&#46;&#97;&#x74;">thomas@fesch.at</a>或<a href="mailto:&#116;&#104;&#x6f;&#x6d;&#x61;&#115;&#x40;&#x73;&#108;&#x61;&#x73;&#104;&#55;&#x2e;&#x63;&#111;&#109;">thomas@slash7.com</a></p>
+<ul>
+<li><h3 id="Hampton-Catlin"><a href="#Hampton-Catlin" class="headerlink" title="Hampton Catlin"></a><a href="#Hampton-Catlin"></a><a target="_blank" rel="noopener" href="http://www.hamptoncatlin.com/">Hampton Catlin</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://sass-lang.com/">SASS</a>、<a target="_blank" rel="noopener" href="http://haml-lang.com/">Haml</a>、libsass、SassC等项目作者。<a target="_blank" rel="noopener" href="http://www.responsivewebdesignforteams.com/">Responsive Web Design For Teams </a>图书作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.twitter.com/hcatlin">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/hcatlin">Github</a>、<br>邮箱：<a href="mailto:&#104;&#99;&#97;&#x74;&#x6c;&#x69;&#x6e;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">hcatlin@gmail.com</a>或<a href="mailto:&#x63;&#x6f;&#110;&#x74;&#97;&#x63;&#x74;&#x40;&#x68;&#97;&#x6d;&#x70;&#x74;&#x6f;&#110;&#99;&#97;&#x74;&#108;&#x69;&#110;&#46;&#x63;&#111;&#109;">contact@hamptoncatlin.com</a></p>
+<ul>
+<li><h3 id="Mark-Otto"><a href="#Mark-Otto" class="headerlink" title="Mark Otto"></a><a href="#Mark-Otto"></a><a target="_blank" rel="noopener" href="http://mdo.fm/">Mark Otto</a></h3></li>
+</ul>
+<p>Github设计主管，<a target="_blank" rel="noopener" href="http://getbootstrap.com/">Bootstrap</a>作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/mdo">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/mdo">Github</a>、 <a target="_blank" rel="noopener" href="https://dribbble.com/mdo">Dribble</a>、 <a target="_blank" rel="noopener" href="http://markdotto.com/">blog</a>、<br>邮箱：<a href="mailto:&#x6d;&#97;&#114;&#x6b;&#100;&#111;&#x74;&#116;&#111;&#64;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">markdotto@gmail.com</a>、或是github上<a target="_blank" rel="noopener" href="https://github.com/mdo/ama">提问</a>。</p>
+<ul>
+<li><h3 id="Sindre-Sorhus"><a href="#Sindre-Sorhus" class="headerlink" title="Sindre Sorhus"></a><a href="#Sindre-Sorhus"></a><a target="_blank" rel="noopener" href="https://github.com/sindresorhus">Sindre Sorhus</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://github.com/avajs/ava">AVA</a>、<a target="_blank" rel="noopener" href="https://github.com/chalk/chalk">chalk</a>、<a target="_blank" rel="noopener" href="http://yeoman.io/">yeoman</a>等项目开创者，创建多个流行github项目<a target="_blank" rel="noopener" href="https://github.com/sindresorhus/awesome">awesome</a>、<a href="%5Bhttps://github.com/sindresorhus/awesome-nodejs%5D(https://github.com/sindresorhus/awesome-nodejs)">awesome-nodejs</a>等。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/sindresorhus">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/sindresorhus">Github</a>、<br>邮箱：<a href="mailto:&#115;&#105;&#110;&#x64;&#x72;&#101;&#x73;&#111;&#x72;&#104;&#117;&#x73;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">sindresorhus@gmail.com</a></p>
+<ul>
+<li><h3 id="Una-Kravets"><a href="#Una-Kravets" class="headerlink" title="Una Kravets"></a><a href="#Una-Kravets"></a><a target="_blank" rel="noopener" href="https://una.im/about/">Una Kravets</a></h3></li>
+</ul>
+<p>前端开发者、设计师，擅长使用CSS去做美妙的事情，CSS图片美化库<a target="_blank" rel="noopener" href="https://github.com/una/CSSgram">CSSgram</a>项目开发者,IBM Design团队成员。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/una">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/una">Github</a>、 <a target="_blank" rel="noopener" href="http://dribbble.com/una">Dribble</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/una">Codepen</a>、 <a target="_blank" rel="noopener" href="http://www.linkedin.com/pub/una-kravets/30/827/a35/">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://una.im/">blog</a>、<br>邮箱：<a href="mailto:&#x75;&#x6e;&#x61;&#46;&#107;&#114;&#x61;&#x76;&#x65;&#116;&#115;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">una.kravets@gmail.com</a></p>
+<ul>
+<li><h3 id="ESTELLE-WEYL"><a href="#ESTELLE-WEYL" class="headerlink" title="ESTELLE WEYL"></a><a href="#ESTELLE-WEYL"></a><a target="_blank" rel="noopener" href="http://www.standardista.com/">ESTELLE WEYL</a></h3></li>
+</ul>
+<p>资深web开发人员，技术书女作家，写就<a target="_blank" rel="noopener" href="https://book.douban.com/subject/6969713/"><strong>HTML5与CSS3实战指南</strong></a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26731854/">Flexible Boxes in CSS : Free Yourself with Flexbox</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26782226/">Transitions and Animations in CSS: Adding Motion with CSS</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/6865682/">Mobile HTML5 : Using the latest today</a>等。</p>
+<p>联系方式：</p>
+<p><a target="_blank" rel="noopener" href="http://twitter.com/estellevw">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/estelle">Github</a>、 <a target="_blank" rel="noopener" href="http://lanyrd.com/profile/estellevw/">演讲</a>、 <a target="_blank" rel="noopener" href="https://book.douban.com/search/Estelle%20Weyl">图书</a>、<br>邮箱：<a href="mailto:&#x65;&#x73;&#116;&#x65;&#x6c;&#x6c;&#x65;&#64;&#x77;&#101;&#121;&#x6c;&#x2e;&#x6f;&#x72;&#x67;">estelle@weyl.org</a>、或者个人网站留言提问。</p>
+<ul>
+<li><h3 id="Alex-Sexton"><a href="#Alex-Sexton" class="headerlink" title="Alex Sexton"></a><a href="#Alex-Sexton"></a><a target="_blank" rel="noopener" href="https://alexsexton.com/">Alex Sexton</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://modernizr.com/">Modernizr</a>、<a target="_blank" rel="noopener" href="https://jquery.org/team/">jQuery</a>、<a target="_blank" rel="noopener" href="http://dojofoundation.org/about/board-members">Dojo Foundation</a>等项目核心成员。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/SlexAxton">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/SlexAxton">Github</a>、 <a target="_blank" rel="noopener" href="https://www.google.com/+AlexSexton">Google+</a>、<br>邮箱：<a href="mailto:&#97;&#108;&#x65;&#120;&#115;&#101;&#120;&#116;&#111;&#x6e;&#x40;&#103;&#109;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">alexsexton@gmail.com</a></p>
+<ul>
+<li><h3 id="Christian-Heilmann"><a href="#Christian-Heilmann" class="headerlink" title="Christian Heilmann"></a><a href="#Christian-Heilmann"></a><a target="_blank" rel="noopener" href="https://www.christianheilmann.com/">Christian Heilmann</a></h3></li>
+</ul>
+<p>Mozilla首席html5布道者，知名web开发者、技术作家，<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3137323/">Web开发解决方案</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3014491/">The Art &amp; Science of JavaScript</a>作者之一。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/codepo8">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/codepo8">Github</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/111552931212713155841/posts">Google+</a>、 <a target="_blank" rel="noopener" href="https://www.sitepoint.com/author/christian-heilmann/">Sitepoint</a>、 <a target="_blank" rel="noopener" href="https://www.smashingmagazine.com/author/christian-heilmann/">Smashing magazine</a>、<br>邮箱：<a href="mailto:&#99;&#x68;&#114;&#105;&#115;&#x2e;&#104;&#x65;&#x69;&#108;&#x6d;&#97;&#x6e;&#110;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#x6d;">chris.heilmann@gmail.com</a>、或<a href="mailto:&#x63;&#104;&#114;&#x69;&#115;&#64;&#99;&#104;&#x72;&#x69;&#x73;&#116;&#105;&#x61;&#110;&#x68;&#x65;&#105;&#x6c;&#109;&#x61;&#x6e;&#x6e;&#x2e;&#99;&#111;&#109;">chris@christianheilmann.com</a></p>
+<ul>
+<li><h3 id="Kyle-Simpson"><a href="#Kyle-Simpson" class="headerlink" title="Kyle Simpson"></a><a href="#Kyle-Simpson"></a><a target="_blank" rel="noopener" href="http://getify.me/">Kyle Simpson</a></h3></li>
+</ul>
+<p>从事跟JS有关的一切事儿，写书、教学、演讲、开发等等，《**You Don’t Know JS **》系列丛书作者，<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26351021/">你不知道的JavaScript（上卷）</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/10773333/">HTML5 Cookbook</a>作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://facebook.com/kyle-simpson">Facebook</a>、 <a target="_blank" rel="noopener" href="https://github.com/getify">Github</a>、 <a target="_blank" rel="noopener" href="http://getify.me/@google+">Google+</a>、 <a target="_blank" rel="noopener" href="http://getify.me/@linkedin">Linkedin</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/228852/kyle-simpson">Stackoverflow.com</a>、<br>邮箱：<a href="mailto:&#103;&#x65;&#x74;&#105;&#102;&#x79;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">getify@gmail.com</a></p>
+<ul>
+<li><h3 id="Ana-Tudor"><a href="#Ana-Tudor" class="headerlink" title="Ana Tudor"></a><a href="#Ana-Tudor"></a><a target="_blank" rel="noopener" href="https://thebabydino.github.io/">Ana Tudor</a></h3></li>
+</ul>
+<p>Codenpen上玩CSS的女孩子，很多效果非常厉害。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/thebabydino">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/thebabydino">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/thebabydino/">Codepen</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/1397351/ana">Stackoverflow.com</a></p>
+<ul>
+<li><h3 id="Dudley-Storey"><a href="#Dudley-Storey" class="headerlink" title="Dudley Storey"></a><a href="#Dudley-Storey"></a><a target="_blank" rel="noopener" href="http://thenewcode.com/">Dudley Storey</a></h3></li>
+</ul>
+<p>《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/20780533/">Pro Css3 Animation</a>》图书作者，CSSSlidy等项目作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/dudleystorey">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/dudleystorey">Github</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/+DudleyStorey/">Google+</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/dudleystorey/">Codepen</a>、<br>邮箱：<a href="mailto:&#100;&#117;&#x64;&#108;&#x65;&#x79;&#46;&#115;&#x74;&#111;&#114;&#101;&#x79;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">dudley.storey@gmail.com</a></p>
+<ul>
+<li><h3 id="Hakim-El-Hattab"><a href="#Hakim-El-Hattab" class="headerlink" title="Hakim El Hattab"></a><a href="#Hakim-El-Hattab"></a><a target="_blank" rel="noopener" href="http://hakim.se/">Hakim El Hattab</a></h3></li>
+</ul>
+<p>来自瑞典的前端开发工程师、界面设计师，<a target="_blank" rel="noopener" href="https://slides.com/">slides</a>创始人，<a target="_blank" rel="noopener" href="https://github.com/hakimel/reveal.js">reveal.js</a>、Ladda、stroll.js等项目开发者，详情参加个人主页。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/hakimel">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/hakimel">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/hakimel">Codepen</a>、<br>邮箱：<a href="mailto:&#104;&#97;&#107;&#x69;&#x6d;&#x2e;&#x65;&#108;&#x68;&#97;&#116;&#116;&#97;&#x62;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;">hakim.elhattab@gmail.com</a></p>
+<ul>
+<li><h3 id="Angus-Croll"><a href="#Angus-Croll" class="headerlink" title="Angus Croll"></a><a href="#Angus-Croll"></a><a target="_blank" rel="noopener" href="http://anguscroll.com/">Angus Croll</a></h3></li>
+</ul>
+<p>Twitter公司前端工程师，<a target="_blank" rel="noopener" href="http://flightjs.github.io/">Twitter Flight</a>项目合作开发者,<a target="_blank" rel="noopener" href="http://anguscroll.com/hemingway/index.html">If Hemingway Wrote JavaScript</a>作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/angustweets">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/angus-c">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/hakimel">Codepen</a>、<br>邮箱：<a href="mailto:&#x61;&#x6e;&#x67;&#117;&#x73;&#99;&#x72;&#111;&#x6c;&#108;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">anguscroll@gmail.com</a></p>
+<ul>
+<li><h3 id="Nicolas-Gallagher"><a href="#Nicolas-Gallagher" class="headerlink" title="Nicolas Gallagher"></a><a href="#Nicolas-Gallagher"></a><a target="_blank" rel="noopener" href="http://nicolasgallagher.com/">Nicolas Gallagher</a></h3></li>
+</ul>
+<p>Twitter公司前端工程师，<a target="_blank" rel="noopener" href="https://github.com/necolas/normalize.css">normalize.css</a>项目创始人，bower、rework、postcss、npm dom等项目核心参与者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/necolas">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/necolas">Github</a>、 <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/nicolasgallagher">Linkedin</a>、<br>邮箱：<a href="mailto:&#110;&#105;&#x63;&#111;&#x6c;&#97;&#x73;&#64;&#x6e;&#x69;&#99;&#x6f;&#x6c;&#97;&#x73;&#x67;&#97;&#x6c;&#x6c;&#97;&#x67;&#x68;&#x65;&#114;&#x2e;&#99;&#111;&#109;">nicolas@nicolasgallagher.com</a></p>
+<ul>
+<li><h3 id="TJ-Holowaychuk"><a href="#TJ-Holowaychuk" class="headerlink" title="TJ Holowaychuk"></a><a href="#TJ-Holowaychuk"></a><a target="_blank" rel="noopener" href="http://tjholowaychuk.com/">TJ Holowaychuk</a></h3></li>
+</ul>
+<p>TJ Holowaychuk ，程序员兼艺术家，Koa、Co、Express、jade、mocha、node-canvas、commander.js 等知名开源项目的创建和贡献者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/tjholowaychuk">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/tj">Github</a>、 <a target="_blank" rel="noopener" href="http://tjholowaychuk.com/blog/">Blog</a>、 <a target="_blank" rel="noopener" href="http://www.instagram.com/tjholowaychuk2">Instagram</a>、<br>邮箱：<a href="mailto:&#x74;&#x6a;&#x40;&#x74;&#x6a;&#x68;&#x6f;&#x6c;&#x6f;&#x77;&#97;&#121;&#x63;&#x68;&#x75;&#x6b;&#x2e;&#x63;&#111;&#109;">tj@tjholowaychuk.com</a></p>
+<ul>
+<li><h3 id="Addy-Osmani"><a href="#Addy-Osmani" class="headerlink" title="Addy Osmani"></a><a href="#Addy-Osmani"></a><a target="_blank" rel="noopener" href="http://addyosmani.com/">Addy Osmani</a></h3></li>
+</ul>
+<p>Addy Osmani ，谷歌前端开发工程师，创建了 TodoMVC、jQuery UI Bootstrap、jQuery Plugin Patterns 和 Backbone Paginator，出版了《Learning JavaScript Design Patterns》和《Developing Backbone.js Applications》两本技术书籍，而且还是著名的 jQuery、Modernizr 以及Backbone.js 框架的贡献者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/addyosmani">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/addyosmani">Github</a>、 <a target="_blank" rel="noopener" href="https://developers.google.com/web/shows/ttt/">Youtube</a>、<br>邮箱：<a href="mailto:&#x61;&#100;&#100;&#x79;&#111;&#115;&#x6d;&#97;&#110;&#105;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#x6d;">addyosmani@gmail.com</a></p>
+<ul>
+<li><h3 id="Douglas-Crockford"><a href="#Douglas-Crockford" class="headerlink" title="Douglas Crockford"></a><a href="#Douglas-Crockford"></a><a target="_blank" rel="noopener" href="http://www.crockford.com/">Douglas Crockford</a></h3></li>
+</ul>
+<p>Douglas Crockford是JavaScript开发社区最知名的权威，是JSON、JSLint、JSMin和ADSafe之父，是《JavaScript: The Good Parts》的作者。他同时也服务于ECMA的JavaScript2.0技术委员会（TC39）。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://github.com/douglascrockford">Github</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/u/0/+DouglasCrockfordEsq">Google+</a>、<br>邮箱：<a href="mailto:&#x64;&#x6f;&#x75;&#x67;&#108;&#x61;&#115;&#x40;&#99;&#114;&#111;&#99;&#x6b;&#102;&#111;&#x72;&#100;&#x2e;&#99;&#111;&#x6d;">douglas@crockford.com</a></p>
+<ul>
+<li><h3 id="Mike-Bostock"><a href="#Mike-Bostock" class="headerlink" title="Mike Bostock"></a><a href="#Mike-Bostock"></a><a target="_blank" rel="noopener" href="http://bost.ocks.org/">Mike Bostock</a></h3></li>
+</ul>
+<p>Mike Bostock，纽约时报图形编辑，知名可视化库 <a target="_blank" rel="noopener" href="http://d3.org/">D3.js</a>的主要作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/mbostock">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/mbostock">Github</a>、<br>邮箱：<a href="mailto:&#x6d;&#x69;&#x6b;&#101;&#64;&#111;&#x63;&#107;&#115;&#46;&#111;&#x72;&#103;">mike@ocks.org</a></p>
+<ul>
+<li><h3 id="Mr-doob"><a href="#Mr-doob" class="headerlink" title="Mr.doob"></a><a href="#Mr-doob"></a><a target="_blank" rel="noopener" href="http://mrdoob.com/">Mr.doob</a></h3></li>
+</ul>
+<p>Mr.doob (Ricardo Cabello Migue) 是JS三维模型库<a target="_blank" rel="noopener" href="http://threejs.org/">three.js</a>， <a target="_blank" rel="noopener" href="http://www.chromeexperiments.com/detail/code-editor/">Code Editor</a> 的作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/mrdoob">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/mrdoob">Github</a>、</p>
+<ul>
+<li><h3 id="Jessica-Lord"><a href="#Jessica-Lord" class="headerlink" title="Jessica Lord"></a><a href="#Jessica-Lord"></a><a target="_blank" rel="noopener" href="https://jlord.github.io/">Jessica Lord</a></h3></li>
+</ul>
+<p>Jessica Lord， 2013年5月份加入Github设计团队。是开源项目sheetsee.js的作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.twitter.com/jllord">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jlord">Github</a>、<br>邮箱： <a href="mailto:&#116;&#x6f;&#x2e;&#x6a;&#108;&#x6f;&#114;&#x64;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;">to.jlord@gmail.com</a></p>
+<ul>
+<li><h3 id="Jeremy-Ashkenas"><a href="#Jeremy-Ashkenas" class="headerlink" title="Jeremy Ashkenas"></a><a href="#Jeremy-Ashkenas"></a><a target="_blank" rel="noopener" href="http://ashkenas.com/">Jeremy Ashkenas</a></h3></li>
+</ul>
+<p>Jeremy Ashkenas,纽约时报图形编辑，<a target="_blank" rel="noopener" href="http://underscorejs.org/">Underscore.js</a>、<a target="_blank" rel="noopener" href="http://backbonejs.org/">backbone.js</a>、<a target="_blank" rel="noopener" href="http://coffeescript.org/">CoffeeScript</a>的主要作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.twitter.com/jashkenas">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jashkenas">Github</a>、<br>邮箱： <a href="mailto:&#106;&#x61;&#x73;&#104;&#107;&#x65;&#x6e;&#97;&#115;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">jashkenas@gmail.com</a></p>
+<h2 id="1-2-国内"><a href="#1-2-国内" class="headerlink" title="1.2 国内"></a><a href="#1-2-%E5%9B%BD%E5%86%85"></a>1.2 国内</h2><p>- </p>
+<h3 id="玉伯"><a href="#玉伯" class="headerlink" title="玉伯"></a><a href="#%E7%8E%89%E4%BC%AF"></a><a target="_blank" rel="noopener" href="https://github.com/lifesinger/blog/issues">玉伯</a></h3><p>玉伯（王保平），淘宝前端类库 KISSY、前端模块化开发框架SeaJS、前端基础类库Arale的创始人。2003-2006 年，中科院物理所研究生，Fortran 与 C 程序员，喜爱实验模拟和数值计算。 2006-2008 年，在中科院软件所互联网实验室从事项目管理软件的研发，C# 与 Java 爱好者。 2008 年 4 月份加入淘宝，就职于 UED 部门。2009 年起，组建前端架构团队，在首页维护、全网性能优化、类库研发、知识沉淀、工具应用等方面取得了丰硕成果。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/lifesinger">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/lifesinger">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/lifesinger">Github</a>、<br>邮箱：<a href="mailto:&#x6c;&#105;&#102;&#x65;&#x73;&#x69;&#110;&#103;&#101;&#x72;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">lifesinger@gmail.com</a></p>
+<ul>
+<li><h3 id="阮一峰"><a href="#阮一峰" class="headerlink" title="阮一峰"></a><a href="#%E9%98%AE%E4%B8%80%E5%B3%B0"></a><a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/blog/">阮一峰</a></h3></li>
+</ul>
+<p>70后，在上海出生和长大，大学读经济学。工作了几年，又去读了世界经济的研究生，毕业后，在上海一所本地高校当了老师，教财经类的课程。最近，去了支付宝的前端团队，在玉伯负责的”体验技术部”工作，目前主要从事JavaScript和Node.js的开发。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/ruanyf">微博</a>、 <a target="_blank" rel="noopener" href="https://github.com/ruanyf">Github</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/ruanyf">Twitter</a>、<br>邮箱：<a href="mailto:&#x79;&#x69;&#x66;&#101;&#x6e;&#x67;&#46;&#114;&#117;&#x61;&#x6e;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">yifeng.ruan@gmail.com</a></p>
+<ul>
+<li><h3 id="司徒正美"><a href="#司徒正美" class="headerlink" title="司徒正美"></a><a href="#%E5%8F%B8%E5%BE%92%E6%AD%A3%E7%BE%8E"></a><a target="_blank" rel="noopener" href="http://www.cnblogs.com/rubylouvre/">司徒正美</a></h3></li>
+</ul>
+<p>钟钦成，网名司徒正美，著名的Java专家，去哪儿网前端架构师，立志做考古学家的日语系工程师，穿梭于二次元与二进制间的“魔法师”，做过陶艺，写过小说，涉猎Java、Ruby、 Java。曾出版《Java框架设计》一书。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/jslouvre">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/si-tu-zheng-mei">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/RubyLouvre">Github</a>、<br>邮箱:<a href="mailto:&#x63;&#x68;&#x65;&#x6e;&#x67;&#49;&#x39;&#x38;&#52;&#x30;&#x32;&#x31;&#x38;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">cheng19840218@gmail.com</a></p>
+<ul>
+<li><h3 id="朴灵"><a href="#朴灵" class="headerlink" title="朴灵"></a><a href="#%E6%9C%B4%E7%81%B5"></a><a target="_blank" rel="noopener" href="http://diveintonode.org/">朴灵</a></h3></li>
+</ul>
+<p>朴灵，真名田永强，文艺型码农，Node.js布道者。现就职于阿里巴巴数据平台，任资深工程师，著有《深入浅出Node.js》。他活跃于CNode社区，是线下会议NodeParty的组织者，同时也是JSConf China（沪JS、京JS，以及杭JS）的组织者之一。朴灵热爱开源，是多个Node.js模块的作者。<a target="_blank" rel="noopener" href="https://github.com/JacksonTian/fks">前端技能汇总</a>项目star7000+。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/shyvo">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/po-ling">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/JacksonTian">Github</a>、<br>邮箱:<a href="mailto:&#115;&#104;&#121;&#x76;&#111;&#x31;&#x39;&#56;&#x37;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">shyvo1987@gmail.com</a></p>
+<ul>
+<li><h3 id="尤小右"><a href="#尤小右" class="headerlink" title="尤小右"></a><a href="#%E5%B0%A4%E5%B0%8F%E5%8F%B3"></a><a target="_blank" rel="noopener" href="http://evanyou.me/">尤小右</a></h3></li>
+</ul>
+<p>本名尤雨溪，目前在 Google Creative Lab 就职。vue.js 项目作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/arttechdesign">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/evanyou">知乎</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/youyuxi">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/yyx990803">Github</a></p>
+<ul>
+<li><h3 id="贺师俊"><a href="#贺师俊" class="headerlink" title="贺师俊"></a><a href="#%E8%B4%BA%E5%B8%88%E4%BF%8A"></a><a target="_blank" rel="noopener" href="http://johnhax.net/">贺师俊</a></h3></li>
+</ul>
+<p>贺师俊，网名 Hax，百姓网前端技术专家。有年头的 Web 开发者，信仰 Web 标准，HTML 纯化论者 +CSS 理想主义者 +JavaScript 改革派 +REST 信徒。 他致力于构建真正实践互联网开放理念的 Web 产品，并平衡需求、技术和人性因素。所以在写代码以外，他还热切的关注可用性、无障碍性乃至更广泛意义上的用户体验（譬如售后服务）。 作为一个坚持己见的人，Hax 因犀利的技术批评为人所知，其拍砖对象下到写书神棍上至业界权威，中间亦包括他的同事和朋友——因为他深信正直坦诚是技术人员必须坚守的美德，并希望通过自由而热烈的讨论推动技术社群不断成长、永葆活力。 Hax 毕业于复旦大学，感兴趣的领域除了 Web 标准、协议、架构以及与 Web 相关的各种具体技术之外，还包括交互设计、编程语言和方法论，最近则迷上了字体和排版。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/haxy">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/haxy">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/he-shi-jun">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/hax">Github</a>、<br>邮箱：<a href="mailto:&#106;&#111;&#x68;&#x6e;&#104;&#97;&#x78;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">johnhax@gmail.com</a></p>
+<ul>
+<li><h3 id="周爱民"><a href="#周爱民" class="headerlink" title="周爱民"></a><a href="#%E5%91%A8%E7%88%B1%E6%B0%91"></a><a target="_blank" rel="noopener" href="http://weibo.com/aimingoo">周爱民</a></h3></li>
+</ul>
+<p>曾阿里、豌豆荚做架构师，现为<a target="_blank" rel="noopener" href="https://ruff.io/">Ruff</a>架构师。著有《JAVASCRIPT语言精髓与编程实践》、《大道至简——软件工程实践者的思想》等业内名作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/aimingoo">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/aimingoo">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/aimingoo">Github</a>、 <a target="_blank" rel="noopener" href="http://blog.csdn.net/aimingoo">CSDN</a></p>
+<ul>
+<li><h3 id="徐涛"><a href="#徐涛" class="headerlink" title="徐涛"></a><a href="#%E5%BE%90%E6%B6%9B"></a><a target="_blank" rel="noopener" href="http://www.cnblogs.com/TomXu/">徐涛</a></h3></li>
+</ul>
+<p>汤姆大叔，原名徐涛，资深Web开发工程师，精通JavaScript、CSS、HTML5等Web开发技术，以及Bootstrap等各种主流Web开发框架。擅长Web系统的架构、设计与开发，参与过全球最大婚恋网站Match、全球最大在线旅游网站Expedia、波音公司、GE医疗和万达集团等多个国际知名企业的Web项目的架构与设计。他还是一位资深的微软技术专家，曾获得MCP、MCTS、MCDBA等近十项认证。翻译了《Java Script编程精解》、《Javascript启示录》、《编写可测试的JavaScript代码》、《Backbone.js应用程序开发》、《JavaScript忍者秘籍》、《JavaScript设计模式》等多本JavaScript方面的著作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/TomXuTao">微博</a>、 <a target="_blank" rel="noopener" href="http://www.cnblogs.com/TomXu/">博客</a></p>
+<ul>
+<li><h3 id="廖雪峰"><a href="#廖雪峰" class="headerlink" title="廖雪峰"></a><a href="#%E5%BB%96%E9%9B%AA%E5%B3%B0"></a><a target="_blank" rel="noopener" href="http://www.liaoxuefeng.com/">廖雪峰</a></h3></li>
+</ul>
+<p>技术作家，十年软件开发经验，业余产品经理，精通Java&#x2F;Python&#x2F;Ruby&#x2F;Visual Basic&#x2F;Objective C等，对开源框架有深入研究，著有号称史上最浅显易懂的<a target="_blank" rel="noopener" href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程</a>，口碑不错的《<a target="_blank" rel="noopener" href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000">JS教程</a>》，多个业余开源项目托管在GitHub。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/liaoxuefeng">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/liaoxuefeng">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/liaoxuefeng">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/michaelliao">Github</a>、<br>邮箱：<a href="mailto:&#97;&#115;&#x6b;&#x78;&#x75;&#x65;&#x66;&#x65;&#110;&#103;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#109;">askxuefeng@gmail.com</a></p>
+<ul>
+<li><h3 id="勾三股四"><a href="#勾三股四" class="headerlink" title="勾三股四"></a><a href="#%E5%8B%BE%E4%B8%89%E8%82%A1%E5%9B%9B"></a><a target="_blank" rel="noopener" href="http://jiongks.name/">勾三股四</a></h3></li>
+</ul>
+<p>勾三股四，本名赵锦江，阿里巴巴高级前端工程师，前北京傲游前端开发部经理。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/mx006">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/jinjiang">知乎</a>、 <a target="_blank" rel="noopener" href="http://github.com/jinjiang/">Github</a>、<br>邮箱：zhaojinjiang@me</p>
+<ul>
+<li><h3 id="寒冬winter"><a href="#寒冬winter" class="headerlink" title="寒冬winter"></a><a href="#%E5%AF%92%E5%86%ACwinter"></a><a target="_blank" rel="noopener" href="http://winter-cn.cnblogs.com/">寒冬winter</a></h3></li>
+</ul>
+<p>本名程劭非，花名寒泉，前端工程师，JavaScript 专家。江湖人称“计算机之子”。先后在微软，盛大，阿里巴巴工作，目前是手机淘宝前端 leader。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/wintercn">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/evanyou">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/wintercn">Github</a>、 <a target="_blank" rel="noopener" href="http://winter-cn.cnblogs.com/">博客</a>、<br>邮箱：<a href="mailto:&#x63;&#x73;&#102;&#49;&#55;&#56;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#109;">csf178@gmail.com</a></p>
+<ul>
+<li><h3 id="徐飞-民工精髓"><a href="#徐飞-民工精髓" class="headerlink" title="徐飞(民工精髓)"></a><a href="#%E5%BE%90%E9%A3%9E-%E6%B0%91%E5%B7%A5%E7%B2%BE%E9%AB%93"></a><a target="_blank" rel="noopener" href="https://github.com/xufei/blog">徐飞(民工精髓)</a></h3></li>
+</ul>
+<p>苏宁云商前端架构师，国内知名前端，博客里的Angular教程颇多拥趸。<br>徐飞同志讲话要点：技术人员应当乐于助人，有好东西要主动拿出来分享，资产阶级知识分子垄断技术书籍的现象再也不能出现了！</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/sharpmaster">微博</a>、 <a target="_blank" rel="noopener" href="https://github.com/xufei">Github</a>、 <a target="_blank" rel="noopener" href="https://github.com/xufei/blog">博客</a>、<br>邮箱：<a href="mailto:&#120;&#x75;&#x2e;&#x66;&#x65;&#105;&#64;&#x6f;&#x75;&#116;&#108;&#x6f;&#x6f;&#107;&#46;&#99;&#111;&#x6d;">xu.fei@outlook.com</a></p>
+<ul>
+<li><h3 id="吴亮-月影"><a href="#吴亮-月影" class="headerlink" title="吴亮(月影)"></a><a href="#%E5%90%B4%E4%BA%AE-%E6%9C%88%E5%BD%B1"></a><a target="_blank" rel="noopener" href="https://www.h5jun.com/">吴亮(月影)</a></h3></li>
+</ul>
+<p>吴亮（网名月影）,先后在微软亚洲研究院做过访问学生，在金蝶软件有限公司担任过核心开发工程师、设计师和项目经理，在百度电子商务事业部担任过web开发项目经理。现任奇虎360高级技术经理，360前端团队奇舞团负责人。多年来致力于Javasript技术和web标准的推广，活跃于国内各技术社区，现为w3ctech顾问。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/silverna">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/yue-ying-2-61">知乎</a>、 <a target="_blank" rel="noopener" href="https://www.h5jun.com/">博客</a>、<br>可通过博客、微博留言联系大神。</p>
+<ul>
+<li><h3 id="雷志兴"><a href="#雷志兴" class="headerlink" title="雷志兴"></a><a href="#%E9%9B%B7%E5%BF%97%E5%85%B4"></a><a target="_blank" rel="noopener" href="http://www.cnberg.com/">雷志兴</a></h3></li>
+</ul>
+<p>雷志兴(网名berg)，百度高级工程师，负责前端基础架构、前端无线、前端基础性技术研究和整合，现为百度前端集成开发解决方案的负责人。07 年加入百度，曾先后负责百度富文本编辑器，百度 JavaScript 基础库 Tangram 等前端基础技术的研发工作。<br>微信公众号**行云出岫(DevLife)**的维护者。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/berg">微博</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/cnberg">Twitter</a>、 <a target="_blank" rel="noopener" href="http://instagram.com/cnberg">Instagram</a>、 <a target="_blank" rel="noopener" href="http://zhihu.com/berg">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/cnberg">Github</a>、 <a target="_blank" rel="noopener" href="http://www.cnberg.com/">博客</a>、<br>邮箱：<a href="mailto:&#x63;&#110;&#x62;&#x65;&#114;&#103;&#64;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">cnberg@gmail.com</a></p>
+<ul>
+<li><h3 id="张云龙"><a href="#张云龙" class="headerlink" title="张云龙"></a><a href="#%E5%BC%A0%E4%BA%91%E9%BE%99"></a><a target="_blank" rel="noopener" href="https://github.com/fouber/blog">张云龙</a></h3></li>
+</ul>
+<p>张云龙(前端农民工),现为全民TV技术总监，前UC浏览器导航团队前端技术负责人，前FIS团队技术负责人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/fouber">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/fouber">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/fouber">Github</a></p>
+<ul>
+<li><h3 id="张鑫旭"><a href="#张鑫旭" class="headerlink" title="张鑫旭"></a><a href="#%E5%BC%A0%E9%91%AB%E6%97%AD"></a><a target="_blank" rel="noopener" href="http://www.zhangxinxu.com/">张鑫旭</a></h3></li>
+</ul>
+<p>09年华中科技大学毕业，目前上海，原腾讯社交用户体验部上海设计中心UI开发，现就职阅文集团，资深钓鱼爱好者，专注web前端偏前领域，博客笔风幽默、深刻易懂。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/zhangxinxu">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/zhang-xin-xu-47">知乎</a>、 <a target="_blank" rel="noopener" href="http://www.imooc.com/u/197450/courses?sort=publish">慕课网</a>、<br>邮箱：<a href="mailto:&#122;&#104;&#x61;&#110;&#103;&#120;&#x69;&#x6e;&#120;&#x75;&#x40;&#x7a;&#x68;&#x61;&#x6e;&#x67;&#120;&#x69;&#x6e;&#120;&#117;&#x2e;&#x63;&#111;&#109;">zhangxinxu@zhangxinxu.com</a></p>
+<ul>
+<li><h3 id="大漠"><a href="#大漠" class="headerlink" title="大漠"></a><a href="#%E5%A4%A7%E6%BC%A0"></a><a target="_blank" rel="noopener" href="http://www.w3cplus.com/">大漠</a></h3></li>
+</ul>
+<p>常用昵称“大漠”，W3CPlus创始人，目前就职于淘宝。中国Drupal社区核心成员之一。对HTML5、CSS3和Sass等前端脚本语言有非常深入的认识和丰富的实践经验，尤其专注对CSS3、Sass和Mobile的研究，是国内最早研究和使用CSS3和Sass技术的一批人。CSS3、Sass和Drupal中国布道者。2014年出版《图解CSS3：核心技术与案例实战》。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/w3cplus">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/w3cplus">Twitter</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/+AirenLiao">Google+</a>、 <a target="_blank" rel="noopener" href="http://cn.linkedin.com/in/w3cplus">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/airen">Github</a>、 <a target="_blank" rel="noopener" href="http://www.w3cplus.com/blogs/airen">博客</a>、<br>邮箱：<a href="mailto:&#x61;&#105;&#114;&#101;&#x6e;&#108;&#x69;&#97;&#111;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">airenliao@gmail.com</a></p>
+<ul>
+<li><h3 id="颜海镜"><a href="#颜海镜" class="headerlink" title="颜海镜"></a><a href="#%E9%A2%9C%E6%B5%B7%E9%95%9C"></a><a target="_blank" rel="noopener" href="http://yanhaijing.com/">颜海镜</a></h3></li>
+</ul>
+<p>颜海镜90后一枚，活跃在各个技术社区，常以歪脖无脸男作为头像，专注Web前端。<br>热爱思考，热爱开源分享，爱好读书，羽毛球，乒乓球，相声，铁杆纲丝，当然非常热爱写代码了。<br>目前就职于百度，从事Web前端开发工作。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/yanhaijing1234">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/yanhaijing">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/yanhaijing">知乎</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/2681005/yanhaijing">Stackoverflow</a>、 <a target="_blank" rel="noopener" href="https://github.com/yanhaijing/">Github</a>、<br>邮箱：<a href="mailto:&#121;&#97;&#x6e;&#104;&#97;&#x69;&#106;&#105;&#110;&#103;&#x40;&#x79;&#x65;&#97;&#x68;&#x2e;&#x6e;&#x65;&#x74;">yanhaijing@yeah.net</a></p>
+<ul>
+<li><h3 id="杜瑶"><a href="#杜瑶" class="headerlink" title="杜瑶"></a><a href="#%E6%9D%9C%E7%91%B6"></a><a target="_blank" rel="noopener" href="http://blog.doyoe.com/">杜瑶</a></h3></li>
+</ul>
+<p>去哪儿网(Qunar)，资深前端工程师，前端开发总监，<a target="_blank" rel="noopener" href="http://css.doyoe.com/">CSS参考手册</a>作者。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/doyoe">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/doyoe">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/doyoe/">Github</a>、<br>邮箱：<a href="mailto:&#100;&#x6f;&#x6f;&#x79;&#x6f;&#101;&#64;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">dooyoe@gmail.com</a></p>
+<ul>
+<li><h3 id="一丝"><a href="#一丝" class="headerlink" title="一丝"></a><a href="#%E4%B8%80%E4%B8%9D"></a><a target="_blank" rel="noopener" href="https://github.com/yisibl/blog">一丝</a></h3></li>
+</ul>
+<p>阿里巴巴集团 · 前端工程师。前端段子手，偶尔重口味，偶尔小清新。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/jieorlin">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ysbl">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/yisibl">Github</a>、<br>邮箱：<a href="mailto:&#x79;&#x69;&#x6f;&#x72;&#115;&#x69;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">yiorsi@gmail.com</a></p>
+<ul>
+<li><h3 id="迷渡"><a href="#迷渡" class="headerlink" title="迷渡"></a><a href="#%E8%BF%B7%E6%B8%A1"></a><a target="_blank" rel="noopener" href="http://justjavac.com/">迷渡</a></h3></li>
+</ul>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/justjavac">微博</a>、 <a target="_blank" rel="noopener" href="http://www.zhihu.com/people/justjavac.com">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/justjavac">Github</a>、 <a target="_blank" rel="noopener" href="http://segmentfault.com/u/justjavac">Segmentfault</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/343194/justjavac">Stackoverflow</a>、<br>邮箱：<a href="mailto:&#106;&#117;&#115;&#x74;&#x6a;&#x61;&#x76;&#97;&#x63;&#x40;&#x67;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">justjavac@gmail.com</a></p>
+<ul>
+<li><h3 id="神飞"><a href="#神飞" class="headerlink" title="神飞"></a><a href="#%E7%A5%9E%E9%A3%9E"></a><a target="_blank" rel="noopener" href="http://www.qianduan.net/">神飞</a></h3></li>
+</ul>
+<p>神飞,爱好前端设计与开发，崇尚一目了然的设计。现居深圳&#x2F;广州，就职于腾讯微信设计团队。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/qianduan">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/shenfei">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/qianduan">Github</a>、<br>邮箱: <a href="mailto:&#x61;&#100;&#x6d;&#105;&#x6e;&#64;&#x71;&#105;&#x61;&#x6e;&#x64;&#117;&#x61;&#x6e;&#x2e;&#110;&#x65;&#116;">admin@qianduan.net</a>、<a href="mailto:&#x6d;&#x69;&#101;&#x6e;&#x66;&#108;&#x79;&#x69;&#x6e;&#103;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">mienflying@gmail.com</a></p>
+<ul>
+<li><h3 id="CSS魔法"><a href="#CSS魔法" class="headerlink" title="CSS魔法"></a><a href="#CSS%E9%AD%94%E6%B3%95"></a><a target="_blank" rel="noopener" href="http://www.cssmagic.net/">CSS魔法</a></h3></li>
+</ul>
+<p>百姓网前端架构师，《CSS 揭秘》译者，微信公众号和微博都叫CSS魔法。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/cssmagic">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/cssmagic">Twitter</a>、 <a target="_blank" rel="noopener" href="http://www.zhihu.com/people/cssmagic">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/cssmagic">Github</a></p>
+<ul>
+<li><h3 id="赵雷"><a href="#赵雷" class="headerlink" title="赵雷"></a><a href="#%E8%B5%B5%E9%9B%B7"></a><a target="_blank" rel="noopener" href="http://zhaolei.info/">赵雷</a></h3></li>
+</ul>
+<p>Firede，85后 程序员，前点点网首席前端工程师，百度资深研发工程师。现供职于<a target="_blank" rel="noopener" href="http://efe.baidu.com/">百度商业体系前端团队</a>，在与 <a target="_blank" rel="noopener" href="https://github.com/ecomfe">NB的小伙伴们</a>一起做 有意思的事情。<br>技能树很杂，除编程外，产品、设计、创业的话题也能聊得来。爱好广泛但小众，较正常的是看书和摄影；是果粉和GitHub粉。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/firede">微博</a>、 <a target="_blank" rel="noopener" href="https://github.com/firede">Github</a>、<br>邮箱：<a href="mailto:&#102;&#x69;&#114;&#x65;&#100;&#x65;&#x40;&#102;&#105;&#x72;&#x65;&#100;&#x65;&#46;&#117;&#x73;">firede@firede.us</a>，也可微博私信他访谈。</p>
+<ul>
+<li><h3 id="吴多益"><a href="#吴多益" class="headerlink" title="吴多益"></a><a href="#%E5%90%B4%E5%A4%9A%E7%9B%8A"></a><a target="_blank" rel="noopener" href="http://wuduoyi.com/">吴多益</a></h3></li>
+</ul>
+<p>百度前端团队成员，FEX 团队负责人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://github.com/nwind/">Github</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/nwind/">Twitter</a>、<a target="_blank" rel="noopener" href="http://weibo.com/nwind/">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/wuduoyi">知乎</a></p>
+<ul>
+<li><h3 id="小胡子哥"><a href="#小胡子哥" class="headerlink" title="小胡子哥"></a><a href="#%E5%B0%8F%E8%83%A1%E5%AD%90%E5%93%A5"></a><a target="_blank" rel="noopener" href="http://www.barretlee.com/entry/">小胡子哥</a></h3></li>
+</ul>
+<p>本名李靖，淘宝web研发工程师。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/173248656">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/barret_china">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/barretlee">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/barretlee">Github</a>、 <a target="_blank" rel="noopener" href="http://hustskyking.cnblogs.com/">老博客</a>、<br>邮箱：<a href="mailto:&#98;&#x61;&#x72;&#114;&#x65;&#x74;&#x2e;&#x63;&#104;&#105;&#x6e;&#97;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#46;&#99;&#111;&#109;">barret.china@gmail.com</a></p>
+<ul>
+<li><h3 id="小芋头君"><a href="#小芋头君" class="headerlink" title="小芋头君"></a><a href="#%E5%B0%8F%E8%8A%8B%E5%A4%B4%E5%90%9B"></a><a target="_blank" rel="noopener" href="http://www.html-js.com/">小芋头君</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://f2e.souche.com/blog/">大搜车前端</a>负责人，颜文字app作者，<a target="_blank" rel="noopener" href="http://www.html-js.com/">前端乱炖</a>创始人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/676588498">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/li-shou-xin">知乎</a>、 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/yutou">知乎专栏</a>、 <a target="_blank" rel="noopener" href="https://github.com/xinyu198736">Github</a>、 </p>
+<p>邮箱：<a href="mailto:&#x78;&#105;&#x6e;&#x79;&#x75;&#x31;&#57;&#x38;&#55;&#x33;&#54;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#109;">xinyu198736@gmail.com</a></p>
+<ul>
+<li><h3 id="林建锋（sofish）"><a href="#林建锋（sofish）" class="headerlink" title="林建锋（sofish）"></a><a href="#%E6%9E%97%E5%BB%BA%E9%94%8B%EF%BC%88sofish%EF%BC%89"></a><a target="_blank" rel="noopener" href="https://sofi.sh/">林建锋（sofish）</a></h3></li>
+</ul>
+<p>国内资深前端开发工程师，Web 标准布道者，前支付宝前端开发部 CSS 样式库负责人。Trimidea 创始人，目前就职饿了么。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/sofish">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/sofish">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/sofish">Github</a>、<br>邮箱：<a href="mailto:&#x73;&#111;&#102;&#x69;&#115;&#x68;&#64;&#x69;&#x63;&#x6c;&#x6f;&#117;&#100;&#46;&#x63;&#111;&#109;">sofish@icloud.com</a></p>
+<ul>
+<li><h3 id="屈光宇"><a href="#屈光宇" class="headerlink" title="屈光宇"></a><a href="#%E5%B1%88%E5%85%89%E5%AE%87"></a><a target="_blank" rel="noopener" href="https://imququ.com/">屈光宇</a></h3></li>
+</ul>
+<p>屈光宇(JerryQu、qgy18、屈屈、 QuQu)，360搜索前端负责人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/jerryqu">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/qgy18">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ququ/about">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/qgy18">Github</a>、<br>邮箱：<a href="mailto:&#x71;&#x75;&#x67;&#x75;&#x61;&#110;&#103;&#x79;&#x75;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#x6f;&#x6d;">quguangyu@gmail.com</a>，练习前先看<a target="_blank" rel="noopener" href="https://imququ.com/post/about.html">联系说明</a></p>
+<ul>
+<li><h3 id="张克军"><a href="#张克军" class="headerlink" title="张克军"></a><a href="#%E5%BC%A0%E5%85%8B%E5%86%9B"></a><a target="_blank" rel="noopener" href="http://hikejun.com/">张克军</a></h3></li>
+</ul>
+<p>张克军，豆瓣前端负责人，知名web技术布道者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/kejunz">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/kejun/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/kejun">Github</a>、<br>邮箱：<a href="mailto:&#x6c;&#x69;&#x73;&#116;&#x65;&#x6e;&#112;&#x72;&#111;&#x40;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;">listenpro@gmail.com</a>、</p>
+<ul>
+<li><h3 id="林小志"><a href="#林小志" class="headerlink" title="林小志"></a><a href="#%E6%9E%97%E5%B0%8F%E5%BF%97"></a><a target="_blank" rel="noopener" href="http://linxz.github.io/blog/">林小志</a></h3></li>
+</ul>
+<p>原名林友赛，曾就职于迅雷、腾讯，负责网站重构。2011年加入携程，先后负责国际网站、高端旅游、商旅等多个项目，目前负责携程公共团队UED前端。 《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/4117497/">CSS那些事儿</a>》一书作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.weibo.com/linxz428">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/linxz/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/linxz">Github</a>、</p>
+<ul>
+<li><h3 id="聂微东"><a href="#聂微东" class="headerlink" title="聂微东"></a><a href="#%E8%81%82%E5%BE%AE%E4%B8%9C"></a><a target="_blank" rel="noopener" href="http://www.fefork.com/">聂微东</a></h3></li>
+</ul>
+<p>百度研发工程师，目前从事JavaScript研发工作，关注并喜欢研究 HTML5，Python，PHP，MySQL，NoSQL等技术。知名前端资源分享项目<a target="_blank" rel="noopener" href="http://www.fefork.com/fetool/">Fetool</a>维护者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/darrencode">微博</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/nieweidong">Twitter</a>、 <a target="_blank" rel="noopener" href="http://facebook.com/weidong.nie">Facebook</a>、 <a target="_blank" rel="noopener" href="http://www.cnblogs.com/Darren_code/">博客</a>、 <a target="_blank" rel="noopener" href="https://github.com/nieweidong">Github</a>、<br>邮箱：<a href="mailto:&#100;&#x61;&#114;&#x72;&#x65;&#110;&#x63;&#x6f;&#100;&#101;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#109;">darrencode@qq.com</a></p>
+<ul>
+<li><h3 id="刘杰"><a href="#刘杰" class="headerlink" title="刘杰"></a><a href="#%E5%88%98%E6%9D%B0"></a><a target="_blank" rel="noopener" href="http://www.aoao.org.cn/">刘杰</a></h3></li>
+</ul>
+<p>嗷嗷，本名刘杰，从事前端开发多年，期间做过设计转过产品，混过后端，写过《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3327829/">Web标准设计</a>》一书。<br>目前就职于淘宝网，主要负责前端性能监控、优化等前端开发相关的工作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/aoao">Twitter</a>、<br>邮箱：<a href="mailto:&#x6c;&#111;&#x61;&#x6f;&#x61;&#111;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">loaoao@gmail.com</a></p>
+<ul>
+<li><h3 id="刘平川"><a href="#刘平川" class="headerlink" title="刘平川"></a><a href="#%E5%88%98%E5%B9%B3%E5%B7%9D"></a><a target="_blank" rel="noopener" href="http://rank.im/">刘平川</a></h3></li>
+</ul>
+<p>刘平川，网络昵称 rank，微信公众号：<strong>跨界码农</strong>。<br>现任美团架构师，技术上主要负责前端、客户端上基础技术相关工作。<br>曾任百度资深工程师、架构师，改革 Web 前端研发部，创立百度 FEX 基础前端团队。<br>独立从事过前端组件、库与框架研发。经历并负责过支付、电商、彩票、票务、社区、O2O等大型项目的前端研发。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/rank">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/rank/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/ranklau">Github</a>、<br>邮箱：<a href="mailto:&#x72;&#97;&#x6e;&#x6b;&#108;&#x61;&#117;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">ranklau@gmail.com</a></p>
+<ul>
+<li><h3 id="黄峰达"><a href="#黄峰达" class="headerlink" title="黄峰达"></a><a href="#%E9%BB%84%E5%B3%B0%E8%BE%BE"></a><a target="_blank" rel="noopener" href="https://www.phodal.com/">黄峰达</a></h3></li>
+</ul>
+<p>黄峰达(phodal)，毕业于西安文理学院(电子信息工程专业)，目前就职于ThoughtWorks(深圳)。<br>一个文艺控，喜欢读书，喜欢纸的质感，喜欢用笔铭刻记忆和思想。 一个设计控，一个DIY爱好者。<br><a target="_blank" rel="noopener" href="http://growth.ren/#firstPage">Growth</a>项目开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/phodal">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/phodal">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/phodal">Github</a>、 <a target="_blank" rel="noopener" href="http://www.jianshu.com/users/e64ad9fba4da">简书</a>、 <a target="_blank" rel="noopener" href="http://blog.csdn.net/phodal">CSDN</a>、<br>邮箱：<a href="mailto:&#x67;&#x6d;&#x73;&#x7a;&#111;&#110;&#x65;&#64;&#113;&#113;&#46;&#99;&#111;&#x6d;">gmszone@qq.com</a></p>
+<ul>
+<li><h3 id="情封"><a href="#情封" class="headerlink" title="情封"></a><a href="#%E6%83%85%E5%B0%81"></a><a target="_blank" rel="noopener" href="http://blog.f2er.net/">情封</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://www.zaoduke.net/">前端De早读课</a>站长，@福建前端联盟发起人之一，4399UED&#x2F;高级主管。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/f2er">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/f2er">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/f2er">Github</a>、<br>QQ:181422448、<br>邮箱：<a href="mailto:&#x75;&#101;&#122;&#x68;&#101;&#x6e;&#x67;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">uezheng@gmail.com</a></p>
+<ul>
+<li><h3 id="裕波"><a href="#裕波" class="headerlink" title="裕波"></a><a href="#%E8%A3%95%E6%B3%A2"></a>裕波</h3></li>
+</ul>
+<p>原名周裕波，<a target="_blank" rel="noopener" href="http://www.w3ctech.com/">w3ctech.com</a>发起人。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/itchina100">微博</a>、 <a target="_blank" rel="noopener" href="http://t.qq.com/itchina110">腾讯微博</a></p>
+<ul>
+<li><h3 id="张铮铮"><a href="#张铮铮" class="headerlink" title="张铮铮"></a><a href="#%E5%BC%A0%E9%93%AE%E9%93%AE"></a><a target="_blank" rel="noopener" href="http://www.tych.io/">张铮铮</a></h3></li>
+</ul>
+<p>张铮铮(Tychio)，一名Web前端工程师，毕业于西安石油大学软件工程专业，目前就职于ThoughtWorks，Base在西安。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/tychio">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/tychio">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/tychio">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/tychio">Codepen</a>、<a target="_blank" rel="noopener" href="http://www.linkedin.com/in/zhangzz">Linkedin</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/1954201/tychio">Stackoverflow</a>、 <a target="_blank" rel="noopener" href="http://wpa.qq.com/msgrd?v=3&amp;uin=18476046&amp;site=qq&amp;menu=yes">QQ</a></p>
+<p>邮箱：<a href="mailto:&#122;&#64;&#x74;&#x79;&#99;&#104;&#x69;&#111;&#x2e;&#x6e;&#101;&#x74;">z@tychio.net</a>，<a href="mailto:&#122;&#x7a;&#x7a;&#x68;&#97;&#110;&#x67;&#64;&#116;&#104;&#x6f;&#117;&#x67;&#104;&#x74;&#x77;&#111;&#114;&#107;&#115;&#46;&#99;&#x6f;&#x6d;">zzzhang@thoughtworks.com</a>，<a href="mailto:&#122;&#122;&#122;&#x74;&#x79;&#99;&#x68;&#x69;&#111;&#64;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">zzztychio@gmail.com</a></p>
+<ul>
+<li><h3 id="涂鸦码龙"><a href="#涂鸦码龙" class="headerlink" title="涂鸦码龙"></a><a href="#%E6%B6%82%E9%B8%A6%E7%A0%81%E9%BE%99"></a><a target="_blank" rel="noopener" href="http://jinlong.github.io/">涂鸦码龙</a></h3></li>
+</ul>
+<p>360前端工程师，忙时码代码，无事乱涂鸦。最近刚刚晋升奶爸，恭喜。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/newwave">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/zhangjinlong">知乎</a>、 <a target="_blank" rel="noopener" href="http://jinlongz.lofter.com/">Lofter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jinlong">Github</a>、<br>邮箱：<a href="mailto:&#122;&#104;&#97;&#110;&#x67;&#x6a;&#105;&#110;&#x6c;&#111;&#110;&#x67;&#x33;&#53;&#52;&#x36;&#64;&#115;&#x69;&#x6e;&#97;&#x2e;&#99;&#111;&#x6d;">zhangjinlong3546@sina.com</a></p>
+<ul>
+<li><h3 id="CSS森林"><a href="#CSS森林" class="headerlink" title="CSS森林"></a><a href="#CSS%E6%A3%AE%E6%9E%97"></a><a target="_blank" rel="noopener" href="http://blog.cssforest.org/">CSS森林</a></h3></li>
+</ul>
+<p>CSS森林，微信支付设计中心，负责重构前端团队的管理工作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ghostzhang">知乎</a>、 <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/ghostzhang">Linkedin</a>、 <a target="_blank" rel="noopener" href="http://github.com/ghostzhang">Github</a>、<br>QQ:22168741<br>邮箱：<a href="mailto:&#103;&#104;&#111;&#x73;&#x74;&#122;&#x68;&#x61;&#x6e;&#x67;&#64;&#99;&#x73;&#115;&#102;&#x6f;&#x72;&#x65;&#115;&#x74;&#46;&#111;&#x72;&#x67;">ghostzhang@cssforest.org</a>，<a href="mailto:&#108;&#111;&#118;&#101;&#106;&#x31;&#98;&#x7a;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">lovej1bz@gmail.com</a></p>
+<ul>
+<li><h3 id="屈超"><a href="#屈超" class="headerlink" title="屈超"></a><a href="#%E5%B1%88%E8%B6%85"></a><a target="_blank" rel="noopener" href="https://quchao.com/">屈超</a></h3></li>
+</ul>
+<p>先后就职淘宝、腾讯，前腾讯前端开发主管，现为<a target="_blank" rel="noopener" href="http://www.wepiao.com/">微票</a>技术主管。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/quchao">知乎</a>、 <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/quchao">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/QuChao">Github</a>、<br>邮箱：<a href="mailto:&#x6d;&#x61;&#x69;&#x6c;&#x40;&#113;&#x75;&#x63;&#x68;&#x61;&#111;&#46;&#99;&#x6f;&#x6d;">mail@quchao.com</a></p>
+<ul>
+<li><h3 id="元彦"><a href="#元彦" class="headerlink" title="元彦"></a><a href="#%E5%85%83%E5%BD%A6"></a><a target="_blank" rel="noopener" href="http://madscript.com/">元彦</a></h3></li>
+</ul>
+<p>本名曹元彦，淘宝资深前端工程师，淘宝 UED FEM团队成员，建立了开源的链式任务工具 <a target="_blank" rel="noopener" href="http://chajs.org/">Cha</a>与前端自动化工具 Mod，专注于移动 Web 前端业务的基础架构建设与性能优化，同时在 Github 上维护着移动Web前端开发知识库 Mars.<br>曾在腾讯 AlloyTeam任职,先后负责 WebQQ、QQ、手机 QQ 等产品的 Web 前端工作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/caoyuanyan">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/caoyuanyan">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/yuanyan">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/yuanyan">Github</a>、<br>邮箱：<a href="mailto:&#121;&#x75;&#x61;&#110;&#121;&#97;&#110;&#46;&#x63;&#x61;&#x6f;&#64;&#x61;&#x6c;&#105;&#x62;&#x61;&#98;&#97;&#45;&#105;&#110;&#99;&#x2e;&#99;&#x6f;&#x6d;">yuanyan.cao@alibaba-inc.com</a>，<a href="mailto:&#x79;&#x75;&#x61;&#x6e;&#x79;&#97;&#x6e;&#x2e;&#99;&#x61;&#111;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">yuanyan.cao@gmail.com</a></p>
+<ul>
+<li><h3 id="于涛"><a href="#于涛" class="headerlink" title="于涛"></a><a href="#%E4%BA%8E%E6%B6%9B"></a><a target="_blank" rel="noopener" href="https://github.com/kinvix">于涛</a></h3></li>
+</ul>
+<p>HTML5梦工场深圳负责人；腾讯Web前端<a target="_blank" rel="noopener" href="http://www.alloyteam.com/">AlloyTeam</a>负责人；腾讯高级工程师，WebQQ架构师；</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/kinvix">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/kinvix">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/kinvix">Github</a>、<br>邮箱：<a href="mailto:&#x4b;&#105;&#x6e;&#x76;&#x69;&#120;&#x40;&#x47;&#x6d;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">Kinvix@Gmail.com</a></p>
+<ul>
+<li><h3 id="愚人码头"><a href="#愚人码头" class="headerlink" title="愚人码头"></a><a href="#%E6%84%9A%E4%BA%BA%E7%A0%81%E5%A4%B4"></a><a target="_blank" rel="noopener" href="http://www.css88.com/">愚人码头</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://www.css88.com/">WEB前端开发</a>站长。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/feiwen8772">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/feiwen8772">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/feiwen8772">Github</a>、<br>QQ：148246293、<br>邮箱：<a href="mailto:&#97;&#x64;&#109;&#x69;&#x6e;&#64;&#x63;&#x73;&#x73;&#x38;&#56;&#x2e;&#99;&#x6f;&#x6d;">admin@css88.com</a></p>
+<ul>
+<li><h3 id="明城"><a href="#明城" class="headerlink" title="明城"></a><a href="#%E6%98%8E%E5%9F%8E"></a><a target="_blank" rel="noopener" href="https://www.gracecode.com/">明城</a></h3></li>
+</ul>
+<p>前淘宝网前端工程师，现丁香园首席打杂官。八零后、技术男、苹果粉、微软黑、宁波人，现居杭州。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/feelinglucky">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/feelinglucky">Twitter</a>、 <a target="_blank" rel="noopener" href="http://instagram.com/feelinglucky">Instagram</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/mingcheng">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/feelinglucky">Github</a>、<br>邮箱：<a href="mailto:&#108;&#117;&#99;&#107;&#121;&#64;&#x67;&#x72;&#x61;&#x63;&#x65;&#x63;&#111;&#x64;&#101;&#46;&#99;&#x6f;&#109;">lucky@gracecode.com</a></p>
+<ul>
+<li><h3 id="大猫"><a href="#大猫" class="headerlink" title="大猫"></a><a href="#%E5%A4%A7%E7%8C%AB"></a><a target="_blank" rel="noopener" href="http://ooxx.me/">大猫</a></h3></li>
+</ul>
+<p>微信前端工程师。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/bigc.at/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/Damao">Github</a>、<br>QQ：18958069、<br>邮箱：<a href="mailto:&#x69;&#x40;&#x6f;&#111;&#120;&#120;&#46;&#109;&#101;">i@ooxx.me</a></p>
+<ul>
+<li><h3 id="彬Go"><a href="#彬Go" class="headerlink" title="彬Go"></a><a href="#%E5%BD%ACGo"></a><a target="_blank" rel="noopener" href="http://www.bingo929.com/">彬Go</a></h3></li>
+</ul>
+<p>原名李彬，前人人网前端开发工程师，人人小站前端团队技术主管，加入<a target="_blank" rel="noopener" href="http://www.uhouzz.com/">异乡好居</a>后闹了<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/46294596/answer/100791868">矛盾</a>，请大家支持彬哥。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/feiwen8772">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/feiwen8772">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/feiwen8772">Github</a>、<br>QQ：215392、<br>邮箱：<a href="mailto:&#115;&#x6b;&#x61;&#114;&#x39;&#51;&#54;&#x33;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">skar9363@gmail.com</a></p>
+<ul>
+<li><h3 id="薛端阳"><a href="#薛端阳" class="headerlink" title="薛端阳"></a><a href="#%E8%96%9B%E7%AB%AF%E9%98%B3"></a><a target="_blank" rel="noopener" href="https://github.com/xueduany">薛端阳</a></h3></li>
+</ul>
+<p>先后在腾讯、盛大、淘宝做前端开发，现为携程机票事业部无线研发团队高级技术经理。<br>开源前端UI组件库<a target="_blank" rel="noopener" href="http://xueduany.github.io/KitJs/KitJs/index.html">KitJs</a>开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.cnblogs.com/xueduanyang/">博客</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/xueduanyang">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/xueduany">Github</a>、<br>邮箱：<a href="mailto:&#120;&#x75;&#x65;&#x64;&#117;&#x61;&#110;&#121;&#97;&#x6e;&#103;&#49;&#57;&#56;&#53;&#x40;&#x31;&#54;&#x33;&#46;&#99;&#111;&#x6d;">xueduanyang1985@163.com</a></p>
+<ul>
+<li><h3 id="羡辙"><a href="#羡辙" class="headerlink" title="羡辙"></a><a href="#%E7%BE%A1%E8%BE%99"></a><a target="_blank" rel="noopener" href="http://zhangwenli.com/">羡辙</a></h3></li>
+</ul>
+<p>百度前端工程师，微信公众号羡辙部落格（xianzheblog）。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/plainjane">微博</a>、 <a target="_blank" rel="noopener" href="http://zhangwenli.com/blog/">博客</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ovilia">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/Ovilia">Github</a>、<br>邮箱：<a href="mailto:&#x6d;&#x65;&#64;&#x7a;&#x68;&#x61;&#110;&#103;&#119;&#101;&#x6e;&#x6c;&#x69;&#46;&#99;&#x6f;&#x6d;">me@zhangwenli.com</a></p>
+<ul>
+<li><h3 id="周晓楷-Helkyle"><a href="#周晓楷-Helkyle" class="headerlink" title="周晓楷 Helkyle"></a><a href="#%E5%91%A8%E6%99%93%E6%A5%B7-Helkyle"></a><a target="_blank" rel="noopener" href="http://helkyle.com/">周晓楷 Helkyle</a></h3></li>
+</ul>
+<p>w3cTrain成员。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/joueu">微博</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/HelKyle/">Codepen</a>、 <a target="_blank" rel="noopener" href="https://github.com/HelKyle">Github</a>、<br>邮件：<a href="mailto:&#x68;&#x65;&#x6c;&#x6b;&#x79;&#x6c;&#101;&#102;&#105;&#x67;&#x68;&#x74;&#x69;&#110;&#103;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">helkylefighting@gmail.com</a></p>
+<p>本文出处：<a target="_blank" rel="noopener" href="http://www.cnblogs.com/-ding/p/5976659.html">http://www.cnblogs.com/-ding/p/5976659.html</a></p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#前端大神](/tags/前端大神/)
+      
+    
+  
+
+  
+    
+      
+        
+          
+             thinkphp实践
+          
+        
+      
+
+      
+        
+          
+            关于gulp
+</code></pre>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>请我一杯咖啡吧！</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/uploads/wx.png" alt="Feahter 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/uploads/zfb.jpg" alt="Feahter 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2016/11/30/thinkphp%E5%AE%9E%E8%B7%B5/" rel="prev" title="thinkphp实践">
+                  <i class="fa fa-angle-left"></i> thinkphp实践
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2016/12/08/%E5%85%B3%E4%BA%8Egulp/" rel="next" title="关于gulp">
+                  关于gulp <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2016 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Feahter</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
   </div>
 
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
+    </div>
+  </footer>
 
   
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
 
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
-
-
-
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"feahter"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
-
-
-
-
-
-
-  
-  
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length == 0) {
-       search_path = "search.xml";
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    function proceedsearch() {
-      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
-      $('.popup').toggle();
-
-    }
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-    'use strict';
-    $.ajax({
-        url: path,
-        dataType: "xml",
-        async: true,
-        success: function( xmlResponse ) {
-            // get the contents from search data
-            isfetched = true;
-            $('.popup').detach().appendTo('.header-inner');
-            var datas = $( "entry", xmlResponse ).map(function() {
-                return {
-                    title: $( "title", this ).text(),
-                    content: $("content",this).text(),
-                    url: $( "url" , this).text()
-                };
-            }).get();
-            var $input = document.getElementById(search_id);
-            var $resultContent = document.getElementById(content_id);
-            $input.addEventListener('input', function(){
-                var matchcounts = 0;
-                var str='<ul class=\"search-result-list\">';
-                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                $resultContent.innerHTML = "";
-                if (this.value.trim().length > 1) {
-                // perform local searching
-                datas.forEach(function(data) {
-                    var isMatch = true;
-                    var content_index = [];
-                    var data_title = data.title.trim().toLowerCase();
-                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url;
-                    var index_title = -1;
-                    var index_content = -1;
-                    var first_occur = -1;
-                    // only match artiles with not empty titles and contents
-                    if(data_title != '' && data_content != '') {
-                        keywords.forEach(function(keyword, i) {
-                            index_title = data_title.indexOf(keyword);
-                            index_content = data_content.indexOf(keyword);
-                            if( index_title < 0 && index_content < 0 ){
-                                isMatch = false;
-                            } else {
-                                if (index_content < 0) {
-                                    index_content = 0;
-                                }
-                                if (i == 0) {
-                                    first_occur = index_content;
-                                }
-                            }
-                        });
-                    }
-                    // show search results
-                    if (isMatch) {
-                        matchcounts += 1;
-                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
-                        var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        if (first_occur >= 0) {
-                            // cut out 100 characters
-                            var start = first_occur - 20;
-                            var end = first_occur + 80;
-                            if(start < 0){
-                                start = 0;
-                            }
-                            if(start == 0){
-                                end = 50;
-                            }
-                            if(end > content.length){
-                                end = content.length;
-                            }
-                            var match_content = content.substring(start, end);
-                            // highlight all keywords
-                            keywords.forEach(function(keyword){
-                                var regS = new RegExp(keyword, "gi");
-                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
-                            });
-
-                            str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        }
-                        str += "</li>";
-                    }
-                })};
-                str += "</ul>";
-                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
-                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
-                $resultContent.innerHTML = str;
-            });
-            proceedsearch();
-        }
-    });}
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched == false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-
-    });
-
-    $('.popup-btn-close').click(function(e){
-      $('.popup').hide();
-      $(".popoverlay").remove();
-      $('body').css('overflow', '');
-    });
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-  </script>
-
-
-  
-
-  
-
-  
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
 </body>
 </html>

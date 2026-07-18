@@ -1,957 +1,518 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next mist use-motion">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
+<link rel="stylesheet" href="/css/main.css">
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family="PingFang+SC":ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family="Microsoft+YaHei":ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
 
+<script class="next-config" data-name="main" type="application/json">{"hostname":"feahter.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.28.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="考研,操作系统," />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="经年" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
-
-
-
-
-
-
-<meta name="description" content="College of Software EngineeringUndergraduate Course SyllabusCourse ID 311006040 Course Name Operating SystemCourseAttribute■Compulsory □Selective Course Language ■English ■ChineseCredit Hour 4 Period">
+    <meta name="description" content="College of Software EngineeringUndergraduate Course SyllabusCourse ID 311006040 Course Name Operating SystemCourseAttribute■Compulsory □Selective Course Language ■English ■ChineseCredit Hour 4 Period">
 <meta property="og:type" content="article">
 <meta property="og:title" content="研究生操作系统大纲">
-<meta property="og:url" content="https://feahter.github.io/2017/05/17/研究生操作系统大纲/index.html">
+<meta property="og:url" content="https://feahter.github.io/2017/05/17/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%A4%A7%E7%BA%B2/index.html">
 <meta property="og:site_name" content="经年">
 <meta property="og:description" content="College of Software EngineeringUndergraduate Course SyllabusCourse ID 311006040 Course Name Operating SystemCourseAttribute■Compulsory □Selective Course Language ■English ■ChineseCredit Hour 4 Period">
-<meta property="og:updated_time" content="2017-05-17T01:47:44.000Z">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2017-05-16T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-07-18T11:04:38.619Z">
+<meta property="article:author" content="Feahter">
+<meta property="article:tag" content="frontend, vue, javascript, web">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="研究生操作系统大纲">
-<meta name="twitter:description" content="College of Software EngineeringUndergraduate Course SyllabusCourse ID 311006040 Course Name Operating SystemCourseAttribute■Compulsory □Selective Course Language ■English ■ChineseCredit Hour 4 Period">
 
 
+<link rel="canonical" href="https://feahter.github.io/2017/05/17/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%A4%A7%E7%BA%B2/">
 
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 6321533477313316000,
-      author: '博主'
-    }
-  };
-</script>
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://feahter.github.io/2017/05/17/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%A4%A7%E7%BA%B2/","path":"2017/05/17/研究生操作系统大纲/","title":"研究生操作系统大纲"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>研究生操作系统大纲 | 经年</title>
+  
 
 
 
 
-  <link rel="canonical" href="https://feahter.github.io/2017/05/17/研究生操作系统大纲/"/>
 
-  <title> 研究生操作系统大纲 | 经年 </title>
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
 
-  
-
-
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?0ec8ac299ab87e0c0b7ec678fca9c78d;";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left page-post-detail ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">经年</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
   </div>
-  <p class="site-subtitle"></p>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">经年</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">此去经年，经年累月</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
 </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
+
 
 <nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">X</span>
-</div>
-
-
-    </div>
-  
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
 </nav>
 
- </div>
-    </header>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
 
-  <div id="posts" class="posts-expand">
-    
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                研究生操作系统大纲
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-05-17T09:27:01+08:00" content="2017-05-17">
-              2017-05-17
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/学/" itemprop="url" rel="index">
-                    <span itemprop="name">学</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/05/17/研究生操作系统大纲/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/05/17/研究生操作系统大纲/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-              &nbsp; | &nbsp;
-              <span class="page-pv"><i class="fa fa-file-o"></i>
-              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
-              </span>
-          
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p><strong>College of Software Engineering</strong><br><strong>Undergraduate Course Syllabus</strong><br>Course ID 311006040 Course Name Operating System<br>Course<br>Attribute<br>■Compulsory □Selective Course Language ■English ■Chinese<br>Credit Hour 4 Period 64<br>Semester □First Fall □First Spring □Second Fall ■Second Spring<br>□Third Fall □Third Spring □Fourth Fall □Fourth Spring<br>Instructors Zhao Kui, Liang Gang, Hu Xiao-qin<br>Description<br>This course covers the fundamentals of Operating Systems and Systems<br>Programming, revealing the mysteries of the software layer between application<br>programs and hardware, and covering techniques and algorithms for dealing with<br>thorny problems of resource management, sharing, and protection, as well as<br>concurrency and complex systems. Perhaps best of all, four programming projects<br>give students the chance to implement important and realistic subsystems of a small<br>operating system kernel.<br>Between the lectures, reading, and programming assignments, we hope that the course<br>will help students become not only an OS expert and/or kernel hacker, but also a<br>better programmer and user of computer systems, and a better computer scientist who<br>has insight into managing complex and concurrent interactions within and between<br>hardware and software systems!<br>Prerequisites<br>C Language Programming<br>Computer Architecture<br>Data Structures and Algorithms</p>
-<p>Textbook William Stallings, Operating Systems Internals and Design Principles (Fifth Edition),Publish<br>House of Electronics Industry,2007<br>2<br>Resource<br>• Course Webpage: cs.scu.edu.cn/~zhaokui<br>All vital information will appear on the course webpage, including lecture<br>notes and programming assignments.<br>• Mailing list: zhaokui@cs.scu.edu.cn<br> lianggang@cs.scu.edu.cn<br> huxiaoqin@cs.scu.edu.cn<br>The staff email is where you should send questions regarding course<br>administration and any questions which would be inappropriate if posted<br>publicly to the newsgroup (i.e. questions that contain your code or other<br>private information).<br>• Reference:</p>
-<ol>
-<li>Computing Operating System tangziyin, Xian University of Electronic Science and<br>Technology Press 出版社, 2004,Edition 3.</li>
-<li>Operating System：Design and Implementation，Andrew S.Tanenbaum,Pulishing<br>House of Electronics Industry，1998，Edition 2.</li>
-<li>Operating System，Harvey M.Deitel, Tsingha University Press，2007，Edition 3.</li>
-<li>Operating System Concepts ， James L.Peterson ， Addison-Wesley Publishing<br>Company，2001,Edition 6.</li>
-<li>Operating Systems Concepts, Abraham Silberschatz, Peter Galvin, and Greg Gagne,<br>John Wiley and Sons, Higher Education Press, 2002，Edition 6.</li>
-<li>Operationg System—Excise and Analyze ，ZengPing，Tsingha University Press，<br>2001，Edition 1</li>
-<li>Williamstallings.com/os/os5e.html</li>
-<li>Comp.os.research</li>
-<li>comp.os.misc</li>
-<li>comp.unix.internals</li>
-<li>comp.os.linux.development.system</li>
-<li><a href="http://ocw.zju.edu.cn/OcwWeb/index.jsp" target="_blank" rel="external">http://ocw.zju.edu.cn/OcwWeb/index.jsp</a><br>Grading</li>
-</ol>
-<p>Class participation and homework (30%), final exam (50%), course practice(20)</p>
-<p>3<br>Topics<br>(48 credit<br>hours)<br>The lecture of this course will cover the following topics:</p>
-<ol>
-<li>Computer System Overview (1 credit hours)<br>º .Overview of computer architecture and organization;<br>º Computer-System Operation;<br>º Interrupts;<br>º The memory of hierarchy;<br>º I/O communication techniques</li>
-<li>Operating System Overview (3 credit hours)<br>º History of operating system;<br>º Operating system concepts, objective and function;<br>º Introduction of the type of Operating system including multiprogramming system,<br>Real-Time System, Batch system, Time-sharing system, Distributed operating system,<br>Network operating system<br>º Overview of the modern operating system structure;</li>
-<li>Process Description and Control (5 credit hours)<br>º The concepts of process including states and its transitions, PCB;<br>º The operations on processes and process states;<br>º Introduction of process control;</li>
-<li>Threads, SM and Microkernels ( 5 credit hours )<br>º Thread definition, creation, manipulation, User and Kernel Thread.;<br>º The concept of SMP and the management of SMP;<br>º Microlekernels definition, objective;</li>
-<li>Concurrency ( 9 credit hours )<br>º The conceptions of concurrency and the implication of execution of multiple<br>concurrent process;<br>º The hardware mechanisms that support mutual exclusion;<br>º Three operating system and programming language mechanisms used to provide<br>concurrency;<br>º Introduction two problems of concurrency: deadlock and starvation and solutions of<br>these two problems.</li>
-<li>Memory ( 9 credit hours )<br>º Memory organization and management;<br>4<br>º Paging and segmentation, address mapping;<br>º Virtual memory concepts;<br>º Virtual memory management, page replacement algorithms.</li>
-<li>Scheduling (9 credit hours )<br>º Basic Concepts (including Long-term scheduling, Medium-term scheduling,<br>Short-term scheduling.);<br>º Scheduling algorithms(including First-Come-First-Served (FCFS), Priority,<br>Round-Robin );<br>º Multiprocessor scheduling;<br>º Real-Time Scheduling;</li>
-<li>Input/Output Device ( 4 credit hours )<br>º The concepts relation to I/O devices and the classification of the I/O devices;<br>º The task and function of the I/O device management;<br>º The data structure and algorithms relation to I/O device management;<br>º The virtual device techniques;</li>
-<li>File Management ( 3 credit hours )<br>º File Concept, Access Methods, Directory Structure, File Sharing and Protection<br>º File-System Structure, File-System Implementation, Directory Implementation,<br>Allocation Methods, Free-Space Management.<br>Tools &amp;<br>Environment<br>Windows XP, Redhat linux 9.0, Vmware virtual machine, gcc, g++<br>Projects<br>( 16 credit<br>hours )<br>Lab 1: Develop a shell in Nachos<br>Requirement:<br>º Design a simples command line shell that has following properties:</li>
-<li>The shell must support the following internal commands: cd , dir, clr,environ,<br>echo ,help ,pause and quit;</li>
-<li>All other command line input is interpreted as program invocation which should<br>be done by the shell forking and executing the programs as its own child<br>processes;</li>
-<li>The shell must be able to take its command line input from a file;<br>5</li>
-<li>The shell must support i/o redirection on either or both stdin and/or stdout;</li>
-<li>The shell must support background execution of programs.</li>
-<li>The command line prompt must contain the pathname of the current directory.<br>º Write a simple manual describing how to use the shell. The manual should contain<br>enough detail for a beginner to linux to use it;<br>º The source code must be extensively commented and appropriately structured to<br>allow your peers to understand and easily maintain the code;<br>º Details of submission procedures will be supplied well before the deadlines;<br>º The submission should contain only source code files, include files, a makefile and<br>the readme file.<br>Lab 2: Upgrade the Nachos thread management model<br>Requirement:<br>Modify the source code of the Nachos to achieve the following objectives:<br>º Expand thread data structure and add the “user ID, thread ID” two members of the<br>data structure of Nachos. Meanwhile, add the safeguard mechanism of these two data<br>members in the Nachos existing thread management model;<br>º Expand the existing state of threads. There are only “new”, “ready”, “block” and<br>“running” four states in Nachos. Please add “suspending” state in Nachos. The<br>so-called “hang up” refers to the current thread disk image stored in documents rather<br>than memory. “Suspend” state is the important foundation of the future realization of<br>virtual memory management.<br>º Modify thread scheduling algorithm. Change the thread management mechanism to<br>the “preemptive.” You can add “timing” and “priority scheduling,” “Multi-Queue”<br>different algorithm into Nachos thread management model.<br>º Add the global thread management mechanism and expand the existing operations<br>command in Nachos. For example, you can add a command called “ThreadView” in<br>order to show the current existence of all the threads of information, including the<br>“user ID”, “Thread ID”, “Current status” on the screen.<br>º Design a mutual exclusion and synchronization example. After the above<br>modifications, you can design a program to implement one mutual exclusion and<br>synchronization classic solution. For example, you can choose “philosopher dining”<br>problem and create five philosopher threads which have same user ID and follow the<br>“signal of” mechanisms to correct the operation in your program. You can also choose<br>“producers - consumers”, “Sleep Barber of Seville” and other classic IPC problems to<br>6<br>finish this task.<br>Lab 3: Upgrade the Nachos File management model<br>Requirement:<br>Modify the source code of the Nachos to achieve the following objectives:<br>º Add longer document name support and the following described information in<br>Nachos kernel.<br>File Types<br>Create time<br>Document the last visit time<br>File trails<br>º Achieve dynamic content distribution according to the file size. Now，Nachos allocate<br>the space according to the designated size of when creating a file and if we want to<br>amend file, we are limited to allocated space. So, modify the kernel to satisfy the<br>dynamic distribution.<br>º Modify the file index means in Nachos to achieve unlimited length of documents. You<br>can refer to the file index mechanism of Unix to achieve this requirement.<br>º Modify the directory structure to implement multi-level directory which there is no<br>restriction on the number of the files.<br>º Achieve synchronous operation of the file system. Directory files, bitmap files are all<br>critical resources and they do not allow multiple processes at the same time visit. The<br>current system did not impose synchronous control, so, modify this defect.<br>Lab 4: Upgrade the Nachos Memory management model<br>Requirement:<br>Modify the source code of the Nachos to achieve the following objectives:<br>º Add the data structure to describe the process of memory and the corresponding<br>relations. That is, add the “process ID” member in memory describing structure and it<br>can make understand the distribution of memory easily and facilitate to measure the<br>performance of memory management.<br>º Achieve the multi-programming, which there are multiple programs co-exist in<br>memory.<br>º Modify the Nachos to support virtual memory. Nachos only support the process<br>which it’s size is not more than the size of the memory. If the size of process is more<br>7<br>than the size of the memory, it will not be execute. So, amend this defect to support<br>big size process.<br>º Implementation monitoring thread and it can real-time reflect the use of memory.</li>
-</ol>
-<p>Version No： 1.0<br>Author： Kui Zhao Date： 2008-7 -15<br>Auditor： Mei Hong Date： 2008-7-25<br>Signature of leader：<br>Date： 2008-7-30</p>
-<h3 id="中文翻译："><a href="#中文翻译：" class="headerlink" title="中文翻译："></a>中文翻译：</h3><p>软件工程学院<br>本科课程大纲<br>课程ID 311006040课程名称操作系统<br>课程<br>属性<br>■强制□选修课程语言■英文■中文<br>信用小时4期64<br>学期□第一次秋季□初春□二秋■二春<br>□三秋□第三泉□第四秋□第四春<br>导师赵奎梁良胡晓琴<br>描述<br>本课程涵盖了操作系统和系统的基础知识<br>编程，揭示应用程序之间软件层的奥秘<br>程序和硬件，并涵盖处理的技术和算法<br>资源管理，共享和保护的棘手问题，以及<br>并发和复杂系统。也许最重要的是四个编程项目<br>让学生有机会实现一个小型的重要和现实的子系统<br>操作系统内核。<br>在讲座，阅读和编​​程任务之间，我们希望这个课程<br>将帮助学生成为不仅仅是操作系统专家和/或内核黑客，而且也是一个<br>更好的程序员和计算机系统用户，以及更好的计算机科学家<br>有洞察力来管理内部和内部的复杂和并发交互<br>硬件和软件系统！<br>先决条件<br>C语言编程<br>计算机体系结构<br>数据结构和算法</p>
-<p>教材William Stallings，操作系统内部和设计原则（第五版），发布<br>电子工业之家，2007年<br>2<br>资源<br>•课程网页：cs.scu.edu.cn/~zhaokui<br>所有重要信息将显示在课程网页上，包括讲座<br>笔记和编程作业。<br>•邮寄名单：zhaokui@cs.scu.edu.cn<br>lianggang@cs.scu.edu.cn<br>huxiaoqin@cs.scu.edu.cn<br>工作人员电子邮件是您应该在哪里发送有关课程的问题<br>管理和任何不适当的问题，如果发布<br>公开给新闻组（即包含你的代码或其他的问题）<br>私人信息）。<br>•参考：</p>
-<p>西安电子科技大学计算机操作系统tangziyin<br>技术出版社出版社，2004，第3版。<br>操作系统：设计和实现，Andrew S.Tanenbaum，Pulishing<br>电子工业之家，1998年版，第2版。<br>操作系统，Harvey M.Deitel，青海大学出版社，2007年3版。<br>操作系统概念，James L.Peterson，Addison-Wesley Publishing<br>公司，2001年，第6版。<br>操作系统概念，Abraham Silberschatz，Peter Galvin和Greg Gagne，<br>John Wiley and Sons，Higher Education Press，2002，Edition 6。<br>清华大学出版社，曾平，<br>2001，第1版</p>
-<p>教材William Stallings，操作系统内部和设计原理（第五版），<br>2007年电子工业出版社<br>2<br>资源<br>•课程网页：cs.scu.edu.cn/~zhaokui<br>所有重要信息将显示在课程网页上，包括讲座<br>笔记和编程作业。<br>•邮寄名单：zhaokui@cs.scu.edu.cn<br>lianggang@cs.scu.edu.cn<br>huxiaoqin@cs.scu.edu.cn<br>工作人员电子邮件是您应该在哪里发送有关课程<br>管理的问题和任何不恰当的问题如果<br>公开发布到新闻组（即包含您的代码或其他<br>私人信息的问题）。<br>•参考：</p>
-<ol>
-<li>西安电子科技大学计算机<br>操作系统tangziyin出版社，2004，第3版。</li>
-<li>操作系统：设计与实现，Andrew S.Tanenbaum，<br>电子工业制造所，1998年版，第2版。</li>
-<li>操作系统，Harvey M.Deitel，青海大学出版社，2007年3版。</li>
-<li>操作系统概念，James L.Peterson，Addison-Wesley Publishing<br>Company，2001，第6版。</li>
-<li>操作系统概念，Abraham Silberschatz，Peter Galvin和Greg Gagne，<br>John Wiley and Sons，Higher Education Press，2002，Edition 6。</li>
-<li>青岛大学出版社，<br>2001版，第1版</li>
-<li>Williamstallings.com/os/os5e.html</li>
-<li>Comp.os.research</li>
-<li>comp.os.misc</li>
-<li>comp.unix.internals</li>
-<li>comp.os.linux.development.system</li>
-<li><a href="http://ocw.zju.edu.cn/OcwWeb/index.jsp" target="_blank" rel="external">http://ocw.zju.edu.cn/OcwWeb/index.jsp</a><br>评分</li>
-</ol>
-<p>班级参与和作业（30％），期末考试（50％），课程实践（20）</p>
-<p>3<br>课程<br>（48学分<br>）<br>本课程的讲座将涵盖以下主题：</p>
-<ol>
-<li>计算机系统概述（1学时）<br>º。计算机体系结构和组织概况;<br>º计算机系统操作;<br>º中断;<br>º层次记忆;<br>ºI / O通信技术</li>
-<li>操作系统概述（3学分）<br>º操作系统历史;<br>º操作系统概念，目标和功能;<br>º介绍操作系统类型，包括多编程系统，<br>实时系统，批处理系统，分时系统，分布式操作系统，<br>网络操作系统<br>º现代操作系统结构概述;</li>
-<li>过程描述和控制（5学分）<br>º过程概念包括状态及其过渡，PCB;<br>º对过程和过程状态的操作;<br>º过程控制介绍;</li>
-<li>线程，SM和微内核（5学分）<br>º线程定义，创建，操作，用户和内核线程;<br>ºSMP的概念和SMP的管理;<br>ºMicrolekernels定义，客观;</li>
-<li>并发（9个小时）<br>º并发的概念和多个<br>并发进程的执行的含义;<br>º支持互斥的硬件机制;<br>º用于提供<br>并发的三种操作系统和编程语言机制;<br>º引入并发的两个问题：死锁和饥饿以及<br>这两个问题的解决方案。</li>
-<li>记忆（9个小时）<br>º记忆组织与管理;<br>4<br>º寻呼和分割，地址映射;<br>º虚拟内存概念;<br>º虚拟内存管理，页面替换算法。</li>
-<li>计划（9个小时）<br>º基本概念（包括长期调度，中期调度，<br>短期调度）。<br>º调度算法（包括先到先得（FCFS），优先级，<br>循环）;<br>º多处理器调度;<br>º实时调度;</li>
-<li>输入/输出设备（4个小时）<br>º与I / O设备的概念关系和I / O设备的分类;<br>ºI / O设备管理的任务和功能;<br>º数据结构和算法与I / O设备管理的关系;<br>º虚拟设备技术;</li>
-<li>文件管理（3个小时）<br>º文件概念，访问方法，目录结构，文件共享和保护<br>º文件系统结构，文件系统实现，目录实现，<br>分配方法，自由空间管理。<br>工具和<br>环境<br>Windows XP，Redhat linux 9.0，Vmware虚拟机，gcc，g ++<br>项目<br>（16学分<br>）<br>实验1：在<br>玉米片中开发shell 要求：<br>º设计具有以下属性的simples命令行shell：</li>
-<li>shell必须支持以下内部命令：cd，dir，clr，environ，<br>echo，help，pause and quit;</li>
-<li>所有其他命令行输入被解释为程序调用，应该<br>由shell执行程序调用并执行程序作为其自己的子<br>进程;</li>
-<li>shell必须能够从文件中获取其命令行输入;<br>五</li>
-<li>shell必须在stdin和/或stdout两者之一上支持i / o重定向;</li>
-<li>shell必须支持程序的后台执行。</li>
-<li>命令行提示必须包含当前目录的路径名。<br>º写一个简单的手册来描述如何使用shell。手册应该包含<br>足够的细节，让初学者使用linux来使用它;<br>º源代码必须进行广泛的评论和适当的结构，以<br>允许对等体了解并轻松维护代码;<br>º提交程序详情将在截止日期前提供;<br>º提交内容只能包含源代码文件，包含文件，makefile和<br>自述文件。<br>实验2：升级Nachos线程管理模型<br>要求：<br>修改Nachos的源代码，实现以下目标：<br>º扩展线程数据结构，并添加“用户ID”<br>线程ID“两个成员的数据结构的玉米片。同时，将这两个数据<br>成员的保护机制加入到现有的线程管理模型中;<br>º展开线程的现有状态。<br>玉米片中只有“新”，“准备好”，“封锁”和“跑”了四个州。请在玉米片中添加“暂停”状态。在<br>所谓的“挂机”是指存储在文档中，而当前线程的磁盘映像<br>比内存。“暂停”状态是未来<br>虚拟内存管理实现的重要基础。<br>º修改线程调度算法。将线程管理机制更改为<br>“抢先”。您可以<br>在Nachos线程管理模型中添加“定时”和“优先级调度”，“多队列” 等不同算法。<br>º添加全局线程管理机制，并<br>在Nachos中展开现有操作命令。例如，您可以添加一个名为“ThreadView”的<br>命令，以显示当前存在的所有线程的信息，包括屏幕上的<br>“用户ID”，“线程ID”，“当前状态”。<br>º设计互斥和同步示例。经过上述<br>修改，您可以设计一个程序来实现一个互斥和<br>同步的经典解决方案。例如，您可以选择“哲学家餐饮”<br>问题，并创建具有相同用户ID的五位哲学家线索，并遵循<br>“机制信号”来纠正程序中的操作。您也可以选择<br>“生产者 - 消费者”，<br>“塞维利亚睡眠理发师”等经典IPC问题6<br>完成此任务。<br>实验3：升级Nachos文件管理模型<br>要求：<br>修改Nachos的源代码以实现以下目标：<br>º在<br>Nachos内核中添加更多文档名称支持和以下描述的信息。<br>文件类型<br>创建时间<br>记录上次访问时间<br>文件路径<br>º根据文件大小实现动态内容分发。现在，Nachos根据<br>创建文件的指定大小分配空间，如果我们要<br>修改文件，我们仅限于分配的空间。所以，修改内核以满足<br>动态分布。<br>º修改Nachos中的文件索引，以实现无限长的文档。您<br>可以参考Unix的文件索引机制来实现这一要求。<br>º修改目录结构以实现多级目录，<br>对文件数量没有限制。<br>º实现文件系统的同步操作。目录文件，位图文件都是<br>关键资源，它们不允许多个进程同时访问。在<br>现行制度没有实行同步控制，因此，修改此缺陷。<br>实验4：升级Nachos内存管理模型<br>要求：<br>修改Nachos的源代码，实现以下目标：<br>º添加数据结构来描述内存的过程和相应的<br>关系。也就是说，将“进程ID”成员添加到内存描述结构中，<br>可以轻松<br>了解内存分配，便于测量内存管理的性能。<br>º实现多编程，<br>内存中共存有多个程序。<br>º修改Nachos以支持虚拟内存。玉米片只支持其<br>大小不超过内存大小的进程。如果进程的大小比内存的大小多<br>7<br>，那么它将不会执行。所以，修改这个缺陷来支持<br>大尺寸的过程。<br>º执行监控线程，可以实时反映内存的使用情况。</li>
-</ol>
-<p>版本号：1.0<br>作者：<br>崔<br>钊日期：2008-7-15 审计人<br>：梅红日期：2008-7-25 领导签名：日期：2008-7-30</p>
-
-      
-    </div>
-
-    <div>
-      
-        
-
-      
-    </div>
-
-    <div>
-      
-        
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-    <div>打赏鼓励一下。</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
-    </button>
-    <div id="QR" style="display: none;">
-      
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="/uploads/wx.png" alt="Feahter WeChat Pay"/>
-          <p>微信打赏</p>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
         </div>
-      
-      
-        <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="/uploads/zfb.jpg" alt="Feahter Alipay"/>
-          <p>支付宝打赏</p>
-        </div>
-      
+      </div>
     </div>
   </div>
 
+</header>
+        
+  
+  <aside class="sidebar">
 
-      
-    </div>
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
 
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/考研/" rel="tag">#考研</a>
-          
-            <a href="/tags/操作系统/" rel="tag">#操作系统</a>
-          
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">中文翻译：</span></a></li></ol></div>
         </div>
-      
+        <!--/noindex-->
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2017/05/17/研究生数据结构大纲/" rel="next" title="研究生数据结构大纲">
-                <i class="fa fa-chevron-left"></i> 研究生数据结构大纲
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/05/17/研究生计算机网络大纲/" rel="prev" title="研究生计算机网络大纲">
-                研究生计算机网络大纲 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </article>
-
-
-
-    <div class="post-spread">
-      
-        <div class="ds-share flat" data-thread-key="2017/05/17/研究生操作系统大纲/"
-     data-title="研究生操作系统大纲"
-     data-content=""
-     data-url="https://feahter.github.io/2017/05/17/研究生操作系统大纲/">
-  <div class="ds-share-inline">
-    <ul  class="ds-share-icons-16">
-
-      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
-      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
-      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
-      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
-      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-
-    </ul>
-    <div class="ds-share-icons-more">
-    </div>
-  </div>
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Feahter"
+      src="/uploads/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Feahter</p>
+  <div class="site-description" itemprop="description">Feahter's personal blog</div>
 </div>
-      
-    </div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Feahter" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Feahter" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
   </div>
 
-
-          </div>
-          
-
-
-          
-<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-<script>
-  var cloudTieConfig = {
-    url: document.location.href, 
-    sourceId: "2017/05/17/研究生操作系统大纲/",
-    productKey: "8e0631f10cb84ad18de7e71f4dc690e1",
-    target: "cloud-tie-wrapper"
-  };
-</script>
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
-
         </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+      </div>
     </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <section class="site-overview sidebar-panel ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/uploads/avatar.jpg"
-               alt="Feahter" />
-          <p class="site-author-name" itemprop="name">Feahter</p>
-          <p class="site-description motion-element" itemprop="description">此去经年，经年累月。</p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">21</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">6</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">26</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/Feahter" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                  GitHub
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-
-      </section>
-
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-            
-              
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#中文翻译："><span class="nav-number">1.</span> <span class="nav-text">中文翻译：</span></a></li></ol></div>
-            
-          </div>
-        </section>
-      
-
-    </div>
+    
   </aside>
 
 
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy;  2016 - 
-  <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Feahter</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-        
-
-<div class="busuanzi-count">
-
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
-  
-
-  
-    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
-  
-  
-</div>
-
-
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
     </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://feahter.github.io/2017/05/17/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%A4%A7%E7%BA%B2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="Feahter">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="经年">
+      <meta itemprop="description" content="Feahter's personal blog">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="研究生操作系统大纲 | 经年">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          研究生操作系统大纲
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2017-05-17 00:00:00" itemprop="dateCreated datePublished" datetime="2017-05-17T00:00:00+08:00">2017-05-17</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p><strong>College of Software Engineering</strong><br><strong>Undergraduate Course Syllabus</strong><br>Course ID 311006040 Course Name Operating System<br>Course<br>Attribute<br>■Compulsory □Selective Course Language ■English ■Chinese<br>Credit Hour 4 Period 64<br>Semester □First Fall □First Spring □Second Fall ■Second Spring<br>□Third Fall □Third Spring □Fourth Fall □Fourth Spring<br>Instructors Zhao Kui, Liang Gang, Hu Xiao-qin<br>Description<br>This course covers the fundamentals of Operating Systems and Systems<br>Programming, revealing the mysteries of the software layer between application<br>programs and hardware, and covering techniques and algorithms for dealing with<br>thorny problems of resource management, sharing, and protection, as well as<br>concurrency and complex systems. Perhaps best of all, four programming projects<br>give students the chance to implement important and realistic subsystems of a small<br>operating system kernel.<br>Between the lectures, reading, and programming assignments, we hope that the course<br>will help students become not only an OS expert and&#x2F;or kernel hacker, but also a<br>better programmer and user of computer systems, and a better computer scientist who<br>has insight into managing complex and concurrent interactions within and between<br>hardware and software systems!<br>Prerequisites<br>C Language Programming<br>Computer Architecture<br>Data Structures and Algorithms</p>
+<span id="more"></span>
+
+<p>Textbook William Stallings, Operating Systems Internals and Design Principles (Fifth Edition),Publish<br>House of Electronics Industry,2007<br>2<br>Resource<br>• Course Webpage: cs.scu.edu.cn&#x2F;~zhaokui<br>All vital information will appear on the course webpage, including lecture<br>notes and programming assignments.<br>• Mailing list: <a href="mailto:&#122;&#104;&#97;&#111;&#x6b;&#x75;&#x69;&#x40;&#x63;&#115;&#x2e;&#x73;&#99;&#117;&#46;&#x65;&#100;&#117;&#x2e;&#x63;&#x6e;">zhaokui@cs.scu.edu.cn</a><br> <a href="mailto:&#x6c;&#105;&#x61;&#x6e;&#x67;&#103;&#x61;&#110;&#x67;&#64;&#x63;&#115;&#x2e;&#x73;&#99;&#x75;&#46;&#x65;&#100;&#x75;&#46;&#99;&#110;">lianggang@cs.scu.edu.cn</a><br> <a href="mailto:&#104;&#117;&#120;&#105;&#x61;&#x6f;&#x71;&#x69;&#x6e;&#x40;&#x63;&#x73;&#46;&#x73;&#x63;&#x75;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;">huxiaoqin@cs.scu.edu.cn</a><br>The staff email is where you should send questions regarding course<br>administration and any questions which would be inappropriate if posted<br>publicly to the newsgroup (i.e. questions that contain your code or other<br>private information).<br>• Reference:</p>
+<ul>
+<li><p>Computing Operating System tangziyin, Xian University of Electronic Science and<br>Technology Press 出版社, 2004,Edition 3.</p>
+</li>
+<li><p>Operating System：Design and Implementation，Andrew S.Tanenbaum,Pulishing<br>House of Electronics Industry，1998，Edition 2.</p>
+</li>
+<li><p>Operating System，Harvey M.Deitel, Tsingha University Press，2007，Edition 3.</p>
+</li>
+<li><p>Operating System Concepts ， James L.Peterson ， Addison-Wesley Publishing<br>Company，2001,Edition 6.</p>
+</li>
+<li><p>Operating Systems Concepts, Abraham Silberschatz, Peter Galvin, and Greg Gagne,<br>John Wiley and Sons, Higher Education Press, 2002，Edition 6.</p>
+</li>
+<li><p>Operationg System—Excise and Analyze ，ZengPing，Tsingha University Press，<br>2001，Edition 1</p>
+</li>
+<li><p>Williamstallings.com&#x2F;os&#x2F;os5e.html</p>
+</li>
+<li><p>Comp.os.research</p>
+</li>
+<li><p>comp.os.misc</p>
+</li>
+<li><p>comp.unix.internals</p>
+</li>
+<li><p>comp.os.linux.development.system</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://ocw.zju.edu.cn/OcwWeb/index.jsp">http://ocw.zju.edu.cn/OcwWeb/index.jsp</a><br>Grading</p>
+</li>
+</ul>
+<p>Class participation and homework (30%), final exam (50%), course practice(20)</p>
+<p>3<br>Topics<br>(48 credit<br>hours)<br>The lecture of this course will cover the following topics:</p>
+<ul>
+<li><p>Computer System Overview (1 credit hours)<br>º .Overview of computer architecture and organization;<br>º Computer-System Operation;<br>º Interrupts;<br>º The memory of hierarchy;<br>º I&#x2F;O communication techniques</p>
+</li>
+<li><p>Operating System Overview (3 credit hours)<br>º History of operating system;<br>º Operating system concepts, objective and function;<br>º Introduction of the type of Operating system including multiprogramming system,<br>Real-Time System, Batch system, Time-sharing system, Distributed operating system,<br>Network operating system<br>º Overview of the modern operating system structure;</p>
+</li>
+<li><p>Process Description and Control (5 credit hours)<br>º The concepts of process including states and its transitions, PCB;<br>º The operations on processes and process states;<br>º Introduction of process control;</p>
+</li>
+<li><p>Threads, SM and Microkernels ( 5 credit hours )<br>º Thread definition, creation, manipulation, User and Kernel Thread.;<br>º The concept of SMP and the management of SMP;<br>º Microlekernels definition, objective;</p>
+</li>
+<li><p>Concurrency ( 9 credit hours )<br>º The conceptions of concurrency and the implication of execution of multiple<br>concurrent process;<br>º The hardware mechanisms that support mutual exclusion;<br>º Three operating system and programming language mechanisms used to provide<br>concurrency;<br>º Introduction two problems of concurrency: deadlock and starvation and solutions of<br>these two problems.</p>
+</li>
+<li><p>Memory ( 9 credit hours )<br>º Memory organization and management;<br>4<br>º Paging and segmentation, address mapping;<br>º Virtual memory concepts;<br>º Virtual memory management, page replacement algorithms.</p>
+</li>
+<li><p>Scheduling (9 credit hours )<br>º Basic Concepts (including Long-term scheduling, Medium-term scheduling,<br>Short-term scheduling.);<br>º Scheduling algorithms(including First-Come-First-Served (FCFS), Priority,<br>Round-Robin );<br>º Multiprocessor scheduling;<br>º Real-Time Scheduling;</p>
+</li>
+<li><p>Input&#x2F;Output Device ( 4 credit hours )<br>º The concepts relation to I&#x2F;O devices and the classification of the I&#x2F;O devices;<br>º The task and function of the I&#x2F;O device management;<br>º The data structure and algorithms relation to I&#x2F;O device management;<br>º The virtual device techniques;</p>
+</li>
+<li><p>File Management ( 3 credit hours )<br>º File Concept, Access Methods, Directory Structure, File Sharing and Protection<br>º File-System Structure, File-System Implementation, Directory Implementation,<br>Allocation Methods, Free-Space Management.<br>Tools &amp;<br>Environment<br>Windows XP, Redhat linux 9.0, Vmware virtual machine, gcc, g++<br>Projects<br>( 16 credit<br>hours )<br>Lab 1: Develop a shell in Nachos<br>Requirement:<br>º Design a simples command line shell that has following properties:</p>
+</li>
+<li><p>The shell must support the following internal commands: cd , dir, clr,environ,<br>echo ,help ,pause and quit;</p>
+</li>
+<li><p>All other command line input is interpreted as program invocation which should<br>be done by the shell forking and executing the programs as its own child<br>processes;</p>
+</li>
+<li><p>The shell must be able to take its command line input from a file;<br>5</p>
+</li>
+<li><p>The shell must support i&#x2F;o redirection on either or both stdin and&#x2F;or stdout;</p>
+</li>
+<li><p>The shell must support background execution of programs.</p>
+</li>
+<li><p>The command line prompt must contain the pathname of the current directory.<br>º Write a simple manual describing how to use the shell. The manual should contain<br>enough detail for a beginner to linux to use it;<br>º The source code must be extensively commented and appropriately structured to<br>allow your peers to understand and easily maintain the code;<br>º Details of submission procedures will be supplied well before the deadlines;<br>º The submission should contain only source code files, include files, a makefile and<br>the readme file.<br>Lab 2: Upgrade the Nachos thread management model<br>Requirement:<br>Modify the source code of the Nachos to achieve the following objectives:<br>º Expand thread data structure and add the “user ID, thread ID” two members of the<br>data structure of Nachos. Meanwhile, add the safeguard mechanism of these two data<br>members in the Nachos existing thread management model;<br>º Expand the existing state of threads. There are only “new”, “ready”, “block” and<br>“running” four states in Nachos. Please add “suspending” state in Nachos. The<br>so-called “hang up” refers to the current thread disk image stored in documents rather<br>than memory. “Suspend” state is the important foundation of the future realization of<br>virtual memory management.<br>º Modify thread scheduling algorithm. Change the thread management mechanism to<br>the “preemptive.” You can add “timing” and “priority scheduling,” “Multi-Queue”<br>different algorithm into Nachos thread management model.<br>º Add the global thread management mechanism and expand the existing operations<br>command in Nachos. For example, you can add a command called “ThreadView” in<br>order to show the current existence of all the threads of information, including the<br>“user ID”, “Thread ID”, “Current status” on the screen.<br>º Design a mutual exclusion and synchronization example. After the above<br>modifications, you can design a program to implement one mutual exclusion and<br>synchronization classic solution. For example, you can choose “philosopher dining”<br>problem and create five philosopher threads which have same user ID and follow the<br>“signal of” mechanisms to correct the operation in your program. You can also choose<br>“producers - consumers”, “Sleep Barber of Seville” and other classic IPC problems to<br>6<br>finish this task.<br>Lab 3: Upgrade the Nachos File management model<br>Requirement:<br>Modify the source code of the Nachos to achieve the following objectives:<br>º Add longer document name support and the following described information in<br>Nachos kernel.<br>File Types<br>Create time<br>Document the last visit time<br>File trails<br>º Achieve dynamic content distribution according to the file size. Now，Nachos allocate<br>the space according to the designated size of when creating a file and if we want to<br>amend file, we are limited to allocated space. So, modify the kernel to satisfy the<br>dynamic distribution.<br>º Modify the file index means in Nachos to achieve unlimited length of documents. You<br>can refer to the file index mechanism of Unix to achieve this requirement.<br>º Modify the directory structure to implement multi-level directory which there is no<br>restriction on the number of the files.<br>º Achieve synchronous operation of the file system. Directory files, bitmap files are all<br>critical resources and they do not allow multiple processes at the same time visit. The<br>current system did not impose synchronous control, so, modify this defect.<br>Lab 4: Upgrade the Nachos Memory management model<br>Requirement:<br>Modify the source code of the Nachos to achieve the following objectives:<br>º Add the data structure to describe the process of memory and the corresponding<br>relations. That is, add the “process ID” member in memory describing structure and it<br>can make understand the distribution of memory easily and facilitate to measure the<br>performance of memory management.<br>º Achieve the multi-programming, which there are multiple programs co-exist in<br>memory.<br>º Modify the Nachos to support virtual memory. Nachos only support the process<br>which it’s size is not more than the size of the memory. If the size of process is more<br>7<br>than the size of the memory, it will not be execute. So, amend this defect to support<br>big size process.<br>º Implementation monitoring thread and it can real-time reflect the use of memory.</p>
+</li>
+</ul>
+<p>Version No： 1.0<br>Author： Kui Zhao Date： 2008-7 -15<br>Auditor： Mei Hong Date： 2008-7-25<br>Signature of leader：<br>Date： 2008-7-30</p>
+<h3 id="中文翻译："><a href="#中文翻译：" class="headerlink" title="中文翻译："></a><a href="#%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%EF%BC%9A"></a>中文翻译：</h3><p>软件工程学院<br>本科课程大纲<br>课程ID 311006040课程名称操作系统<br>课程<br>属性<br>■强制□选修课程语言■英文■中文<br>信用小时4期64<br>学期□第一次秋季□初春□二秋■二春<br>□三秋□第三泉□第四秋□第四春<br>导师赵奎梁良胡晓琴<br>描述<br>本课程涵盖了操作系统和系统的基础知识<br>编程，揭示应用程序之间软件层的奥秘<br>程序和硬件，并涵盖处理的技术和算法<br>资源管理，共享和保护的棘手问题，以及<br>并发和复杂系统。也许最重要的是四个编程项目<br>让学生有机会实现一个小型的重要和现实的子系统<br>操作系统内核。<br>在讲座，阅读和编​​程任务之间，我们希望这个课程<br>将帮助学生成为不仅仅是操作系统专家和&#x2F;或内核黑客，而且也是一个<br>更好的程序员和计算机系统用户，以及更好的计算机科学家<br>有洞察力来管理内部和内部的复杂和并发交互<br>硬件和软件系统！<br>先决条件<br>C语言编程<br>计算机体系结构<br>数据结构和算法</p>
+<p>教材William Stallings，操作系统内部和设计原则（第五版），发布<br>电子工业之家，2007年<br>2<br>资源<br>•课程网页：cs.scu.edu.cn&#x2F;~zhaokui<br>所有重要信息将显示在课程网页上，包括讲座<br>笔记和编程作业。<br>•邮寄名单：<a href="mailto:&#122;&#104;&#97;&#111;&#107;&#117;&#105;&#64;&#99;&#x73;&#46;&#115;&#99;&#x75;&#46;&#101;&#x64;&#x75;&#46;&#x63;&#110;">zhaokui@cs.scu.edu.cn</a><br><a href="mailto:&#x6c;&#105;&#97;&#x6e;&#x67;&#103;&#x61;&#110;&#103;&#64;&#x63;&#x73;&#x2e;&#115;&#99;&#117;&#46;&#x65;&#100;&#x75;&#46;&#x63;&#x6e;">lianggang@cs.scu.edu.cn</a><br><a href="mailto:&#104;&#117;&#120;&#x69;&#97;&#x6f;&#x71;&#105;&#x6e;&#x40;&#99;&#x73;&#x2e;&#115;&#x63;&#117;&#x2e;&#101;&#100;&#117;&#46;&#99;&#110;">huxiaoqin@cs.scu.edu.cn</a><br>工作人员电子邮件是您应该在哪里发送有关课程的问题<br>管理和任何不适当的问题，如果发布<br>公开给新闻组（即包含你的代码或其他的问题）<br>私人信息）。<br>•参考：</p>
+<p>西安电子科技大学计算机操作系统tangziyin<br>技术出版社出版社，2004，第3版。<br>操作系统：设计和实现，Andrew S.Tanenbaum，Pulishing<br>电子工业之家，1998年版，第2版。<br>操作系统，Harvey M.Deitel，青海大学出版社，2007年3版。<br>操作系统概念，James L.Peterson，Addison-Wesley Publishing<br>公司，2001年，第6版。<br>操作系统概念，Abraham Silberschatz，Peter Galvin和Greg Gagne，<br>John Wiley and Sons，Higher Education Press，2002，Edition 6。<br>清华大学出版社，曾平，<br>2001，第1版</p>
+<p>教材William Stallings，操作系统内部和设计原理（第五版），<br>2007年电子工业出版社<br>2<br>资源<br>•课程网页：cs.scu.edu.cn&#x2F;~zhaokui<br>所有重要信息将显示在课程网页上，包括讲座<br>笔记和编程作业。<br>•邮寄名单：<a href="mailto:&#x7a;&#104;&#97;&#111;&#x6b;&#117;&#105;&#64;&#99;&#x73;&#46;&#115;&#99;&#117;&#x2e;&#x65;&#100;&#117;&#46;&#99;&#110;">zhaokui@cs.scu.edu.cn</a><br><a href="mailto:&#x6c;&#x69;&#97;&#110;&#x67;&#103;&#97;&#110;&#x67;&#x40;&#x63;&#115;&#x2e;&#115;&#99;&#x75;&#46;&#x65;&#x64;&#117;&#x2e;&#99;&#110;">lianggang@cs.scu.edu.cn</a><br><a href="mailto:&#x68;&#x75;&#x78;&#105;&#x61;&#111;&#x71;&#x69;&#110;&#x40;&#x63;&#x73;&#x2e;&#115;&#x63;&#117;&#46;&#101;&#100;&#117;&#46;&#x63;&#x6e;">huxiaoqin@cs.scu.edu.cn</a><br>工作人员电子邮件是您应该在哪里发送有关课程<br>管理的问题和任何不恰当的问题如果<br>公开发布到新闻组（即包含您的代码或其他<br>私人信息的问题）。<br>•参考：</p>
+<ul>
+<li><p>西安电子科技大学计算机<br>操作系统tangziyin出版社，2004，第3版。</p>
+</li>
+<li><p>操作系统：设计与实现，Andrew S.Tanenbaum，<br>电子工业制造所，1998年版，第2版。</p>
+</li>
+<li><p>操作系统，Harvey M.Deitel，青海大学出版社，2007年3版。</p>
+</li>
+<li><p>操作系统概念，James L.Peterson，Addison-Wesley Publishing<br>Company，2001，第6版。</p>
+</li>
+<li><p>操作系统概念，Abraham Silberschatz，Peter Galvin和Greg Gagne，<br>John Wiley and Sons，Higher Education Press，2002，Edition 6。</p>
+</li>
+<li><p>青岛大学出版社，<br>2001版，第1版</p>
+</li>
+<li><p>Williamstallings.com&#x2F;os&#x2F;os5e.html</p>
+</li>
+<li><p>Comp.os.research</p>
+</li>
+<li><p>comp.os.misc</p>
+</li>
+<li><p>comp.unix.internals</p>
+</li>
+<li><p>comp.os.linux.development.system</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://ocw.zju.edu.cn/OcwWeb/index.jsp">http://ocw.zju.edu.cn/OcwWeb/index.jsp</a><br>评分</p>
+</li>
+</ul>
+<p>班级参与和作业（30％），期末考试（50％），课程实践（20）</p>
+<p>3<br>课程<br>（48学分<br>）<br>本课程的讲座将涵盖以下主题：</p>
+<ul>
+<li><p>计算机系统概述（1学时）<br>º。计算机体系结构和组织概况;<br>º计算机系统操作;<br>º中断;<br>º层次记忆;<br>ºI &#x2F; O通信技术</p>
+</li>
+<li><p>操作系统概述（3学分）<br>º操作系统历史;<br>º操作系统概念，目标和功能;<br>º介绍操作系统类型，包括多编程系统，<br>实时系统，批处理系统，分时系统，分布式操作系统，<br>网络操作系统<br>º现代操作系统结构概述;</p>
+</li>
+<li><p>过程描述和控制（5学分）<br>º过程概念包括状态及其过渡，PCB;<br>º对过程和过程状态的操作;<br>º过程控制介绍;</p>
+</li>
+<li><p>线程，SM和微内核（5学分）<br>º线程定义，创建，操作，用户和内核线程;<br>ºSMP的概念和SMP的管理;<br>ºMicrolekernels定义，客观;</p>
+</li>
+<li><p>并发（9个小时）<br>º并发的概念和多个<br>并发进程的执行的含义;<br>º支持互斥的硬件机制;<br>º用于提供<br>并发的三种操作系统和编程语言机制;<br>º引入并发的两个问题：死锁和饥饿以及<br>这两个问题的解决方案。</p>
+</li>
+<li><p>记忆（9个小时）<br>º记忆组织与管理;<br>4<br>º寻呼和分割，地址映射;<br>º虚拟内存概念;<br>º虚拟内存管理，页面替换算法。</p>
+</li>
+<li><p>计划（9个小时）<br>º基本概念（包括长期调度，中期调度，<br>短期调度）。<br>º调度算法（包括先到先得（FCFS），优先级，<br>循环）;<br>º多处理器调度;<br>º实时调度;</p>
+</li>
+<li><p>输入&#x2F;输出设备（4个小时）<br>º与I &#x2F; O设备的概念关系和I &#x2F; O设备的分类;<br>ºI &#x2F; O设备管理的任务和功能;<br>º数据结构和算法与I &#x2F; O设备管理的关系;<br>º虚拟设备技术;</p>
+</li>
+<li><p>文件管理（3个小时）<br>º文件概念，访问方法，目录结构，文件共享和保护<br>º文件系统结构，文件系统实现，目录实现，<br>分配方法，自由空间管理。<br>工具和<br>环境<br>Windows XP，Redhat linux 9.0，Vmware虚拟机，gcc，g ++<br>项目<br>（16学分<br>）<br>实验1：在<br>玉米片中开发shell 要求：<br>º设计具有以下属性的simples命令行shell：</p>
+</li>
+<li><p>shell必须支持以下内部命令：cd，dir，clr，environ，<br>echo，help，pause and quit;</p>
+</li>
+<li><p>所有其他命令行输入被解释为程序调用，应该<br>由shell执行程序调用并执行程序作为其自己的子<br>进程;</p>
+</li>
+<li><p>shell必须能够从文件中获取其命令行输入;<br>五</p>
+</li>
+<li><p>shell必须在stdin和&#x2F;或stdout两者之一上支持i &#x2F; o重定向;</p>
+</li>
+<li><p>shell必须支持程序的后台执行。</p>
+</li>
+<li><p>命令行提示必须包含当前目录的路径名。<br>º写一个简单的手册来描述如何使用shell。手册应该包含<br>足够的细节，让初学者使用linux来使用它;<br>º源代码必须进行广泛的评论和适当的结构，以<br>允许对等体了解并轻松维护代码;<br>º提交程序详情将在截止日期前提供;<br>º提交内容只能包含源代码文件，包含文件，makefile和<br>自述文件。<br>实验2：升级Nachos线程管理模型<br>要求：<br>修改Nachos的源代码，实现以下目标：<br>º扩展线程数据结构，并添加“用户ID”<br>线程ID“两个成员的数据结构的玉米片。同时，将这两个数据<br>成员的保护机制加入到现有的线程管理模型中;<br>º展开线程的现有状态。<br>玉米片中只有“新”，“准备好”，“封锁”和“跑”了四个州。请在玉米片中添加“暂停”状态。在<br>所谓的“挂机”是指存储在文档中，而当前线程的磁盘映像<br>比内存。“暂停”状态是未来<br>虚拟内存管理实现的重要基础。<br>º修改线程调度算法。将线程管理机制更改为<br>“抢先”。您可以<br>在Nachos线程管理模型中添加“定时”和“优先级调度”，“多队列” 等不同算法。<br>º添加全局线程管理机制，并<br>在Nachos中展开现有操作命令。例如，您可以添加一个名为“ThreadView”的<br>命令，以显示当前存在的所有线程的信息，包括屏幕上的<br>“用户ID”，“线程ID”，“当前状态”。<br>º设计互斥和同步示例。经过上述<br>修改，您可以设计一个程序来实现一个互斥和<br>同步的经典解决方案。例如，您可以选择“哲学家餐饮”<br>问题，并创建具有相同用户ID的五位哲学家线索，并遵循<br>“机制信号”来纠正程序中的操作。您也可以选择<br>“生产者 - 消费者”，<br>“塞维利亚睡眠理发师”等经典IPC问题6<br>完成此任务。<br>实验3：升级Nachos文件管理模型<br>要求：<br>修改Nachos的源代码以实现以下目标：<br>º在<br>Nachos内核中添加更多文档名称支持和以下描述的信息。<br>文件类型<br>创建时间<br>记录上次访问时间<br>文件路径<br>º根据文件大小实现动态内容分发。现在，Nachos根据<br>创建文件的指定大小分配空间，如果我们要<br>修改文件，我们仅限于分配的空间。所以，修改内核以满足<br>动态分布。<br>º修改Nachos中的文件索引，以实现无限长的文档。您<br>可以参考Unix的文件索引机制来实现这一要求。<br>º修改目录结构以实现多级目录，<br>对文件数量没有限制。<br>º实现文件系统的同步操作。目录文件，位图文件都是<br>关键资源，它们不允许多个进程同时访问。在<br>现行制度没有实行同步控制，因此，修改此缺陷。<br>实验4：升级Nachos内存管理模型<br>要求：<br>修改Nachos的源代码，实现以下目标：<br>º添加数据结构来描述内存的过程和相应的<br>关系。也就是说，将“进程ID”成员添加到内存描述结构中，<br>可以轻松<br>了解内存分配，便于测量内存管理的性能。<br>º实现多编程，<br>内存中共存有多个程序。<br>º修改Nachos以支持虚拟内存。玉米片只支持其<br>大小不超过内存大小的进程。如果进程的大小比内存的大小多<br>7<br>，那么它将不会执行。所以，修改这个缺陷来支持<br>大尺寸的过程。<br>º执行监控线程，可以实时反映内存的使用情况。</p>
+</li>
+</ul>
+<p>版本号：1.0<br>作者：<br>崔<br>钊日期：2008-7-15 审计人<br>：梅红日期：2008-7-25 领导签名：日期：2008-7-30</p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#考研](/tags/考研/)
+      
+        [#操作系统](/tags/操作系统/)
+      
+    
+  
+
+  
+    
+      
+        
+          
+             研究生数据结构大纲
+          
+        
+      
+
+      
+        
+          
+            研究生计算机网络大纲
+</code></pre>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>请我一杯咖啡吧！</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/uploads/wx.png" alt="Feahter 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/uploads/zfb.jpg" alt="Feahter 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2017/05/17/%E7%A0%94%E7%A9%B6%E7%94%9F%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%A4%A7%E7%BA%B2/" rel="prev" title="研究生数据结构大纲">
+                  <i class="fa fa-angle-left"></i> 研究生数据结构大纲
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2017/08/07/%E5%85%B3%E4%BA%8Eremetajs/" rel="next" title="关于remetajs">
+                  关于remetajs <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2016 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Feahter</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
   </div>
 
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
+    </div>
+  </footer>
 
   
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
 
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
-
-
-
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"feahter"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
-
-
-
-
-
-
-  
-  
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length == 0) {
-       search_path = "search.xml";
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    function proceedsearch() {
-      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
-      $('.popup').toggle();
-
-    }
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-    'use strict';
-    $.ajax({
-        url: path,
-        dataType: "xml",
-        async: true,
-        success: function( xmlResponse ) {
-            // get the contents from search data
-            isfetched = true;
-            $('.popup').detach().appendTo('.header-inner');
-            var datas = $( "entry", xmlResponse ).map(function() {
-                return {
-                    title: $( "title", this ).text(),
-                    content: $("content",this).text(),
-                    url: $( "url" , this).text()
-                };
-            }).get();
-            var $input = document.getElementById(search_id);
-            var $resultContent = document.getElementById(content_id);
-            $input.addEventListener('input', function(){
-                var matchcounts = 0;
-                var str='<ul class=\"search-result-list\">';
-                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                $resultContent.innerHTML = "";
-                if (this.value.trim().length > 1) {
-                // perform local searching
-                datas.forEach(function(data) {
-                    var isMatch = true;
-                    var content_index = [];
-                    var data_title = data.title.trim().toLowerCase();
-                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url;
-                    var index_title = -1;
-                    var index_content = -1;
-                    var first_occur = -1;
-                    // only match artiles with not empty titles and contents
-                    if(data_title != '' && data_content != '') {
-                        keywords.forEach(function(keyword, i) {
-                            index_title = data_title.indexOf(keyword);
-                            index_content = data_content.indexOf(keyword);
-                            if( index_title < 0 && index_content < 0 ){
-                                isMatch = false;
-                            } else {
-                                if (index_content < 0) {
-                                    index_content = 0;
-                                }
-                                if (i == 0) {
-                                    first_occur = index_content;
-                                }
-                            }
-                        });
-                    }
-                    // show search results
-                    if (isMatch) {
-                        matchcounts += 1;
-                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
-                        var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        if (first_occur >= 0) {
-                            // cut out 100 characters
-                            var start = first_occur - 20;
-                            var end = first_occur + 80;
-                            if(start < 0){
-                                start = 0;
-                            }
-                            if(start == 0){
-                                end = 50;
-                            }
-                            if(end > content.length){
-                                end = content.length;
-                            }
-                            var match_content = content.substring(start, end);
-                            // highlight all keywords
-                            keywords.forEach(function(keyword){
-                                var regS = new RegExp(keyword, "gi");
-                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
-                            });
-
-                            str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        }
-                        str += "</li>";
-                    }
-                })};
-                str += "</ul>";
-                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
-                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
-                $resultContent.innerHTML = str;
-            });
-            proceedsearch();
-        }
-    });}
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched == false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-
-    });
-
-    $('.popup-btn-close').click(function(e){
-      $('.popup').hide();
-      $(".popoverlay").remove();
-      $('body').css('overflow', '');
-    });
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-  </script>
-
-
-  
-
-  
-
-  
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
 </body>
 </html>

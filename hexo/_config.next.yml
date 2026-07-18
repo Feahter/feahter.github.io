@@ -1,0 +1,76 @@
+# ---------------------------------------------------------------
+# NexT Theme Config (Alternate Theme Config)
+# See: https://theme-next.js.org/docs/getting-started/configuration
+# ---------------------------------------------------------------
+
+# Scheme
+scheme: Mist
+
+# Font - match original NexT v5 settings (Lato + Chinese fallback)
+font:
+  enable: true
+  global:
+    external: true
+    family: Lato, "PingFang SC", "Microsoft YaHei"
+  title:
+    external: true
+  headings:
+    external: true
+  posts:
+    external: true
+  codes:
+    external: true
+
+# Local Search
+local_search:
+  enable: true
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# Reward (打赏)
+reward_settings:
+  enable: true
+  animation: false
+reward:
+  wechatpay: /uploads/wx.png
+  alipay: /uploads/zfb.jpg
+
+# Sidebar
+avatar:
+  url: /uploads/avatar.jpg
+  rounded: false
+  rotated: false
+
+# Social
+social:
+  GitHub: https://github.com/Feahter || fab fa-github
+
+# Footer
+footer:
+  since: 2016
+  icon:
+    name: fa fa-heart
+    animated: false
+    color: "#ff0000"
+  powered: true
+
+# Post
+read_more_btn: true
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: false
+  categories: true
+
+# Motion
+motion:
+  enable: false
+
+# Menu
+menu:
+  home: / || fa fa-home
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags

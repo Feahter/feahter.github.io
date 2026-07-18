@@ -1,923 +1,426 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next mist use-motion">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.2">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
+<link rel="stylesheet" href="/css/main.css">
 
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family="PingFang+SC":ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family="Microsoft+YaHei":ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
 
+<script class="next-config" data-name="main" type="application/json">{"hostname":"feahter.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.28.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="TypeScript," />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="经年" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
-
-
-
-
-
-
-<meta name="description" content="转载：《TypeScript 中文入门教程》
-缘由事情是这样的，我想搜索 TypeScript 中文教程，结果在 https://www.baidu.com ， https://cn.bing.com ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。
-于是我Fork了官">
+    <meta name="description" content="转载：《TypeScript 中文入门教程》 缘由">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于TypeScript">
-<meta property="og:url" content="https://feahter.github.io/2016/12/22/关于TypeScript/index.html">
+<meta property="og:url" content="https://feahter.github.io/2016/12/22/%E5%85%B3%E4%BA%8ETypeScript/index.html">
 <meta property="og:site_name" content="经年">
-<meta property="og:description" content="转载：《TypeScript 中文入门教程》
-缘由事情是这样的，我想搜索 TypeScript 中文教程，结果在 https://www.baidu.com ， https://cn.bing.com ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。
-于是我Fork了官">
-<meta property="og:updated_time" content="2016-12-22T06:08:56.000Z">
+<meta property="og:description" content="转载：《TypeScript 中文入门教程》 缘由">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2016-12-21T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-07-18T13:35:16.293Z">
+<meta property="article:author" content="Feahter">
+<meta property="article:tag" content="frontend, vue, javascript, web">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于TypeScript">
-<meta name="twitter:description" content="转载：《TypeScript 中文入门教程》
-缘由事情是这样的，我想搜索 TypeScript 中文教程，结果在 https://www.baidu.com ， https://cn.bing.com ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。
-于是我Fork了官">
 
 
+<link rel="canonical" href="https://feahter.github.io/2016/12/22/%E5%85%B3%E4%BA%8ETypeScript/">
 
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 6321533477313316000,
-      author: '博主'
-    }
-  };
-</script>
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://feahter.github.io/2016/12/22/%E5%85%B3%E4%BA%8ETypeScript/","path":"2016/12/22/关于TypeScript/","title":"关于TypeScript"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>关于TypeScript | 经年</title>
+  
 
 
 
 
-  <link rel="canonical" href="https://feahter.github.io/2016/12/22/关于TypeScript/"/>
 
-  <title> 关于TypeScript | 经年 </title>
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.5.0/search.js" integrity="sha256-xFC6PJ82SL9b3WkGjFavNiA9gm5z6UBxWPiu4CYjptg=" crossorigin="anonymous" defer></script>
+<script src="/js/third-party/search/local-search.js" defer></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
 
-  
-
-
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?0ec8ac299ab87e0c0b7ec678fca9c78d;";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left page-post-detail ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">经年</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
   </div>
-  <p class="site-subtitle"></p>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">经年</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">此去经年，经年累月</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
 </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
+
 
 <nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">X</span>
-</div>
-
-
-    </div>
-  
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
 </nav>
 
- </div>
-    </header>
 
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
 
-  <div id="posts" class="posts-expand">
-    
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                关于TypeScript
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-12-22T09:53:16+08:00" content="2016-12-22">
-              2016-12-22
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/术/" itemprop="url" rel="index">
-                    <span itemprop="name">术</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/12/22/关于TypeScript/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/22/关于TypeScript/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-              &nbsp; | &nbsp;
-              <span class="page-pv"><i class="fa fa-file-o"></i>
-              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
-              </span>
-          
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》</a></p>
-<h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h2><p>事情是这样的，我想搜索 <code>TypeScript 中文教程</code>，结果在 <a href="https://www.baidu.com/" target="_blank" rel="external">https://www.baidu.com</a> ， <a href="https://cn.bing.com/" target="_blank" rel="external">https://cn.bing.com</a> ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。</p>
-<p>于是我Fork了官方的库 <a href="https://github.com/Microsoft/TypeScript-Handbook" target="_blank" rel="external">https://github.com/Microsoft/TypeScript-Handbook</a> , 到我的库中<a href="https://github.com/MyErpSoft/TypeScript-Handbook" target="_blank" rel="external">https://github.com/MyErpSoft/TypeScript-Handbook</a> ,我当然不能直接修改他们的文件，于是我的做法建立子目录 zh-CHS (<a href="https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS" target="_blank" rel="external">https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS</a> )，梦想着哪天官方是不是 合并我的变更呢，哈哈，美美的做着白日梦。</p>
-<p>可是在翻译不到几个小时之后呢，觉得不甘心，既然我放在github上，那是不是在 <a href="https://github.com/" target="_blank" rel="external">https://GitHub.com</a> 可以搜索到别人的翻译呢？大家都爱github吗，对吧？ 于是在github上搜 <code>TypeScript Handbook</code>，果然有，翻译的比较完整的有：</p>
-<ul>
-<li><a href="https://github.com/oyyd/typescript-handbook-zh" target="_blank" rel="external">https://github.com/oyyd/typescript-handbook-zh</a> 完整</li>
-<li><a href="https://github.com/ntesmail/Typescript-Handbook" target="_blank" rel="external">https://github.com/ntesmail/Typescript-Handbook</a> 不完整</li>
-<li><a href="https://github.com/xykbear/TypeScriptHandbook" target="_blank" rel="external">https://github.com/xykbear/TypeScriptHandbook</a> 比较完整</li>
-</ul>
-<p>既然大家都有翻译了，那我也不必重新造轮子了，正打算放弃，突然一想，那中国那么多想学习TypeScript的人，如果想入门岂不是和我遇到一样的经历，我至少知道Github，但很多初学者是不知道的，我要帮助后来者。</p>
-<p>鉴于我的博客的影响力（羞），比如在百度上搜索： <code>typescript 入门</code>，我之前的文章是结果的第三个（2015-12-03测试），所以我有必要将这些翻译 Copy 到我的博客，然后整理一下发表到博客园主页，当然我会注明这不是我翻译的，注明出处，这样至少通过我的博客可以跳转到原始的翻译。于是我继续下去了。</p>
-<h2 id="意外发现"><a href="#意外发现" class="headerlink" title="意外发现"></a>意外发现</h2><p>在翻译和整理的过程中，我发现在github上我找到的翻译版本有些旧，最完整的 oyyd 的翻译也是旧的，于是我在Copy的同时，也补充入最新的版本。在自己翻译的过程中，我发现了一处错误，于是我提交了一个 Issue ，<a href="https://github.com/Microsoft/TypeScript-Handbook/issues/118" target="_blank" rel="external">https://github.com/Microsoft/TypeScript-Handbook/issues/118</a> ，微软迅速得到修正，我也突然有了重大发现： 帮忙修订的有个人叫 zhongsp ，中国人，那一定有中文的翻译咯？ 果不其然，于是… … 当当当当 … … 当（音乐起）.</p>
-<p>大家看 <a href="https://github.com/zhongsp/TypeScript" target="_blank" rel="external">https://github.com/zhongsp/TypeScript</a> 的就对了，这才是官方正统的中文翻译。</p>
-<p>当然，为什么我之前一直找不到他呢？因为这货竟然将项目的名字叫 <code>TypeScript</code> ，找不到是应该的，而且他发表到<a href="https://zhongsp.gitbooks.io/typescript-handbook/content/" target="_blank" rel="external">https://zhongsp.gitbooks.io/typescript-handbook/content/</a> 这样的网站，中国哪里能搜索的到。于是，我毅然继续Copy,Copy… …然后发表到我的 <a href="http://tansm.cnblogs.com/" target="_blank" rel="external">http://tansm.cnblogs.com</a></p>
-<h2 id="关于发表到首页"><a href="#关于发表到首页" class="headerlink" title="关于发表到首页"></a>关于发表到首页</h2><p>作为一个毫无原创内容的博客，发表到博客园的首页这件事情我知道是不对的，但是… …</p>
-<p>为了中国千万万找不到合适 TypeScript 中文入门教程 的朋友，我冒着被迅速下架的危险，还是要发表上去，这样这些搜索引擎才能将这些转载的文章收录到靠前啊。</p>
-<p>再说了，第一个章节大部分可是我翻译的啊，还是很原创的，所以不能完全算转载了。</p>
-<p>同志们，留下你的只言片语，也能让排名靠前哦。  好吧… … 一个Copy者怎么这么理直气壮了 ，不说 了。</p>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>虽然我是转载的，但看在Copy这么多文章也是很幸苦的好吧，我罗列一个目录。</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Decorators.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 17、注解</a> (2015-12-03 11:36)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Symbols.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 16、Symbols</a> (2015-12-03 11:35)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Iterators_and_Generators.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 15、可迭代性</a> (2015-12-03 11:33)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Writing_Definition_Files.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 14、输入.d.ts文件</a> (2015-12-03 11:31)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Type_Compatibility.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 13、类型兼容性</a> (2015-12-03 11:29)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Type_Inference.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 12、类型推导</a> (2015-12-03 11:28)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Declaration_Merging.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 11、声明合并</a> (2015-12-03 11:26)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Mixins.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 10、混入</a> (2015-12-03 11:24)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Generics.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 9、泛型</a> (2015-12-03 11:22)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Functions.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 8、函数</a> (2015-12-03 11:21)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Modules.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 7、模块</a> (2015-12-03 11:18)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Namespaces.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 6、命名空间</a> (2015-12-03 11:14)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Namespaces_and_Modules.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 5、命名空间和模块</a> (2015-12-03 11:11)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Classes.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 4、类</a> (2015-12-03 11:08)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Interfaces.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 3、接口</a> (2015-12-03 11:03)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Enums.html" target="_blank" rel="external">转载：《TypeScript 中文入门教程》 2、枚举</a> (2015-12-03 10:58)</p>
-<p><a href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_BasicTypes.html" target="_blank" rel="external">《TypeScript 中文入门教程》 1、基础数据类型</a> (2015-12-02 16:14)</p>
-
-      
-    </div>
-
-    <div>
-      
-        
-
-      
-    </div>
-
-    <div>
-      
-        
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-    <div>打赏鼓励一下。</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
-    </button>
-    <div id="QR" style="display: none;">
-      
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="/uploads/wx.png" alt="Feahter WeChat Pay"/>
-          <p>微信打赏</p>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
         </div>
-      
-      
-        <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="/uploads/zfb.jpg" alt="Feahter Alipay"/>
-          <p>支付宝打赏</p>
-        </div>
-      
+      </div>
     </div>
   </div>
 
+</header>
+        
+  
+  <aside class="sidebar">
 
-      
-    </div>
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
 
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/TypeScript/" rel="tag">#TypeScript</a>
-          
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BC%98%E7%94%B1"><span class="nav-number">1.</span> <span class="nav-text">缘由</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%84%8F%E5%A4%96%E5%8F%91%E7%8E%B0"><span class="nav-number">2.</span> <span class="nav-text">意外发现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E5%8F%91%E8%A1%A8%E5%88%B0%E9%A6%96%E9%A1%B5"><span class="nav-number">3.</span> <span class="nav-text">关于发表到首页</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95"><span class="nav-number">4.</span> <span class="nav-text">目录</span></a></li></ol></div>
         </div>
-      
+        <!--/noindex-->
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/12/08/关于gulp/" rel="next" title="关于gulp">
-                <i class="fa fa-chevron-left"></i> 关于gulp
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/02/18/关于webpack/" rel="prev" title="关于webpack">
-                关于webpack <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </article>
-
-
-
-    <div class="post-spread">
-      
-        <div class="ds-share flat" data-thread-key="2016/12/22/关于TypeScript/"
-     data-title="关于TypeScript"
-     data-content=""
-     data-url="https://feahter.github.io/2016/12/22/关于TypeScript/">
-  <div class="ds-share-inline">
-    <ul  class="ds-share-icons-16">
-
-      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
-      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
-      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
-      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
-      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-
-    </ul>
-    <div class="ds-share-icons-more">
-    </div>
-  </div>
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Feahter"
+      src="/uploads/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Feahter</p>
+  <div class="site-description" itemprop="description">Feahter's personal blog</div>
 </div>
-      
-    </div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Feahter" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Feahter" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
   </div>
 
-
-          </div>
-          
-
-
-          
-<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-<script>
-  var cloudTieConfig = {
-    url: document.location.href, 
-    sourceId: "2016/12/22/关于TypeScript/",
-    productKey: "8e0631f10cb84ad18de7e71f4dc690e1",
-    target: "cloud-tie-wrapper"
-  };
-</script>
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
-
         </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+      </div>
     </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <section class="site-overview sidebar-panel ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/uploads/avatar.jpg"
-               alt="Feahter" />
-          <p class="site-author-name" itemprop="name">Feahter</p>
-          <p class="site-description motion-element" itemprop="description">此去经年，经年累月。</p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">21</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">6</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">26</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/Feahter" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                  GitHub
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-
-      </section>
-
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-            
-              
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#缘由"><span class="nav-number">1.</span> <span class="nav-text">缘由</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#意外发现"><span class="nav-number">2.</span> <span class="nav-text">意外发现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于发表到首页"><span class="nav-number">3.</span> <span class="nav-text">关于发表到首页</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#目录"><span class="nav-number">4.</span> <span class="nav-text">目录</span></a></li></ol></div>
-            
-          </div>
-        </section>
-      
-
-    </div>
+    
   </aside>
 
 
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy;  2016 - 
-  <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Feahter</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-        
-
-<div class="busuanzi-count">
-
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
-  
-
-  
-    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
-  
-  
-</div>
-
-
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
     </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://feahter.github.io/2016/12/22/%E5%85%B3%E4%BA%8ETypeScript/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="Feahter">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="经年">
+      <meta itemprop="description" content="Feahter's personal blog">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="关于TypeScript | 经年">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          关于TypeScript
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-12-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-12-22T00:00:00+08:00">2016-12-22</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook.html">转载：《TypeScript 中文入门教程》</a></p>
+<h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a><a href="#%E7%BC%98%E7%94%B1"></a>缘由</h2><span id="more"></span>
+<p>事情是这样的，我想搜索 <code>TypeScript 中文教程</code>，结果在 <a target="_blank" rel="noopener" href="https://www.baidu.com/">https://www.baidu.com</a> ， <a target="_blank" rel="noopener" href="https://cn.bing.com/">https://cn.bing.com</a> ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。</p>
+<p>于是我Fork了官方的库 <a target="_blank" rel="noopener" href="https://github.com/Microsoft/TypeScript-Handbook">https://github.com/Microsoft/TypeScript-Handbook</a> , 到我的库中<a target="_blank" rel="noopener" href="https://github.com/MyErpSoft/TypeScript-Handbook">https://github.com/MyErpSoft/TypeScript-Handbook</a> ,我当然不能直接修改他们的文件，于是我的做法建立子目录 zh-CHS (<a target="_blank" rel="noopener" href="https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS">https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS</a> )，梦想着哪天官方是不是 合并我的变更呢，哈哈，美美的做着白日梦。</p>
+<p>可是在翻译不到几个小时之后呢，觉得不甘心，既然我放在github上，那是不是在 <a target="_blank" rel="noopener" href="https://github.com/">https://GitHub.com</a> 可以搜索到别人的翻译呢？大家都爱github吗，对吧？ 于是在github上搜 <code>TypeScript Handbook</code>，果然有，翻译的比较完整的有：</p>
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/oyyd/typescript-handbook-zh">https://github.com/oyyd/typescript-handbook-zh</a> 完整</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ntesmail/Typescript-Handbook">https://github.com/ntesmail/Typescript-Handbook</a> 不完整</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/xykbear/TypeScriptHandbook">https://github.com/xykbear/TypeScriptHandbook</a> 比较完整</p>
+</li>
+</ul>
+<p>既然大家都有翻译了，那我也不必重新造轮子了，正打算放弃，突然一想，那中国那么多想学习TypeScript的人，如果想入门岂不是和我遇到一样的经历，我至少知道Github，但很多初学者是不知道的，我要帮助后来者。</p>
+<p>鉴于我的博客的影响力（羞），比如在百度上搜索： <code>typescript 入门</code>，我之前的文章是结果的第三个（2015-12-03测试），所以我有必要将这些翻译 Copy 到我的博客，然后整理一下发表到博客园主页，当然我会注明这不是我翻译的，注明出处，这样至少通过我的博客可以跳转到原始的翻译。于是我继续下去了。</p>
+<h2 id="意外发现"><a href="#意外发现" class="headerlink" title="意外发现"></a><a href="#%E6%84%8F%E5%A4%96%E5%8F%91%E7%8E%B0"></a>意外发现</h2><p>在翻译和整理的过程中，我发现在github上我找到的翻译版本有些旧，最完整的 oyyd 的翻译也是旧的，于是我在Copy的同时，也补充入最新的版本。在自己翻译的过程中，我发现了一处错误，于是我提交了一个 Issue ，<a target="_blank" rel="noopener" href="https://github.com/Microsoft/TypeScript-Handbook/issues/118">https://github.com/Microsoft/TypeScript-Handbook/issues/118</a> ，微软迅速得到修正，我也突然有了重大发现： 帮忙修订的有个人叫 zhongsp ，中国人，那一定有中文的翻译咯？ 果不其然，于是… … 当当当当 … … 当（音乐起）.</p>
+<p>大家看 <a target="_blank" rel="noopener" href="https://github.com/zhongsp/TypeScript">https://github.com/zhongsp/TypeScript</a> 的就对了，这才是官方正统的中文翻译。</p>
+<p>当然，为什么我之前一直找不到他呢？因为这货竟然将项目的名字叫 <code>TypeScript</code> ，找不到是应该的，而且他发表到<a target="_blank" rel="noopener" href="https://zhongsp.gitbooks.io/typescript-handbook/content/">https://zhongsp.gitbooks.io/typescript-handbook/content/</a> 这样的网站，中国哪里能搜索的到。于是，我毅然继续Copy,Copy… …然后发表到我的 <a target="_blank" rel="noopener" href="http://tansm.cnblogs.com/">http://tansm.cnblogs.com</a></p>
+<h2 id="关于发表到首页"><a href="#关于发表到首页" class="headerlink" title="关于发表到首页"></a><a href="#%E5%85%B3%E4%BA%8E%E5%8F%91%E8%A1%A8%E5%88%B0%E9%A6%96%E9%A1%B5"></a>关于发表到首页</h2><p>作为一个毫无原创内容的博客，发表到博客园的首页这件事情我知道是不对的，但是… …</p>
+<p>为了中国千万万找不到合适 TypeScript 中文入门教程 的朋友，我冒着被迅速下架的危险，还是要发表上去，这样这些搜索引擎才能将这些转载的文章收录到靠前啊。</p>
+<p>再说了，第一个章节大部分可是我翻译的啊，还是很原创的，所以不能完全算转载了。</p>
+<p>同志们，留下你的只言片语，也能让排名靠前哦。  好吧… … 一个Copy者怎么这么理直气壮了 ，不说 了。</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a><a href="#%E7%9B%AE%E5%BD%95"></a>目录</h2><p>虽然我是转载的，但看在Copy这么多文章也是很幸苦的好吧，我罗列一个目录。</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Decorators.html">转载：《TypeScript 中文入门教程》 17、注解</a> (2015-12-03 11:36)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Symbols.html">转载：《TypeScript 中文入门教程》 16、Symbols</a> (2015-12-03 11:35)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Iterators_and_Generators.html">转载：《TypeScript 中文入门教程》 15、可迭代性</a> (2015-12-03 11:33)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Writing_Definition_Files.html">转载：《TypeScript 中文入门教程》 14、输入.d.ts文件</a> (2015-12-03 11:31)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Type_Compatibility.html">转载：《TypeScript 中文入门教程》 13、类型兼容性</a> (2015-12-03 11:29)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Type_Inference.html">转载：《TypeScript 中文入门教程》 12、类型推导</a> (2015-12-03 11:28)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Declaration_Merging.html">转载：《TypeScript 中文入门教程》 11、声明合并</a> (2015-12-03 11:26)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Mixins.html">转载：《TypeScript 中文入门教程》 10、混入</a> (2015-12-03 11:24)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Generics.html">转载：《TypeScript 中文入门教程》 9、泛型</a> (2015-12-03 11:22)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Functions.html">转载：《TypeScript 中文入门教程》 8、函数</a> (2015-12-03 11:21)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Modules.html">转载：《TypeScript 中文入门教程》 7、模块</a> (2015-12-03 11:18)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Namespaces.html">转载：《TypeScript 中文入门教程》 6、命名空间</a> (2015-12-03 11:14)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Namespaces_and_Modules.html">转载：《TypeScript 中文入门教程》 5、命名空间和模块</a> (2015-12-03 11:11)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Classes.html">转载：《TypeScript 中文入门教程》 4、类</a> (2015-12-03 11:08)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Interfaces.html">转载：《TypeScript 中文入门教程》 3、接口</a> (2015-12-03 11:03)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Enums.html">转载：《TypeScript 中文入门教程》 2、枚举</a> (2015-12-03 10:58)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_BasicTypes.html">《TypeScript 中文入门教程》 1、基础数据类型</a> (2015-12-02 16:14)</p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#TypeScript](/tags/TypeScript/)
+      
+    
+  
+
+  
+    
+      
+        
+          
+             关于gulp
+          
+        
+      
+
+      
+        
+          
+            关于webpack
+</code></pre>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>请我一杯咖啡吧！</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/uploads/wx.png" alt="Feahter 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/uploads/zfb.jpg" alt="Feahter 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2016/12/08/%E5%85%B3%E4%BA%8Egulp/" rel="prev" title="关于gulp">
+                  <i class="fa fa-angle-left"></i> 关于gulp
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2017/02/18/%E5%85%B3%E4%BA%8Ewebpack/" rel="next" title="关于webpack">
+                  关于webpack <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 2016 – 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Feahter</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
   </div>
 
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
+    </div>
+  </footer>
 
   
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
 
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
-
-
-
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"feahter"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
-
-
-
-
-
-
-  
-  
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length == 0) {
-       search_path = "search.xml";
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    function proceedsearch() {
-      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
-      $('.popup').toggle();
-
-    }
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-    'use strict';
-    $.ajax({
-        url: path,
-        dataType: "xml",
-        async: true,
-        success: function( xmlResponse ) {
-            // get the contents from search data
-            isfetched = true;
-            $('.popup').detach().appendTo('.header-inner');
-            var datas = $( "entry", xmlResponse ).map(function() {
-                return {
-                    title: $( "title", this ).text(),
-                    content: $("content",this).text(),
-                    url: $( "url" , this).text()
-                };
-            }).get();
-            var $input = document.getElementById(search_id);
-            var $resultContent = document.getElementById(content_id);
-            $input.addEventListener('input', function(){
-                var matchcounts = 0;
-                var str='<ul class=\"search-result-list\">';
-                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
-                $resultContent.innerHTML = "";
-                if (this.value.trim().length > 1) {
-                // perform local searching
-                datas.forEach(function(data) {
-                    var isMatch = true;
-                    var content_index = [];
-                    var data_title = data.title.trim().toLowerCase();
-                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
-                    var data_url = data.url;
-                    var index_title = -1;
-                    var index_content = -1;
-                    var first_occur = -1;
-                    // only match artiles with not empty titles and contents
-                    if(data_title != '' && data_content != '') {
-                        keywords.forEach(function(keyword, i) {
-                            index_title = data_title.indexOf(keyword);
-                            index_content = data_content.indexOf(keyword);
-                            if( index_title < 0 && index_content < 0 ){
-                                isMatch = false;
-                            } else {
-                                if (index_content < 0) {
-                                    index_content = 0;
-                                }
-                                if (i == 0) {
-                                    first_occur = index_content;
-                                }
-                            }
-                        });
-                    }
-                    // show search results
-                    if (isMatch) {
-                        matchcounts += 1;
-                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
-                        var content = data.content.trim().replace(/<[^>]+>/g,"");
-                        if (first_occur >= 0) {
-                            // cut out 100 characters
-                            var start = first_occur - 20;
-                            var end = first_occur + 80;
-                            if(start < 0){
-                                start = 0;
-                            }
-                            if(start == 0){
-                                end = 50;
-                            }
-                            if(end > content.length){
-                                end = content.length;
-                            }
-                            var match_content = content.substring(start, end);
-                            // highlight all keywords
-                            keywords.forEach(function(keyword){
-                                var regS = new RegExp(keyword, "gi");
-                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
-                            });
-
-                            str += "<p class=\"search-result\">" + match_content +"...</p>"
-                        }
-                        str += "</li>";
-                    }
-                })};
-                str += "</ul>";
-                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
-                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
-                $resultContent.innerHTML = str;
-            });
-            proceedsearch();
-        }
-    });}
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched == false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-
-    });
-
-    $('.popup-btn-close').click(function(e){
-      $('.popup').hide();
-      $(".popoverlay").remove();
-      $('body').css('overflow', '');
-    });
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-  </script>
-
-
-  
-
-  
-
-  
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
 </body>
 </html>
