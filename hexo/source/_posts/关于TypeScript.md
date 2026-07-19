@@ -3,9 +3,8 @@ title: "关于TypeScript"
 date: 2016-12-22
 ---
 
+TypeScript 中文入门教程及基本概念介绍。
 <!-- more -->
-[转载：《TypeScript 中文入门教程》](http://www.cnblogs.com/tansm/p/TypeScript_Handbook.html)
-
 ## [](#缘由)缘由
 
 事情是这样的，我想搜索 `TypeScript 中文教程`，结果在 [https://www.baidu.com](https://www.baidu.com/) ， [https://cn.bing.com](https://cn.bing.com/) ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。

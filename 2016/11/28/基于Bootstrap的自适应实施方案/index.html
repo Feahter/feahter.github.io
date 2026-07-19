@@ -19,15 +19,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"feahter.github.io","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.28.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js" defer></script>
 
-    <meta name="description" content="名由bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。 很多人会对Bootstrap这个名字感到困惑。英语Bootstrap的意思是靴带，来自短语：“pull oneself up by one′s bootstrap”，18世纪德国文学家拉斯伯（Rudolf Erich Raspe）的小说《巴龙历险记（或译为终极天将）》（Adventures of Baron M">
+    <meta name="description" content="bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于Bootstrap的自适应实施方案">
 <meta property="og:url" content="https://feahter.github.io/2016/11/28/%E5%9F%BA%E4%BA%8EBootstrap%E7%9A%84%E8%87%AA%E9%80%82%E5%BA%94%E5%AE%9E%E6%96%BD%E6%96%B9%E6%A1%88/index.html">
 <meta property="og:site_name" content="经年">
-<meta property="og:description" content="名由bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。 很多人会对Bootstrap这个名字感到困惑。英语Bootstrap的意思是靴带，来自短语：“pull oneself up by one′s bootstrap”，18世纪德国文学家拉斯伯（Rudolf Erich Raspe）的小说《巴龙历险记（或译为终极天将）》（Adventures of Baron M">
+<meta property="og:description" content="bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2016-11-27T16:00:00.000Z">
-<meta property="article:modified_time" content="2026-07-19T06:20:06.059Z">
+<meta property="article:modified_time" content="2026-07-19T06:27:45.400Z">
 <meta property="article:author" content="Feahter">
 <meta property="article:tag" content="frontend, vue, javascript, web">
 <meta name="twitter:card" content="summary">
@@ -158,7 +158,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%8D%E7%94%B1"><span class="nav-number">1.</span> <span class="nav-text">名由</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A3%E6%96%87"><span class="nav-number">2.</span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%87%AA%E9%80%82%E5%BA%94"><span class="nav-number">2.1.</span> <span class="nav-text">关于自适应</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%83%E5%B1%80"><span class="nav-number">2.2.</span> <span class="nav-text">布局</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tips"><span class="nav-number">2.3.</span> <span class="nav-text">Tips</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bootstrap%E5%B8%B8%E7%94%A8%E8%BE%85%E5%8A%A9%E7%B1%BB%E5%BD%92%E7%BA%B3"><span class="nav-number">2.4.</span> <span class="nav-text">bootstrap常用辅助类归纳</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EBS%E7%9A%84JavaScript%E6%8F%92%E4%BB%B6"><span class="nav-number">2.5.</span> <span class="nav-text">关于BS的JavaScript插件</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AD%A3%E6%96%87"><span class="nav-number">1.</span> <span class="nav-text">正文</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%87%AA%E9%80%82%E5%BA%94"><span class="nav-number">1.1.</span> <span class="nav-text">关于自适应</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%83%E5%B1%80"><span class="nav-number">1.2.</span> <span class="nav-text">布局</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Tips"><span class="nav-number">1.3.</span> <span class="nav-text">Tips</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bootstrap%E5%B8%B8%E7%94%A8%E8%BE%85%E5%8A%A9%E7%B1%BB%E5%BD%92%E7%BA%B3"><span class="nav-number">1.4.</span> <span class="nav-text">bootstrap常用辅助类归纳</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EBS%E7%9A%84JavaScript%E6%8F%92%E4%BB%B6"><span class="nav-number">1.5.</span> <span class="nav-text">关于BS的JavaScript插件</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -255,8 +255,9 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><span id="more"></span>
-<h4 id="名由"><a href="#名由" class="headerlink" title="名由"></a><a href="#%E5%90%8D%E7%94%B1"></a>名由</h4><p>bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。</p>
+    <div class="post-body" itemprop="articleBody"><p>bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。</p>
+<span id="more"></span>
+<p>bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。</p>
 <p>很多人会对Bootstrap这个名字感到困惑。英语Bootstrap的意思是靴带，来自短语：“pull oneself up by one′s bootstrap”，18世纪德国文学家拉斯伯（Rudolf Erich Raspe）的小说《巴龙历险记（或译为终极天将）》（Adventures of Baron Munchausen) 记述道：“巴龙掉到湖里沉到湖底，在他绝望的时候，他用自己靴子上的带子把自己拉了上来。”现意指不借助别人的力量，凭自己的努力，终于获得成功。统计学里“bootstrap”法是指用原样本自身的数据抽样得出新的样本及统计量，根据其意现在普遍将其译为“自助法”。</p>
 <p>下面引用的是谢益辉博士关于Bootstrap （和 Jackknife）基本思想的论述，让我们对于Bootstrap 建立一个初步的关于统计学的认识：</p>
 <p>在统计的世界，我们面临的总是只有样本，Where there is sample, there is uncertainty，正因为不确定性的存在，才使统计能够生生不息。传说统计学家、数学家和物理学家乘坐一列火车上旅行，路上看到草原上有一只黑羊，统计学家说，“基于这个样本来看，这片草原上所有的羊都是黑的”，数学家说，“只有眼前这只羊是黑的”，物理学家则说，“你们都不对，只有羊的这一面是黑的”。这是关于统计和其他学科的一个玩笑话，说明了统计的一些特征，比如基于样本推断总体。</p>

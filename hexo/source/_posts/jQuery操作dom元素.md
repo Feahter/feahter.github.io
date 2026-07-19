@@ -3,8 +3,8 @@ title: "jQuery操作dom元素"
 date: 2016-09-13
 ---
 
+jQuery DOM 操作常用方法速查表。
 <!-- more -->
-[http://www.w3school.com.cn/jquery/jquery_ref_manipulation.asp](http://www.w3school.com.cn/jquery/jquery_ref_manipulation.asp)
 | [addClass()](http://www.w3school.com.cn/jquery/attributes_addclass.asp) | 向匹配的元素添加指定的类名。              |
 | —————————————- | ————————— |
 | [after()](http://www.w3school.com.cn/jquery/manipulation_after.asp) | 在匹配的元素之后插入内容。               |

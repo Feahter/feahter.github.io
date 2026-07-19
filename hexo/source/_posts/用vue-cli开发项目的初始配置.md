@@ -3,9 +3,8 @@ title: "用vue-cli开发项目的初始配置"
 date: 2018-08-23
 ---
 
+vue-cli项目初始化配置指南
 <!-- more -->
-# [](#vue-cli项目初始化配置指南)vue-cli项目初始化配置指南
-
 1.安装vue-cli
 
 ```

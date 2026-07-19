@@ -3,9 +3,8 @@ title: "thinkphp实践"
 date: 2016-11-30
 ---
 
+ThinkPHP 3.2.3 实践笔记 — 安装配置到项目搭建。
 <!-- more -->
-![thinkphp](http://oe3di974t.bkt.clouddn.com/thinkphp.png)
-
 ThinkPHP是一个快速、兼容而且简单的轻量级国产PHP开发框架。鉴于5.0之后为迎合php7.0而重新构建的框架的不稳定性，我们使用截至目前较新较稳定的3.2.3版。（实践基础默认web环境已搭建好）
 
 [thinkphp官网](http://www.thinkphp.cn/)

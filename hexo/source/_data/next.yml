@@ -1,5 +1,9 @@
 # NexT Theme Override
 
+# Post excerpt — use <!-- more --> tag, not frontmatter description
+excerpt_description: false
+read_more_btn: true
+
 # Local Search
 local_search:
   enable: true

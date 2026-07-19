@@ -3,9 +3,8 @@ title: "关于remetajs"
 date: 2017-08-07
 ---
 
+remeta.js 屏幕适配方案 — 跨屏自适应工具。
 <!-- more -->
-## [](#构成)构成
-
 remeta.js主要由两部分构成，hitdpr()和remeta()。
 
 ### [](#1-hitdpr)1.hitdpr
