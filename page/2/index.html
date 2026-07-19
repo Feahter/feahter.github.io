@@ -328,16 +328,96 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook.html">转载：《TypeScript 中文入门教程》</a></p>
-<h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a><a href="#%E7%BC%98%E7%94%B1"></a>缘由</h2>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/12/22/%E5%85%B3%E4%BA%8ETypeScript/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+          <span id="more"></span>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook.html">转载：《TypeScript 中文入门教程》</a></p>
+<h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a><a href="#%E7%BC%98%E7%94%B1"></a>缘由</h2><p>事情是这样的，我想搜索 <code>TypeScript 中文教程</code>，结果在 <a target="_blank" rel="noopener" href="https://www.baidu.com/">https://www.baidu.com</a> ， <a target="_blank" rel="noopener" href="https://cn.bing.com/">https://cn.bing.com</a> ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。</p>
+<p>于是我Fork了官方的库 <a target="_blank" rel="noopener" href="https://github.com/Microsoft/TypeScript-Handbook">https://github.com/Microsoft/TypeScript-Handbook</a> , 到我的库中<a target="_blank" rel="noopener" href="https://github.com/MyErpSoft/TypeScript-Handbook">https://github.com/MyErpSoft/TypeScript-Handbook</a> ,我当然不能直接修改他们的文件，于是我的做法建立子目录 zh-CHS (<a target="_blank" rel="noopener" href="https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS">https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS</a> )，梦想着哪天官方是不是 合并我的变更呢，哈哈，美美的做着白日梦。</p>
+<p>可是在翻译不到几个小时之后呢，觉得不甘心，既然我放在github上，那是不是在 <a target="_blank" rel="noopener" href="https://github.com/">https://GitHub.com</a> 可以搜索到别人的翻译呢？大家都爱github吗，对吧？ 于是在github上搜 <code>TypeScript Handbook</code>，果然有，翻译的比较完整的有：</p>
+<ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/oyyd/typescript-handbook-zh">https://github.com/oyyd/typescript-handbook-zh</a> 完整</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ntesmail/Typescript-Handbook">https://github.com/ntesmail/Typescript-Handbook</a> 不完整</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/xykbear/TypeScriptHandbook">https://github.com/xykbear/TypeScriptHandbook</a> 比较完整</p>
+</li>
+</ul>
+<p>既然大家都有翻译了，那我也不必重新造轮子了，正打算放弃，突然一想，那中国那么多想学习TypeScript的人，如果想入门岂不是和我遇到一样的经历，我至少知道Github，但很多初学者是不知道的，我要帮助后来者。</p>
+<p>鉴于我的博客的影响力（羞），比如在百度上搜索： <code>typescript 入门</code>，我之前的文章是结果的第三个（2015-12-03测试），所以我有必要将这些翻译 Copy 到我的博客，然后整理一下发表到博客园主页，当然我会注明这不是我翻译的，注明出处，这样至少通过我的博客可以跳转到原始的翻译。于是我继续下去了。</p>
+<h2 id="意外发现"><a href="#意外发现" class="headerlink" title="意外发现"></a><a href="#%E6%84%8F%E5%A4%96%E5%8F%91%E7%8E%B0"></a>意外发现</h2><p>在翻译和整理的过程中，我发现在github上我找到的翻译版本有些旧，最完整的 oyyd 的翻译也是旧的，于是我在Copy的同时，也补充入最新的版本。在自己翻译的过程中，我发现了一处错误，于是我提交了一个 Issue ，<a target="_blank" rel="noopener" href="https://github.com/Microsoft/TypeScript-Handbook/issues/118">https://github.com/Microsoft/TypeScript-Handbook/issues/118</a> ，微软迅速得到修正，我也突然有了重大发现： 帮忙修订的有个人叫 zhongsp ，中国人，那一定有中文的翻译咯？ 果不其然，于是… … 当当当当 … … 当（音乐起）.</p>
+<p>大家看 <a target="_blank" rel="noopener" href="https://github.com/zhongsp/TypeScript">https://github.com/zhongsp/TypeScript</a> 的就对了，这才是官方正统的中文翻译。</p>
+<p>当然，为什么我之前一直找不到他呢？因为这货竟然将项目的名字叫 <code>TypeScript</code> ，找不到是应该的，而且他发表到<a target="_blank" rel="noopener" href="https://zhongsp.gitbooks.io/typescript-handbook/content/">https://zhongsp.gitbooks.io/typescript-handbook/content/</a> 这样的网站，中国哪里能搜索的到。于是，我毅然继续Copy,Copy… …然后发表到我的 <a target="_blank" rel="noopener" href="http://tansm.cnblogs.com/">http://tansm.cnblogs.com</a></p>
+<h2 id="关于发表到首页"><a href="#关于发表到首页" class="headerlink" title="关于发表到首页"></a><a href="#%E5%85%B3%E4%BA%8E%E5%8F%91%E8%A1%A8%E5%88%B0%E9%A6%96%E9%A1%B5"></a>关于发表到首页</h2><p>作为一个毫无原创内容的博客，发表到博客园的首页这件事情我知道是不对的，但是… …</p>
+<p>为了中国千万万找不到合适 TypeScript 中文入门教程 的朋友，我冒着被迅速下架的危险，还是要发表上去，这样这些搜索引擎才能将这些转载的文章收录到靠前啊。</p>
+<p>再说了，第一个章节大部分可是我翻译的啊，还是很原创的，所以不能完全算转载了。</p>
+<p>同志们，留下你的只言片语，也能让排名靠前哦。  好吧… … 一个Copy者怎么这么理直气壮了 ，不说 了。</p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a><a href="#%E7%9B%AE%E5%BD%95"></a>目录</h2><p>虽然我是转载的，但看在Copy这么多文章也是很幸苦的好吧，我罗列一个目录。</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Decorators.html">转载：《TypeScript 中文入门教程》 17、注解</a> (2015-12-03 11:36)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Symbols.html">转载：《TypeScript 中文入门教程》 16、Symbols</a> (2015-12-03 11:35)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Iterators_and_Generators.html">转载：《TypeScript 中文入门教程》 15、可迭代性</a> (2015-12-03 11:33)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Writing_Definition_Files.html">转载：《TypeScript 中文入门教程》 14、输入.d.ts文件</a> (2015-12-03 11:31)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Type_Compatibility.html">转载：《TypeScript 中文入门教程》 13、类型兼容性</a> (2015-12-03 11:29)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Type_Inference.html">转载：《TypeScript 中文入门教程》 12、类型推导</a> (2015-12-03 11:28)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Declaration_Merging.html">转载：《TypeScript 中文入门教程》 11、声明合并</a> (2015-12-03 11:26)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Mixins.html">转载：《TypeScript 中文入门教程》 10、混入</a> (2015-12-03 11:24)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Generics.html">转载：《TypeScript 中文入门教程》 9、泛型</a> (2015-12-03 11:22)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Functions.html">转载：《TypeScript 中文入门教程》 8、函数</a> (2015-12-03 11:21)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Modules.html">转载：《TypeScript 中文入门教程》 7、模块</a> (2015-12-03 11:18)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Namespaces.html">转载：《TypeScript 中文入门教程》 6、命名空间</a> (2015-12-03 11:14)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Namespaces_and_Modules.html">转载：《TypeScript 中文入门教程》 5、命名空间和模块</a> (2015-12-03 11:11)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Classes.html">转载：《TypeScript 中文入门教程》 4、类</a> (2015-12-03 11:08)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Interfaces.html">转载：《TypeScript 中文入门教程》 3、接口</a> (2015-12-03 11:03)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_Enums.html">转载：《TypeScript 中文入门教程》 2、枚举</a> (2015-12-03 10:58)</p>
+<p><a target="_blank" rel="noopener" href="http://www.cnblogs.com/tansm/p/TypeScript_Handbook_BasicTypes.html">《TypeScript 中文入门教程》 1、基础数据类型</a> (2015-12-02 16:14)</p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#TypeScript](/tags/TypeScript/)
+      
+    
+  
+
+  
+    
+      
         
+          
+             关于gulp
+          
+        
+      
+
+      
+        
+          
+            关于webpack
+</code></pre>
+
       
     </div>
 
@@ -405,15 +485,420 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h3 id="awesome-gulp中文版"><a href="#awesome-gulp中文版" class="headerlink" title="awesome-gulp中文版"></a><a href="#awesome-gulp%E4%B8%AD%E6%96%87%E7%89%88"></a><a target="_blank" rel="noopener" href="https://github.com/alferov/awesome-gulp">awesome-gulp</a>中文版</h3>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/12/08/%E5%85%B3%E4%BA%8Egulp/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+          <span id="more"></span>
+<h3 id="awesome-gulp中文版"><a href="#awesome-gulp中文版" class="headerlink" title="awesome-gulp中文版"></a><a href="#awesome-gulp%E4%B8%AD%E6%96%87%E7%89%88"></a><a target="_blank" rel="noopener" href="https://github.com/alferov/awesome-gulp">awesome-gulp</a>中文版</h3><blockquote>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp">gulp</a>的资源，插件和使用实例清单， 致力于打造更好的前端工程构建流程。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/awesome">awesome清单</a> </p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a><a href="#%E8%B5%84%E6%BA%90"></a>资源</h2><h3 id="通用资源"><a href="#通用资源" class="headerlink" title="通用资源"></a><a href="#%E9%80%9A%E7%94%A8%E8%B5%84%E6%BA%90"></a>通用资源</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="http://gulpjs.com/">官网</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://www.gulpjs.com.cn/">中文网</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp">Github库</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://gulpjs.com/plugins/">插件注册</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/gulp">NPM模块</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/plugins/blob/master/src/blackList.json">插件黑名单</a></p>
+</li>
+</ul>
+<h3 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a><a href="#%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3"></a>官方文档</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md">快速开始</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp/blob/master/docs/API.md">API文档</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp/tree/master/docs#articles">CLI 文档</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/README.md">开始写一个插件</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp/tree/master/docs/recipes">使用诀窍</a></p>
+</li>
+</ul>
+<h3 id="组织"><a href="#组织" class="headerlink" title="组织"></a><a href="#%E7%BB%84%E7%BB%87"></a>组织</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="http://stackoverflow.com/questions/tagged/gulp">StackOverflow</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://twitter.com/gulpjs">Twitter</a></p>
+</li>
+</ul>
+<h3 id="入门教程"><a href="#入门教程" class="headerlink" title="入门教程"></a><a href="#%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B"></a>入门教程</h3><h4 id="Gulp入门"><a href="#Gulp入门" class="headerlink" title="Gulp入门"></a><a href="#Gulp%E5%85%A5%E9%97%A8"></a>Gulp入门</h4><ul>
+<li><p><a target="_blank" rel="noopener" href="https://www.smashingmagazine.com/2014/06/building-with-gulp/">使用Gulp构建前端工程</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js">通过Gulp.js轻松自动化构建你的前端工程</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://medium.com/@contrahacks/gulp-3828e8126466">Gulp，让前端工程可视化</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://stefanimhoff.de/tag/gulp/">Gulp.js是什么？</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://blog.johnnyreilly.com/2015/02/using-gulp-in-asp-net-instead-of-web-optimization.html">使用Gulp在你的HTML中直接插入Scripts和Styles标签</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://denbuzze.com/post/5-lessons-learned-using-gulpjs/">5节课学会使用Gulp.js</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://lab.brightnorth.co.uk/2014/08/13/automating-linkage-how-i-learned-to-stop-worrying-and-love-the-build/">我是怎样摆脱前端工程的困扰的？</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.codementor.io/development-process/tutorial/how-to-set-up-gulp-beginner-guide#/">第一次开始Gulp Task</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://blog.overzealous.com/post/74121048393/why-you-shouldnt-create-a-gulp-plugin-or-how-to">为什么你不自己写一个Gulp插件？</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://blog.rangle.io/angular-gulp-bestpractices/">6个最好的从根本改善你的开发经验的Gulp实战练习</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://css-tricks.com/gulp-for-beginners/">Gulp初学者教程</a></p>
+</li>
+</ul>
+<h4 id="Gulp-4-入门"><a href="#Gulp-4-入门" class="headerlink" title="Gulp 4 入门"></a><a href="#Gulp-4-%E5%85%A5%E9%97%A8"></a>Gulp 4 入门</h4><ul>
+<li><p><a target="_blank" rel="noopener" href="https://blog.wearewizards.io/migrating-to-gulp-4-by-example">迁移到Gulp 4的例子</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://fettblog.eu/gulp-4-parallel-and-series/">Gulp 4: 新的task执行系统 - gulp.parallel 和 gulp.series</a></p>
+</li>
+</ul>
+<h4 id="Gulp-with-Browserify"><a href="#Gulp-with-Browserify" class="headerlink" title="Gulp with Browserify"></a><a href="#Gulp-with-Browserify"></a>Gulp with Browserify</h4><ul>
+<li><p><a target="_blank" rel="noopener" href="https://medium.com/@sogko/gulp-browserify-the-gulp-y-way-bb359b3f9623">Gulp + Browserify, the Gulp-y Way</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://viget.com/extend/gulp-browserify-starter-faq">Gulp + Browserify</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md">快速构建Browserify和Watchify</a></p>
+</li>
+</ul>
+<h4 id="Gulp-with-Angular"><a href="#Gulp-with-Angular" class="headerlink" title="Gulp with Angular"></a><a href="#Gulp-with-Angular"></a>Gulp with Angular</h4><ul>
+<li><a target="_blank" rel="noopener" href="http://blog.jhades.org/what-every-angular-project-likely-needs-and-a-gulp-build-to-provide-it/">Angular工程需要什么 - Gulp能提供什么</a></li>
+</ul>
+<h4 id="Gulp-with-Angular-and-Browserify"><a href="#Gulp-with-Angular-and-Browserify" class="headerlink" title="Gulp with Angular and Browserify"></a><a href="#Gulp-with-Angular-and-Browserify"></a>Gulp with Angular and Browserify</h4><ul>
+<li><a target="_blank" rel="noopener" href="http://omarfouad.com/blog/2015/03/21/advanced-angularjs-structure-with-gulp-node-and-browserify/">使用 Gulp, Node and Browserify构建先进的 AngularJS工程结构</a></li>
+</ul>
+<h4 id="Gulp-with-React-and-Browserify"><a href="#Gulp-with-React-and-Browserify" class="headerlink" title="Gulp with React and Browserify"></a><a href="#Gulp-with-React-and-Browserify"></a>Gulp with React and Browserify</h4><ul>
+<li><p><a target="_blank" rel="noopener" href="https://hacks.mozilla.org/2014/08/browserify-and-gulp-with-react/">Browserify、Gulp 和 React</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://pomax.github.io/1420592591221/taking-react-to-the-next-level-mixins-gulp-and-browserify">Taking React to the Next Level: Mixins, Gulp, and Browserify</a></p>
+</li>
+</ul>
+<h4 id="Gulp-with-Ember"><a href="#Gulp-with-Ember" class="headerlink" title="Gulp with Ember"></a><a href="#Gulp-with-Ember"></a>Gulp with Ember</h4><ul>
+<li><a target="_blank" rel="noopener" href="http://www.sitepoint.com/improving-ember-js-workflow-using-gulp-js/">使用Gulp.js改进你的Ember.js工作流</a></li>
+</ul>
+<h3 id="其他资源"><a href="#其他资源" class="headerlink" title="其他资源"></a><a href="#%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90"></a>其他资源</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/osscafe/gulp-cheatsheet">Gulp 备忘录</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/johnpapa/gulp-patterns">Gulp清单</a></p>
+</li>
+</ul>
+<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a><a href="#%E6%8F%92%E4%BB%B6"></a>插件</h2><h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a><a href="#%E7%BC%96%E8%AF%91"></a>编译</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/dlmanning/gulp-sass">gulp-sass</a> - 通过 <a target="_blank" rel="noopener" href="https://github.com/sass/libsass">libsass</a>将Sass编译成 CSS</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-ruby-sass">gulp-ruby-sass</a> - 通过 Ruby Sass将Sass编译成CSS</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/appleboy/gulp-compass">gulp-compass</a> - 通过 Ruby Sass和CompassSass编译成CSS</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/plus3network/gulp-less">gulp-less</a> - <a target="_blank" rel="noopener" href="https://github.com/less/less.js">Less</a>编译成 CSS.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/stevelacy/gulp-stylus">gulp-stylus</a> - <a target="_blank" rel="noopener" href="https://github.com/stylus/stylus">Stylus</a> 编译成 CSS.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/postcss/gulp-postcss">gulp-postcss</a> - Pipe CSS 通过 <a target="_blank" rel="noopener" href="https://github.com/postcss/postcss">PostCSS</a> processors with a single parse.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/contra/gulp-coffee">gulp-coffee</a> - <a target="_blank" rel="noopener" href="https://github.com/jashkenas/coffeescript">Coffeescript</a> 编译成 JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ivogabe/gulp-typescript">gulp-typescript</a> - <a target="_blank" rel="noopener" href="https://github.com/Microsoft/TypeScript">TypeScript</a>编译成JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-react">gulp-react</a> - Facebook <a target="_blank" rel="noopener" href="https://github.com/facebook/react">React</a> JSX 模板编译成JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/shama/webpack-stream">webpack-stream</a> - 将<a target="_blank" rel="noopener" href="https://github.com/webpack/webpack">webpack</a>集成在Gulp中使用。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/babel/gulp-babel">gulp-babel</a> - ES6编译成ES5 通过 <a target="_blank" rel="noopener" href="https://github.com/babel/babel">babel</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-traceur">gulp-traceur</a> - ES6编译成ES5 通过 <a target="_blank" rel="noopener" href="https://github.com/google/traceur-compiler">Traceur</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-regenerator">gulp-regenerator</a> - ES6编译成ES5 通过 <a target="_blank" rel="noopener" href="https://github.com/facebook/regenerator">Regenerator</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-es6-transpiler">gulp-es6-transpiler</a> - [过时的] ES6编译成ES5 通过 <a target="_blank" rel="noopener" href="https://github.com/termi/es6-transpiler">es6-transpiler</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-myth">gulp-myth</a> - <a target="_blank" rel="noopener" href="https://github.com/segmentio/myth">Myth</a> - a polyfill for future versions of the CSS spec.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/MoOx/gulp-cssnext">gulp-cssnext</a> - [过时的] 使用下一代的 CSS 规范通过 <a target="_blank" rel="noopener" href="https://github.com/MoOx/postcss-cssnext">cssnext</a>.</p>
+</li>
+</ul>
+<h3 id="合并"><a href="#合并" class="headerlink" title="合并"></a><a href="#%E5%90%88%E5%B9%B6"></a>合并</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/contra/gulp-concat">gulp-concat</a> - 合并文件.</li>
+</ul>
+<h3 id="压缩"><a href="#压缩" class="headerlink" title="压缩"></a><a href="#%E5%8E%8B%E7%BC%A9"></a>压缩</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/scniro/gulp-clean-css">gulp-clean-css</a> - 压缩 CSS 通过 <a target="_blank" rel="noopener" href="https://github.com/jakubpawlowicz/clean-css">clean-css</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ben-eb/gulp-csso">gulp-csso</a> - 压缩 CSS 通过 <a target="_blank" rel="noopener" href="https://github.com/css/csso">CSSO</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/terinjokes/gulp-uglify">gulp-uglify</a> - 压缩 JavaScript 通过 <a target="_blank" rel="noopener" href="https://github.com/mishoo/UglifyJS2">UglifyJS2</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jonschlinkert/gulp-htmlmin">gulp-htmlmin</a> - 压缩 HTML 通过 <a target="_blank" rel="noopener" href="https://github.com/kangax/html-minifier">html-minifier</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/murphydanger/gulp-minify-html">gulp-minify-html</a> - 压缩 HTML 通过 <a target="_blank" rel="noopener" href="https://github.com/Swaagie/minimize">Minimize</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-imagemin">gulp-imagemin</a> - 压缩 PNG, JPEG, GIF and SVG 图片 通过 <a target="_blank" rel="noopener" href="https://github.com/imagemin/imagemin">imagemin</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ben-eb/gulp-svgmin">gulp-svgmin</a> - 通过Gulp压缩 SVG 文件</p>
+</li>
+</ul>
+<h3 id="优化"><a href="#优化" class="headerlink" title="优化"></a><a href="#%E4%BC%98%E5%8C%96"></a>优化</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ben-eb/gulp-uncss">gulp-uncss</a> - 移除未使用的CSS选择器通过 <a target="_blank" rel="noopener" href="https://github.com/giakki/uncss">UnCSS</a>.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/zckrs/gulp-css-base64">gulp-css-base64</a> - 将CSS文件中所有的资源(有url()声明的)变成base64-encoded 数据的URI字符串</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/akoenig/gulp-svg2png">gulp-svg2png</a> - 将SVGs转换成PNGs</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/mahnunchik/gulp-responsive">gulp-responsive</a> - 生成不同尺寸的图片</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/w0rm/gulp-svgstore">gulp-svgstore</a> -将svg files 合并成一个通过 元素</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/nfroidure/gulp-iconfont">gulp-iconfont</a> - 通过SVG icons创建 icon fonts</p>
+</li>
+</ul>
+<h3 id="资源注入"><a href="#资源注入" class="headerlink" title="资源注入"></a><a href="#%E8%B5%84%E6%BA%90%E6%B3%A8%E5%85%A5"></a>资源注入</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jonkemp/gulp-useref">gulp-useref</a> - 解析HTML文件中特殊标签里面的script或style标签，合并成一个script或css文件，并替换。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/klei/gulp-inject">gulp-inject</a> - 将指定的css或js文件以标签的形式插入到HTML中的指定标志内。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/taptapship/wiredep">wiredep</a> - 将Bower依赖自动注入HTML文件中。</p>
+</li>
+</ul>
+<h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a><a href="#%E6%A8%A1%E6%9D%BF"></a>模板</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/miickel/gulp-angular-templatecache">gulp-angular-templatecache</a> - 在$templateCache中联系并注册AngularJS模板</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/phated/gulp-jade">gulp-jade</a> - <a target="_blank" rel="noopener" href="https://github.com/pugjs/jade">Jade</a> 转换成 HTML.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/lazd/gulp-handlebars">gulp-handlebars</a> - <a target="_blank" rel="noopener" href="https://github.com/wycats/handlebars.js">Handlebars</a>模板转换成 JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/shannonmoeller/gulp-hb">gulp-hb</a> - <a target="_blank" rel="noopener" href="https://github.com/wycats/handlebars.js">Handlebars</a> 模板转换成 HTML.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-nunjucks">gulp-nunjucks</a> - <a target="_blank" rel="noopener" href="https://github.com/mozilla/nunjucks">Nunjucks</a>模板转换成JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-dust">gulp-dustjs</a> - <a target="_blank" rel="noopener" href="https://github.com/linkedin/dustjs">Dust</a>模板转换成JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/e-jigsaw/gulp-riot">gulp-riot</a> - <a target="_blank" rel="noopener" href="https://github.com/riot/riot">Riot</a>模板转换成JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-markdown">gulp-markdown</a> - Markdown → HTML.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-template">gulp-template</a> - <a target="_blank" rel="noopener" href="https://github.com/lodash/lodash">Lodash </a>模板转换成JavaScript.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/colynb/gulp-swig">gulp-swig</a> - <a target="_blank" rel="noopener" href="https://github.com/paularmstrong/swig">Swig</a>模板转换成HTML.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/denysdovhan/gulp-remark">gulp-remark</a> - Gulp plugin for [remark]的Gulp插件(<a target="_blank" rel="noopener" href="https://github.com/wooorm/remark">https://github.com/wooorm/remark</a>) 通过插件处理markdown</p>
+</li>
+</ul>
+<h3 id="代码校验"><a href="#代码校验" class="headerlink" title="代码校验"></a><a href="#%E4%BB%A3%E7%A0%81%E6%A0%A1%E9%AA%8C"></a>代码校验</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/gulp-csslint">gulp-csslint</a> - 通过<a target="_blank" rel="noopener" href="https://github.com/CSSLint/csslint">CSSLint</a>自动校验CSS.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/bezoerb/gulp-htmlhint">gulp-htmlhint</a> - 通过<a target="_blank" rel="noopener" href="https://github.com/yaniswang/HTMLHint">HTMLHint</a>校验HTML.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/spalger/gulp-jshint">gulp-jshint</a> - 通过<a target="_blank" rel="noopener" href="https://github.com/jshint/jshint">JSHint</a>发现错误和潜在的问题.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jscs-dev/gulp-jscs">gulp-jscs</a> - 通过<a target="_blank" rel="noopener" href="https://github.com/jscs-dev/node-jscs">jscs</a>检查JavaScript代码风格.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/janraasch/gulp-coffeelint">gulp-coffeelint</a> - 一种用来保证<a target="_blank" rel="noopener" href="https://github.com/jashkenas/coffeescript">CoffeeScript</a>代码风格统一的检查。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/panuhorsmalahti/gulp-tslint">gulp-tslint</a> - gulp的<a target="_blank" rel="noopener" href="https://github.com/Microsoft/TypeScript">TypeScript</a>代码校验插件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/adametry/gulp-eslint">gulp-eslint</a> - ECMAScript&#x2F;JavaScript代码校验.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/callumacrae/gulp-w3cjs">gulp-w3cjs</a> - 通过<a target="_blank" rel="noopener" href="https://github.com/thomasdavis/w3cjs">w3cjs</a>检验HTML.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/lesshint/gulp-lesshint">gulp-lesshint</a> - 通过<a target="_blank" rel="noopener" href="https://github.com/lesshint/lesshint">lesshint</a>校验LESS.</p>
+</li>
+</ul>
+<h3 id="实时加载"><a href="#实时加载" class="headerlink" title="实时加载"></a><a href="#%E5%AE%9E%E6%97%B6%E5%8A%A0%E8%BD%BD"></a>实时加载</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/BrowserSync/browser-sync">browser-sync</a> - 保证多个浏览器或设备网页同步显示 (<a target="_blank" rel="noopener" href="https://github.com/BrowserSync/gulp-browser-sync">recipes</a>).</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/vohof/gulp-livereload">gulp-livereload</a> - Gulp的实时加载插件.</p>
+</li>
+</ul>
+<h3 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a><a href="#%E7%BC%93%E5%AD%98"></a>缓存</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-changed">gulp-changed</a> - 仅让发生改变的文件通过.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/contra/gulp-cached">gulp-cached</a> - 一个简单的文件内存缓存.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ahaurw01/gulp-remember">gulp-remember</a> - 记忆并回收通过了的文件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/tschaub/gulp-newer">gulp-newer</a> - 只让新的源码通过.</p>
+</li>
+</ul>
+<h3 id="流控制"><a href="#流控制" class="headerlink" title="流控制"></a><a href="#%E6%B5%81%E6%8E%A7%E5%88%B6"></a>流控制</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/grncdr/merge-stream">merge-stream</a> - 合并多个流到一个插入的流.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/nfroidure/StreamQueue">streamqueue</a> - 逐渐输入队列的流.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/OverZealous/run-sequence">run-sequence</a> - 按要求运行一些依赖的Gulptask.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/robrich/gulp-if">gulp-if</a> - 按照条件运行task.</p>
+</li>
+</ul>
+<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a><a href="#%E6%97%A5%E5%BF%97"></a>日志</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/mikaelbr/gulp-notify">gulp-notify</a> - Gulp的通知插件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-size">gulp-size</a> - 显示你的项目的大小.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-debug">gulp-debug</a> - 通过调试文件流来观察那些文件通过了你的Gulp管道.</p>
+</li>
+</ul>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a><a href="#%E6%B5%8B%E8%AF%95"></a>测试</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-mocha">gulp-mocha</a> - 运行<a target="_blank" rel="noopener" href="https://github.com/mochajs/mocha">Mocha</a>测试用例.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-jasmine">gulp-jasmine</a> - 在Node.js中运行<a target="_blank" rel="noopener" href="https://github.com/jasmine/jasmine">Jasmine 2</a> 测试用例.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/mllrsohn/gulp-protractor">gulp-protractor</a> - 为<a target="_blank" rel="noopener" href="https://github.com/angular/protractor">Protractor</a>测试用例包裹Gulp.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/dylanb/gulp-coverage">gulp-coverage</a> - 为Node.js覆盖相对于运行的测试运行独立的报告.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/karma-runner/gulp-karma">gulp-karma</a> - 通过Gulp运行Karma测试用例.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-ava">gulp-ava</a>- 通过Gulp运行<a target="_blank" rel="noopener" href="https://github.com/sindresorhus/ava">AVA</a> 测试用例.</p>
+</li>
+</ul>
+<h3 id="其他插件"><a href="#其他插件" class="headerlink" title="其他插件"></a><a href="#%E5%85%B6%E4%BB%96%E6%8F%92%E4%BB%B6"></a>其他插件</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/gulpjs/gulp-util">gulp-util</a> - 包含一系列有用插件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/floatdrop/gulp-plumber">gulp-plumber</a> - 防止错误引起管道中断Prevent pipe breaking caused by errors.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jackfranklin/gulp-load-plugins">gulp-load-plugins</a> - 自动加载Gulp插件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/ck86/main-bower-files">main-bower-files</a> - 构建时自动获取bower库的文件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/postcss/autoprefixer">autoprefixer</a> - 解析CSS且根据规则添加浏览器兼容性前缀.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/floridoo/gulp-sourcemaps">gulp-sourcemaps</a> - 提供source map支持.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/lazd/gulp-replace">gulp-replace</a> - Gulp的一个字符串替换插件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/hparra/gulp-rename">gulp-rename</a> - 轻松重命名文件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-rev">gulp-rev</a> - 在静态文件名的后面添加hash值，如: unicorn.css → unicorn-d41d8cd98f.css.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/del">del</a> - 使用globs删除文件&#x2F;文件夹.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/robrich/gulp-exec">gulp-exec</a> - 运行一个shell命令.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-strip-debug">gulp-strip-debug</a> - 除去javascript代码中的console,alert,debugger声明.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/unlight/gulp-cssimport">gulp-cssimport</a> - 解析CSS文件，找到imports,将连接文件替换成imort声明.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jonkemp/gulp-inline-css">gulp-inline-css</a> - 将HTML中的css属性放到style标签中.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/shinnn/gulp-gh-pages">gulp-gh-pages</a> - 将内容发布到GiHub有页面.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/Kagami/gulp-ng-annotate">gulp-ng-annotate</a> - 通过<a target="_blank" rel="noopener" href="https://github.com/olov/ng-annotate">ng-annotate</a>添加Angular依赖注入.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/stevelacy/gulp-bump">gulp-bump</a> - 通过Gulp Bump任何semvar JSON版本.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/coderhaoxin/gulp-file-include">gulp-file-include</a> - 通过Gulp Include文件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-zip">gulp-zip</a> - 以ZIP格式压缩文件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/stevelacy/gulp-git">gulp-git</a> - 通过Gulp运行git命令.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-filter">gulp-filter</a> - 使用globbing过滤文件.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jas/gulp-preprocess">gulp-preprocess</a> - 基于自定义内容或环境配置预处理文件.</p>
+</li>
+</ul>
+<h2 id="脚手架"><a href="#脚手架" class="headerlink" title="脚手架"></a><a href="#%E8%84%9A%E6%89%8B%E6%9E%B6"></a>脚手架</h2><h3 id="模板-1"><a href="#模板-1" class="headerlink" title="模板"></a><a href="#%E6%A8%A1%E6%9D%BF-1"></a>模板</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/google/web-starter-kit">web-starter-kit</a> - Google的Web Starter Kit.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-plugin-boilerplate">gulp-plugin-boilerplate</a> - 创建Gulp插件的开始模板.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/polymerelements/polymer-starter-kit">polymer-starter-kit</a> -Polymer 1.0 应用的起点.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/este/este">este</a> - 同构的web应用最全面的React&#x2F;Flux开发栈和开始模板.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/mrmrs/mnml">mnml</a> - 开发响应式HTML5&#x2F;Sass项目的最小开始模板.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/cferdinandi/kraken">kraken</a> 一个轻量级的、移动端优先的前端开发开始模板.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate">angularjs-gulp-browserify-boilerplate</a> - 一个使用AngularJS, Sass, gulp, 和 Browserify技术的开始模板.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/poeticninja/hapi-ninja">hapi-ninja</a> - 一个使用Node.js, Hapi, and Swig技术的开始模板.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/rappasoft/laravel-5-boilerplate">laravel-5-boilerplate</a> - 一个Laravel 5 开始模板.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/wbkd/react-starterkit">react-starterkit</a> - 包含react-router, Reflux, jest, webpack, gulp and Stylus的React开始模板.</p>
+</li>
+</ul>
+<h3 id="Yeoman生成器"><a href="#Yeoman生成器" class="headerlink" title="Yeoman生成器"></a><a href="#Yeoman%E7%94%9F%E6%88%90%E5%99%A8"></a>Yeoman生成器</h3><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/yeoman/generator-gulp-webapp">generator-gulp-webapp</a> - A 一个流行的web应用的gulp生成器.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/Swiip/generator-gulp-angular">generator-gulp-angular</a> - 使用Gulp的AngularJS 的Yeoman生成器.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/randylien/generator-react-gulp-browserify">generator-react-gulp-browserify</a> - 一个React库的Yeoman生成器，包含gulp, Browserify, Browsersync and Bootstrap.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/youngmountain/generator-node-gulp">generator-node-gulp</a> - 一个Node.js模块生成器，包含gulp和 Mocha.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/niallobrien/generator-gulp-bootstrap">generator-gulp-bootstrap</a> - 一个包含Bootstrap, gulp 和libsass的Yeoman生成器·.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/jgoux/generator-angulpify">generator-angulpify</a> - 一个包含AngularJS, gulp和Browserify的Yeoman生成器.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/tmaximini/generator-ionic-gulp">generator-ionic-gulp</a> - 一个Ionic工厂的Yeoman生成器.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/generator-gulp-plugin-boilerplate">generator-gulp-plugin-boilerplate</a> -一个输出 <a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-plugin-boilerplate">gulp plugin boilerplate</a>的脚手架.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sondr3/generator-jekyllized">generator-jekyllized</a> - 一个包含gulp, Sass, AutoPrefixer,资源优化，缓存等的Jekyll工作流.</p>
+</li>
+</ul>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a><a href="#%E5%85%B6%E4%BB%96"></a>其他</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/laravel/elixir">elixir</a> - 一个为你的应用定义基本的gulp任务的干净、灵活的API.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/sindresorhus/gulp-app">gulp-app</a> - 将Gulp作为一个应用(OS X).</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/Lostmyname/lmn-gulp-tasks">lmn-gulp-tasks</a> - gulp任务的单元测试示例.</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="http://gulp-cookery.github.io/gulp-chef/">gulp-chef</a> - 一个优雅的、简单的重复使用gulp task的方法.</p>
+</li>
+</ul>
+<p>本文出处：<a target="_blank" rel="noopener" href="http://www.cnblogs.com/-ding/p/5972162.html">http://www.cnblogs.com/-ding/p/5972162.html</a></p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#gulp](/tags/gulp/)
+      
+        [#前端自动化、工程化](/tags/前端自动化、工程化/)
+      
+    
+  
+
+  
+    
+      
         
+          
+             前端大神
+          
+        
+      
+
+      
+        
+          
+            关于TypeScript
+</code></pre>
+
       
     </div>
 
@@ -481,15 +966,459 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="前端大神"><a href="#前端大神" class="headerlink" title="前端大神"></a><a href="#%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E"></a>前端大神</h1>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/12/08/%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+          <span id="more"></span>
+<h1 id="前端大神"><a href="#前端大神" class="headerlink" title="前端大神"></a><a href="#%E5%89%8D%E7%AB%AF%E5%A4%A7%E7%A5%9E"></a>前端大神</h1><p>达者为师，站在巨人的肩膀上眺望，才能看得更远。</p>
+<h2 id="1-1-国际"><a href="#1-1-国际" class="headerlink" title="1.1 国际"></a><a href="#1-1-%E5%9B%BD%E9%99%85"></a>1.1 国际</h2><ul>
+<li><h3 id="Chris-Coyier"><a href="#Chris-Coyier" class="headerlink" title="Chris Coyier"></a><a href="#Chris-Coyier"></a><a target="_blank" rel="noopener" href="http://chriscoyier.net/">Chris Coyier</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://codepen.io/">Codepen</a>创始人，<a target="_blank" rel="noopener" href="http://css-tricks.com/">css-tricks</a>站长。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://codepen.io/chriscoyier">CodePen</a>、 <a target="_blank" rel="noopener" href="http://dribbble.com/chriscoyier">Dribbble</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/chriscoyier">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/chriscoyier">GitHub</a>、 <a target="_blank" rel="noopener" href="http://instagram.com/chriscoyier">Instagram</a></p>
+<ul>
+<li><h3 id="Sara-Soueidan"><a href="#Sara-Soueidan" class="headerlink" title="Sara Soueidan"></a><a href="#Sara-Soueidan"></a><a target="_blank" rel="noopener" href="https://sarasoueidan.com/">Sara Soueidan</a></h3></li>
+</ul>
+<p>2015 net awards(net杂志的年度颁奖盛典)的<a target="_blank" rel="noopener" href="https://thenetawards.com/longlist/developer/">年度开发者</a>，2015 O’Reilly Web Platform Awards（O’Reilly，著名的IT图书出版机构）,著名的前端开发者、作者、演讲者，主要关注HTML5, SVG, CSS and JavaScript等。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://github.com/SaraSoueidan">Github</a>、 <a target="_blank" rel="noopener" href="http://tympanus.net/codrops/author/sarasoueidan/">Codrops</a>、 <a target="_blank" rel="noopener" href="http://alistapart.com/author/SaraSoueidan">A List Apart</a>、 <a target="_blank" rel="noopener" href="https://dev.opera.com/authors/sara-soueidan/">Dev.Opera</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/SaraSoueidan">Twitter</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/115621441131126533845/posts">Google+</a></p>
+<ul>
+<li><h3 id="Hugo-Giraudel"><a href="#Hugo-Giraudel" class="headerlink" title="Hugo Giraudel"></a><a href="#Hugo-Giraudel"></a><a target="_blank" rel="noopener" href="http://hugogiraudel.com/">Hugo Giraudel</a></h3></li>
+</ul>
+<p>知名的SASS专家，2015 net awards(net杂志的年度颁奖盛典)的<a target="_blank" rel="noopener" href="https://thenetawards.com/longlist/developer/">年度开发者</a>。法国人，现居德国柏林。</p>
+<p>联系方式： <a target="_blank" rel="noopener" href="https://github.com/HugoGiraudel">Github</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/HugoGiraudel">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.sitepoint.com/author/hgiraudel/">Sitepoint</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/101697878480386449961">Google+</a></p>
+<ul>
+<li><h3 id="Lea-Verou"><a href="#Lea-Verou" class="headerlink" title="Lea Verou"></a><a href="#Lea-Verou"></a><a target="_blank" rel="noopener" href="http://lea.verou.me/">Lea Verou</a></h3></li>
+</ul>
+<p>网页设计师、前端开发者、技术极客、演讲家、作家，麻省理工学院计算机与人工智能实验室助理研究员，《CSS Secrets》作者，prefixfree.js作者，在世界各地进行过60多次演讲，<a target="_blank" rel="noopener" href="http://lea.verou.me/cv.html">简历</a>。希腊人，现居美国马萨诸塞州剑桥市（大波士顿地区）。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/leaverou">Twitter</a>、 <a target="_blank" rel="noopener" href="http://www.facebook.com/leaverou">Facebook</a>、 <a target="_blank" rel="noopener" href="https://github.com/LeaVerou">Github</a>、 <a target="_blank" rel="noopener" href="http://dribbble.com/LeaVerou">Dribbble</a></p>
+<ul>
+<li><h3 id="Paul-Irish"><a href="#Paul-Irish" class="headerlink" title="Paul Irish"></a><a href="#Paul-Irish"></a><a target="_blank" rel="noopener" href="http://paulirish.com/">Paul Irish</a></h3></li>
+</ul>
+<p>谷歌Chrome团队前端工程师，主要关注开发者工具，是<a target="_blank" rel="noopener" href="http://modernizr.com/">Modernizr</a>、<a target="_blank" rel="noopener" href="http://yeoman.io/">Yeoman</a>、<a target="_blank" rel="noopener" href="http://css3please.com/">CSS3 Please</a>、<a target="_blank" rel="noopener" href="http://html5boilerplate.com/">HTML5 Boilerplate</a>等工具的开发者，合作开发了诸多项目，详情了解他的<a target="_blank" rel="noopener" href="http://www.paulirish.com/about/">About</a>。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/paul_irish">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/paulirish/">Github</a>、 <a target="_blank" rel="noopener" href="http://paulirish.com/+">Google+</a>，<br>请在个人主页<a target="_blank" rel="noopener" href="http://www.paulirish.com/contact-me/">contact</a>联系他。</p>
+<ul>
+<li><h3 id="John-Resig"><a href="#John-Resig" class="headerlink" title="John Resig"></a><a href="#John-Resig"></a><a target="_blank" rel="noopener" href="http://ejohn.org/">John Resig</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://jquery.com/">jQuery</a>、<a target="_blank" rel="noopener" href="http://processingjs.org/">Processing.js</a>、<a target="_blank" rel="noopener" href="http://sizzlejs.com/">Sizzle.js</a>等项目作者，现为<a target="_blank" rel="noopener" href="http://khanacademy.org/">可汗学院</a>计算机学院负责人。<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26638316/"><strong>JS忍者秘籍</strong></a>(Secrets of the JavaScript Ninja)、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3007076/"><strong>精通JavaScript</strong></a>(Pro JavaScript Techniques)作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/jeresig">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jeresig">Github</a>、<br>邮箱:<a href="mailto:&#x6a;&#x65;&#114;&#101;&#x73;&#105;&#x67;&#x40;&#x67;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">jeresig@gmail.com</a><br>请在邮箱联系他之前，先读<a target="_blank" rel="noopener" href="http://ejohn.org/about/">联系说明</a></p>
+<ul>
+<li><h3 id="Cody-Lindley"><a href="#Cody-Lindley" class="headerlink" title="Cody Lindley"></a><a href="#Cody-Lindley"></a><a target="_blank" rel="noopener" href="http://www.codylindley.com/">Cody Lindley</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/25837367/"><strong>JavaScript启示录</strong></a>(Javascript Enlightment)、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/25882606/">DOM启蒙</a>(Dom Enlightment)、<a target="_blank" rel="noopener" href="http://www.javascriptenlightenment.com/JavaScript_Enlightenment.pdf"><strong>jQuery Englightment</strong></a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/4149124/"><strong>jQuery cookbook</strong></a>等书的作者。<br><a target="_blank" rel="noopener" href="http://www.telerik.com/kendo-ui">Kendo UI</a>、<a target="_blank" rel="noopener" href="http://codylindley.com/thickbox/">ThickBox</a>、<a target="_blank" rel="noopener" href="http://codylindley.com/jqueryselectors/">jqueryselectors</a>等项目开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/jeresig">Twitter</a>、 <a target="_blank" rel="noopener" href="http://www.facebook.com/cody.lindley">Facebook</a>、 <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/codylindley">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/codylindley">Github</a>、 <a target="_blank" rel="noopener" href="http://www.google.com/profiles/codylindley">Google+</a><br>邮箱:<a href="mailto:&#x63;&#111;&#x6e;&#x74;&#97;&#x63;&#116;&#x40;&#x63;&#111;&#x64;&#x79;&#x6c;&#105;&#110;&#x64;&#x6c;&#x65;&#x79;&#46;&#x63;&#111;&#x6d;">contact@codylindley.com</a></p>
+<ul>
+<li><h3 id="David-Walsh"><a href="#David-Walsh" class="headerlink" title="David Walsh"></a><a href="#David-Walsh"></a><a target="_blank" rel="noopener" href="https://davidwalsh.name/">David Walsh</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.mozilla.org/zh-CN/firefox/new/">Mozilla</a>资深web开发者、前端工程师，<a target="_blank" rel="noopener" href="https://mootools.net/"> MooTools</a>JS框架的核心开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/davidwalshblog">Twitter</a>、 <a target="_blank" rel="noopener" href="https://facebook.com/davidwalshblog">Facebook</a>、 <a target="_blank" rel="noopener" href="https://linkedin.com/in/davidjameswalsh">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/darkwing">Github</a>、 <a target="_blank" href="https://plus.google.com/114538814489633467974?rel=author">Google+</a>、<br>邮箱:<a href="mailto:&#100;&#97;&#118;&#x69;&#100;&#64;&#100;&#x61;&#118;&#x69;&#x64;&#119;&#x61;&#108;&#115;&#104;&#x2e;&#x6e;&#x61;&#109;&#101;">david@davidwalsh.name</a><br><a target="_blank" rel="noopener" href="https://davidwalsh.name/contact">联系页面</a>联系他</p>
+<ul>
+<li><h3 id="Zeno-Rocha"><a href="#Zeno-Rocha" class="headerlink" title="Zeno Rocha"></a><a href="#Zeno-Rocha"></a><a target="_blank" rel="noopener" href="https://zenorocha.com/">Zeno Rocha</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.liferay.com/">Liferay</a>开发主管，Google技术专家，<a target="_blank" rel="noopener" href="https://github.com/zenorocha/clipboard.js">clipboard.js</a>、<a target="_blank" rel="noopener" href="https://github.com/zenorocha/browser-diet">browser-diet</a>等项目开发者。巴西人，现居加拿大。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/zenorocha">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/zenorocha">Github</a>、 <a target="_blank" rel="noopener" href="http://blog.csdn.net/whqet/article/details/hi@zenorocha.com">邮箱</a></p>
+<ul>
+<li><h3 id="Thomas-Fuchs"><a href="#Thomas-Fuchs" class="headerlink" title="Thomas Fuchs"></a><a href="#Thomas-Fuchs"></a><a target="_blank" rel="noopener" href="http://mir.aculo.us/">Thomas Fuchs</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://zeptojs.com/">Zepto.js</a>、<a target="_blank" rel="noopener" href="https://github.com/madrobby/keymaster">keymaster</a>等项目作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/thomasfuchs">Twitter</a> <a target="_blank" rel="noopener" href="https://github.com/madrobby">Github</a><br>邮箱：<a href="mailto:&#116;&#x68;&#x6f;&#109;&#97;&#x73;&#x40;&#102;&#x65;&#115;&#x63;&#x68;&#x2e;&#97;&#116;">thomas@fesch.at</a>或<a href="mailto:&#116;&#x68;&#x6f;&#x6d;&#97;&#115;&#64;&#x73;&#108;&#x61;&#115;&#x68;&#x37;&#46;&#99;&#111;&#109;">thomas@slash7.com</a></p>
+<ul>
+<li><h3 id="Hampton-Catlin"><a href="#Hampton-Catlin" class="headerlink" title="Hampton Catlin"></a><a href="#Hampton-Catlin"></a><a target="_blank" rel="noopener" href="http://www.hamptoncatlin.com/">Hampton Catlin</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://sass-lang.com/">SASS</a>、<a target="_blank" rel="noopener" href="http://haml-lang.com/">Haml</a>、libsass、SassC等项目作者。<a target="_blank" rel="noopener" href="http://www.responsivewebdesignforteams.com/">Responsive Web Design For Teams </a>图书作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.twitter.com/hcatlin">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/hcatlin">Github</a>、<br>邮箱：<a href="mailto:&#104;&#x63;&#x61;&#x74;&#108;&#x69;&#110;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">hcatlin@gmail.com</a>或<a href="mailto:&#99;&#111;&#x6e;&#116;&#x61;&#99;&#x74;&#x40;&#x68;&#97;&#x6d;&#x70;&#x74;&#111;&#x6e;&#x63;&#x61;&#x74;&#108;&#x69;&#110;&#x2e;&#99;&#x6f;&#109;">contact@hamptoncatlin.com</a></p>
+<ul>
+<li><h3 id="Mark-Otto"><a href="#Mark-Otto" class="headerlink" title="Mark Otto"></a><a href="#Mark-Otto"></a><a target="_blank" rel="noopener" href="http://mdo.fm/">Mark Otto</a></h3></li>
+</ul>
+<p>Github设计主管，<a target="_blank" rel="noopener" href="http://getbootstrap.com/">Bootstrap</a>作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/mdo">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/mdo">Github</a>、 <a target="_blank" rel="noopener" href="https://dribbble.com/mdo">Dribble</a>、 <a target="_blank" rel="noopener" href="http://markdotto.com/">blog</a>、<br>邮箱：<a href="mailto:&#109;&#97;&#114;&#x6b;&#100;&#111;&#116;&#116;&#111;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">markdotto@gmail.com</a>、或是github上<a target="_blank" rel="noopener" href="https://github.com/mdo/ama">提问</a>。</p>
+<ul>
+<li><h3 id="Sindre-Sorhus"><a href="#Sindre-Sorhus" class="headerlink" title="Sindre Sorhus"></a><a href="#Sindre-Sorhus"></a><a target="_blank" rel="noopener" href="https://github.com/sindresorhus">Sindre Sorhus</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://github.com/avajs/ava">AVA</a>、<a target="_blank" rel="noopener" href="https://github.com/chalk/chalk">chalk</a>、<a target="_blank" rel="noopener" href="http://yeoman.io/">yeoman</a>等项目开创者，创建多个流行github项目<a target="_blank" rel="noopener" href="https://github.com/sindresorhus/awesome">awesome</a>、<a href="%5Bhttps://github.com/sindresorhus/awesome-nodejs%5D(https://github.com/sindresorhus/awesome-nodejs)">awesome-nodejs</a>等。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/sindresorhus">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/sindresorhus">Github</a>、<br>邮箱：<a href="mailto:&#115;&#x69;&#110;&#x64;&#114;&#101;&#x73;&#111;&#x72;&#104;&#x75;&#115;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">sindresorhus@gmail.com</a></p>
+<ul>
+<li><h3 id="Una-Kravets"><a href="#Una-Kravets" class="headerlink" title="Una Kravets"></a><a href="#Una-Kravets"></a><a target="_blank" rel="noopener" href="https://una.im/about/">Una Kravets</a></h3></li>
+</ul>
+<p>前端开发者、设计师，擅长使用CSS去做美妙的事情，CSS图片美化库<a target="_blank" rel="noopener" href="https://github.com/una/CSSgram">CSSgram</a>项目开发者,IBM Design团队成员。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/una">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/una">Github</a>、 <a target="_blank" rel="noopener" href="http://dribbble.com/una">Dribble</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/una">Codepen</a>、 <a target="_blank" rel="noopener" href="http://www.linkedin.com/pub/una-kravets/30/827/a35/">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://una.im/">blog</a>、<br>邮箱：<a href="mailto:&#117;&#110;&#97;&#46;&#x6b;&#114;&#x61;&#118;&#x65;&#116;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">una.kravets@gmail.com</a></p>
+<ul>
+<li><h3 id="ESTELLE-WEYL"><a href="#ESTELLE-WEYL" class="headerlink" title="ESTELLE WEYL"></a><a href="#ESTELLE-WEYL"></a><a target="_blank" rel="noopener" href="http://www.standardista.com/">ESTELLE WEYL</a></h3></li>
+</ul>
+<p>资深web开发人员，技术书女作家，写就<a target="_blank" rel="noopener" href="https://book.douban.com/subject/6969713/"><strong>HTML5与CSS3实战指南</strong></a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26731854/">Flexible Boxes in CSS : Free Yourself with Flexbox</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26782226/">Transitions and Animations in CSS: Adding Motion with CSS</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/6865682/">Mobile HTML5 : Using the latest today</a>等。</p>
+<p>联系方式：</p>
+<p><a target="_blank" rel="noopener" href="http://twitter.com/estellevw">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/estelle">Github</a>、 <a target="_blank" rel="noopener" href="http://lanyrd.com/profile/estellevw/">演讲</a>、 <a target="_blank" rel="noopener" href="https://book.douban.com/search/Estelle%20Weyl">图书</a>、<br>邮箱：<a href="mailto:&#x65;&#x73;&#116;&#x65;&#108;&#x6c;&#101;&#x40;&#x77;&#x65;&#x79;&#x6c;&#x2e;&#111;&#x72;&#x67;">estelle@weyl.org</a>、或者个人网站留言提问。</p>
+<ul>
+<li><h3 id="Alex-Sexton"><a href="#Alex-Sexton" class="headerlink" title="Alex Sexton"></a><a href="#Alex-Sexton"></a><a target="_blank" rel="noopener" href="https://alexsexton.com/">Alex Sexton</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://modernizr.com/">Modernizr</a>、<a target="_blank" rel="noopener" href="https://jquery.org/team/">jQuery</a>、<a target="_blank" rel="noopener" href="http://dojofoundation.org/about/board-members">Dojo Foundation</a>等项目核心成员。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/SlexAxton">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/SlexAxton">Github</a>、 <a target="_blank" rel="noopener" href="https://www.google.com/+AlexSexton">Google+</a>、<br>邮箱：<a href="mailto:&#x61;&#108;&#x65;&#x78;&#x73;&#101;&#x78;&#116;&#x6f;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">alexsexton@gmail.com</a></p>
+<ul>
+<li><h3 id="Christian-Heilmann"><a href="#Christian-Heilmann" class="headerlink" title="Christian Heilmann"></a><a href="#Christian-Heilmann"></a><a target="_blank" rel="noopener" href="https://www.christianheilmann.com/">Christian Heilmann</a></h3></li>
+</ul>
+<p>Mozilla首席html5布道者，知名web开发者、技术作家，<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3137323/">Web开发解决方案</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3014491/">The Art &amp; Science of JavaScript</a>作者之一。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/codepo8">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/codepo8">Github</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/111552931212713155841/posts">Google+</a>、 <a target="_blank" rel="noopener" href="https://www.sitepoint.com/author/christian-heilmann/">Sitepoint</a>、 <a target="_blank" rel="noopener" href="https://www.smashingmagazine.com/author/christian-heilmann/">Smashing magazine</a>、<br>邮箱：<a href="mailto:&#99;&#x68;&#x72;&#x69;&#115;&#x2e;&#104;&#101;&#x69;&#108;&#x6d;&#x61;&#110;&#x6e;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">chris.heilmann@gmail.com</a>、或<a href="mailto:&#x63;&#x68;&#114;&#105;&#115;&#x40;&#99;&#x68;&#114;&#x69;&#115;&#x74;&#105;&#x61;&#x6e;&#x68;&#101;&#105;&#108;&#x6d;&#97;&#x6e;&#110;&#x2e;&#99;&#111;&#x6d;">chris@christianheilmann.com</a></p>
+<ul>
+<li><h3 id="Kyle-Simpson"><a href="#Kyle-Simpson" class="headerlink" title="Kyle Simpson"></a><a href="#Kyle-Simpson"></a><a target="_blank" rel="noopener" href="http://getify.me/">Kyle Simpson</a></h3></li>
+</ul>
+<p>从事跟JS有关的一切事儿，写书、教学、演讲、开发等等，《**You Don’t Know JS **》系列丛书作者，<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26351021/">你不知道的JavaScript（上卷）</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/10773333/">HTML5 Cookbook</a>作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://facebook.com/kyle-simpson">Facebook</a>、 <a target="_blank" rel="noopener" href="https://github.com/getify">Github</a>、 <a target="_blank" rel="noopener" href="http://getify.me/@google+">Google+</a>、 <a target="_blank" rel="noopener" href="http://getify.me/@linkedin">Linkedin</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/228852/kyle-simpson">Stackoverflow.com</a>、<br>邮箱：<a href="mailto:&#x67;&#101;&#x74;&#105;&#102;&#x79;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">getify@gmail.com</a></p>
+<ul>
+<li><h3 id="Ana-Tudor"><a href="#Ana-Tudor" class="headerlink" title="Ana Tudor"></a><a href="#Ana-Tudor"></a><a target="_blank" rel="noopener" href="https://thebabydino.github.io/">Ana Tudor</a></h3></li>
+</ul>
+<p>Codenpen上玩CSS的女孩子，很多效果非常厉害。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/thebabydino">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/thebabydino">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/thebabydino/">Codepen</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/1397351/ana">Stackoverflow.com</a></p>
+<ul>
+<li><h3 id="Dudley-Storey"><a href="#Dudley-Storey" class="headerlink" title="Dudley Storey"></a><a href="#Dudley-Storey"></a><a target="_blank" rel="noopener" href="http://thenewcode.com/">Dudley Storey</a></h3></li>
+</ul>
+<p>《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/20780533/">Pro Css3 Animation</a>》图书作者，CSSSlidy等项目作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/dudleystorey">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/dudleystorey">Github</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/+DudleyStorey/">Google+</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/dudleystorey/">Codepen</a>、<br>邮箱：<a href="mailto:&#100;&#117;&#x64;&#x6c;&#101;&#x79;&#46;&#x73;&#116;&#x6f;&#x72;&#101;&#x79;&#64;&#103;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">dudley.storey@gmail.com</a></p>
+<ul>
+<li><h3 id="Hakim-El-Hattab"><a href="#Hakim-El-Hattab" class="headerlink" title="Hakim El Hattab"></a><a href="#Hakim-El-Hattab"></a><a target="_blank" rel="noopener" href="http://hakim.se/">Hakim El Hattab</a></h3></li>
+</ul>
+<p>来自瑞典的前端开发工程师、界面设计师，<a target="_blank" rel="noopener" href="https://slides.com/">slides</a>创始人，<a target="_blank" rel="noopener" href="https://github.com/hakimel/reveal.js">reveal.js</a>、Ladda、stroll.js等项目开发者，详情参加个人主页。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/hakimel">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/hakimel">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/hakimel">Codepen</a>、<br>邮箱：<a href="mailto:&#104;&#97;&#x6b;&#x69;&#109;&#x2e;&#x65;&#x6c;&#x68;&#x61;&#116;&#116;&#x61;&#x62;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">hakim.elhattab@gmail.com</a></p>
+<ul>
+<li><h3 id="Angus-Croll"><a href="#Angus-Croll" class="headerlink" title="Angus Croll"></a><a href="#Angus-Croll"></a><a target="_blank" rel="noopener" href="http://anguscroll.com/">Angus Croll</a></h3></li>
+</ul>
+<p>Twitter公司前端工程师，<a target="_blank" rel="noopener" href="http://flightjs.github.io/">Twitter Flight</a>项目合作开发者,<a target="_blank" rel="noopener" href="http://anguscroll.com/hemingway/index.html">If Hemingway Wrote JavaScript</a>作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/angustweets">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/angus-c">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/hakimel">Codepen</a>、<br>邮箱：<a href="mailto:&#97;&#110;&#103;&#117;&#115;&#99;&#x72;&#x6f;&#x6c;&#108;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">anguscroll@gmail.com</a></p>
+<ul>
+<li><h3 id="Nicolas-Gallagher"><a href="#Nicolas-Gallagher" class="headerlink" title="Nicolas Gallagher"></a><a href="#Nicolas-Gallagher"></a><a target="_blank" rel="noopener" href="http://nicolasgallagher.com/">Nicolas Gallagher</a></h3></li>
+</ul>
+<p>Twitter公司前端工程师，<a target="_blank" rel="noopener" href="https://github.com/necolas/normalize.css">normalize.css</a>项目创始人，bower、rework、postcss、npm dom等项目核心参与者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/necolas">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/necolas">Github</a>、 <a target="_blank" rel="noopener" href="http://www.linkedin.com/in/nicolasgallagher">Linkedin</a>、<br>邮箱：<a href="mailto:&#110;&#105;&#x63;&#111;&#x6c;&#97;&#x73;&#x40;&#110;&#x69;&#x63;&#x6f;&#x6c;&#x61;&#115;&#x67;&#97;&#108;&#x6c;&#97;&#103;&#104;&#x65;&#x72;&#x2e;&#x63;&#x6f;&#109;">nicolas@nicolasgallagher.com</a></p>
+<ul>
+<li><h3 id="TJ-Holowaychuk"><a href="#TJ-Holowaychuk" class="headerlink" title="TJ Holowaychuk"></a><a href="#TJ-Holowaychuk"></a><a target="_blank" rel="noopener" href="http://tjholowaychuk.com/">TJ Holowaychuk</a></h3></li>
+</ul>
+<p>TJ Holowaychuk ，程序员兼艺术家，Koa、Co、Express、jade、mocha、node-canvas、commander.js 等知名开源项目的创建和贡献者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/tjholowaychuk">Twitter</a>、 <a target="_blank" rel="noopener" href="http://github.com/tj">Github</a>、 <a target="_blank" rel="noopener" href="http://tjholowaychuk.com/blog/">Blog</a>、 <a target="_blank" rel="noopener" href="http://www.instagram.com/tjholowaychuk2">Instagram</a>、<br>邮箱：<a href="mailto:&#116;&#106;&#64;&#116;&#x6a;&#x68;&#111;&#108;&#x6f;&#x77;&#97;&#121;&#x63;&#x68;&#x75;&#107;&#46;&#x63;&#111;&#x6d;">tj@tjholowaychuk.com</a></p>
+<ul>
+<li><h3 id="Addy-Osmani"><a href="#Addy-Osmani" class="headerlink" title="Addy Osmani"></a><a href="#Addy-Osmani"></a><a target="_blank" rel="noopener" href="http://addyosmani.com/">Addy Osmani</a></h3></li>
+</ul>
+<p>Addy Osmani ，谷歌前端开发工程师，创建了 TodoMVC、jQuery UI Bootstrap、jQuery Plugin Patterns 和 Backbone Paginator，出版了《Learning JavaScript Design Patterns》和《Developing Backbone.js Applications》两本技术书籍，而且还是著名的 jQuery、Modernizr 以及Backbone.js 框架的贡献者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/addyosmani">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/addyosmani">Github</a>、 <a target="_blank" rel="noopener" href="https://developers.google.com/web/shows/ttt/">Youtube</a>、<br>邮箱：<a href="mailto:&#97;&#100;&#100;&#121;&#111;&#x73;&#x6d;&#97;&#110;&#105;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">addyosmani@gmail.com</a></p>
+<ul>
+<li><h3 id="Douglas-Crockford"><a href="#Douglas-Crockford" class="headerlink" title="Douglas Crockford"></a><a href="#Douglas-Crockford"></a><a target="_blank" rel="noopener" href="http://www.crockford.com/">Douglas Crockford</a></h3></li>
+</ul>
+<p>Douglas Crockford是JavaScript开发社区最知名的权威，是JSON、JSLint、JSMin和ADSafe之父，是《JavaScript: The Good Parts》的作者。他同时也服务于ECMA的JavaScript2.0技术委员会（TC39）。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://github.com/douglascrockford">Github</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/u/0/+DouglasCrockfordEsq">Google+</a>、<br>邮箱：<a href="mailto:&#x64;&#111;&#117;&#x67;&#108;&#x61;&#x73;&#x40;&#x63;&#114;&#x6f;&#x63;&#107;&#x66;&#x6f;&#x72;&#100;&#x2e;&#99;&#x6f;&#x6d;">douglas@crockford.com</a></p>
+<ul>
+<li><h3 id="Mike-Bostock"><a href="#Mike-Bostock" class="headerlink" title="Mike Bostock"></a><a href="#Mike-Bostock"></a><a target="_blank" rel="noopener" href="http://bost.ocks.org/">Mike Bostock</a></h3></li>
+</ul>
+<p>Mike Bostock，纽约时报图形编辑，知名可视化库 <a target="_blank" rel="noopener" href="http://d3.org/">D3.js</a>的主要作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/mbostock">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/mbostock">Github</a>、<br>邮箱：<a href="mailto:&#x6d;&#105;&#x6b;&#101;&#64;&#111;&#x63;&#x6b;&#115;&#46;&#111;&#114;&#103;">mike@ocks.org</a></p>
+<ul>
+<li><h3 id="Mr-doob"><a href="#Mr-doob" class="headerlink" title="Mr.doob"></a><a href="#Mr-doob"></a><a target="_blank" rel="noopener" href="http://mrdoob.com/">Mr.doob</a></h3></li>
+</ul>
+<p>Mr.doob (Ricardo Cabello Migue) 是JS三维模型库<a target="_blank" rel="noopener" href="http://threejs.org/">three.js</a>， <a target="_blank" rel="noopener" href="http://www.chromeexperiments.com/detail/code-editor/">Code Editor</a> 的作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/mrdoob">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/mrdoob">Github</a>、</p>
+<ul>
+<li><h3 id="Jessica-Lord"><a href="#Jessica-Lord" class="headerlink" title="Jessica Lord"></a><a href="#Jessica-Lord"></a><a target="_blank" rel="noopener" href="https://jlord.github.io/">Jessica Lord</a></h3></li>
+</ul>
+<p>Jessica Lord， 2013年5月份加入Github设计团队。是开源项目sheetsee.js的作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.twitter.com/jllord">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jlord">Github</a>、<br>邮箱： <a href="mailto:&#116;&#x6f;&#x2e;&#x6a;&#108;&#111;&#114;&#x64;&#x40;&#103;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#x6d;">to.jlord@gmail.com</a></p>
+<ul>
+<li><h3 id="Jeremy-Ashkenas"><a href="#Jeremy-Ashkenas" class="headerlink" title="Jeremy Ashkenas"></a><a href="#Jeremy-Ashkenas"></a><a target="_blank" rel="noopener" href="http://ashkenas.com/">Jeremy Ashkenas</a></h3></li>
+</ul>
+<p>Jeremy Ashkenas,纽约时报图形编辑，<a target="_blank" rel="noopener" href="http://underscorejs.org/">Underscore.js</a>、<a target="_blank" rel="noopener" href="http://backbonejs.org/">backbone.js</a>、<a target="_blank" rel="noopener" href="http://coffeescript.org/">CoffeeScript</a>的主要作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.twitter.com/jashkenas">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jashkenas">Github</a>、<br>邮箱： <a href="mailto:&#106;&#x61;&#115;&#104;&#x6b;&#101;&#x6e;&#x61;&#x73;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">jashkenas@gmail.com</a></p>
+<h2 id="1-2-国内"><a href="#1-2-国内" class="headerlink" title="1.2 国内"></a><a href="#1-2-%E5%9B%BD%E5%86%85"></a>1.2 国内</h2><p>- </p>
+<h3 id="玉伯"><a href="#玉伯" class="headerlink" title="玉伯"></a><a href="#%E7%8E%89%E4%BC%AF"></a><a target="_blank" rel="noopener" href="https://github.com/lifesinger/blog/issues">玉伯</a></h3><p>玉伯（王保平），淘宝前端类库 KISSY、前端模块化开发框架SeaJS、前端基础类库Arale的创始人。2003-2006 年，中科院物理所研究生，Fortran 与 C 程序员，喜爱实验模拟和数值计算。 2006-2008 年，在中科院软件所互联网实验室从事项目管理软件的研发，C# 与 Java 爱好者。 2008 年 4 月份加入淘宝，就职于 UED 部门。2009 年起，组建前端架构团队，在首页维护、全网性能优化、类库研发、知识沉淀、工具应用等方面取得了丰硕成果。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/lifesinger">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/lifesinger">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/lifesinger">Github</a>、<br>邮箱：<a href="mailto:&#108;&#105;&#102;&#101;&#115;&#x69;&#110;&#x67;&#x65;&#x72;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;">lifesinger@gmail.com</a></p>
+<ul>
+<li><h3 id="阮一峰"><a href="#阮一峰" class="headerlink" title="阮一峰"></a><a href="#%E9%98%AE%E4%B8%80%E5%B3%B0"></a><a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/blog/">阮一峰</a></h3></li>
+</ul>
+<p>70后，在上海出生和长大，大学读经济学。工作了几年，又去读了世界经济的研究生，毕业后，在上海一所本地高校当了老师，教财经类的课程。最近，去了支付宝的前端团队，在玉伯负责的”体验技术部”工作，目前主要从事JavaScript和Node.js的开发。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/ruanyf">微博</a>、 <a target="_blank" rel="noopener" href="https://github.com/ruanyf">Github</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/ruanyf">Twitter</a>、<br>邮箱：<a href="mailto:&#x79;&#105;&#102;&#101;&#x6e;&#x67;&#x2e;&#114;&#117;&#x61;&#110;&#x40;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">yifeng.ruan@gmail.com</a></p>
+<ul>
+<li><h3 id="司徒正美"><a href="#司徒正美" class="headerlink" title="司徒正美"></a><a href="#%E5%8F%B8%E5%BE%92%E6%AD%A3%E7%BE%8E"></a><a target="_blank" rel="noopener" href="http://www.cnblogs.com/rubylouvre/">司徒正美</a></h3></li>
+</ul>
+<p>钟钦成，网名司徒正美，著名的Java专家，去哪儿网前端架构师，立志做考古学家的日语系工程师，穿梭于二次元与二进制间的“魔法师”，做过陶艺，写过小说，涉猎Java、Ruby、 Java。曾出版《Java框架设计》一书。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/jslouvre">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/si-tu-zheng-mei">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/RubyLouvre">Github</a>、<br>邮箱:<a href="mailto:&#99;&#104;&#x65;&#110;&#x67;&#x31;&#57;&#x38;&#x34;&#x30;&#x32;&#x31;&#x38;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#x6d;">cheng19840218@gmail.com</a></p>
+<ul>
+<li><h3 id="朴灵"><a href="#朴灵" class="headerlink" title="朴灵"></a><a href="#%E6%9C%B4%E7%81%B5"></a><a target="_blank" rel="noopener" href="http://diveintonode.org/">朴灵</a></h3></li>
+</ul>
+<p>朴灵，真名田永强，文艺型码农，Node.js布道者。现就职于阿里巴巴数据平台，任资深工程师，著有《深入浅出Node.js》。他活跃于CNode社区，是线下会议NodeParty的组织者，同时也是JSConf China（沪JS、京JS，以及杭JS）的组织者之一。朴灵热爱开源，是多个Node.js模块的作者。<a target="_blank" rel="noopener" href="https://github.com/JacksonTian/fks">前端技能汇总</a>项目star7000+。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/shyvo">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/po-ling">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/JacksonTian">Github</a>、<br>邮箱:<a href="mailto:&#x73;&#x68;&#121;&#118;&#x6f;&#x31;&#x39;&#x38;&#x37;&#x40;&#103;&#x6d;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">shyvo1987@gmail.com</a></p>
+<ul>
+<li><h3 id="尤小右"><a href="#尤小右" class="headerlink" title="尤小右"></a><a href="#%E5%B0%A4%E5%B0%8F%E5%8F%B3"></a><a target="_blank" rel="noopener" href="http://evanyou.me/">尤小右</a></h3></li>
+</ul>
+<p>本名尤雨溪，目前在 Google Creative Lab 就职。vue.js 项目作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/arttechdesign">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/evanyou">知乎</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/youyuxi">Twitter</a>、 <a target="_blank" rel="noopener" href="https://github.com/yyx990803">Github</a></p>
+<ul>
+<li><h3 id="贺师俊"><a href="#贺师俊" class="headerlink" title="贺师俊"></a><a href="#%E8%B4%BA%E5%B8%88%E4%BF%8A"></a><a target="_blank" rel="noopener" href="http://johnhax.net/">贺师俊</a></h3></li>
+</ul>
+<p>贺师俊，网名 Hax，百姓网前端技术专家。有年头的 Web 开发者，信仰 Web 标准，HTML 纯化论者 +CSS 理想主义者 +JavaScript 改革派 +REST 信徒。 他致力于构建真正实践互联网开放理念的 Web 产品，并平衡需求、技术和人性因素。所以在写代码以外，他还热切的关注可用性、无障碍性乃至更广泛意义上的用户体验（譬如售后服务）。 作为一个坚持己见的人，Hax 因犀利的技术批评为人所知，其拍砖对象下到写书神棍上至业界权威，中间亦包括他的同事和朋友——因为他深信正直坦诚是技术人员必须坚守的美德，并希望通过自由而热烈的讨论推动技术社群不断成长、永葆活力。 Hax 毕业于复旦大学，感兴趣的领域除了 Web 标准、协议、架构以及与 Web 相关的各种具体技术之外，还包括交互设计、编程语言和方法论，最近则迷上了字体和排版。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/haxy">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/haxy">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/he-shi-jun">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/hax">Github</a>、<br>邮箱：<a href="mailto:&#x6a;&#x6f;&#x68;&#x6e;&#x68;&#97;&#120;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#46;&#99;&#x6f;&#109;">johnhax@gmail.com</a></p>
+<ul>
+<li><h3 id="周爱民"><a href="#周爱民" class="headerlink" title="周爱民"></a><a href="#%E5%91%A8%E7%88%B1%E6%B0%91"></a><a target="_blank" rel="noopener" href="http://weibo.com/aimingoo">周爱民</a></h3></li>
+</ul>
+<p>曾阿里、豌豆荚做架构师，现为<a target="_blank" rel="noopener" href="https://ruff.io/">Ruff</a>架构师。著有《JAVASCRIPT语言精髓与编程实践》、《大道至简——软件工程实践者的思想》等业内名作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/aimingoo">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/aimingoo">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/aimingoo">Github</a>、 <a target="_blank" rel="noopener" href="http://blog.csdn.net/aimingoo">CSDN</a></p>
+<ul>
+<li><h3 id="徐涛"><a href="#徐涛" class="headerlink" title="徐涛"></a><a href="#%E5%BE%90%E6%B6%9B"></a><a target="_blank" rel="noopener" href="http://www.cnblogs.com/TomXu/">徐涛</a></h3></li>
+</ul>
+<p>汤姆大叔，原名徐涛，资深Web开发工程师，精通JavaScript、CSS、HTML5等Web开发技术，以及Bootstrap等各种主流Web开发框架。擅长Web系统的架构、设计与开发，参与过全球最大婚恋网站Match、全球最大在线旅游网站Expedia、波音公司、GE医疗和万达集团等多个国际知名企业的Web项目的架构与设计。他还是一位资深的微软技术专家，曾获得MCP、MCTS、MCDBA等近十项认证。翻译了《Java Script编程精解》、《Javascript启示录》、《编写可测试的JavaScript代码》、《Backbone.js应用程序开发》、《JavaScript忍者秘籍》、《JavaScript设计模式》等多本JavaScript方面的著作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/TomXuTao">微博</a>、 <a target="_blank" rel="noopener" href="http://www.cnblogs.com/TomXu/">博客</a></p>
+<ul>
+<li><h3 id="廖雪峰"><a href="#廖雪峰" class="headerlink" title="廖雪峰"></a><a href="#%E5%BB%96%E9%9B%AA%E5%B3%B0"></a><a target="_blank" rel="noopener" href="http://www.liaoxuefeng.com/">廖雪峰</a></h3></li>
+</ul>
+<p>技术作家，十年软件开发经验，业余产品经理，精通Java&#x2F;Python&#x2F;Ruby&#x2F;Visual Basic&#x2F;Objective C等，对开源框架有深入研究，著有号称史上最浅显易懂的<a target="_blank" rel="noopener" href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程</a>，口碑不错的《<a target="_blank" rel="noopener" href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000">JS教程</a>》，多个业余开源项目托管在GitHub。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/liaoxuefeng">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/liaoxuefeng">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/liaoxuefeng">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/michaelliao">Github</a>、<br>邮箱：<a href="mailto:&#x61;&#115;&#x6b;&#120;&#x75;&#x65;&#x66;&#x65;&#110;&#x67;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#x6d;">askxuefeng@gmail.com</a></p>
+<ul>
+<li><h3 id="勾三股四"><a href="#勾三股四" class="headerlink" title="勾三股四"></a><a href="#%E5%8B%BE%E4%B8%89%E8%82%A1%E5%9B%9B"></a><a target="_blank" rel="noopener" href="http://jiongks.name/">勾三股四</a></h3></li>
+</ul>
+<p>勾三股四，本名赵锦江，阿里巴巴高级前端工程师，前北京傲游前端开发部经理。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/mx006">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/jinjiang">知乎</a>、 <a target="_blank" rel="noopener" href="http://github.com/jinjiang/">Github</a>、<br>邮箱：zhaojinjiang@me</p>
+<ul>
+<li><h3 id="寒冬winter"><a href="#寒冬winter" class="headerlink" title="寒冬winter"></a><a href="#%E5%AF%92%E5%86%ACwinter"></a><a target="_blank" rel="noopener" href="http://winter-cn.cnblogs.com/">寒冬winter</a></h3></li>
+</ul>
+<p>本名程劭非，花名寒泉，前端工程师，JavaScript 专家。江湖人称“计算机之子”。先后在微软，盛大，阿里巴巴工作，目前是手机淘宝前端 leader。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/wintercn">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/evanyou">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/wintercn">Github</a>、 <a target="_blank" rel="noopener" href="http://winter-cn.cnblogs.com/">博客</a>、<br>邮箱：<a href="mailto:&#99;&#x73;&#102;&#x31;&#x37;&#x38;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;">csf178@gmail.com</a></p>
+<ul>
+<li><h3 id="徐飞-民工精髓"><a href="#徐飞-民工精髓" class="headerlink" title="徐飞(民工精髓)"></a><a href="#%E5%BE%90%E9%A3%9E-%E6%B0%91%E5%B7%A5%E7%B2%BE%E9%AB%93"></a><a target="_blank" rel="noopener" href="https://github.com/xufei/blog">徐飞(民工精髓)</a></h3></li>
+</ul>
+<p>苏宁云商前端架构师，国内知名前端，博客里的Angular教程颇多拥趸。<br>徐飞同志讲话要点：技术人员应当乐于助人，有好东西要主动拿出来分享，资产阶级知识分子垄断技术书籍的现象再也不能出现了！</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/sharpmaster">微博</a>、 <a target="_blank" rel="noopener" href="https://github.com/xufei">Github</a>、 <a target="_blank" rel="noopener" href="https://github.com/xufei/blog">博客</a>、<br>邮箱：<a href="mailto:&#x78;&#117;&#46;&#x66;&#x65;&#x69;&#64;&#x6f;&#117;&#x74;&#x6c;&#x6f;&#111;&#107;&#46;&#99;&#111;&#109;">xu.fei@outlook.com</a></p>
+<ul>
+<li><h3 id="吴亮-月影"><a href="#吴亮-月影" class="headerlink" title="吴亮(月影)"></a><a href="#%E5%90%B4%E4%BA%AE-%E6%9C%88%E5%BD%B1"></a><a target="_blank" rel="noopener" href="https://www.h5jun.com/">吴亮(月影)</a></h3></li>
+</ul>
+<p>吴亮（网名月影）,先后在微软亚洲研究院做过访问学生，在金蝶软件有限公司担任过核心开发工程师、设计师和项目经理，在百度电子商务事业部担任过web开发项目经理。现任奇虎360高级技术经理，360前端团队奇舞团负责人。多年来致力于Javasript技术和web标准的推广，活跃于国内各技术社区，现为w3ctech顾问。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/silverna">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/yue-ying-2-61">知乎</a>、 <a target="_blank" rel="noopener" href="https://www.h5jun.com/">博客</a>、<br>可通过博客、微博留言联系大神。</p>
+<ul>
+<li><h3 id="雷志兴"><a href="#雷志兴" class="headerlink" title="雷志兴"></a><a href="#%E9%9B%B7%E5%BF%97%E5%85%B4"></a><a target="_blank" rel="noopener" href="http://www.cnberg.com/">雷志兴</a></h3></li>
+</ul>
+<p>雷志兴(网名berg)，百度高级工程师，负责前端基础架构、前端无线、前端基础性技术研究和整合，现为百度前端集成开发解决方案的负责人。07 年加入百度，曾先后负责百度富文本编辑器，百度 JavaScript 基础库 Tangram 等前端基础技术的研发工作。<br>微信公众号**行云出岫(DevLife)**的维护者。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/berg">微博</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/cnberg">Twitter</a>、 <a target="_blank" rel="noopener" href="http://instagram.com/cnberg">Instagram</a>、 <a target="_blank" rel="noopener" href="http://zhihu.com/berg">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/cnberg">Github</a>、 <a target="_blank" rel="noopener" href="http://www.cnberg.com/">博客</a>、<br>邮箱：<a href="mailto:&#99;&#x6e;&#98;&#x65;&#114;&#x67;&#x40;&#x67;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;">cnberg@gmail.com</a></p>
+<ul>
+<li><h3 id="张云龙"><a href="#张云龙" class="headerlink" title="张云龙"></a><a href="#%E5%BC%A0%E4%BA%91%E9%BE%99"></a><a target="_blank" rel="noopener" href="https://github.com/fouber/blog">张云龙</a></h3></li>
+</ul>
+<p>张云龙(前端农民工),现为全民TV技术总监，前UC浏览器导航团队前端技术负责人，前FIS团队技术负责人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/fouber">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/fouber">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/fouber">Github</a></p>
+<ul>
+<li><h3 id="张鑫旭"><a href="#张鑫旭" class="headerlink" title="张鑫旭"></a><a href="#%E5%BC%A0%E9%91%AB%E6%97%AD"></a><a target="_blank" rel="noopener" href="http://www.zhangxinxu.com/">张鑫旭</a></h3></li>
+</ul>
+<p>09年华中科技大学毕业，目前上海，原腾讯社交用户体验部上海设计中心UI开发，现就职阅文集团，资深钓鱼爱好者，专注web前端偏前领域，博客笔风幽默、深刻易懂。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/zhangxinxu">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/zhang-xin-xu-47">知乎</a>、 <a target="_blank" rel="noopener" href="http://www.imooc.com/u/197450/courses?sort=publish">慕课网</a>、<br>邮箱：<a href="mailto:&#122;&#104;&#x61;&#x6e;&#103;&#x78;&#105;&#110;&#x78;&#x75;&#x40;&#x7a;&#104;&#x61;&#x6e;&#x67;&#x78;&#105;&#x6e;&#120;&#117;&#46;&#x63;&#x6f;&#109;">zhangxinxu@zhangxinxu.com</a></p>
+<ul>
+<li><h3 id="大漠"><a href="#大漠" class="headerlink" title="大漠"></a><a href="#%E5%A4%A7%E6%BC%A0"></a><a target="_blank" rel="noopener" href="http://www.w3cplus.com/">大漠</a></h3></li>
+</ul>
+<p>常用昵称“大漠”，W3CPlus创始人，目前就职于淘宝。中国Drupal社区核心成员之一。对HTML5、CSS3和Sass等前端脚本语言有非常深入的认识和丰富的实践经验，尤其专注对CSS3、Sass和Mobile的研究，是国内最早研究和使用CSS3和Sass技术的一批人。CSS3、Sass和Drupal中国布道者。2014年出版《图解CSS3：核心技术与案例实战》。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/w3cplus">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/w3cplus">Twitter</a>、 <a target="_blank" rel="noopener" href="https://plus.google.com/+AirenLiao">Google+</a>、 <a target="_blank" rel="noopener" href="http://cn.linkedin.com/in/w3cplus">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/airen">Github</a>、 <a target="_blank" rel="noopener" href="http://www.w3cplus.com/blogs/airen">博客</a>、<br>邮箱：<a href="mailto:&#x61;&#x69;&#x72;&#101;&#x6e;&#x6c;&#x69;&#x61;&#111;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#109;">airenliao@gmail.com</a></p>
+<ul>
+<li><h3 id="颜海镜"><a href="#颜海镜" class="headerlink" title="颜海镜"></a><a href="#%E9%A2%9C%E6%B5%B7%E9%95%9C"></a><a target="_blank" rel="noopener" href="http://yanhaijing.com/">颜海镜</a></h3></li>
+</ul>
+<p>颜海镜90后一枚，活跃在各个技术社区，常以歪脖无脸男作为头像，专注Web前端。<br>热爱思考，热爱开源分享，爱好读书，羽毛球，乒乓球，相声，铁杆纲丝，当然非常热爱写代码了。<br>目前就职于百度，从事Web前端开发工作。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/yanhaijing1234">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/yanhaijing">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/yanhaijing">知乎</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/2681005/yanhaijing">Stackoverflow</a>、 <a target="_blank" rel="noopener" href="https://github.com/yanhaijing/">Github</a>、<br>邮箱：<a href="mailto:&#121;&#97;&#110;&#104;&#x61;&#105;&#x6a;&#105;&#110;&#103;&#64;&#x79;&#x65;&#97;&#104;&#46;&#x6e;&#101;&#x74;">yanhaijing@yeah.net</a></p>
+<ul>
+<li><h3 id="杜瑶"><a href="#杜瑶" class="headerlink" title="杜瑶"></a><a href="#%E6%9D%9C%E7%91%B6"></a><a target="_blank" rel="noopener" href="http://blog.doyoe.com/">杜瑶</a></h3></li>
+</ul>
+<p>去哪儿网(Qunar)，资深前端工程师，前端开发总监，<a target="_blank" rel="noopener" href="http://css.doyoe.com/">CSS参考手册</a>作者。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/doyoe">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/doyoe">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/doyoe/">Github</a>、<br>邮箱：<a href="mailto:&#100;&#x6f;&#111;&#x79;&#x6f;&#x65;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">dooyoe@gmail.com</a></p>
+<ul>
+<li><h3 id="一丝"><a href="#一丝" class="headerlink" title="一丝"></a><a href="#%E4%B8%80%E4%B8%9D"></a><a target="_blank" rel="noopener" href="https://github.com/yisibl/blog">一丝</a></h3></li>
+</ul>
+<p>阿里巴巴集团 · 前端工程师。前端段子手，偶尔重口味，偶尔小清新。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/jieorlin">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ysbl">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/yisibl">Github</a>、<br>邮箱：<a href="mailto:&#x79;&#x69;&#111;&#x72;&#115;&#105;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">yiorsi@gmail.com</a></p>
+<ul>
+<li><h3 id="迷渡"><a href="#迷渡" class="headerlink" title="迷渡"></a><a href="#%E8%BF%B7%E6%B8%A1"></a><a target="_blank" rel="noopener" href="http://justjavac.com/">迷渡</a></h3></li>
+</ul>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/justjavac">微博</a>、 <a target="_blank" rel="noopener" href="http://www.zhihu.com/people/justjavac.com">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/justjavac">Github</a>、 <a target="_blank" rel="noopener" href="http://segmentfault.com/u/justjavac">Segmentfault</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/343194/justjavac">Stackoverflow</a>、<br>邮箱：<a href="mailto:&#106;&#117;&#x73;&#116;&#x6a;&#x61;&#x76;&#97;&#99;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">justjavac@gmail.com</a></p>
+<ul>
+<li><h3 id="神飞"><a href="#神飞" class="headerlink" title="神飞"></a><a href="#%E7%A5%9E%E9%A3%9E"></a><a target="_blank" rel="noopener" href="http://www.qianduan.net/">神飞</a></h3></li>
+</ul>
+<p>神飞,爱好前端设计与开发，崇尚一目了然的设计。现居深圳&#x2F;广州，就职于腾讯微信设计团队。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://twitter.com/qianduan">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/shenfei">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/qianduan">Github</a>、<br>邮箱: <a href="mailto:&#x61;&#x64;&#109;&#x69;&#110;&#x40;&#x71;&#105;&#97;&#110;&#x64;&#x75;&#x61;&#x6e;&#x2e;&#x6e;&#101;&#116;">admin@qianduan.net</a>、<a href="mailto:&#109;&#x69;&#101;&#110;&#x66;&#x6c;&#121;&#x69;&#x6e;&#x67;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">mienflying@gmail.com</a></p>
+<ul>
+<li><h3 id="CSS魔法"><a href="#CSS魔法" class="headerlink" title="CSS魔法"></a><a href="#CSS%E9%AD%94%E6%B3%95"></a><a target="_blank" rel="noopener" href="http://www.cssmagic.net/">CSS魔法</a></h3></li>
+</ul>
+<p>百姓网前端架构师，《CSS 揭秘》译者，微信公众号和微博都叫CSS魔法。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/cssmagic">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/cssmagic">Twitter</a>、 <a target="_blank" rel="noopener" href="http://www.zhihu.com/people/cssmagic">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/cssmagic">Github</a></p>
+<ul>
+<li><h3 id="赵雷"><a href="#赵雷" class="headerlink" title="赵雷"></a><a href="#%E8%B5%B5%E9%9B%B7"></a><a target="_blank" rel="noopener" href="http://zhaolei.info/">赵雷</a></h3></li>
+</ul>
+<p>Firede，85后 程序员，前点点网首席前端工程师，百度资深研发工程师。现供职于<a target="_blank" rel="noopener" href="http://efe.baidu.com/">百度商业体系前端团队</a>，在与 <a target="_blank" rel="noopener" href="https://github.com/ecomfe">NB的小伙伴们</a>一起做 有意思的事情。<br>技能树很杂，除编程外，产品、设计、创业的话题也能聊得来。爱好广泛但小众，较正常的是看书和摄影；是果粉和GitHub粉。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/firede">微博</a>、 <a target="_blank" rel="noopener" href="https://github.com/firede">Github</a>、<br>邮箱：<a href="mailto:&#x66;&#x69;&#x72;&#101;&#100;&#101;&#64;&#x66;&#x69;&#x72;&#x65;&#x64;&#x65;&#x2e;&#x75;&#x73;">firede@firede.us</a>，也可微博私信他访谈。</p>
+<ul>
+<li><h3 id="吴多益"><a href="#吴多益" class="headerlink" title="吴多益"></a><a href="#%E5%90%B4%E5%A4%9A%E7%9B%8A"></a><a target="_blank" rel="noopener" href="http://wuduoyi.com/">吴多益</a></h3></li>
+</ul>
+<p>百度前端团队成员，FEX 团队负责人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://github.com/nwind/">Github</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/nwind/">Twitter</a>、<a target="_blank" rel="noopener" href="http://weibo.com/nwind/">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/wuduoyi">知乎</a></p>
+<ul>
+<li><h3 id="小胡子哥"><a href="#小胡子哥" class="headerlink" title="小胡子哥"></a><a href="#%E5%B0%8F%E8%83%A1%E5%AD%90%E5%93%A5"></a><a target="_blank" rel="noopener" href="http://www.barretlee.com/entry/">小胡子哥</a></h3></li>
+</ul>
+<p>本名李靖，淘宝web研发工程师。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/173248656">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/barret_china">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/barretlee">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/barretlee">Github</a>、 <a target="_blank" rel="noopener" href="http://hustskyking.cnblogs.com/">老博客</a>、<br>邮箱：<a href="mailto:&#x62;&#97;&#x72;&#x72;&#x65;&#116;&#46;&#x63;&#104;&#105;&#x6e;&#x61;&#64;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">barret.china@gmail.com</a></p>
+<ul>
+<li><h3 id="小芋头君"><a href="#小芋头君" class="headerlink" title="小芋头君"></a><a href="#%E5%B0%8F%E8%8A%8B%E5%A4%B4%E5%90%9B"></a><a target="_blank" rel="noopener" href="http://www.html-js.com/">小芋头君</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://f2e.souche.com/blog/">大搜车前端</a>负责人，颜文字app作者，<a target="_blank" rel="noopener" href="http://www.html-js.com/">前端乱炖</a>创始人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/676588498">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/li-shou-xin">知乎</a>、 <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/yutou">知乎专栏</a>、 <a target="_blank" rel="noopener" href="https://github.com/xinyu198736">Github</a>、 </p>
+<p>邮箱：<a href="mailto:&#120;&#x69;&#x6e;&#x79;&#x75;&#x31;&#57;&#x38;&#x37;&#51;&#54;&#64;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#111;&#109;">xinyu198736@gmail.com</a></p>
+<ul>
+<li><h3 id="林建锋（sofish）"><a href="#林建锋（sofish）" class="headerlink" title="林建锋（sofish）"></a><a href="#%E6%9E%97%E5%BB%BA%E9%94%8B%EF%BC%88sofish%EF%BC%89"></a><a target="_blank" rel="noopener" href="https://sofi.sh/">林建锋（sofish）</a></h3></li>
+</ul>
+<p>国内资深前端开发工程师，Web 标准布道者，前支付宝前端开发部 CSS 样式库负责人。Trimidea 创始人，目前就职饿了么。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/sofish">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/sofish">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/sofish">Github</a>、<br>邮箱：<a href="mailto:&#x73;&#111;&#102;&#105;&#115;&#x68;&#64;&#x69;&#99;&#x6c;&#x6f;&#x75;&#100;&#x2e;&#x63;&#111;&#x6d;">sofish@icloud.com</a></p>
+<ul>
+<li><h3 id="屈光宇"><a href="#屈光宇" class="headerlink" title="屈光宇"></a><a href="#%E5%B1%88%E5%85%89%E5%AE%87"></a><a target="_blank" rel="noopener" href="https://imququ.com/">屈光宇</a></h3></li>
+</ul>
+<p>屈光宇(JerryQu、qgy18、屈屈、 QuQu)，360搜索前端负责人。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/jerryqu">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/qgy18">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ququ/about">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/qgy18">Github</a>、<br>邮箱：<a href="mailto:&#x71;&#x75;&#x67;&#117;&#x61;&#110;&#x67;&#x79;&#x75;&#x40;&#103;&#x6d;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;">quguangyu@gmail.com</a>，练习前先看<a target="_blank" rel="noopener" href="https://imququ.com/post/about.html">联系说明</a></p>
+<ul>
+<li><h3 id="张克军"><a href="#张克军" class="headerlink" title="张克军"></a><a href="#%E5%BC%A0%E5%85%8B%E5%86%9B"></a><a target="_blank" rel="noopener" href="http://hikejun.com/">张克军</a></h3></li>
+</ul>
+<p>张克军，豆瓣前端负责人，知名web技术布道者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/kejunz">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/kejun/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/kejun">Github</a>、<br>邮箱：<a href="mailto:&#x6c;&#x69;&#x73;&#x74;&#101;&#x6e;&#112;&#114;&#111;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#x6d;">listenpro@gmail.com</a>、</p>
+<ul>
+<li><h3 id="林小志"><a href="#林小志" class="headerlink" title="林小志"></a><a href="#%E6%9E%97%E5%B0%8F%E5%BF%97"></a><a target="_blank" rel="noopener" href="http://linxz.github.io/blog/">林小志</a></h3></li>
+</ul>
+<p>原名林友赛，曾就职于迅雷、腾讯，负责网站重构。2011年加入携程，先后负责国际网站、高端旅游、商旅等多个项目，目前负责携程公共团队UED前端。 《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/4117497/">CSS那些事儿</a>》一书作者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.weibo.com/linxz428">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/linxz/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/linxz">Github</a>、</p>
+<ul>
+<li><h3 id="聂微东"><a href="#聂微东" class="headerlink" title="聂微东"></a><a href="#%E8%81%82%E5%BE%AE%E4%B8%9C"></a><a target="_blank" rel="noopener" href="http://www.fefork.com/">聂微东</a></h3></li>
+</ul>
+<p>百度研发工程师，目前从事JavaScript研发工作，关注并喜欢研究 HTML5，Python，PHP，MySQL，NoSQL等技术。知名前端资源分享项目<a target="_blank" rel="noopener" href="http://www.fefork.com/fetool/">Fetool</a>维护者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/darrencode">微博</a>、 <a target="_blank" rel="noopener" href="http://twitter.com/nieweidong">Twitter</a>、 <a target="_blank" rel="noopener" href="http://facebook.com/weidong.nie">Facebook</a>、 <a target="_blank" rel="noopener" href="http://www.cnblogs.com/Darren_code/">博客</a>、 <a target="_blank" rel="noopener" href="https://github.com/nieweidong">Github</a>、<br>邮箱：<a href="mailto:&#x64;&#x61;&#x72;&#x72;&#101;&#110;&#x63;&#x6f;&#x64;&#x65;&#x40;&#113;&#113;&#46;&#x63;&#x6f;&#109;">darrencode@qq.com</a></p>
+<ul>
+<li><h3 id="刘杰"><a href="#刘杰" class="headerlink" title="刘杰"></a><a href="#%E5%88%98%E6%9D%B0"></a><a target="_blank" rel="noopener" href="http://www.aoao.org.cn/">刘杰</a></h3></li>
+</ul>
+<p>嗷嗷，本名刘杰，从事前端开发多年，期间做过设计转过产品，混过后端，写过《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/3327829/">Web标准设计</a>》一书。<br>目前就职于淘宝网，主要负责前端性能监控、优化等前端开发相关的工作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/aoao">Twitter</a>、<br>邮箱：<a href="mailto:&#108;&#111;&#x61;&#111;&#x61;&#x6f;&#64;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;">loaoao@gmail.com</a></p>
+<ul>
+<li><h3 id="刘平川"><a href="#刘平川" class="headerlink" title="刘平川"></a><a href="#%E5%88%98%E5%B9%B3%E5%B7%9D"></a><a target="_blank" rel="noopener" href="http://rank.im/">刘平川</a></h3></li>
+</ul>
+<p>刘平川，网络昵称 rank，微信公众号：<strong>跨界码农</strong>。<br>现任美团架构师，技术上主要负责前端、客户端上基础技术相关工作。<br>曾任百度资深工程师、架构师，改革 Web 前端研发部，创立百度 FEX 基础前端团队。<br>独立从事过前端组件、库与框架研发。经历并负责过支付、电商、彩票、票务、社区、O2O等大型项目的前端研发。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/rank">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/rank/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/ranklau">Github</a>、<br>邮箱：<a href="mailto:&#x72;&#97;&#x6e;&#x6b;&#108;&#x61;&#117;&#x40;&#x67;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#109;">ranklau@gmail.com</a></p>
+<ul>
+<li><h3 id="黄峰达"><a href="#黄峰达" class="headerlink" title="黄峰达"></a><a href="#%E9%BB%84%E5%B3%B0%E8%BE%BE"></a><a target="_blank" rel="noopener" href="https://www.phodal.com/">黄峰达</a></h3></li>
+</ul>
+<p>黄峰达(phodal)，毕业于西安文理学院(电子信息工程专业)，目前就职于ThoughtWorks(深圳)。<br>一个文艺控，喜欢读书，喜欢纸的质感，喜欢用笔铭刻记忆和思想。 一个设计控，一个DIY爱好者。<br><a target="_blank" rel="noopener" href="http://growth.ren/#firstPage">Growth</a>项目开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/phodal">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/phodal">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/phodal">Github</a>、 <a target="_blank" rel="noopener" href="http://www.jianshu.com/users/e64ad9fba4da">简书</a>、 <a target="_blank" rel="noopener" href="http://blog.csdn.net/phodal">CSDN</a>、<br>邮箱：<a href="mailto:&#x67;&#109;&#115;&#x7a;&#x6f;&#x6e;&#101;&#64;&#113;&#x71;&#x2e;&#99;&#x6f;&#x6d;">gmszone@qq.com</a></p>
+<ul>
+<li><h3 id="情封"><a href="#情封" class="headerlink" title="情封"></a><a href="#%E6%83%85%E5%B0%81"></a><a target="_blank" rel="noopener" href="http://blog.f2er.net/">情封</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://www.zaoduke.net/">前端De早读课</a>站长，@福建前端联盟发起人之一，4399UED&#x2F;高级主管。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/f2er">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/f2er">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/f2er">Github</a>、<br>QQ:181422448、<br>邮箱：<a href="mailto:&#x75;&#101;&#x7a;&#104;&#x65;&#x6e;&#x67;&#64;&#103;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#111;&#x6d;">uezheng@gmail.com</a></p>
+<ul>
+<li><h3 id="裕波"><a href="#裕波" class="headerlink" title="裕波"></a><a href="#%E8%A3%95%E6%B3%A2"></a>裕波</h3></li>
+</ul>
+<p>原名周裕波，<a target="_blank" rel="noopener" href="http://www.w3ctech.com/">w3ctech.com</a>发起人。</p>
+<p>联系方式:<br><a target="_blank" rel="noopener" href="http://weibo.com/itchina100">微博</a>、 <a target="_blank" rel="noopener" href="http://t.qq.com/itchina110">腾讯微博</a></p>
+<ul>
+<li><h3 id="张铮铮"><a href="#张铮铮" class="headerlink" title="张铮铮"></a><a href="#%E5%BC%A0%E9%93%AE%E9%93%AE"></a><a target="_blank" rel="noopener" href="http://www.tych.io/">张铮铮</a></h3></li>
+</ul>
+<p>张铮铮(Tychio)，一名Web前端工程师，毕业于西安石油大学软件工程专业，目前就职于ThoughtWorks，Base在西安。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://twitter.com/tychio">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/tychio">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/tychio">Github</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/tychio">Codepen</a>、<a target="_blank" rel="noopener" href="http://www.linkedin.com/in/zhangzz">Linkedin</a>、 <a target="_blank" rel="noopener" href="http://stackoverflow.com/users/1954201/tychio">Stackoverflow</a>、 <a target="_blank" rel="noopener" href="http://wpa.qq.com/msgrd?v=3&amp;uin=18476046&amp;site=qq&amp;menu=yes">QQ</a></p>
+<p>邮箱：<a href="mailto:&#122;&#x40;&#116;&#121;&#x63;&#104;&#x69;&#111;&#46;&#110;&#x65;&#116;">z@tychio.net</a>，<a href="mailto:&#122;&#122;&#122;&#x68;&#97;&#110;&#103;&#64;&#116;&#104;&#x6f;&#117;&#x67;&#104;&#x74;&#119;&#111;&#x72;&#107;&#115;&#x2e;&#x63;&#111;&#x6d;">zzzhang@thoughtworks.com</a>，<a href="mailto:&#x7a;&#122;&#122;&#x74;&#x79;&#99;&#x68;&#x69;&#111;&#64;&#x67;&#x6d;&#97;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">zzztychio@gmail.com</a></p>
+<ul>
+<li><h3 id="涂鸦码龙"><a href="#涂鸦码龙" class="headerlink" title="涂鸦码龙"></a><a href="#%E6%B6%82%E9%B8%A6%E7%A0%81%E9%BE%99"></a><a target="_blank" rel="noopener" href="http://jinlong.github.io/">涂鸦码龙</a></h3></li>
+</ul>
+<p>360前端工程师，忙时码代码，无事乱涂鸦。最近刚刚晋升奶爸，恭喜。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/newwave">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/zhangjinlong">知乎</a>、 <a target="_blank" rel="noopener" href="http://jinlongz.lofter.com/">Lofter</a>、 <a target="_blank" rel="noopener" href="https://github.com/jinlong">Github</a>、<br>邮箱：<a href="mailto:&#x7a;&#104;&#x61;&#x6e;&#103;&#106;&#x69;&#x6e;&#x6c;&#x6f;&#x6e;&#103;&#x33;&#53;&#52;&#54;&#x40;&#115;&#105;&#110;&#97;&#46;&#x63;&#111;&#109;">zhangjinlong3546@sina.com</a></p>
+<ul>
+<li><h3 id="CSS森林"><a href="#CSS森林" class="headerlink" title="CSS森林"></a><a href="#CSS%E6%A3%AE%E6%9E%97"></a><a target="_blank" rel="noopener" href="http://blog.cssforest.org/">CSS森林</a></h3></li>
+</ul>
+<p>CSS森林，微信支付设计中心，负责重构前端团队的管理工作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ghostzhang">知乎</a>、 <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/ghostzhang">Linkedin</a>、 <a target="_blank" rel="noopener" href="http://github.com/ghostzhang">Github</a>、<br>QQ:22168741<br>邮箱：<a href="mailto:&#x67;&#x68;&#x6f;&#x73;&#116;&#x7a;&#x68;&#97;&#110;&#x67;&#64;&#99;&#x73;&#x73;&#x66;&#111;&#114;&#101;&#x73;&#x74;&#x2e;&#x6f;&#114;&#x67;">ghostzhang@cssforest.org</a>，<a href="mailto:&#x6c;&#x6f;&#x76;&#x65;&#x6a;&#x31;&#98;&#122;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;">lovej1bz@gmail.com</a></p>
+<ul>
+<li><h3 id="屈超"><a href="#屈超" class="headerlink" title="屈超"></a><a href="#%E5%B1%88%E8%B6%85"></a><a target="_blank" rel="noopener" href="https://quchao.com/">屈超</a></h3></li>
+</ul>
+<p>先后就职淘宝、腾讯，前腾讯前端开发主管，现为<a target="_blank" rel="noopener" href="http://www.wepiao.com/">微票</a>技术主管。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/quchao">知乎</a>、 <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/quchao">Linkedin</a>、 <a target="_blank" rel="noopener" href="https://github.com/QuChao">Github</a>、<br>邮箱：<a href="mailto:&#x6d;&#x61;&#105;&#x6c;&#x40;&#x71;&#117;&#x63;&#x68;&#97;&#x6f;&#46;&#x63;&#x6f;&#109;">mail@quchao.com</a></p>
+<ul>
+<li><h3 id="元彦"><a href="#元彦" class="headerlink" title="元彦"></a><a href="#%E5%85%83%E5%BD%A6"></a><a target="_blank" rel="noopener" href="http://madscript.com/">元彦</a></h3></li>
+</ul>
+<p>本名曹元彦，淘宝资深前端工程师，淘宝 UED FEM团队成员，建立了开源的链式任务工具 <a target="_blank" rel="noopener" href="http://chajs.org/">Cha</a>与前端自动化工具 Mod，专注于移动 Web 前端业务的基础架构建设与性能优化，同时在 Github 上维护着移动Web前端开发知识库 Mars.<br>曾在腾讯 AlloyTeam任职,先后负责 WebQQ、QQ、手机 QQ 等产品的 Web 前端工作。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/caoyuanyan">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/caoyuanyan">Twitter</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/yuanyan">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/yuanyan">Github</a>、<br>邮箱：<a href="mailto:&#x79;&#x75;&#x61;&#110;&#x79;&#97;&#110;&#46;&#99;&#97;&#x6f;&#x40;&#97;&#x6c;&#105;&#x62;&#x61;&#98;&#x61;&#45;&#105;&#x6e;&#x63;&#46;&#x63;&#x6f;&#x6d;">yuanyan.cao@alibaba-inc.com</a>，<a href="mailto:&#121;&#x75;&#x61;&#110;&#x79;&#x61;&#x6e;&#46;&#99;&#x61;&#111;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">yuanyan.cao@gmail.com</a></p>
+<ul>
+<li><h3 id="于涛"><a href="#于涛" class="headerlink" title="于涛"></a><a href="#%E4%BA%8E%E6%B6%9B"></a><a target="_blank" rel="noopener" href="https://github.com/kinvix">于涛</a></h3></li>
+</ul>
+<p>HTML5梦工场深圳负责人；腾讯Web前端<a target="_blank" rel="noopener" href="http://www.alloyteam.com/">AlloyTeam</a>负责人；腾讯高级工程师，WebQQ架构师；</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/kinvix">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/kinvix">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/kinvix">Github</a>、<br>邮箱：<a href="mailto:&#75;&#x69;&#x6e;&#118;&#x69;&#120;&#64;&#71;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#109;">Kinvix@Gmail.com</a></p>
+<ul>
+<li><h3 id="愚人码头"><a href="#愚人码头" class="headerlink" title="愚人码头"></a><a href="#%E6%84%9A%E4%BA%BA%E7%A0%81%E5%A4%B4"></a><a target="_blank" rel="noopener" href="http://www.css88.com/">愚人码头</a></h3></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://www.css88.com/">WEB前端开发</a>站长。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/feiwen8772">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/feiwen8772">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/feiwen8772">Github</a>、<br>QQ：148246293、<br>邮箱：<a href="mailto:&#97;&#x64;&#109;&#105;&#110;&#x40;&#99;&#115;&#115;&#x38;&#56;&#x2e;&#x63;&#111;&#x6d;">admin@css88.com</a></p>
+<ul>
+<li><h3 id="明城"><a href="#明城" class="headerlink" title="明城"></a><a href="#%E6%98%8E%E5%9F%8E"></a><a target="_blank" rel="noopener" href="https://www.gracecode.com/">明城</a></h3></li>
+</ul>
+<p>前淘宝网前端工程师，现丁香园首席打杂官。八零后、技术男、苹果粉、微软黑、宁波人，现居杭州。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/feelinglucky">微博</a>、 <a target="_blank" rel="noopener" href="https://twitter.com/feelinglucky">Twitter</a>、 <a target="_blank" rel="noopener" href="http://instagram.com/feelinglucky">Instagram</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/mingcheng">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/feelinglucky">Github</a>、<br>邮箱：<a href="mailto:&#x6c;&#117;&#x63;&#x6b;&#x79;&#64;&#x67;&#114;&#97;&#99;&#x65;&#99;&#111;&#x64;&#101;&#46;&#99;&#x6f;&#x6d;">lucky@gracecode.com</a></p>
+<ul>
+<li><h3 id="大猫"><a href="#大猫" class="headerlink" title="大猫"></a><a href="#%E5%A4%A7%E7%8C%AB"></a><a target="_blank" rel="noopener" href="http://ooxx.me/">大猫</a></h3></li>
+</ul>
+<p>微信前端工程师。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/bigc.at/">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/Damao">Github</a>、<br>QQ：18958069、<br>邮箱：<a href="mailto:&#105;&#64;&#x6f;&#x6f;&#x78;&#120;&#x2e;&#109;&#101;">i@ooxx.me</a></p>
+<ul>
+<li><h3 id="彬Go"><a href="#彬Go" class="headerlink" title="彬Go"></a><a href="#%E5%BD%ACGo"></a><a target="_blank" rel="noopener" href="http://www.bingo929.com/">彬Go</a></h3></li>
+</ul>
+<p>原名李彬，前人人网前端开发工程师，人人小站前端团队技术主管，加入<a target="_blank" rel="noopener" href="http://www.uhouzz.com/">异乡好居</a>后闹了<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/46294596/answer/100791868">矛盾</a>，请大家支持彬哥。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/feiwen8772">微博</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/feiwen8772">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/feiwen8772">Github</a>、<br>QQ：215392、<br>邮箱：<a href="mailto:&#115;&#x6b;&#x61;&#114;&#57;&#x33;&#x36;&#51;&#64;&#103;&#109;&#97;&#x69;&#108;&#46;&#x63;&#111;&#x6d;">skar9363@gmail.com</a></p>
+<ul>
+<li><h3 id="薛端阳"><a href="#薛端阳" class="headerlink" title="薛端阳"></a><a href="#%E8%96%9B%E7%AB%AF%E9%98%B3"></a><a target="_blank" rel="noopener" href="https://github.com/xueduany">薛端阳</a></h3></li>
+</ul>
+<p>先后在腾讯、盛大、淘宝做前端开发，现为携程机票事业部无线研发团队高级技术经理。<br>开源前端UI组件库<a target="_blank" rel="noopener" href="http://xueduany.github.io/KitJs/KitJs/index.html">KitJs</a>开发者。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://www.cnblogs.com/xueduanyang/">博客</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/xueduanyang">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/xueduany">Github</a>、<br>邮箱：<a href="mailto:&#120;&#117;&#101;&#100;&#x75;&#97;&#x6e;&#x79;&#x61;&#x6e;&#103;&#x31;&#57;&#56;&#x35;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;">xueduanyang1985@163.com</a></p>
+<ul>
+<li><h3 id="羡辙"><a href="#羡辙" class="headerlink" title="羡辙"></a><a href="#%E7%BE%A1%E8%BE%99"></a><a target="_blank" rel="noopener" href="http://zhangwenli.com/">羡辙</a></h3></li>
+</ul>
+<p>百度前端工程师，微信公众号羡辙部落格（xianzheblog）。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/plainjane">微博</a>、 <a target="_blank" rel="noopener" href="http://zhangwenli.com/blog/">博客</a>、 <a target="_blank" rel="noopener" href="https://www.zhihu.com/people/ovilia">知乎</a>、 <a target="_blank" rel="noopener" href="https://github.com/Ovilia">Github</a>、<br>邮箱：<a href="mailto:&#x6d;&#x65;&#64;&#122;&#x68;&#97;&#110;&#x67;&#x77;&#x65;&#x6e;&#x6c;&#x69;&#46;&#x63;&#111;&#109;">me@zhangwenli.com</a></p>
+<ul>
+<li><h3 id="周晓楷-Helkyle"><a href="#周晓楷-Helkyle" class="headerlink" title="周晓楷 Helkyle"></a><a href="#%E5%91%A8%E6%99%93%E6%A5%B7-Helkyle"></a><a target="_blank" rel="noopener" href="http://helkyle.com/">周晓楷 Helkyle</a></h3></li>
+</ul>
+<p>w3cTrain成员。</p>
+<p>联系方式：<br><a target="_blank" rel="noopener" href="http://weibo.com/joueu">微博</a>、 <a target="_blank" rel="noopener" href="http://codepen.io/HelKyle/">Codepen</a>、 <a target="_blank" rel="noopener" href="https://github.com/HelKyle">Github</a>、<br>邮件：<a href="mailto:&#x68;&#x65;&#108;&#x6b;&#121;&#108;&#101;&#x66;&#105;&#x67;&#104;&#116;&#105;&#x6e;&#103;&#x40;&#103;&#109;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;">helkylefighting@gmail.com</a></p>
+<p>本文出处：<a target="_blank" rel="noopener" href="http://www.cnblogs.com/-ding/p/5976659.html">http://www.cnblogs.com/-ding/p/5976659.html</a></p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#前端大神](/tags/前端大神/)
+      
+    
+  
+
+  
+    
+      
         
+          
+             thinkphp实践
+          
+        
+      
+
+      
+        
+          
+            关于gulp
+</code></pre>
+
       
     </div>
 
@@ -557,20 +1486,106 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><img src="http://oe3di974t.bkt.clouddn.com/thinkphp.png" alt="thinkphp"></p>
+          <span id="more"></span>
+<p><img src="http://oe3di974t.bkt.clouddn.com/thinkphp.png" alt="thinkphp"></p>
 <p>ThinkPHP是一个快速、兼容而且简单的轻量级国产PHP开发框架。鉴于5.0之后为迎合php7.0而重新构建的框架的不稳定性，我们使用截至目前较新较稳定的3.2.3版。（实践基础默认web环境已搭建好）</p>
 <p><a target="_blank" rel="noopener" href="http://www.thinkphp.cn/">thinkphp官网</a></p>
 <p><a target="_blank" rel="noopener" href="http://document.thinkphp.cn/manual_3_2.html">thinkphp完全开发手册</a></p>
 <p><a target="_blank" rel="noopener" href="http://www.thinkphp.cn/down/610.html">下载</a></p>
-<h3 id="step-1-解压提取访问"><a href="#step-1-解压提取访问" class="headerlink" title="step-1 解压提取访问"></a><a href="#step-1-%E8%A7%A3%E5%8E%8B%E6%8F%90%E5%8F%96%E8%AE%BF%E9%97%AE"></a>step-1 解压提取访问</h3>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/11/30/thinkphp%E5%AE%9E%E8%B7%B5/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+<h3 id="step-1-解压提取访问"><a href="#step-1-解压提取访问" class="headerlink" title="step-1 解压提取访问"></a><a href="#step-1-%E8%A7%A3%E5%8E%8B%E6%8F%90%E5%8F%96%E8%AE%BF%E9%97%AE"></a>step-1 解压提取访问</h3><p>解压后将目录中的ThinkPHP文件夹和index.php文件拷入环境根目录任意新建空文件夹中。通过localhost或者127.0.0.1访问本地虚拟服务器环境，访问对应项目。</p>
+<h3 id="step-2-文件目录介绍"><a href="#step-2-文件目录介绍" class="headerlink" title="step-2 文件目录介绍"></a><a href="#step-2-%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E4%BB%8B%E7%BB%8D"></a>step-2 文件目录介绍</h3><p>打开项目，可见新生成文件夹Application，文件组成及作用如下：</p>
+<p><code>Application</code><br><code>├─Common         应用公共模块</code><br><code>│  ├─Common      应用公共函数目录</code><br><code>│  └─Conf        应用公共配置文件目录</code><br><code>├─Home           默认生成的Home模块</code><br><code>│  ├─Conf        模块配置文件目录</code><br><code>│  ├─Common      模块函数公共目录</code><br><code>│  ├─Controller  模块控制器目录</code><br><code>│  ├─Model       模块模型目录</code><br><code>│  └─View        模块视图文件目录</code><br><code>├─Runtime        运行时目录</code><br><code>│  ├─Cache       模版缓存目录</code><br><code>│  ├─Data        数据目录</code><br><code>│  ├─Logs        日志目录</code><br><code>│  └─Temp        缓存目录</code></p>
+<p>以上文件中的Common-&gt;Conf-&gt;config.php文件,Home-&gt;Controller-&gt;IndexController.class.php文件,View文件夹为主要操作区域。</p>
+<h2 id="从后至前"><a href="#从后至前" class="headerlink" title="从后至前"></a><a href="#%E4%BB%8E%E5%90%8E%E8%87%B3%E5%89%8D"></a>从后至前</h2><h3 id="step-3-配置文件"><a href="#step-3-配置文件" class="headerlink" title="step-3 配置文件"></a><a href="#step-3-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"></a>step-3 配置文件</h3><p>在config.php文件中配置数据库连接，可在数据库中新建一个测试数据库。连接配置如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;?phpreturn array(	//&#x27;配置项&#x27;=&amp;gt;&#x27;配置值&#x27;//数据库配置信息&#x27;DB_TYPE&#x27; =&amp;gt; &#x27;mysql&#x27;, // 数据库类型&#x27;DB_HOST&#x27; =&amp;gt; &#x27;localhost&#x27;, // 服务器地址&#x27;DB_NAME&#x27; =&amp;gt; &#x27;test&#x27;, // 数据库名&#x27;DB_USER&#x27; =&amp;gt; &#x27;root&#x27;, // 用户名&#x27;DB_PWD&#x27; =&amp;gt; &#x27; &#x27;, // 密码&#x27;DB_PORT&#x27; =&amp;gt; 3306, // 端口&#x27;DB_PREFIX&#x27; =&amp;gt; &#x27;test_&#x27;, // 数据库表前缀 &#x27;DB_CHARSET&#x27;=&amp;gt; &#x27;utf8&#x27;, // 字符集&#x27;DB_DEBUG&#x27; =&amp;gt; TRUE, // 数据库调试模式);</span><br></pre></td></tr></table></figure>
+
+<h3 id="step-4-控制文件"><a href="#step-4-控制文件" class="headerlink" title="step-4 控制文件"></a><a href="#step-4-%E6%8E%A7%E5%88%B6%E6%96%87%E4%BB%B6"></a>step-4 控制文件</h3><p>在IndexController.class.php中实例化数据库，作为控制文件：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;?phpnamespace Home\Controller;use Think\Controller;class IndexController extends Controller &#123;    public function index()&#123;        //实例化数据库表        $test = M(&#x27;test&#x27;);        $this-&amp;gt;test=$test-&amp;gt;select();        $this-&amp;gt;display();         &#125;  &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="step-5-模板文件"><a href="#step-5-模板文件" class="headerlink" title="step-5 模板文件"></a><a href="#step-5-%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6"></a>step-5 模板文件</h3><p>在View文件夹下新建Index文件夹 在Index文件夹中新建index.html，作为模板文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;volist name=&quot;test&quot; id=&quot;test&quot;&amp;gt;          &amp;lt;h2 class=&quot;text-center&quot;&amp;gt;&#123;$test.id&#125;&amp;lt;/h2&amp;gt;           &amp;lt;p class=&quot;text-center&quot;&amp;gt;&#123;$test.name&#125;&amp;lt;/p&amp;gt; &amp;lt;/volist&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>以上为数据库字段内容到前台输出的过程。</p>
+<p>访问项目即可看到预先在数据库中输入的字段内容。</p>
+<p>注：注意所建数据库表前缀与配置文件保持一致。</p>
+<h2 id="从前到后"><a href="#从前到后" class="headerlink" title="从前到后"></a><a href="#%E4%BB%8E%E5%89%8D%E5%88%B0%E5%90%8E"></a>从前到后</h2><p>以一个实际表单提交实例为例：</p>
+<h3 id="step-6-模板文件—表单提交"><a href="#step-6-模板文件—表单提交" class="headerlink" title="step-6 模板文件—表单提交"></a><a href="#step-6-%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6%E2%80%94%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4"></a>step-6 模板文件—表单提交</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//表单&amp;lt;form action=&quot;insertbook&quot; method=&quot;POST&quot; class=&quot;basic-grey&quot; enctype=&quot;multipart/form-data&quot; id=&quot;form&quot;&amp;gt; &amp;lt;h1&amp;gt;添加图书&amp;lt;/h1&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;图书编号：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;b_id&quot; type=&quot;text&quot; name=&quot;b_id&quot; placeholder=&quot;图书编号&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;书名：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;b_name&quot; type=&quot;text&quot; name=&quot;b_name&quot; placeholder=&quot;书名&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;作者：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;author&quot; type=&quot;text&quot; name=&quot;author&quot; placeholder=&quot;作者&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;出版社：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;press&quot; type=&quot;text&quot; name=&quot;press&quot; placeholder=&quot;出版社&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;出版日期：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;p_date&quot; type=&quot;date&quot; name=&quot;p_date&quot; placeholder=&quot;出版日期&quot; style=&quot;margin-bottom: 20px;&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;版次：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;edition&quot; type=&quot;text&quot; name=&quot;edition&quot; placeholder=&quot;版次&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;价格：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;price&quot; type=&quot;text&quot; name=&quot;price&quot; placeholder=&quot;价格&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;内容简介 :&amp;lt;/span&amp;gt;&amp;lt;textarea id=&quot;intro&quot; name=&quot;intro&quot; placeholder=&quot;内容简介&quot;&amp;gt;&amp;lt;/textarea&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;图书分类 :&amp;lt;/span&amp;gt;&amp;lt;select name=&quot;c_id&quot;&amp;gt;&amp;lt;option&amp;gt;1001 小说&amp;lt;/option&amp;gt;&amp;lt;option&amp;gt;1002 人文社科&amp;lt;/option&amp;gt;&amp;lt;option&amp;gt;1003 科技&amp;lt;/option&amp;gt;&amp;lt;/select&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label for=&quot;exampleInputFile&quot; style=&quot;margin-bottom:20px;&quot;&amp;gt;&amp;lt;span&amp;gt;图书封面 :&amp;lt;/span&amp;gt;请选择要上传的图片&amp;lt;input type=&quot;file&quot; name=&quot;image&quot; id=&quot;image&quot;&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;&amp;amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;input type=&quot;button&quot;  class=&quot;button&quot; value=&quot;添加图书&quot; name=&quot;sub&quot; id=&quot;sub&quot;/&amp;gt;&amp;lt;/label&amp;gt;&amp;lt;/form&amp;gt;//提交&amp;lt;script&amp;gt;  $(&quot;#sub&quot;).click(function() &#123;            $(&quot;#form&quot;).submit();        &#125;);  &amp;lt;/script&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>利用jquery控制点击提交，将用户编写好的表单信息发给insertbook方法。</p>
+<h3 id="step-7-控制文件—添加数据"><a href="#step-7-控制文件—添加数据" class="headerlink" title="step-7 控制文件—添加数据"></a><a href="#step-7-%E6%8E%A7%E5%88%B6%E6%96%87%E4%BB%B6%E2%80%94%E6%B7%BB%E5%8A%A0%E6%95%B0%E6%8D%AE"></a>step-7 控制文件—添加数据</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public function insertbook()&#123;                         $add=M(&#x27;book&#x27;);                         $data=I(&#x27;post.&#x27;);                         $upload = new \Think\Upload();                         $upload-&amp;gt;maxSize   =     3145728 ;                         $upload-&amp;gt;exts      =     array(&#x27;jpg&#x27;, &#x27;gif&#x27;, &#x27;png&#x27;, &#x27;jpeg&#x27;);                         $upload-&amp;gt;rootPath  =     &#x27;./Public/&#x27;;                         $upload-&amp;gt;savePath  =     &#x27;images/&#x27;;                         $upload-&amp;gt;autoSub   =     false;                         $info   =   $upload-&amp;gt;upload();       if(!$info) &#123;        $this-&amp;gt;error($upload-&amp;gt;getError());&#125;  else&#123;       foreach($info as $file)&#123;     $data[&#x27;image&#x27;]=$file[&#x27;savename&#x27;];    &#125;      // redirect some where    &#125; $result = $add-&amp;gt;add($data); if($result)&#123;    //设置成功后跳转页面的地址    $this-&amp;gt;success(&#x27;新增成功&#x27;, &#x27;addbook&#x27;);&#125; else &#123;    //错误页面的默认跳转页面是返回前一页，通常不需要设置    $this-&amp;gt;error(&#x27;新增失败&#x27;);&#125;                                                                &#125;</span><br></pre></td></tr></table></figure>
+
+<p>insertbook函数利用I方法接收函数后，判断图片文件是否上传成功，成功则将保存的图片文件名称转给实例化的data表的image字段，然后再判断整体存入data表中的操作是否成功。</p>
+<h2 id="删除、更改、查找"><a href="#删除、更改、查找" class="headerlink" title="删除、更改、查找"></a><a href="#%E5%88%A0%E9%99%A4%E3%80%81%E6%9B%B4%E6%94%B9%E3%80%81%E6%9F%A5%E6%89%BE"></a>删除、更改、查找</h2><h3 id="step-8-控制文件—删除"><a href="#step-8-控制文件—删除" class="headerlink" title="step-8 控制文件—删除"></a><a href="#step-8-%E6%8E%A7%E5%88%B6%E6%96%87%E4%BB%B6%E2%80%94%E5%88%A0%E9%99%A4"></a>step-8 控制文件—删除</h3><p>例：以id和书名匹配搜索后，删除对应书籍的信息。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public function delebook()&#123;    $del = M(&quot;book&quot;); // 实例化User对象    $map[&#x27;b_id&#x27;] = $_POST[&quot;b_id&quot;];    $map[&#x27;b_name&#x27;] = $_POST[&quot;b_name&quot;];     $map[&#x27;_logic&#x27;] = &#x27;OR&#x27;;    // 把查询条件传入查询方法   $result = $del-&amp;gt;where($map)-&amp;gt;delete();    if($result)&#123;    //设置成功后跳转页面的地址    $this-&amp;gt;success(&#x27;删除成功&#x27;, &#x27;delbook&#x27;);&#125; else &#123;    //错误页面的默认跳转页面是返回前一页，通常不需要设置    $this-&amp;gt;error(&#x27;删除失败&#x27;);&#125;  &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="step-9-控制文件—更改"><a href="#step-9-控制文件—更改" class="headerlink" title="step-9 控制文件—更改"></a><a href="#step-9-%E6%8E%A7%E5%88%B6%E6%96%87%E4%BB%B6%E2%80%94%E6%9B%B4%E6%94%B9"></a>step-9 控制文件—更改</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public function updatebook()    &#123;$book = M(&quot;book&quot;); // 实例化User对象$data =I(&quot;post.&quot;);$book-&amp;gt;save($data); // 根据条件保存修改的数据 $result = $data;    if($result)&#123;    //设置成功后跳转页面的地址    $this-&amp;gt;success(&#x27;修改成功&#x27;, &#x27;editbook&#x27;);&#125; else &#123;    //错误页面的默认跳转页面是返回前一页，通常不需要设置    $this-&amp;gt;error(&#x27;修改失败&#x27;);&#125;      &#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="step-10-模板文件—更改"><a href="#step-10-模板文件—更改" class="headerlink" title="step-10 模板文件—更改"></a><a href="#step-10-%E6%A8%A1%E6%9D%BF%E6%96%87%E4%BB%B6%E2%80%94%E6%9B%B4%E6%94%B9"></a>step-10 模板文件—更改</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;form action=&quot;updatebook&quot; method=&quot;post&quot; class=&quot;basic-grey&quot; id=&quot;form&quot;&amp;gt;&amp;lt;h1&amp;gt;请输入修改内容&amp;lt;/h1&amp;gt;&amp;lt;volist name=&quot;data&quot; id=&quot;edit&quot;&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;书名：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;book&quot; type=&quot;text&quot; name=&quot;book&quot; placeholder=&quot;&#123;$edit.b_name&#125;&quot; value=&quot;&#123;$edit.b_name&#125;&quot;/&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;作者：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;author&quot; type=&quot;text&quot; name=&quot;author&quot; placeholder=&quot;&#123;$edit.author&#125;&quot; value=&quot;&#123;$edit.author&#125;&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;价格：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;price&quot; type=&quot;text&quot; name=&quot;price&quot; placeholder=&quot;&#123;$edit.price&#125;&quot; value=&quot;&#123;$edit.price&#125;&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;图书编号：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;b_id&quot; type=&quot;text&quot; name=&quot;b_id&quot; placeholder=&quot;&#123;$edit.b_id&#125;&quot; value=&quot;&#123;$edit.b_id&#125;&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;出版社：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;press&quot; type=&quot;text&quot; name=&quot;press&quot; placeholder=&quot;&#123;$edit.press&#125;&quot; value=&quot;&#123;$edit.press&#125;&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;出版日期：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;p_date&quot; type=&quot;date&quot; name=&quot;p_date&quot; placeholder=&quot;&#123;$edit.p_date&#125;&quot; value=&quot;&#123;$edit.p_date&#125;&quot; style=&quot;margin-bottom: 20px;&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;版次：&amp;lt;/span&amp;gt;&amp;lt;input id=&quot;edition&quot; type=&quot;text&quot; name=&quot;edition&quot; placeholder=&quot;&#123;$edit.edition&#125;&quot; value=&quot;&#123;$edit.edition&#125;&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;内容简介 :&amp;lt;/span&amp;gt;&amp;lt;textarea id=&quot;intro&quot; name=&quot;intro&quot; placeholder=&quot;&#123;$edit.intro&#125;&quot; value=&quot;&#123;$edit.intro&#125;&quot;&amp;gt;&#123;$edit.intro&#125;&amp;lt;/textarea&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;图书分类 :&amp;lt;/span&amp;gt;&amp;lt;select name=&quot;selection&quot;&amp;gt;&amp;lt;option value=&quot;&#123;$edit.c_id&#125;&quot;&amp;gt;&#123;$edit.c_id&#125;&amp;lt;/option&amp;gt;&amp;lt;option&amp;gt;1001 小说&amp;lt;/option&amp;gt;&amp;lt;option&amp;gt;1003 科技&amp;lt;/option&amp;gt;&amp;lt;/select&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;/volist&amp;gt;  &amp;lt;label&amp;gt;&amp;lt;span&amp;gt;&amp;amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;input type=&quot;button&quot; class=&quot;button&quot; value=&quot;确认修改&quot; id=&quot;sub&quot; /&amp;gt;&amp;lt;/label&amp;gt;  &amp;lt;/form&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>通过实例化将现存的数据库字段展示到对应位置，通过重新提交表单的方式再次对数据库字段进行重写，达到修改指定地方的目的。</p>
+<h3 id="step-11-配置文件—搜索"><a href="#step-11-配置文件—搜索" class="headerlink" title="step-11 配置文件—搜索"></a><a href="#step-11-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E2%80%94%E6%90%9C%E7%B4%A2"></a>step-11 配置文件—搜索</h3><p>在全局配置文件中开启URL路由配置，自定义search方法后接k值。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x27;URL_ROUTER_ON&#x27;   =&amp;gt; true,	&#x27;URL_ROUTE_RULES&#x27;=&amp;gt;array(	&#x27;search/:k&#x27;               =&amp;gt; &#x27;Index/search&#x27;,),</span><br></pre></td></tr></table></figure>
+
+<h3 id="step-12-控制文件—搜索"><a href="#step-12-控制文件—搜索" class="headerlink" title="step-12 控制文件—搜索"></a><a href="#step-12-%E6%8E%A7%E5%88%B6%E6%96%87%E4%BB%B6%E2%80%94%E6%90%9C%E7%B4%A2"></a>step-12 控制文件—搜索</h3><p>通过get方法获取k值转化字符串传递给keyword进行like模糊匹配搜索，搜索范围为指定的几个字段。查询后展示。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">public function search()&#123; $keywords = &#x27;%&#x27;.$_GET[&#x27;k&#x27;].&#x27;%&#x27;;  $where[&#x27;b_id|b_name|author|c_id&#x27;] = array(&#x27;like&#x27;,$keywords); $this-&amp;gt;data= $data=M(&#x27;book&#x27;)-&amp;gt;where($where)-&amp;gt;select(); $info=$data; if($info)&#123; $this-&amp;gt;display();&#125;else&#123;     $this-&amp;gt;error(&#x27;抱歉，没有找到相关书籍。&#x27;); &#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;form class=&quot;list-1 form-group  &quot;&amp;gt;&amp;lt;input type=&quot;text&quot; id=&quot;keywords&quot;&amp;gt;&amp;lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;thesearch&quot;&amp;gt;搜索&amp;lt;/button&amp;gt;&amp;lt;/form&amp;gt;  &amp;lt;script&amp;gt;        $(&quot;#thesearch&quot;).click(function() &#123;            location.href = &#x27;__URL__/search/k/&#x27; + $(&quot;#keywords&quot;).val();        &#125;);    &amp;lt;/script&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>搜索框模板代码如上。</p>
+<p>参考<a target="_blank" rel="noopener" href="http://www.kancloud.cn/thinkphp/thinkphp_quickstart/2138">官网入门手册</a>和<a target="_blank" rel="noopener" href="https://www.shiyanlou.com/courses/96">实验楼thinkphp框架实践</a>完成。</p>
+<p>更多内容请自行探索。</p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#thinkphp](/tags/thinkphp/)
+      
+        [#php](/tags/php/)
+      
+    
+  
+
+  
+    
+      
         
+          
+             基于Bootstrap的自适应实施方案
+          
+        
+      
+
+      
+        
+          
+            前端大神
+</code></pre>
+
       
     </div>
 
@@ -638,15 +1653,152 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h4 id="名由"><a href="#名由" class="headerlink" title="名由"></a><a href="#%E5%90%8D%E7%94%B1"></a>名由</h4>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/11/28/%E5%9F%BA%E4%BA%8EBootstrap%E7%9A%84%E8%87%AA%E9%80%82%E5%BA%94%E5%AE%9E%E6%96%BD%E6%96%B9%E6%A1%88/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+          <span id="more"></span>
+<h4 id="名由"><a href="#名由" class="headerlink" title="名由"></a><a href="#%E5%90%8D%E7%94%B1"></a>名由</h4><p>bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。</p>
+<p>很多人会对Bootstrap这个名字感到困惑。英语Bootstrap的意思是靴带，来自短语：“pull oneself up by one′s bootstrap”，18世纪德国文学家拉斯伯（Rudolf Erich Raspe）的小说《巴龙历险记（或译为终极天将）》（Adventures of Baron Munchausen) 记述道：“巴龙掉到湖里沉到湖底，在他绝望的时候，他用自己靴子上的带子把自己拉了上来。”现意指不借助别人的力量，凭自己的努力，终于获得成功。统计学里“bootstrap”法是指用原样本自身的数据抽样得出新的样本及统计量，根据其意现在普遍将其译为“自助法”。</p>
+<p>下面引用的是谢益辉博士关于Bootstrap （和 Jackknife）基本思想的论述，让我们对于Bootstrap 建立一个初步的关于统计学的认识：</p>
+<p>在统计的世界，我们面临的总是只有样本，Where there is sample, there is uncertainty，正因为不确定性的存在，才使统计能够生生不息。传说统计学家、数学家和物理学家乘坐一列火车上旅行，路上看到草原上有一只黑羊，统计学家说，“基于这个样本来看，这片草原上所有的羊都是黑的”，数学家说，“只有眼前这只羊是黑的”，物理学家则说，“你们都不对，只有羊的这一面是黑的”。这是关于统计和其他学科的一个玩笑话，说明了统计的一些特征，比如基于样本推断总体。</p>
+<p>一般情况下，总体永远都无法知道，我们能利用的只有样本，现在的问题是，样本该怎样利用呢？Bootstrap的奥义也就是：既然样本是抽出来的，那我何不从样本中再抽样（Resample）？Jackknife的奥义在于：既然样本是抽出来的，那我在作估计、推断的时候“扔掉”几个样本点看看效果如何？既然人们要质疑估计的稳定性，那么我们就用样本的样本去证明吧。</p>
+<p>John Fox的那一系列附录中有一篇叫“Bootstrapping Regression Models”，当我看到第二页用方框框标出那句话时，我才对Bootstrap的思想真正有了了解（之前迷茫了很长时间）。Bootstrap的一般的抽样方式都是“有放回地全抽”（其实样本量也要视情况而定，不一定非要与原样本量相等），意思就是抽取的Bootstrap样本量与原样本相同，只是在抽样方式上采取有放回地抽，这样的抽样可以进行B次，每次都可以求一个相应的统计量&#x2F;估计量，最后看看这个统计量的稳定性如何（用方差表示）。Jackknife的抽样痕迹不明显，但主旨也是取样本的样本，在作估计推断时，每次先排除一个或者多个样本点，然后用剩下的样本点求一个相应的统计量，最后也可以看统计量的稳定性如何。</p>
+<p>在R中简单随机抽样的函数是sample()，其中有个参数replacement表示是否放回，经典的抽样基本都是不放回（replace &#x3D; FALSE），而Bootstrap则是replace &#x3D; TRUE；从FALSE到TRUE，小小的一个变化，孕育了Bootstrap的经典思想。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a><a href="#%E6%AD%A3%E6%96%87"></a>正文</h2><p><a target="_blank" rel="noopener" href="https://github.com/twbs/bootstrap">Bootstrap</a>，作者:<a target="_blank" rel="noopener" href="https://github.com/mdo">Mark Otto</a>和<a target="_blank" rel="noopener" href="http://twitter.com/fat">Jacob Thornton</a>。Twitter推出的CSS框架。</p>
+<p>移动优先的自适应解决方案。</p>
+<p><a target="_blank" rel="noopener" href="http://getbootstrap.com/">官网</a></p>
+<p><a target="_blank" rel="noopener" href="http://www.bootcss.com/">中文网站</a></p>
+<p><a target="_blank" rel="noopener" href="http://v3.bootcss.com/getting-started/">起步文档</a></p>
+<p>在要使用的html文件头引入（本地或者CDN均可）bootstrap.min.css文件即可开始使用。例：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//本地&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.min.css&quot;&amp;gt;//CDN&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css&quot;&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="关于自适应"><a href="#关于自适应" class="headerlink" title="关于自适应"></a><a href="#%E5%85%B3%E4%BA%8E%E8%87%AA%E9%80%82%E5%BA%94"></a>关于自适应</h3><p>为了确保适当的绘制和触屏缩放，添加meta标签。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>添加 <code>user-scalable=no</code> 可以禁止屏幕缩放。这样禁用缩放后，用户的视口只能滚动屏幕，就能让你的网站在移动端看上去更像原生应用。但不推荐所有网站使用，请视自己的需求而定。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>从浏览器内核入手优化兼容：</p>
+<p>添加meta标签，如果网页以IE8内核浏览器打开，如果安装了GCF（Google Chrome Frame谷歌内嵌浏览器框架GCF），则使用GCF来渲染页面，如果未安装GCF，则使用最高版本的IE内核进行渲染。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>添加meta标签，双核浏览器时（主要针对国产360浏览器），使浏览器默认使用极速模式（webkit内核）。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;meta name=&quot;renderer&quot; content=&quot;webkit&quot;&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>bootstrap的栅格系统基于媒体查询，为了使IE8兼容媒体查询和部分html5的标签，在head标签闭合前加入如下代码段（如果浏览器内核为IE9及其以下版本时调用文件）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;!--[if lte IE 9]&amp;gt;  &amp;lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;  &amp;lt;![endif]--&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a><a href="#%E5%B8%83%E5%B1%80"></a>布局</h3><p>注意前端代码的模块化组织，降低css选择器的重复性，以大的模块区分功能块。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;div class=&quot;container-fluid&quot;&amp;gt;&amp;lt;div class=&quot;container&quot;&amp;gt;&amp;lt;div class=&quot;row&quot;&amp;gt;&amp;lt;div class=&quot;col-md-12&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<p>.container-fluid（100%宽度）与.container（固定宽度）选其一作为最外侧的盒子，依据为内容是否要占据全部视口。.row作为缓冲带必须嵌套有。lg大屏（&gt;&#x3D;1200px），md中屏(&gt;&#x3D;992px)，sm小屏(&gt;&#x3D;768px)，xs超小屏(&lt;768px)。将外层div均分为12等分，可以任意设置组合，每个col自带15px的padding属性，在每个col中放置内容。栅格系统是自适应布局的核心。根据模块添加类.hidden-md可实现对应尺寸隐藏，达到响应式目的。</p>
+<h3 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a><a href="#Tips"></a>Tips</h3><p>如果想要兼容IE8，则尽量<strong>避免使用css3属性</strong>和IE8不兼容的属性（如：background-size，min-height），减少hack工作量。在样式文件中参考bootstrap的屏幕尺寸划分使用媒体查询，或单独针对特定移动端屏幕尺寸适配，也可结合，但须注意css文件渲染顺序为<strong>从上至下，后者覆盖前者</strong>。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//大屏@media (max-width:1200px) &#123;  .class&#123;...&#125;&#125;//中屏@media (max-width:992px) &#123;  .class&#123;...&#125;&#125;//小屏@media (max-width:768px) &#123;  .class&#123;...&#125;&#125;//iphone6 Plus@media (max-width:414px) &#123;  .class&#123;...&#125;&#125;//iphone6 @media (max-width:375px) &#123;  .class&#123;...&#125;&#125;//iphone5 @media (max-width:320px) &#123;  .class&#123;...&#125;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="bootstrap常用辅助类归纳"><a href="#bootstrap常用辅助类归纳" class="headerlink" title="bootstrap常用辅助类归纳"></a><a href="#bootstrap%E5%B8%B8%E7%94%A8%E8%BE%85%E5%8A%A9%E7%B1%BB%E5%BD%92%E7%BA%B3"></a>bootstrap常用辅助类归纳</h3><p>| 类名<br>| 作用 </p>
+<p>| .text-center(left or right)<br>| 文字对齐方式 </p>
+<p>| .center-block<br>| 设置元素为 display:block 并居中显示 </p>
+<p>| .clearfix<br>| 清除浮动 </p>
+<p>| .pull-left(or right)<br>| 元素浮动到左边（右边） </p>
+<p>| .show(.hidden)<br>| 强制元素显示（隐藏） </p>
+<p>| .text-hide<br>| 将页面元素所包含的文本内容替换为背景图 </p>
+<p>| .close<br>| 显示关闭按钮 </p>
+<p>| .caret<br>| 显示下拉式功能 </p>
+<p>| .img-responsive<br>| 图片自适应 </p>
+<p>注：更多请参考文档，或阅读源码，举例，以下为导航条的类：</p>
+<ul>
+<li><p>.navbar——设置nav元素为导航条组件；</p>
+</li>
+<li><p>.navbar-default——指定导航条组件为默认主题；</p>
+</li>
+<li><p>.navbar-inverse——指定导航条组件为黑色主题；</p>
+</li>
+<li><p>.navbar-fixed-top——设置导航条组件固定在顶部；</p>
+</li>
+<li><p>.navbar-fixed-bottom——设置导航条组件固定在底部；</p>
+</li>
+<li><p>.navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮；</p>
+</li>
+<li><p>.navbar-toggle——设置button元素为导航条组件的切换钮；</p>
+</li>
+<li><p>.collapsed——设置button元素为在视口小于768px时才显示；</p>
+</li>
+<li><p>.navbar-brand——设置导航条组件内的品牌图标；</p>
+</li>
+<li><p>.collapse——设置div元素为视口大于768px时显示；</p>
+</li>
+<li><p>.navbar-collapse——设置div元素为导航条组件各列表项的父元素；</p>
+</li>
+<li><p>.navbar-nav——设置ul为导航条组件内的列表元素;</p>
+</li>
+<li><p>.navbar-left——设置导航条内元素向左对齐；</p>
+</li>
+<li><p>.navbar-right——设置导航条内元素向右对齐；</p>
+</li>
+<li><p>.navbar-form——为导航条组件内部的表单组件；</p>
+</li>
+<li><p>.navbar-btn——为导航条组件内部的按钮样式；</p>
+</li>
+<li><p>.navbar-text——为导航条组件内部的文本样式；</p>
+</li>
+<li><p>.navbar-link——在标准的导航组件之外添加标准链接，让链接有正确的颜色和反色设置；</p>
+</li>
+<li><p>.breadcrumb——设置列表元素显示为路径导航组件；</p>
+</li>
+</ul>
+<h3 id="关于BS的JavaScript插件"><a href="#关于BS的JavaScript插件" class="headerlink" title="关于BS的JavaScript插件"></a><a href="#%E5%85%B3%E4%BA%8EBS%E7%9A%84JavaScript%E6%8F%92%E4%BB%B6"></a>关于BS的JavaScript插件</h3><p>bootstrap的JS插件基于JQ2.0以上，而JQ2.0以后不再支持IE8，要求兼容性的需要寻找合适的兼容性较好的插件引用。推荐看:<a target="_blank" rel="noopener" href="http://www.bootcss.com/%E4%B8%AD%E6%96%87%E7%BD%91%E4%B8%8B%E6%8E%A8%E8%8D%90%E7%9A%84%E4%B8%80%E4%BA%9B%E9%A1%B9%E7%9B%AE%E3%80%82">http://www.bootcss.com/中文网下推荐的一些项目。</a></p>
+<p>例，推荐轮播插件<a target="_blank" rel="noopener" href="https://github.com/stevenwanderski/bxslider-4">bxslider</a>，结合jquery使用达到响应式目的：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.bxslider.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;script&amp;gt;	        $(document).ready(function()&#123;	        	var _width=$(window).width();	         if (_width&amp;gt;768) &#123;$(&#x27;.slider&#x27;).bxSlider(&#123;	            slideWidth: 265,	            minSlides: 4,	            maxSlides: 4,	            slideMargin: 30	          &#125;);&#125;	         else&#123;				  $(&#x27;.slider&#x27;).bxSlider(&#123;	            slideWidth: _width-30,	            minSlides: 1,	            maxSlides: 2,	            controls: false,	            mode: &#x27;fade&#x27;	          &#125;);		  				  &#125;	        &#125;);&amp;lt;/script&amp;gt;</span><br></pre></td></tr></table></figure>
+
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#Bootstrap](/tags/Bootstrap/)
+      
+        [#自适应](/tags/自适应/)
+      
+    
+  
+
+  
+    
+      
         
+          
+             设计模式
+          
+        
+      
+
+      
+        
+          
+            thinkphp实践
+</code></pre>
+
       
     </div>
 
@@ -714,91 +1866,90 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="设计模式简介"><a href="#设计模式简介" class="headerlink" title="设计模式简介"></a><a href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%AE%80%E4%BB%8B"></a>设计模式简介</h1>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/11/25/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+          <span id="more"></span>
+<h1 id="设计模式简介"><a href="#设计模式简介" class="headerlink" title="设计模式简介"></a><a href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%AE%80%E4%BB%8B"></a>设计模式简介</h1><p>设计模式（Design pattern）代表了最佳的实践，通常被有经验的面向对象的软件开发人员所采用。设计模式是软件开发人员在软件开发过程中面临的一般问题的解决方案。这些解决方案是众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。</p>
+<p>设计模式是一套被反复使用的、多数人知晓的、经过分类编目的、代码设计经验的总结。使用设计模式是为了重用代码、让代码更容易被他人理解、保证代码可靠性。 毫无疑问，设计模式于己于他人于系统都是多赢的，设计模式使代码编制真正工程化，设计模式是软件工程的基石，如同大厦的一块块砖石一样。项目中合理地运用设计模式可以完美地解决很多问题，每种模式在现实中都有相应的原理来与之对应，每种模式都描述了一个在我们周围不断重复发生的问题，以及该问题的核心解决方案，这也是设计模式能被广泛应用的原因。</p>
+<h2 id="什么是-GOF（四人帮，全拼-Gang-of-Four）？"><a href="#什么是-GOF（四人帮，全拼-Gang-of-Four）？" class="headerlink" title="什么是 GOF（四人帮，全拼 Gang of Four）？"></a><a href="#%E4%BB%80%E4%B9%88%E6%98%AF-GOF%EF%BC%88%E5%9B%9B%E4%BA%BA%E5%B8%AE%EF%BC%8C%E5%85%A8%E6%8B%BC-Gang-of-Four%EF%BC%89%EF%BC%9F"></a>什么是 GOF（四人帮，全拼 Gang of Four）？</h2><p>在 1994 年，由 Erich Gamma、Richard Helm、Ralph Johnson 和 John Vlissides 四人合著出版了一本名为 <strong>Design Patterns - Elements of Reusable Object-Oriented Software（中文译名：设计模式 - 可复用的面向对象软件元素）</strong> 的书，该书首次提到了软件开发中设计模式的概念。</p>
+<p>四位作者合称 <strong>GOF（四人帮，全拼 Gang of Four）</strong>。他们所提出的设计模式主要是基于以下的面向对象设计原则。</p>
+<ul>
+<li><p>对接口编程而不是对实现编程。</p>
+</li>
+<li><p>优先使用对象组合而不是继承。</p>
+</li>
+</ul>
+<h2 id="设计模式的使用"><a href="#设计模式的使用" class="headerlink" title="设计模式的使用"></a><a href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E4%BD%BF%E7%94%A8"></a>设计模式的使用</h2><p>设计模式在软件开发中的两个主要用途。</p>
+<h3 id="开发人员的共同平台"><a href="#开发人员的共同平台" class="headerlink" title="开发人员的共同平台"></a><a href="#%E5%BC%80%E5%8F%91%E4%BA%BA%E5%91%98%E7%9A%84%E5%85%B1%E5%90%8C%E5%B9%B3%E5%8F%B0"></a>开发人员的共同平台</h3><p>设计模式提供了一个标准的术语系统，且具体到特定的情景。例如，单例设计模式意味着使用单个对象，这样所有熟悉单例设计模式的开发人员都能使用单个对象，并且可以通过这种方式告诉对方，程序使用的是单例模式。</p>
+<h3 id="最佳的实践"><a href="#最佳的实践" class="headerlink" title="最佳的实践"></a><a href="#%E6%9C%80%E4%BD%B3%E7%9A%84%E5%AE%9E%E8%B7%B5"></a>最佳的实践</h3><p>设计模式已经经历了很长一段时间的发展，它们提供了软件开发过程中面临的一般问题的最佳解决方案。学习这些模式有助于经验不足的开发人员通过一种简单快捷的方式来学习软件设计。</p>
+<h2 id="设计模式的类型"><a href="#设计模式的类型" class="headerlink" title="设计模式的类型"></a><a href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E7%B1%BB%E5%9E%8B"></a>设计模式的类型</h2><p>根据设计模式的参考书 <strong>Design Patterns - Elements of Reusable Object-Oriented Software（中文译名：设计模式 - 可复用的面向对象软件元素）</strong> 中所提到的，总共有 23 种设计模式。这些模式可以分为三大类：创建型模式（Creational Patterns）、结构型模式（Structural Patterns）、行为型模式（Behavioral Patterns）。当然，我们还会讨论另一类设计模式：J2EE 设计模式。</p>
+<p>| 序号<br>| 模式 &amp; 描述<br>| 包括 </p>
+<p>| 1<br>| <strong>创建型模式</strong>这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用新的运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。<br>| 工厂模式（Factory Pattern）抽象工厂模式（Abstract Factory Pattern）单例模式（Singleton Pattern）建造者模式（Builder Pattern）原型模式（Prototype Pattern） </p>
+<p>| 2<br>| <strong>结构型模式</strong>这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。<br>| 适配器模式（Adapter Pattern）桥接模式（Bridge Pattern）过滤器模式（Filter、Criteria Pattern）组合模式（Composite Pattern）装饰器模式（Decorator Pattern）外观模式（Facade Pattern）享元模式（Flyweight Pattern）代理模式（Proxy Pattern） </p>
+<p>| 3<br>| <strong>行为型模式</strong>这些设计模式特别关注对象之间的通信。<br>| 责任链模式（Chain of Responsibility Pattern）命令模式（Command Pattern）解释器模式（Interpreter Pattern）迭代器模式（Iterator Pattern）中介者模式（Mediator Pattern）备忘录模式（Memento Pattern）观察者模式（Observer Pattern）状态模式（State Pattern）空对象模式（Null Object Pattern）策略模式（Strategy Pattern）模板模式（Template Pattern）访问者模式（Visitor Pattern） </p>
+<p>| 4<br>| <strong>J2EE 模式</strong>这些设计模式特别关注表示层。这些模式是由 Sun Java Center 鉴定的。<br>| MVC 模式（MVC Pattern）业务代表模式（Business Delegate Pattern）组合实体模式（Composite Entity Pattern）数据访问对象模式（Data Access Object Pattern）前端控制器模式（Front Controller Pattern）拦截过滤器模式（Intercepting Filter Pattern）服务定位器模式（Service Locator Pattern）传输对象模式（Transfer Object Pattern） </p>
+<p>下面用一个图片来整体描述一下设计模式之间的关系：</p>
+<p><img src="http://www.runoob.com/wp-content/uploads/2014/08/the-relationship-between-design-patterns.jpg" alt="设计模式之间的关系"></p>
+<h2 id="设计模式的六大原则"><a href="#设计模式的六大原则" class="headerlink" title="设计模式的六大原则"></a><a href="#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%85%AD%E5%A4%A7%E5%8E%9F%E5%88%99"></a>设计模式的六大原则</h2><p><strong>1、开闭原则（Open Close Principle）</strong></p>
+<p>开闭原则的意思是：<strong>对扩展开放，对修改关闭</strong>。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。简言之，是为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类，后面的具体设计中我们会提到这点。</p>
+<p><strong>2、里氏代换原则（Liskov Substitution Principle）</strong></p>
+<p>里氏代换原则是面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。LSP 是继承复用的基石，只有当派生类可以替换掉基类，且软件单位的功能不受到影响时，基类才能真正被复用，而派生类也能够在基类的基础上增加新的行为。里氏代换原则是对开闭原则的补充。实现开闭原则的关键步骤就是抽象化，而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽象化的具体步骤的规范。</p>
+<p><strong>3、依赖倒转原则（Dependence Inversion Principle）</strong></p>
+<p>这个原则是开闭原则的基础，具体内容：针对接口编程，依赖于抽象而不依赖于具体。</p>
+<p><strong>4、接口隔离原则（Interface Segregation Principle）</strong></p>
+<p>这个原则的意思是：使用多个隔离的接口，比使用单个接口要好。它还有另外一个意思是：降低类之间的耦合度。由此可见，其实设计模式就是从大型软件架构出发、便于升级和维护的软件设计思想，它强调降低依赖，降低耦合。</p>
+<p><strong>5、迪米特法则，又称最少知道原则（Demeter Principle）</strong></p>
+<p>最少知道原则是指：一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立。</p>
+<p><strong>6、合成复用原则（Composite Reuse Principle）</strong></p>
+<p>合成复用原则是指：尽量使用合成&#x2F;聚合的方式，而不是使用继承。</p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#设计模式](/tags/设计模式/)
+      
+    
+  
+
+  
+    
+      
+        
+          
+             御魂-妖怪分布统计
+          
         
       
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
       
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://feahter.github.io/2016/10/12/%E5%BE%A1%E9%AD%82-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-      <meta itemprop="name" content="Feahter">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="经年">
-      <meta itemprop="description" content="Feahter's personal blog">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | 经年">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2016/10/12/%E5%BE%A1%E9%AD%82-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1/" class="post-title-link" itemprop="url">御魂-妖怪分布统计</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2016-10-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-12T00:00:00+08:00">2016-10-12</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="阴阳师-御魂-妖怪分布统计"><a href="#阴阳师-御魂-妖怪分布统计" class="headerlink" title="阴阳师-御魂-妖怪分布统计"></a><a href="#%E9%98%B4%E9%98%B3%E5%B8%88-%E5%BE%A1%E9%AD%82-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1"></a>阴阳师-御魂-妖怪分布统计</h1>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/10/12/%E5%BE%A1%E9%AD%82-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
+          
+            基于Bootstrap的自适应实施方案
+</code></pre>
+
       
     </div>
 
@@ -866,15 +2017,154 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="阴阳师-探索-妖怪分布统计"><a href="#阴阳师-探索-妖怪分布统计" class="headerlink" title="阴阳师-探索-妖怪分布统计"></a><a href="#%E9%98%B4%E9%98%B3%E5%B8%88-%E6%8E%A2%E7%B4%A2-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1"></a>阴阳师-探索-妖怪分布统计</h1>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2016/10/12/%E6%8E%A2%E7%B4%A2-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+          <span id="more"></span>
+<h1 id="阴阳师-探索-妖怪分布统计"><a href="#阴阳师-探索-妖怪分布统计" class="headerlink" title="阴阳师-探索-妖怪分布统计"></a><a href="#%E9%98%B4%E9%98%B3%E5%B8%88-%E6%8E%A2%E7%B4%A2-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1"></a>阴阳师-探索-妖怪分布统计</h1><h2 id="探索副本第一章"><a href="#探索副本第一章" class="headerlink" title="探索副本第一章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B8%80%E7%AB%A0"></a>探索副本第一章</h2><p>天邪鬼绿1——天邪鬼绿x1、提灯小僧x2</p>
+<p>天邪鬼绿2——天邪鬼绿x1、灯笼鬼x2</p>
+<p>提灯小僧1——天邪鬼绿x2、提灯小僧x1</p>
+<p>提灯小僧2——灯笼鬼x2、提灯小僧x1</p>
+<p>首领：九命猫——九命猫x3</p>
+<h2 id="探索副本第二章"><a href="#探索副本第二章" class="headerlink" title="探索副本第二章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%BA%8C%E7%AB%A0"></a>探索副本第二章</h2><p>帚神——帚神x1、寄生魂x1、盗墓小鬼x1</p>
+<p>盗墓小鬼1——寄生魂x2、盗墓小鬼x1</p>
+<p>盗墓小鬼2——灯笼鬼x2、盗墓小鬼x1</p>
+<p>寄生魂1——灯笼鬼x2、寄生魂x1</p>
+<p>寄生魂2——盗墓小鬼x2、寄生魂x1</p>
+<p>首领：座敷童子——座敷童子x1、天邪鬼绿x2、天邪鬼青x1</p>
+<h2 id="探索副本第三章"><a href="#探索副本第三章" class="headerlink" title="探索副本第三章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B8%89%E7%AB%A0"></a>探索副本第三章</h2><p>天邪鬼黄1——天邪鬼黄x1、帚神x2、涂壁x1</p>
+<p>天邪鬼黄2——天邪鬼黄x1、童女x3</p>
+<p>赤舌1——赤舌x1、提灯小僧x1、灯笼鬼x2 、二回合 鸦天狗</p>
+<p>赤舌2——赤舌x1、鬼黄x1、童女x2 二回合 鸦天狗</p>
+<p>兵俑1——兵俑x1、提灯小僧x1、童女x2</p>
+<p>兵俑2——兵俑x1、提灯小僧x1、灯笼鬼x2</p>
+<p>首领：凤凰火——凤凰火x1 寄生魂x3</p>
+<h2 id="探索副本第四章"><a href="#探索副本第四章" class="headerlink" title="探索副本第四章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%9B%9B%E7%AB%A0"></a>探索副本第四章</h2><p>帚神1——帚神x1、涂壁x2</p>
+<p>帚神2——帚神x1、涂壁x1、唐纸伞妖x2</p>
+<p>唐纸伞妖1——唐纸伞妖x1、天邪鬼赤x3</p>
+<p>唐纸伞妖2——唐纸伞妖x1、天邪鬼赤x1、涂壁x2</p>
+<p>天邪鬼赤1——天邪鬼赤x1、唐纸伞妖x1、涂壁x2</p>
+<p>天邪鬼赤2——天邪鬼赤x1、唐纸伞妖x2</p>
+<p>首领：雨女——雨女x1、青蛙瓷器x1、帚神x2</p>
+<h2 id="探索副本第五章"><a href="#探索副本第五章" class="headerlink" title="探索副本第五章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%BA%94%E7%AB%A0"></a>探索副本第五章</h2><p>涂壁1——涂壁x1、源博雅的神兽(?)x1、天邪鬼赤x2</p>
+<p>涂壁2——涂壁x1、天邪鬼赤x3</p>
+<p>帚神1——帚神x1、天邪鬼赤x1、涂壁x2</p>
+<p>帚神2——帚神x1、天邪鬼赤x1、天邪鬼黄x2</p>
+<p>管狐1——管狐x2、天邪鬼黄x2 二回合 寄生魂x1</p>
+<p>管狐2——管狐x1、天邪鬼绿x3 二回合 寄生魂x1</p>
+<p>首领：食发鬼——食发鬼x1、灯笼鬼x1、天邪鬼青x2</p>
+<h2 id="探索副本第六章"><a href="#探索副本第六章" class="headerlink" title="探索副本第六章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%85%AD%E7%AB%A0"></a>探索副本第六章</h2><p>灯笼鬼——灯笼鬼x1、帚神x3</p>
+<p>天邪鬼青——天邪鬼青x1、天邪鬼绿x3</p>
+<p>蝴蝶精——蝴蝶精x1、涂壁x1、天邪鬼赤x2 二回合 三尾狐x1</p>
+<p>首领：巫蛊师——巫蛊师x1、天邪鬼绿x3</p>
+<h2 id="探索副本第七章"><a href="#探索副本第七章" class="headerlink" title="探索副本第七章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B8%83%E7%AB%A0"></a>探索副本第七章</h2><p>鲤鱼精1——鲤鱼精x3、帚神x1</p>
+<p>鲤鱼精2——鲤鱼精x1、帚神x3</p>
+<p>河童1——河童x1、鲤鱼精x1、涂壁x2</p>
+<p>河童2——河童x1、灯笼鬼x1、跳跳犬x2</p>
+<p>提灯小僧12——提灯小僧x1、跳跳犬x3、二回合-管狐x1</p>
+<p>提灯小僧3——提灯小僧x1、跳跳犬x1、鲤鱼精x2、二回合-管狐x1</p>
+<p>首领：妖狐——妖狐x1、涂壁x1、座敷童子x2、二回合-管狐x1、寄生魂x1、天邪鬼赤x2</p>
+<h2 id="探索副本第八章"><a href="#探索副本第八章" class="headerlink" title="探索副本第八章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%85%AB%E7%AB%A0"></a>探索副本第八章</h2><p>唐纸伞妖1——伞妖x1、帚神x3</p>
+<p>唐纸伞妖2——伞妖x1、山童x1、帚神x2</p>
+<p>樱花妖1——樱花妖x1、帚神x1、涂壁x2、二回合-雪女x1</p>
+<p>樱花妖2——樱花妖x1、涂壁x3、二回合-雪女x1</p>
+<p>天邪鬼绿——天邪鬼绿x1、天邪鬼青x1、天邪鬼黄x2</p>
+<p>首领：桃花妖——桃花妖x1、天邪鬼青x1、提灯小僧x2、二回合-樱花妖x1、帚神x1、蝴蝶精x2</p>
+<h2 id="探索副本第九章"><a href="#探索副本第九章" class="headerlink" title="探索副本第九章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B9%9D%E7%AB%A0"></a>探索副本第九章</h2><p>提灯小僧1——提灯小僧x1、灯笼鬼x3</p>
+<p>提灯小僧2——提灯小僧x1、灯笼鬼x1、铁鼠x2</p>
+<p>铁鼠1——铁鼠x1、帚神x3</p>
+<p>铁鼠2——铁鼠x2、帚神x2</p>
+<p>山兔1——山兔x3、铁鼠x1、二回合-鸦天狗</p>
+<p>山兔2——山兔x4、二回合-鸦天狗</p>
+<p>首领：孟婆——孟婆x1、饿鬼x3、二回合-孟婆x1、灯笼鬼x1、鸦天狗x2</p>
+<h2 id="探索副本第十章"><a href="#探索副本第十章" class="headerlink" title="探索副本第十章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E7%AB%A0"></a>探索副本第十章</h2><p>丑时之女——丑时之女x1、傀儡师x1、天邪鬼青x2</p>
+<p>傀儡师1——傀儡师x1、觉x1、狸猫x2</p>
+<p>傀儡师2——傀儡师x1、觉x1、座敷童子x2、二回合-犬神x1</p>
+<p>觉1——觉x1、狸猫x3</p>
+<p>觉2——觉x1、赤舌x1、座敷童子x2、二回合-犬神x1</p>
+<p>首领：酒吞童子——酒吞童子x1、跳跳哥哥x1、食发鬼x2、二回合-酒吞童子x1、兵俑x1、骨女x2</p>
+<h2 id="探索副本第十一章"><a href="#探索副本第十一章" class="headerlink" title="探索副本第十一章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0"></a>探索副本第十一章</h2><p>武士之灵1——武士之灵x1、寄生魂x3</p>
+<p>武士之灵2——武士之灵x1、独眼小僧x3</p>
+<p>独眼小僧1——独眼小僧x1、涂壁x1、天邪鬼赤x2</p>
+<p>独眼小僧2——独眼小僧x1、管狐x1、天邪鬼赤x2</p>
+<p>饿鬼1——饿鬼x1、涂壁x1、管狐x2</p>
+<p>饿鬼2——饿鬼x3、管狐x1</p>
+<p>首领：鬼女红叶——鬼女红叶x1、童女x1、天邪鬼青x2、二回合-鬼女红叶x1、骨女x1、觉x2</p>
+<h2 id="探索副本第十二章"><a href="#探索副本第十二章" class="headerlink" title="探索副本第十二章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0"></a>探索副本第十二章</h2><p>海坊主1——海坊主x1、帚神x1、涂壁x2</p>
+<p>海坊主2——海坊主x1、涂壁x1、鸦天狗x2</p>
+<p>童男1——童男x1、天邪鬼黄x1、鸦天狗x2</p>
+<p>童男2——童男x1、童女x1、鸦天狗x2</p>
+<p>童女1——童女x1、盗墓小鬼x1、提灯小僧x2、二回合-雪女x1</p>
+<p>童女2——童女x3、盗墓小鬼x1、二回合-雪女x1</p>
+<p>首领：雪女——雪女x1、寄生魂x1、武士之灵x2、二回合-雪女x1、跳跳妹妹x1、跳跳哥哥x2</p>
+<h2 id="探索副本第十三章"><a href="#探索副本第十三章" class="headerlink" title="探索副本第十三章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0"></a>探索副本第十三章</h2><p>饿鬼12——饿鬼x1 、天邪鬼赤x3</p>
+<p>饿鬼3——饿鬼x1 、天邪鬼赤x3、二回合-首无x1</p>
+<p>唐纸伞妖12——唐纸伞妖x1、鬼赤x1、天邪鬼绿x2</p>
+<p>唐纸伞妖3——唐纸伞妖x1、鬼赤x1、天邪鬼绿x2、二回合-首无x1</p>
+<p>首领：首无——首无x1、骨女x1、灯笼鬼x1、山兔x1</p>
+<h2 id="探索副本第十四章"><a href="#探索副本第十四章" class="headerlink" title="探索副本第十四章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0"></a>探索副本第十四章</h2><p>帚神123——帚神x1、天邪鬼赤x3</p>
+<p>涂壁12——涂壁x6</p>
+<p>涂壁3——涂壁x6、二回合-食梦貘x1</p>
+<p>首领：食梦貘——食梦貘x1、天邪鬼赤x3、二回合-食梦貘x4</p>
+<h2 id="探索副本第十五章"><a href="#探索副本第十五章" class="headerlink" title="探索副本第十五章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0"></a>探索副本第十五章</h2><p>天邪鬼绿123——天邪鬼绿x1、赤舌x1、天邪鬼赤x2</p>
+<p>提灯小僧12——提灯小僧x1、赤舌x1、九命猫x2</p>
+<p>提灯小僧3——提灯小僧x1、赤舌x1、九命猫x2、二回合-大天狗x1</p>
+<p>首领：跳跳妹妹——跳跳妹妹x1、九命猫x3</p>
+<h2 id="探索副本第十六章"><a href="#探索副本第十六章" class="headerlink" title="探索副本第十六章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0"></a>探索副本第十六章</h2><p>饿鬼123——饿鬼x1、山兔x1、山童x2</p>
+<p>赤舌12——赤舌x1、寄生魂x3</p>
+<p>赤舌3——赤舌x1、寄生魂x3、二回合-赤舌x1</p>
+<p>首领：判官——判官x1、小黑x1、小白x1</p>
+<h2 id="探索副本第十七章"><a href="#探索副本第十七章" class="headerlink" title="探索副本第十七章"></a><a href="#%E6%8E%A2%E7%B4%A2%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E4%B8%83%E7%AB%A0"></a>探索副本第十七章</h2><p>鸦天狗123——鸦天狗x1、觉醒风小怪x3</p>
+<p>狸猫12——狸猫x1、觉醒火小怪x3</p>
+<p>狸猫3——狸猫x1、觉醒火小怪x3、二回合-暗凤凰(?)x1</p>
+<p>首领：荒川之主——荒川之主x1、灯笼鬼x1、骨女x1、山兔x1</p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#游戏-阴阳师](/tags/游戏-阴阳师/)
+      
+    
+  
+
+  
+    
+      
         
+          
+             ST3私人定制
+          
+        
+      
+
+      
+        
+          
+            御魂-妖怪分布统计
+</code></pre>
+
       
     </div>
 
@@ -900,7 +2190,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://feahter.github.io/2016/09/13/ST3%E7%A7%81%E4%BA%BA%E5%AE%9A%E5%88%B6/">
+    <link itemprop="mainEntityOfPage" href="https://feahter.github.io/2016/10/12/%E5%BE%A1%E9%AD%82-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -918,7 +2208,155 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2016/09/13/ST3%E7%A7%81%E4%BA%BA%E5%AE%9A%E5%88%B6/" class="post-title-link" itemprop="url">ST3私人定制</a>
+          <a href="/2016/10/12/%E5%BE%A1%E9%AD%82-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1/" class="post-title-link" itemprop="url">御魂-妖怪分布统计</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-10-12 00:00:00" itemprop="dateCreated datePublished" datetime="2016-10-12T00:00:00+08:00">2016-10-12</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <span id="more"></span>
+<h1 id="阴阳师-御魂-妖怪分布统计"><a href="#阴阳师-御魂-妖怪分布统计" class="headerlink" title="阴阳师-御魂-妖怪分布统计"></a><a href="#%E9%98%B4%E9%98%B3%E5%B8%88-%E5%BE%A1%E9%AD%82-%E5%A6%96%E6%80%AA%E5%88%86%E5%B8%83%E7%BB%9F%E8%AE%A1"></a>阴阳师-御魂-妖怪分布统计</h1><h2 id="御魂副本第一层"><a href="#御魂副本第一层" class="headerlink" title="御魂副本第一层"></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B8%80%E5%B1%82"></a>御魂副本第一层</h2><p>一回合：骨女x1、天邪鬼黄x1、天邪鬼青x1</p>
+<p>二回合：山童x1、涂壁x1、独眼小僧x1</p>
+<p>三回合：八歧大蛇x1、鬼赤x2</p>
+<h2 id="御魂副本第二层"><a href="#御魂副本第二层" class="headerlink" title="御魂副本第二层"></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%BA%8C%E5%B1%82"></a>御魂副本第二层</h2><p>一回合：妖狐x1、鲤鱼精x1、河童x1</p>
+<p>二回合：吸血姬x1、萤草x1、兵俑x1</p>
+<p>三回合：八歧大蛇x1、童女x2</p>
+<h2 id="御魂副本第三层"><a href="#御魂副本第三层" class="headerlink" title="御魂副本第三层"></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B8%89%E5%B1%82"></a>御魂副本第三层</h2><p>一回合：樱花妖x1、蝴蝶精x1、青蛙瓷器x1</p>
+<p>二回合：海坊主x1、鲤鱼精x1、椒图x1</p>
+<p>三回合：八歧大蛇x1、座敷童子x2</p>
+<h2 id="御魂副本第四层"><a href="#御魂副本第四层" class="headerlink" title="御魂副本第四层"></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%9B%9B%E5%B1%82"></a>御魂副本第四层</h2><p>一回合：犬神x1、童男x1、童女x1</p>
+<p>二回合：大天狗x1、小黑x1、小白x1</p>
+<p>三回合：八歧大蛇x1、食梦貘x2</p>
+<h2 id="御魂副本第五层"><a href="#御魂副本第五层" class="headerlink" title="御魂副本第五层"></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%BA%94%E5%B1%82"></a>御魂副本第五层</h2><p>一回合：镰鼬x1、骨女x1、丑时之女x1</p>
+<p>二回合：傀儡师x1、跳跳哥哥x1、独眼小僧x1</p>
+<p>三回合：八歧大蛇x1、孟婆x2</p>
+<h2 id="御魂副本第六层"><a href="#御魂副本第六层" class="headerlink" title="御魂副本第六层"></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%85%AD%E5%B1%82"></a>御魂副本第六层</h2><p>一回合：雨女x1、孟婆x1、座敷童子x1</p>
+<p>二回合：阎魔x1、巫蛊师x1、鸦天狗x1</p>
+<p>三回合：八歧大蛇x1、骨女x2</p>
+<h2 id="御魂副本第七层："><a href="#御魂副本第七层：" class="headerlink" title="御魂副本第七层："></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B8%83%E5%B1%82%EF%BC%9A"></a>御魂副本第七层：</h2><p>一回合：凤凰火X1、食发鬼X1、丑女X1</p>
+<p>二回合：酒吞X1、琴师X1、山兔X1</p>
+<p>三回合：八歧大蛇x1、荒川X2</p>
+<h2 id="御魂副本第八层："><a href="#御魂副本第八层：" class="headerlink" title="御魂副本第八层："></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%85%AB%E5%B1%82%EF%BC%9A"></a>御魂副本第八层：</h2><p>一回合：饿鬼X1、管狐X1、判官X1</p>
+<p>二回合：蝴蝶精X1、椒图X1、白狼X1</p>
+<p>三回合：八歧大蛇x1、茨木X2</p>
+<h2 id="御魂副本第九层："><a href="#御魂副本第九层：" class="headerlink" title="御魂副本第九层："></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E4%B9%9D%E5%B1%82%EF%BC%9A"></a>御魂副本第九层：</h2><p>一回合：椒图X1、骨女X1、莹草X1 </p>
+<p>二回合：清姬X1、食梦貘X1、狸猫X1</p>
+<p>三回合：八歧大蛇x1、两面佛X2</p>
+<h2 id="御魂副本第十层："><a href="#御魂副本第十层：" class="headerlink" title="御魂副本第十层："></a><a href="#%E5%BE%A1%E9%AD%82%E5%89%AF%E6%9C%AC%E7%AC%AC%E5%8D%81%E5%B1%82%EF%BC%9A"></a>御魂副本第十层：</h2><p>一回合：觉X1、二口女X1、莹草X1</p>
+<p>二回合：青行灯X1、椒图X1、酒吞童子X1</p>
+<p>三回合：八歧大蛇x1、大天狗X2</p>
+<pre><code>打赏鼓励一下。
+
+  赏
+
+
+  
+    
+      ![Feahter WeChat Pay](/uploads/wx.png)
+      微信打赏
+
+    
+  
+  
+    
+      ![Feahter Alipay](/uploads/zfb.jpg)
+      支付宝打赏
+
+    
+  
+
+
+
+  
+
+
+
+  
+    
+      
+        [#游戏-阴阳师](/tags/游戏-阴阳师/)
+      
+    
+  
+
+  
+    
+      
+        
+          
+             探索-妖怪分布统计
+          
+        
+      
+
+      
+        
+          
+            设计模式
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://feahter.github.io/2016/09/13/jQuery%20%E7%9A%84%E9%80%89%E6%8B%A9%E5%99%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="Feahter">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="经年">
+      <meta itemprop="description" content="Feahter's personal blog">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | 经年">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2016/09/13/jQuery%20%E7%9A%84%E9%80%89%E6%8B%A9%E5%99%A8/" class="post-title-link" itemprop="url">jQuery 的选择器</a>
         </h2>
 
         <div class="post-meta-container">
@@ -942,11 +2380,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><strong>ST3的私人订制。</strong></p>
-<h2 id="一、官网下载安装"><a href="#一、官网下载安装" class="headerlink" title="一、官网下载安装"></a><a href="#%E4%B8%80%E3%80%81%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85"></a>一、官网下载安装</h2>
+          <p>jQuery 的选择器可谓之强大无比，这里简单地总结一下常用的元素查找方法 </p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2016/09/13/ST3%E7%A7%81%E4%BA%BA%E5%AE%9A%E5%88%B6/#more" rel="contents">
+              <a class="btn" href="/2016/09/13/jQuery%20%E7%9A%84%E9%80%89%E6%8B%A9%E5%99%A8/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>

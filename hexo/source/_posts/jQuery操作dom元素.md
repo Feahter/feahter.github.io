@@ -3,6 +3,7 @@ title: "jQuery操作dom元素"
 date: 2016-09-13
 ---
 
+<!-- more -->
 [http://www.w3school.com.cn/jquery/jquery_ref_manipulation.asp](http://www.w3school.com.cn/jquery/jquery_ref_manipulation.asp)
 | [addClass()](http://www.w3school.com.cn/jquery/attributes_addclass.asp) | 向匹配的元素添加指定的类名。              |
 | —————————————- | ————————— |
@@ -32,7 +33,6 @@ date: 2016-09-13
 | [wrap()](http://www.w3school.com.cn/jquery/manipulation_wrap.asp) | 把匹配的元素用指定的内容或元素包裹起来。        |
 | [wrapAll()](http://www.w3school.com.cn/jquery/manipulation_wrapall.asp) | 把所有匹配的元素用指定的内容或元素包裹起来。      |
 | [wrapinner()](http://www.w3school.com.cn/jquery/manipulation_wrapinner.asp) | 将每一个匹配的元素的子内容用指定的内容或元素包裹起来。 |
-<!-- more -->
 
 获取dom获取表单
 

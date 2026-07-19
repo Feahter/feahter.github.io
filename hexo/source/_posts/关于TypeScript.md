@@ -3,11 +3,11 @@ title: "关于TypeScript"
 date: 2016-12-22
 ---
 
+<!-- more -->
 [转载：《TypeScript 中文入门教程》](http://www.cnblogs.com/tansm/p/TypeScript_Handbook.html)
 
 ## [](#缘由)缘由
 
-<!-- more -->
 事情是这样的，我想搜索 `TypeScript 中文教程`，结果在 [https://www.baidu.com](https://www.baidu.com/) ， [https://cn.bing.com](https://cn.bing.com/) ，上都找不到官方的翻译，也没有一个像样的翻译（搜索的时间是2015-12-02），可怜我们无法使用google，所以就想去自己翻译官方的 TypeScript-Handbook。
 
 于是我Fork了官方的库 [https://github.com/Microsoft/TypeScript-Handbook](https://github.com/Microsoft/TypeScript-Handbook) , 到我的库中[https://github.com/MyErpSoft/TypeScript-Handbook](https://github.com/MyErpSoft/TypeScript-Handbook) ,我当然不能直接修改他们的文件，于是我的做法建立子目录 zh-CHS ([https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS](https://github.com/MyErpSoft/TypeScript-Handbook/tree/master/pages/zh-CHS) )，梦想着哪天官方是不是 合并我的变更呢，哈哈，美美的做着白日梦。

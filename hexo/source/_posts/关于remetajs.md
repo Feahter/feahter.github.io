@@ -3,9 +3,9 @@ title: "关于remetajs"
 date: 2017-08-07
 ---
 
+<!-- more -->
 ## [](#构成)构成
 
-<!-- more -->
 remeta.js主要由两部分构成，hitdpr()和remeta()。
 
 ### [](#1-hitdpr)1.hitdpr

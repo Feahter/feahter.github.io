@@ -3,6 +3,7 @@ title: "thinkphp实践"
 date: 2016-11-30
 ---
 
+<!-- more -->
 ![thinkphp](http://oe3di974t.bkt.clouddn.com/thinkphp.png)
 
 ThinkPHP是一个快速、兼容而且简单的轻量级国产PHP开发框架。鉴于5.0之后为迎合php7.0而重新构建的框架的不稳定性，我们使用截至目前较新较稳定的3.2.3版。（实践基础默认web环境已搭建好）
@@ -15,7 +16,6 @@ ThinkPHP是一个快速、兼容而且简单的轻量级国产PHP开发框架。
 
 ### [](#step-1-解压提取访问)step-1 解压提取访问
 
-<!-- more -->
 解压后将目录中的ThinkPHP文件夹和index.php文件拷入环境根目录任意新建空文件夹中。通过localhost或者127.0.0.1访问本地虚拟服务器环境，访问对应项目。
 
 ### [](#step-2-文件目录介绍)step-2 文件目录介绍

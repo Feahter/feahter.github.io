@@ -1,0 +1,33 @@
+# NexT Theme Override
+
+# Local Search
+local_search:
+  enable: true
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# Font Settings — 14px base
+font:
+  enable: true
+  host:
+  global:
+    external: false
+    family: Lato
+    size: 0.875
+  headings:
+    external: false
+  posts:
+    external: false
+  codes:
+    external: false
+
+# Reward settings
+reward:
+  enable: true
+  comment: 坚持原创，感谢支持
+  methods:
+    - name: 微信
+      path: /uploads/wx.png
+    - name: 支付宝
+      path: /uploads/zfb.jpg

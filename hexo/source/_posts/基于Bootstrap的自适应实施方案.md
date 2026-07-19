@@ -3,9 +3,9 @@ title: "基于Bootstrap的自适应实施方案"
 date: 2016-11-28
 ---
 
+<!-- more -->
 #### [](#名由)名由
 
-<!-- more -->
 bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。
 
 很多人会对Bootstrap这个名字感到困惑。英语Bootstrap的意思是靴带，来自短语：“pull oneself up by one′s bootstrap”，18世纪德国文学家拉斯伯（Rudolf Erich Raspe）的小说《巴龙历险记（或译为终极天将）》（Adventures of Baron Munchausen) 记述道：“巴龙掉到湖里沉到湖底，在他绝望的时候，他用自己靴子上的带子把自己拉了上来。”现意指不借助别人的力量，凭自己的努力，终于获得成功。统计学里“bootstrap”法是指用原样本自身的数据抽样得出新的样本及统计量，根据其意现在普遍将其译为“自助法”。

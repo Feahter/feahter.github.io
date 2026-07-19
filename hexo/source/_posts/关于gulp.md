@@ -3,9 +3,9 @@ title: "关于gulp"
 date: 2016-12-08
 ---
 
+<!-- more -->
 ### [](#awesome-gulp中文版)[awesome-gulp](https://github.com/alferov/awesome-gulp)中文版
 
-<!-- more -->
 > 
 [gulp](https://github.com/gulpjs/gulp)的资源，插件和使用实例清单， 致力于打造更好的前端工程构建流程。
 
