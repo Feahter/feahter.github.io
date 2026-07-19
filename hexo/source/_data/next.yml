@@ -1,5 +1,16 @@
 # NexT Theme Override
 
+# Menu
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  badges: false
+
 # Post excerpt — use <!-- more --> tag, not frontmatter description
 excerpt_description: false
 read_more_btn: true
@@ -11,20 +22,17 @@ local_search:
   unescape: false
   preload: false
 
-# Font Settings — 14px base
+# Font Settings — 14px via custom style
 font:
-  enable: true
-  host:
-  global:
-    external: false
-    family: Lato
-    size: 0.875
-  headings:
-    external: false
-  posts:
-    external: false
-  codes:
-    external: false
+  enable: false
+
+# Custom style file
+custom_file_path:
+  head: source/_data/head.njk
+
+# Footer
+footer:
+  since: 2016
 
 # Reward settings
 reward:
