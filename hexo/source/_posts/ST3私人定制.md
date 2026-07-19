@@ -1,6 +1,10 @@
 ---
 title: "ST3私人定制"
 date: 2016-09-13
+categories:
+- 器
+tags:
+- sublime
 ---
 
 ST3的私人订制。

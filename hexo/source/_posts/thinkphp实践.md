@@ -1,6 +1,11 @@
 ---
 title: "thinkphp实践"
 date: 2016-11-30
+categories:
+- 术
+tags:
+- php
+- thinkphp
 ---
 
 ThinkPHP 3.2.3 实践笔记 — 安装配置到项目搭建。

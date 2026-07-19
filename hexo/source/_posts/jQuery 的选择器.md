@@ -1,6 +1,10 @@
 ---
 title: "jQuery 的选择器"
 date: 2016-09-13
+categories:
+- 术
+tags:
+- jQuery
 ---
 
 jQuery 的选择器可谓之强大无比，这里简单地总结一下常用的元素查找方法 

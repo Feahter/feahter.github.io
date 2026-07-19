@@ -1,6 +1,10 @@
 ---
 title: "jQuery操作dom元素"
 date: 2016-09-13
+categories:
+- 术
+tags:
+- jQuery
 ---
 
 jQuery DOM 操作常用方法速查表。

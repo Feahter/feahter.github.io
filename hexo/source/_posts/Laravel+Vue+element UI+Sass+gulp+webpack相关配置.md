@@ -1,6 +1,12 @@
 ---
 title: "Laravel+Vue+element UI+Sass+gulp+webpack相关配置"
 date: 2017-08-07
+categories:
+- 术
+tags:
+- Laravel
+- Vue
+- 项目配置
 ---
 
 1.首先安装composer，php的包管理器。

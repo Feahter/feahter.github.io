@@ -1,6 +1,10 @@
 ---
 title: "关于remetajs"
 date: 2017-08-07
+categories:
+- 术
+tags:
+- JavaScript
 ---
 
 remeta.js 屏幕适配方案 — 跨屏自适应工具。

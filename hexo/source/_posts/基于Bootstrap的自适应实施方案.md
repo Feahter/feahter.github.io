@@ -1,6 +1,11 @@
 ---
 title: "基于Bootstrap的自适应实施方案"
 date: 2016-11-28
+categories:
+- 术
+tags:
+- Bootstrap
+- 自适应
 ---
 
 bootstrap:意为引导，引导有杠杆的作用。在计算机用语中为引导程序的意思。

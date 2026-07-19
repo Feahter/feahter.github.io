@@ -1,6 +1,10 @@
 ---
 title: "关于TypeScript"
 date: 2016-12-22
+categories:
+- 术
+tags:
+- TypeScript
 ---
 
 TypeScript 中文入门教程及基本概念介绍。

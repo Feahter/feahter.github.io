@@ -1,6 +1,11 @@
 ---
 title: "关于gulp"
 date: 2016-12-08
+categories:
+- 术
+tags:
+- gulp
+- 前端自动化、工程化
 ---
 
 Gulp 自动化构建工具入门配置与实践。

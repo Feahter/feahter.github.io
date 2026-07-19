@@ -1,6 +1,11 @@
 ---
 title: "关于webpack"
 date: 2017-02-18
+categories:
+- 术
+tags:
+- webpack
+- 前端模块化
 ---
 
 一、webpack入门准备：

@@ -1,6 +1,11 @@
 ---
 title: "用vue-cli开发项目的初始配置"
 date: 2018-08-23
+categories:
+- 术
+tags:
+- vue
+- 前端
 ---
 
 vue-cli项目初始化配置指南
